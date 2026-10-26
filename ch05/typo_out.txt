@@ -1,0 +1,2 @@
+typo.asm(7): error: Label not found: LIGHT_GREN
+Errors: 1, warnings: 0, compiled: 77 lines

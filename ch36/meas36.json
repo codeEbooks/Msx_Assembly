@@ -1,0 +1,952 @@
+{
+ "model": {
+  "recordings": 19,
+  "runs": {
+   "levels": {
+    "eu": 472726,
+    "jp": 394804,
+    "ay": 472726
+   },
+   "tones": {
+    "eu": 296103,
+    "jp": 249350
+   },
+   "scale": {
+    "eu": 576622,
+    "jp": 483116
+   },
+   "noise": {
+    "eu": 379220,
+    "jp": 316882,
+    "ay": 379220
+   },
+   "env": {
+    "eu": 264934,
+    "jp": 218181,
+    "ay": 264934
+   },
+   "buzz": {
+    "eu": 244155,
+    "jp": 207792,
+    "ay": 244155
+   },
+   "mixer": {
+    "eu": 602596,
+    "jp": 503895,
+    "p": 602596
+   }
+  },
+  "samples": 21522021,
+  "off": 0,
+  "rate": 223721.56,
+  "first": 6,
+  "noise_starts_s": {
+   "eu": 2.7018,
+   "jp": 2.3247
+  }
+ },
+ "levels": {
+  "levels": [
+   0,
+   256,
+   362,
+   512,
+   724,
+   1024,
+   1448,
+   2048,
+   2896,
+   4096,
+   5793,
+   8192,
+   11585,
+   16384,
+   23170,
+   32767
+  ],
+  "db": [
+   null,
+   -42.1,
+   -39.1,
+   -36.1,
+   -33.1,
+   -30.1,
+   -27.1,
+   -24.1,
+   -21.1,
+   -18.1,
+   -15.1,
+   -12.0,
+   -9.0,
+   -6.0,
+   -3.0,
+   0.0
+  ],
+  "step_db": [
+   3.01
+  ],
+  "same": [
+   "eu",
+   "jp",
+   "ay"
+  ],
+  "pieces": [
+   "levels_eu_ch1_44041_84277.wav"
+  ],
+  "ratio_15_1": 128.0
+ },
+ "tones": {
+  "eu": {
+   "0": {
+    "tp": 428,
+    "hz": 261.36,
+    "level": 32767
+   },
+   "1": {
+    "tp": 339,
+    "hz": 329.97,
+    "level": 16384
+   },
+   "2": {
+    "tp": 285,
+    "hz": 392.49,
+    "level": 8192
+   },
+   "cut": {
+    "count": 257,
+    "period_before": 363,
+    "period": 107,
+    "turned": 1
+   },
+   "shut_frames": 3,
+   "pieces": [
+    "tones_eu_ch1_188811_1712.wav",
+    "tones_eu_ch2_188811_1712.wav",
+    "tones_eu_ch3_188811_1712.wav",
+    "tones_eu_ch1_222444_17381.wav",
+    "tones_eu_ch1_255073_1200.wav"
+   ]
+  },
+  "jp": {
+   "0": {
+    "tp": 428,
+    "hz": 261.36,
+    "level": 32767
+   },
+   "1": {
+    "tp": 339,
+    "hz": 329.97,
+    "level": 16384
+   },
+   "2": {
+    "tp": 285,
+    "hz": 392.49,
+    "level": 8192
+   },
+   "cut": {
+    "count": 330,
+    "period_before": 363,
+    "period": 107,
+    "turned": 1
+   },
+   "shut_frames": 3
+  },
+  "notes": {
+   "0": "C4",
+   "1": "E4",
+   "2": "G4"
+  }
+ },
+ "scale": {
+  "notes": [
+   {
+    "note": "C4",
+    "want": 261.63,
+    "tp": 428,
+    "from_tp": 261.36,
+    "cents": -1.8,
+    "heard": 261.36
+   },
+   {
+    "note": "C#4",
+    "want": 277.18,
+    "tp": 404,
+    "from_tp": 276.88,
+    "cents": -1.9,
+    "heard": 276.88
+   },
+   {
+    "note": "D4",
+    "want": 293.66,
+    "tp": 381,
+    "from_tp": 293.6,
+    "cents": -0.4,
+    "heard": 293.6
+   },
+   {
+    "note": "D#4",
+    "want": 311.13,
+    "tp": 360,
+    "from_tp": 310.72,
+    "cents": -2.2,
+    "heard": 310.72
+   },
+   {
+    "note": "E4",
+    "want": 329.63,
+    "tp": 339,
+    "from_tp": 329.97,
+    "cents": 1.8,
+    "heard": 329.97
+   },
+   {
+    "note": "F4",
+    "want": 349.23,
+    "tp": 320,
+    "from_tp": 349.56,
+    "cents": 1.7,
+    "heard": 349.56
+   },
+   {
+    "note": "F#4",
+    "want": 369.99,
+    "tp": 302,
+    "from_tp": 370.4,
+    "cents": 1.9,
+    "heard": 370.4
+   },
+   {
+    "note": "G4",
+    "want": 392.0,
+    "tp": 285,
+    "from_tp": 392.49,
+    "cents": 2.2,
+    "heard": 392.49
+   },
+   {
+    "note": "G#4",
+    "want": 415.3,
+    "tp": 269,
+    "from_tp": 415.84,
+    "cents": 2.2,
+    "heard": 415.84
+   },
+   {
+    "note": "A4",
+    "want": 440.0,
+    "tp": 254,
+    "from_tp": 440.4,
+    "cents": 1.6,
+    "heard": 440.4
+   },
+   {
+    "note": "A#4",
+    "want": 466.16,
+    "tp": 240,
+    "from_tp": 466.09,
+    "cents": -0.3,
+    "heard": 466.09
+   },
+   {
+    "note": "B4",
+    "want": 493.88,
+    "tp": 226,
+    "from_tp": 494.96,
+    "cents": 3.8,
+    "heard": 494.96
+   },
+   {
+    "note": "C5",
+    "want": 523.25,
+    "tp": 214,
+    "from_tp": 522.71,
+    "cents": -1.8,
+    "heard": 522.71
+   }
+  ],
+  "worst_cents": 3.8
+ },
+ "noise": {
+  "holds": {
+   "31": 62,
+   "15": 30,
+   "1": 2,
+   "0": 2
+  },
+  "states": 131071,
+  "read": {
+   "eu": {
+    "bits": 717,
+    "state": "1C737",
+    "moves_back": 45320,
+    "seed": "08A4"
+   },
+   "jp": {
+    "bits": 600,
+    "state": "15265",
+    "moves_back": 38450,
+    "seed": "08A4"
+   }
+  },
+  "repeat": {
+   "1": {
+    "moves": 111861,
+    "seconds": 1.17
+   },
+   "4": {
+    "moves": 27965,
+    "seconds": 4.69
+   },
+   "15": {
+    "moves": 7457,
+    "seconds": 17.58
+   },
+   "31": {
+    "moves": 3608,
+    "seconds": 36.32
+   }
+  },
+  "mixer": [
+   "BF",
+   "B7",
+   "B6",
+   "AE"
+  ],
+  "pieces": [
+   "noise_eu_ch1_90760_2480.wav",
+   "noise_eu_ch1_184315_400.wav",
+   "noise_eu_ch1_273542_1712.wav",
+   "noise_eu_ch2_318138_1712.wav"
+  ]
+ },
+ "env": {
+  "eu": {
+   "shapes": [
+    [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    [
+     4,
+     5,
+     6,
+     7,
+     15
+    ],
+    [
+     8
+    ],
+    [
+     10
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ]
+   ],
+   "again": true,
+   "step": 70,
+   "levels": [
+    0,
+    181,
+    215,
+    256,
+    304,
+    362,
+    431,
+    512,
+    609,
+    724,
+    861,
+    1024,
+    1218,
+    1448,
+    1722,
+    2048,
+    2435,
+    2896,
+    3444,
+    4096,
+    4871,
+    5793,
+    6889,
+    8192,
+    9742,
+    11585,
+    13777,
+    16384,
+    19484,
+    23170,
+    27554,
+    32767
+   ],
+   "distinct": 31,
+   "pieces": [
+    "env_eu_ch1_162000_4460.wav",
+    "env_eu_ch1_170921_4460.wav",
+    "env_eu_ch1_179841_4460.wav",
+    "env_eu_ch1_188762_4460.wav",
+    "env_eu_ch1_197682_4460.wav",
+    "env_eu_ch1_206603_4460.wav",
+    "env_eu_ch1_215523_4460.wav",
+    "env_eu_ch1_224444_4460.wav"
+   ],
+   "ramp": "env_eu_ch1_162000_2240.wav"
+  },
+  "ay": {
+   "shapes": [
+    [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    [
+     4,
+     5,
+     6,
+     7,
+     15
+    ],
+    [
+     8
+    ],
+    [
+     10
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ]
+   ],
+   "again": true,
+   "step": 140,
+   "levels": [
+    0,
+    256,
+    362,
+    512,
+    724,
+    1024,
+    1448,
+    2048,
+    2896,
+    4096,
+    5793,
+    8192,
+    11585,
+    16384,
+    23170,
+    32767
+   ],
+   "distinct": 15,
+   "ramp": "env_ay_ch1_162000_2240.wav"
+  },
+  "period": 70,
+  "ramp_T": 35840
+ },
+ "buzz": {
+  "waves": [
+   {
+    "wave": "sawtooth, R13 = 8",
+    "ep": 17,
+    "cycle": 544,
+    "cycle_T": 8704,
+    "hz": 411.25
+   },
+   {
+    "wave": "triangle, R13 = 10",
+    "ep": 8,
+    "cycle": 512,
+    "cycle_T": 8192,
+    "hz": 436.96
+   },
+   {
+    "wave": "sawtooth and tone",
+    "ep": 17,
+    "cycle": 544,
+    "cycle_T": 8704,
+    "hz": 411.25
+   }
+  ],
+  "tone_tp": 136
+ },
+ "rules": [
+  {
+   "rule": "a sample every 16 T-states, the first 6 after the start",
+   "needed_by": [
+    "levels",
+    "tones",
+    "noise",
+    "env"
+   ],
+   "off": 22873
+  },
+  {
+   "rule": "a tone's period of 0 counts as 1",
+   "needed_by": [
+    "tones",
+    "scale",
+    "noise",
+    "buzz"
+   ],
+   "off": 1568448
+  },
+  {
+   "rule": "a shut tone's count goes on",
+   "needed_by": [
+    "tones",
+    "scale",
+    "noise",
+    "buzz"
+   ],
+   "off": 999513
+  },
+  {
+   "rule": "a count past a new period turns over at the next sample",
+   "needed_by": [
+    "tones"
+   ],
+   "off": 22665
+  },
+  {
+   "rule": "the noise moves every 2 x R6 samples",
+   "needed_by": [
+    "noise"
+   ],
+   "off": 224961
+  },
+  {
+   "rule": "a noise period of 0 counts as 1",
+   "needed_by": [
+    "noise"
+   ],
+   "off": 225142
+  },
+  {
+   "rule": "the noise register starts at the seed",
+   "needed_by": [
+    "noise"
+   ],
+   "off": 226182
+  },
+  {
+   "rule": "the YM2149's envelope has 32 levels",
+   "needed_by": [
+    "env",
+    "buzz"
+   ],
+   "off": 164385
+  },
+  {
+   "rule": "R13 starts the envelope again, whatever it held",
+   "needed_by": [
+    "env"
+   ],
+   "off": 8680
+  }
+ ],
+ "photos": {
+  "eu": {
+   "photos": 16,
+   "lag": -1,
+   "frames": 65,
+   "first": 1
+  },
+  "jp": {
+   "photos": 16,
+   "lag": -1,
+   "frames": 65,
+   "first": 1
+  }
+ },
+ "mixer": {
+  "eu": {
+   "offset": 0,
+   "frames": 135,
+   "dead": 0,
+   "dead_from": null,
+   "lag": -1,
+   "photos": 11,
+   "seen": {
+    "5": [
+     "B7",
+     "B8",
+     "8F"
+    ],
+    "6": [
+     "B7",
+     "B8",
+     "8F"
+    ],
+    "10": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "11": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "40": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "41": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "70": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "71": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "100": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "101": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "115": [
+     "B7",
+     "BE",
+     "8F"
+    ]
+   }
+  },
+  "jp": {
+   "offset": 0,
+   "frames": 135,
+   "dead": 0,
+   "dead_from": null,
+   "lag": -1,
+   "photos": 11,
+   "seen": {
+    "5": [
+     "B7",
+     "B8",
+     "8F"
+    ],
+    "6": [
+     "B7",
+     "B8",
+     "8F"
+    ],
+    "10": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "11": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "40": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "41": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "70": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "71": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "100": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "101": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "115": [
+     "B7",
+     "BE",
+     "8F"
+    ]
+   }
+  },
+  "p": {
+   "offset": 0,
+   "frames": 135,
+   "dead": 96,
+   "dead_from": 40,
+   "lag": -1,
+   "photos": 11,
+   "seen": {
+    "5": [
+     "B7",
+     "B8",
+     "8F"
+    ],
+    "6": [
+     "B7",
+     "B8",
+     "8F"
+    ],
+    "10": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "11": [
+     "B7",
+     "BE",
+     "8F"
+    ],
+    "40": [
+     "BF",
+     "3E",
+     "FF"
+    ],
+    "41": [
+     "BF",
+     "3E",
+     "FF"
+    ],
+    "70": [
+     "BF",
+     "FE",
+     "BF"
+    ],
+    "71": [
+     "BF",
+     "FE",
+     "BF"
+    ],
+    "100": [
+     "BF",
+     "BE",
+     "BF"
+    ],
+    "101": [
+     "BF",
+     "BE",
+     "BF"
+    ],
+    "115": [
+     "BF",
+     "BE",
+     "BF"
+    ]
+   }
+  },
+  "script": [
+   [
+    10,
+    [
+     "BE"
+    ]
+   ],
+   [
+    40,
+    [
+     "3E"
+    ]
+   ],
+   [
+    70,
+    [
+     "FE"
+    ]
+   ],
+   [
+    100,
+    [
+     "BE"
+    ]
+   ],
+   [
+    130,
+    []
+   ]
+  ]
+ },
+ "prices": {
+  "psg": 40,
+  "step_count": 54,
+  "step_writes_4": 626,
+  "step_over": 36,
+  "show": 15215,
+  "writes_in_step_4": 4
+ },
+ "standard": {
+  "machines": 229,
+  "type": {
+   "AY8910": 60,
+   "none": 49,
+   "YM2149": 120
+  },
+  "ignorePortDirections": {
+   "false": 102,
+   "unsaid": 17,
+   "true": 110
+  },
+  "unsaid_type": {
+   "levels": 15,
+   "off_as_ay": 0
+  }
+ },
+ "answers": {
+  "q1": {
+   "c3_tp": 856,
+   "hz": 130.68
+  },
+  "q2": {
+   "ratio_15_9": 8.0,
+   "db": 18.1
+  },
+  "q3": {
+   "seconds": 36.32
+  },
+  "q4": {
+   "like_9": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "like_15": [
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  "q5": {
+   "ep": 16,
+   "hz": 436.96,
+   "cents": -12.0
+  },
+  "q6": {
+   "r7": "AE"
+  },
+  "q7": {
+   "r15_after": "BF"
+  },
+  "q8": {
+   "show": 15215,
+   "eu": 21.32,
+   "jp": 25.47
+  },
+  "q9": {
+   "samples": 140,
+   "t": 2240
+  },
+  "q10": {
+   "count": 257,
+   "period": 107,
+   "turned": 1
+  },
+  "q11": {
+   "samples": 30,
+   "t": 480
+  },
+  "q12": {
+   "sample": 2896,
+   "db": -21.1
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 456,
+   "same_values": 456,
+   "captures": 65,
+   "same_captures": 65,
+   "same_in_drawn": 65,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 456,
+   "same_values": 456,
+   "captures": 65,
+   "same_captures": 65,
+   "same_in_drawn": 65,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 456,
+   "same_values": 456,
+   "captures": 65,
+   "same_captures": 65,
+   "same_in_drawn": 65,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 456,
+   "same_values": 456,
+   "captures": 65,
+   "same_captures": 65,
+   "same_in_drawn": 65,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 456,
+   "same_values": 456,
+   "captures": 65,
+   "same_captures": 65,
+   "same_in_drawn": 65,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

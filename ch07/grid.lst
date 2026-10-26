@@ -1,0 +1,71 @@
+# file opened: grid.asm
+ 1    0000              ; grid.asm - chapter 7: LD r,r' for every pair
+ 2    0000              ; Not a program: assemble it with --lst and read the listing.
+ 3    0000                      OUTPUT "grid.bin"
+ 4    0000                      ORG $4000
+ 5    4000 40                   ld b,b
+ 6    4001 41                   ld b,c
+ 7    4002 42                   ld b,d
+ 8    4003 43                   ld b,e
+ 9    4004 44                   ld b,h
+10    4005 45                   ld b,l
+11    4006 46                   ld b,(hl)
+12    4007 47                   ld b,a
+13    4008 48                   ld c,b
+14    4009 49                   ld c,c
+15    400A 4A                   ld c,d
+16    400B 4B                   ld c,e
+17    400C 4C                   ld c,h
+18    400D 4D                   ld c,l
+19    400E 4E                   ld c,(hl)
+20    400F 4F                   ld c,a
+21    4010 50                   ld d,b
+22    4011 51                   ld d,c
+23    4012 52                   ld d,d
+24    4013 53                   ld d,e
+25    4014 54                   ld d,h
+26    4015 55                   ld d,l
+27    4016 56                   ld d,(hl)
+28    4017 57                   ld d,a
+29    4018 58                   ld e,b
+30    4019 59                   ld e,c
+31    401A 5A                   ld e,d
+32    401B 5B                   ld e,e
+33    401C 5C                   ld e,h
+34    401D 5D                   ld e,l
+35    401E 5E                   ld e,(hl)
+36    401F 5F                   ld e,a
+37    4020 60                   ld h,b
+38    4021 61                   ld h,c
+39    4022 62                   ld h,d
+40    4023 63                   ld h,e
+41    4024 64                   ld h,h
+42    4025 65                   ld h,l
+43    4026 66                   ld h,(hl)
+44    4027 67                   ld h,a
+45    4028 68                   ld l,b
+46    4029 69                   ld l,c
+47    402A 6A                   ld l,d
+48    402B 6B                   ld l,e
+49    402C 6C                   ld l,h
+50    402D 6D                   ld l,l
+51    402E 6E                   ld l,(hl)
+52    402F 6F                   ld l,a
+53    4030 70                   ld (hl),b
+54    4031 71                   ld (hl),c
+55    4032 72                   ld (hl),d
+56    4033 73                   ld (hl),e
+57    4034 74                   ld (hl),h
+58    4035 75                   ld (hl),l
+59    4036 76                   halt                    ; not ld (hl),(hl)
+60    4037 77                   ld (hl),a
+61    4038 78                   ld a,b
+62    4039 79                   ld a,c
+63    403A 7A                   ld a,d
+64    403B 7B                   ld a,e
+65    403C 7C                   ld a,h
+66    403D 7D                   ld a,l
+67    403E 7E                   ld a,(hl)
+68    403F 7F                   ld a,a
+69    4040
+# file closed: grid.asm

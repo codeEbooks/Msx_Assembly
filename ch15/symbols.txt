@@ -1,0 +1,8 @@
+> debug symbols load names.sym
+> debug set_bp $sym(paint)
+bp#1
+> reset
+> format %04X [reg ix]
+40DF
+> debug symbols lookup -value [reg ix]
+{filename names.sym name objects}

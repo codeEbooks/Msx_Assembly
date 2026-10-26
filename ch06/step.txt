@@ -1,0 +1,17 @@
+> step_in
+> step_in
+> reg a
+3
+> step_in
+> debug read {VDP register latch status} 0
+1
+> debug read {VDP regs} 7
+244
+> step_in
+> step_in
+> debug read {VDP register latch status} 0
+0
+> debug read {VDP regs} 7
+3
+> reg pc
+16409

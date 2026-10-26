@@ -1,0 +1,306 @@
+# play_eu.events -- chapter 54: a game planned by chapter 46's player on the 50 Hz machine,
+# written by model54.py: a frame (from INIT) and the keys held from then on
+81 space
+82 -
+91 down left
+105 down
+118 right
+145 left up
+153 up
+154 left up
+161 up
+162 left up
+163 up
+213 -
+215 up
+219 left up
+224 up
+245 left up
+255 up
+256 left up
+257 up
+266 left up
+269 up
+282 right
+319 down right
+336 right
+348 down right
+353 down
+362 right
+366 -
+368 down right
+382 down
+395 down right
+402 right
+409 left up
+415 left
+421 left up
+422 up
+478 right
+487 down right
+494 right
+551 down right
+562 down
+591 left up
+593 up
+594 left up
+595 up
+620 left up
+627 up
+631 left up
+638 left
+664 left up
+667 up
+668 -
+670 right up
+673 up
+674 right up
+697 right
+710 down right
+715 right
+716 down right
+717 up
+748 down left
+755 down
+760 down left
+762 left up
+764 left
+767 left up
+769 left
+770 left up
+771 left
+772 left up
+782 left
+783 left up
+799 up
+800 -
+802 left up
+817 up
+859 left up
+869 right
+906 down right
+936 right
+944 -
+946 right
+949 right up
+950 up
+966 right up
+969 right
+998 right up
+1002 right
+1017 down right
+1020 right
+1059 right up
+1060 down
+1075 down left
+1095 left
+1108 down left
+1112 down
+1115 down left
+1128 down
+1132 -
+1134 down
+1138 left
+1160 down left
+1167 left
+1181 down
+1220 -
+1221 down
+1228 down right
+1229 right
+1261 down right
+1272 down
+1275 -
+1277 down
+1281 down left
+1286 left
+1287 down left
+1288 left
+1324 right
+1325 down right
+1326 right
+1328 down right
+1329 right
+1330 down right
+1341 right
+1384 down right
+1409 right
+1410 down right
+1411 right
+1418 m
+1420 -
+1479 m
+1481 down left
+1489 left
+1490 down left
+1499 left
+1524 down left
+1527 down
+1528 -
+1530 down left
+1547 down
+1560 down left
+1567 down
+1597 right
+1663 right up
+1668 up
+1670 down left
+1672 down
+1673 down left
+1674 down
+1677 left
+1703 left up
+1736 left
+1772 -
+1774 left
+1777 left up
+1783 up
+1784 left up
+1785 up
+1800 left up
+1807 left
+1854 down right
+1874 right
+1907 down right
+1914 down
+1917 right
+1921 -
+1922 right
+1925 right up
+1928 right
+1955 right up
+1969 up
+1986 -
+1987 up
+1991 left up
+2001 up
+2034 right up
+2044 up
+2059 -
+2060 up
+2132 -
+2133 up
+2137 left up
+2147 up
+2157 left up
+2170 left
+2195 -
+2196 down left
+2203 left
+2232 down left
+2243 down
+2247 down left
+2253 down
+2263 -
+2264 down
+2268 down left
+2298 left
+2316 -
+2318 down left
+2339 down
+2343 down left
+2345 down
+2348 down left
+2350 down
+2351 down left
+2352 right up
+2353 left up
+2355 up
+2356 left up
+2357 up
+2359 left up
+2360 up
+2361 left up
+2362 left
+2388 down left
+2398 up
+2407 right up
+2421 up
+2466 -
+2468 up
+2472 left up
+2515 up
+2525 right up
+2532 up
+2535 right
+2606 down left
+2616 left
+2625 down left
+2628 left
+2640 down left
+2646 down
+2647 down left
+2657 left
+2688 -
+2690 left
+2693 left up
+2704 up
+2720 left up
+2723 left
+2770 down right
+2780 down
+2838 -
+2840 down right
+2864 down
+2867 down right
+2891 right
+2894 left up
+2909 left
+2973 left up
+2974 left
+2975 left up
+2976 left
+2978 left up
+2979 left
+2980 left up
+2981 left
+2982 left up
+2988 up
+2992 down right
+3034 down
+3035 down right
+3036 down
+3043 -
+3045 down
+3049 down left
+3052 left
+3081 down left
+3082 down
+3138 down right
+3142 right
+3187 -
+3188 right
+3189 left up
+3193 left
+3239 left up
+3240 up
+3296 right
+3368 down right
+3379 down
+3395 right
+3398 -
+3399 right
+3400 -
+3401 down right
+3415 right
+3428 -
+3431 right
+3433 -
+3434 down right
+3435 down
+3437 down right
+3454 down
+3458 -
+3459 down
+3463 down left
+3493 left
+3511 -
+3513 left
+3516 left up
+3533 left
+3553 left up
+3566 left
+3577 down right
+3578 down
+3590 down left
+3624 -

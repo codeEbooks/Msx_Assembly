@@ -1,0 +1,2092 @@
+{
+ "chapters": {
+  "01_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch01",
+   "seconds": 24,
+   "steps": [
+    "ALL"
+   ],
+   "touched": [],
+   "values": {
+    "sprites.y208.visible_of_on_screen": [
+     true,
+     true,
+     false,
+     false
+    ],
+    "sprites.y209.visible_of_on_screen": [
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  },
+  "02_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch02",
+   "seconds": 9,
+   "steps": [
+    "ALL"
+   ],
+   "touched": [],
+   "values": {
+    "addr.addr_dec.bytes[0][1]": [
+     "3E",
+     "08"
+    ],
+    "addr.addr_dec.bytes[1][1]": [
+     "D3",
+     "99"
+    ],
+    "addr.addr_dec.bytes[2][1]": [
+     "3E",
+     "47"
+    ],
+    "addr.addr_dec.bytes[3][1]": [
+     "D3",
+     "99"
+    ],
+    "addr.addr_dec.changed": [
+     225,
+     226,
+     227,
+     228
+    ],
+    "addr.addr_dec.ink": 408,
+    "addr.addr_dec.top_row": "                                ",
+    "addr.addr_dec.vram_addr": "0708",
+    "addr.addr_dec.vram_at": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "addr.addr_dec.vram_names_row0": [
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32,
+     32
+    ],
+    "addr.addr_hex.bytes[0][1]": [
+     "3E",
+     "00"
+    ],
+    "addr.addr_hex.bytes[1][1]": [
+     "D3",
+     "99"
+    ],
+    "addr.addr_hex.bytes[2][1]": [
+     "3E",
+     "58"
+    ],
+    "addr.addr_hex.bytes[3][1]": [
+     "D3",
+     "99"
+    ],
+    "addr.addr_hex.ink": 2002
+   }
+  },
+  "03_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch03",
+   "seconds": 24,
+   "steps": [
+    "ALL"
+   ],
+   "touched": [],
+   "values": {
+    "page0.page0_di.counted": 85,
+    "page0.page0_di.look_T": 950374,
+    "page0.page0_di.look_frames": 13.32,
+    "page0.page0_di.sum": "C000",
+    "page0.page0_ei.counted": 50,
+    "page0.page0_ei.iff": 0,
+    "page0.page0_ei.pc": "0038",
+    "page0.page0_ei.ram_all_pattern": true,
+    "page0.page0_ei.ram_pattern_bytes": 16384,
+    "page0.page0_ei.sp": "6422"
+   }
+  },
+  "04_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch04",
+   "seconds": 30,
+   "steps": [
+    "check",
+    "case",
+    "default_setting"
+   ],
+   "touched": [],
+   "values": {
+    "check.book_eu.turns": 1928,
+    "check.default.b002D": "02",
+    "check.default.bios_file": "cbios_main_msx2+.rom",
+    "check.default.bios_sum": "BF47",
+    "check.default.hz": "60 Hz",
+    "check.default.msx": "MSX2+",
+    "check.default.ram_from": "8000",
+    "check.default.turns": 1615,
+    "default_setting.second_start": "MSXBOOK_EU16"
+   }
+  },
+  "04_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch04",
+   "seconds": 30,
+   "steps": [
+    "check",
+    "case",
+    "default_setting"
+   ],
+   "touched": [],
+   "values": {
+    "case.linux.lines": {
+     "json_bytes": 289,
+     "sha256": "8247c2ec0a392fcd5a2c1478cef17a8d39cd7aff215bc31130d0e904c23d8150"
+    },
+    "case.linux.rc": 1,
+    "case.windows.lines[2]": "Errors: 0, warnings: 0, compiled: 65 lines",
+    "case.windows.rc": 0
+   }
+  },
+  "05_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch05",
+   "seconds": 9,
+   "steps": [
+    "assembly",
+    "errors",
+    "ba",
+    "noend"
+   ],
+   "touched": [],
+   "values": {
+    "ba.border": 4,
+    "ba.init_called": false,
+    "ba.settled_from": 138,
+    "ba.text": {
+     "json_bytes": 310,
+     "sha256": "ce3cb07ccc645ba9d39fa2602d96c9e80b0484754238d95b7e65c021b6ecdc45"
+    }
+   }
+  },
+  "05_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch05",
+   "seconds": 9,
+   "steps": [
+    "assembly",
+    "errors",
+    "ba",
+    "noend"
+   ],
+   "touched": [],
+   "values": {
+    "assembly.rom_bytes": 16384,
+    "errors.typo.R7": "00",
+    "errors.typo.border_frame60": 1,
+    "errors.typo.errors": [
+     "typo.asm(7): error: Label not found: LIGHT_GREN",
+     "Errors: 1, warnings: 0, compiled: 77 lines"
+    ],
+    "errors.typo.rc": 1,
+    "errors.typo.rom_written": true
+   }
+  },
+  "05_3": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch05",
+   "seconds": 9,
+   "steps": [
+    "assembly",
+    "errors",
+    "ba",
+    "noend"
+   ],
+   "touched": [],
+   "values": {
+    "errors.margin.R7": "F4",
+    "errors.margin.border_frame60": 4,
+    "errors.margin.code": [
+     "F3",
+     "3E",
+     "03",
+     "3E",
+     "87",
+     "D3",
+     "99",
+     "18",
+     "FE",
+     "FF",
+     "FF",
+     "FF"
+    ],
+    "errors.margin.errors": [
+     "margin.asm(8): error: Unrecognized instruction: (VDP_CTRL), a",
+     "Errors: 1, warnings: 0, compiled: 77 lines"
+    ],
+    "errors.margin.rc": 1
+   }
+  },
+  "05_5": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch05",
+   "seconds": 9,
+   "steps": [
+    "assembly",
+    "errors",
+    "ba",
+    "noend"
+   ],
+   "touched": [],
+   "values": {
+    "noend.back_frame": 224,
+    "noend.back_to": "F392",
+    "noend.bytes_walked": 16359,
+    "noend.end_bytes": "18FE",
+    "noend.end_frame": 228,
+    "noend.first_ff_frame": 135,
+    "noend.page2_frame": 223,
+    "noend.photos_alike": [
+     136,
+     185,
+     224
+    ],
+    "noend.rst38_before_page2": 16446,
+    "noend.t_per_byte": 382.8,
+    "noend.vram_writes_in_page2": 3408
+   }
+  },
+  "06_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch06",
+   "seconds": 5,
+   "steps": [
+    "dollar"
+   ],
+   "touched": [],
+   "values": {
+    "dollar.bios_byte_4010": 0,
+    "dollar.session[0][1]": "243",
+    "dollar.session[1][1]": "0",
+    "dollar.session[2][1]": "can't read \"4010\": no such variable",
+    "dollar.session[3][1]": "0FAA"
+   }
+  },
+  "07_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch07",
+   "seconds": 13,
+   "steps": [
+    "loop",
+    "listings"
+   ],
+   "touched": [],
+   "values": {
+    "loop.clock.decs": 232355,
+    "loop.clock.seconds": 4,
+    "loop.clock.turn": 20,
+    "loop.clock.wraps": 3,
+    "loop.loop.bc": 29793,
+    "loop.loop.pc": 16410,
+    "loop.loop_ok.bc": 0,
+    "loop.loop_ok.pc": 16415
+   }
+  },
+  "07_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch07",
+   "seconds": 13,
+   "steps": [
+    "loop",
+    "listings"
+   ],
+   "touched": [],
+   "values": {
+    "listings.fake.listing[0].bytes": [
+     66,
+     75
+    ],
+    "listings.fake.listing[1].bytes": [
+     221,
+     110,
+     1,
+     221,
+     102,
+     2
+    ],
+    "listings.fake.syntax.default.said": [],
+    "listings.fake.syntax[\"--syntax=F\"].exit": 1,
+    "listings.fake.syntax[\"--syntax=f\"].said[0]": "warning[fake]: Fake instruction: ld bc,de"
+   }
+  },
+  "08_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch08",
+   "seconds": 5,
+   "steps": [
+    "selfmod",
+    "paren"
+   ],
+   "touched": [],
+   "values": {
+    "selfmod.disasm[0]": "4032  ld     a,#00        3E 00\n",
+    "selfmod.disasm[1]": "C015  ld     a,#47        3E 47\n",
+    "selfmod.mpatch": 49173,
+    "selfmod.results[0]": 0,
+    "selfmod.results[1]": 71,
+    "selfmod.rpatch": 16434
+   }
+  },
+  "08_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch08",
+   "seconds": 5,
+   "steps": [
+    "selfmod",
+    "paren"
+   ],
+   "touched": [],
+   "values": {
+    "paren.listing[1].bytes": [
+     6,
+     0
+    ],
+    "paren.listing[2].bytes": [
+     6,
+     192
+    ],
+    "paren.settings.b.exit": 1,
+    "paren.settings.err.messages": [],
+    "paren.settings.war.messages[0]": "paren.asm(7): warning: value 0xC000 is truncated to 8bit value: 0x00"
+   }
+  },
+  "09_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch09",
+   "seconds": 1,
+   "steps": [
+    "stale"
+   ],
+   "touched": [],
+   "values": {
+    "stale.cleared": 4095,
+    "stale.left": 4094
+   }
+  },
+  "10_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch10",
+   "seconds": 1,
+   "steps": [
+    "friction"
+   ],
+   "touched": [],
+   "values": {
+    "friction.from[0]": 100,
+    "friction.from[1]": -100,
+    "friction.lists[0]": [
+     50,
+     25,
+     12,
+     6,
+     3,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "friction.lists[1]": [
+     -50,
+     -25,
+     -13,
+     -7,
+     -4,
+     -2,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "friction.lists[2]": [
+     -50,
+     -25,
+     -12,
+     -6,
+     -3,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "11_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch11",
+   "seconds": 2,
+   "steps": [
+    "cmp"
+   ],
+   "touched": [],
+   "values": {
+    "cmp.differ": 32768,
+    "cmp.opposite": 32768,
+    "cmp.pairs": 131072
+   }
+  },
+  "12_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch12",
+   "seconds": 5,
+   "steps": [
+    "lost",
+    "cost",
+    "irq",
+    "top",
+    "popsum"
+   ],
+   "touched": [],
+   "values": {
+    "cost.rows[3].t": 11,
+    "irq.bytes": 24,
+    "popsum.damaged": 115,
+    "popsum.interrupts": 6,
+    "popsum.off": [
+     64512,
+     64512,
+     64512,
+     64512
+    ],
+    "popsum.on[0]": 64512,
+    "popsum.on[1]": 33218,
+    "popsum.on[2]": 15601,
+    "popsum.on[3]": 25284,
+    "popsum.sum": 64512
+   }
+  },
+  "12_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch12",
+   "seconds": 5,
+   "steps": [
+    "lost",
+    "cost",
+    "irq",
+    "top",
+    "popsum"
+   ],
+   "touched": [],
+   "values": {
+    "lost.left": 16410,
+    "lost.lost": 16416,
+    "lost.pc": 16416,
+    "lost.sp": 62334
+   }
+  },
+  "12_3": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch12",
+   "seconds": 5,
+   "steps": [
+    "lost",
+    "cost",
+    "irq",
+    "top",
+    "popsum"
+   ],
+   "touched": [],
+   "values": {
+    "top.depth": 320,
+    "top.frames_to_init": 136,
+    "top.hook_after": 169,
+    "top.hook_after_restart": 201,
+    "top.hook_bytes": [
+     51,
+     64
+    ],
+    "top.init_sp": 62188,
+    "top.isr_after": 8778,
+    "top.sp_deep": 64896,
+    "top.way_back": 16435,
+    "top.zero_after": 3682
+   }
+  },
+  "13_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch13",
+   "seconds": 1,
+   "steps": [
+    "cpir"
+   ],
+   "touched": [],
+   "values": {
+    "cpir.rows[2].bc": 0,
+    "cpir.rows[2].pv": 0,
+    "cpir.rows[2].z": 1,
+    "cpir.rows[3].bc": 0,
+    "cpir.rows[3].pv": 0,
+    "cpir.rows[3].z": 0
+   }
+  },
+  "14_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch14",
+   "seconds": 1,
+   "steps": [
+    "slow"
+   ],
+   "touched": [],
+   "values": {
+    "slow.lines_over": 48.2,
+    "slow.nops": 1309,
+    "slow.nops_zilog": 1051,
+    "slow.over": 10980,
+    "slow.turns": 2744,
+    "slow.wait": 82344,
+    "slow.zilog": 71364
+   }
+  },
+  "15_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch15",
+   "seconds": 3,
+   "steps": [
+    "big"
+   ],
+   "touched": [],
+   "values": {
+    "big.away": 105371,
+    "big.bF.exit": 0,
+    "big.bF.said": [],
+    "big.bFw.exit": 1,
+    "big.bytes": 16385,
+    "big.cartridges": 119,
+    "big.changed": 961,
+    "big.chars[0]": 128,
+    "big.chars[1]": 229,
+    "big.names": 240,
+    "big.seen": 67,
+    "big.warnings.said[0]": "big.asm(19): warning: Negative BLOCK moves PC backwards",
+    "big.with_tail": 109
+   }
+  },
+  "16_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch16",
+   "seconds": 3,
+   "steps": [
+    "chget",
+    "ints"
+   ],
+   "touched": [],
+   "values": {
+    "ints.after": 143777,
+    "ints.before": 142745,
+    "ints.each": 516,
+    "ints.isr_during_chput": 1,
+    "ints.isr_inside": 2,
+    "ints.jiffy": [
+     129,
+     132
+    ]
+   }
+  },
+  "16_3": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch16",
+   "seconds": 3,
+   "steps": [
+    "chget",
+    "ints"
+   ],
+   "touched": [],
+   "values": {
+    "chget.early_pressed[0]": 10,
+    "chget.early_pressed[1]": 14,
+    "chget.key": 32,
+    "chget.pressed": 140,
+    "chget.returned_frame": 141,
+    "chget.scncnt": 127
+   }
+  },
+  "17_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch17",
+   "seconds": 7,
+   "steps": [
+    "paint",
+    "late",
+    "keys",
+    "forgot"
+   ],
+   "touched": [],
+   "values": {
+    "forgot.per_frame[\"1\"]": 521,
+    "forgot.period": 137,
+    "forgot.pixels": 68160,
+    "forgot.ret": 16471,
+    "forgot.turns_frozen": 305
+   }
+  },
+  "17_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch17",
+   "seconds": 7,
+   "steps": [
+    "paint",
+    "late",
+    "keys",
+    "forgot"
+   ],
+   "touched": [],
+   "values": {
+    "paint.saved.bands": [
+     768
+    ],
+    "paint.unsaved.bands[0]": 3,
+    "paint.unsaved.bands[9]": 4,
+    "paint.unsaved.isr_at": [
+     3,
+     98,
+     193,
+     289,
+     384,
+     479,
+     574,
+     669,
+     764
+    ]
+   }
+  },
+  "17_3": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch17",
+   "seconds": 7,
+   "steps": [
+    "paint",
+    "late",
+    "keys",
+    "forgot"
+   ],
+   "touched": [],
+   "values": {
+    "late.rows[0].after_ei": 10.0,
+    "late.rows[0].off": 1.52,
+    "late.rows[0].signals": 1,
+    "late.rows[1].after_ei": 10.0,
+    "late.rows[1].off": 2.52,
+    "late.rows[1].signals": 2,
+    "late.rows[2].after_ei": 34560.0,
+    "late.rows[2].off": 1.52,
+    "late.rows[2].signals": 1
+   }
+  },
+  "17_5": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch17",
+   "seconds": 7,
+   "steps": [
+    "paint",
+    "late",
+    "keys",
+    "forgot"
+   ],
+   "touched": [],
+   "values": {
+    "keys.chain.returned": 141,
+    "keys.nokeys.jiffy": 0,
+    "keys.nokeys.pc_end": 4512,
+    "keys.nokeys.returned": null,
+    "keys.nokeys.ticks": 199,
+    "keys.steal.jiffy": 0,
+    "keys.steal.returned": null
+   }
+  },
+  "18_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch18",
+   "seconds": 68,
+   "steps": [
+    "lines",
+    "wrong",
+    "seconds"
+   ],
+   "touched": [],
+   "values": {
+    "wrong.fits[0]": 71364,
+    "wrong.moved": -83,
+    "wrong.seen[0].x0": 196,
+    "wrong.seen[11].x0": 113,
+    "wrong.turn_measured": 71359,
+    "wrong.turns[0][1]": 11543,
+    "wrong.turns[1][1]": 11538,
+    "wrong.turns[2][1]": 11533
+   }
+  },
+  "18_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch18",
+   "seconds": 68,
+   "steps": [
+    "lines",
+    "wrong",
+    "seconds"
+   ],
+   "touched": [],
+   "values": {
+    "seconds.MSXBOOK_EU16.film_frames": 30095,
+    "seconds.MSXBOOK_EU16.seconds": 601,
+    "seconds.MSXBOOK_JP16.film_frames": 35954,
+    "seconds.MSXBOOK_JP16.seconds": 599
+   }
+  },
+  "19_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch19",
+   "seconds": 12,
+   "steps": [
+    "regs",
+    "split",
+    "fixed"
+   ],
+   "touched": [],
+   "values": {
+    "split.frames": 150,
+    "split.hits": {
+     "json_bytes": 385,
+     "sha256": "a7d147ef9ae9e0edd15651af7ce2863dd86aa1ed31f0454956b14b8919762514"
+    },
+    "split.ticks": 148
+   }
+  },
+  "19_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch19",
+   "seconds": 12,
+   "steps": [
+    "regs",
+    "split",
+    "fixed"
+   ],
+   "touched": [],
+   "values": {
+    "regs.r0[7]": 15,
+    "regs.rows[1].ptr": 1795,
+    "regs.rows[2].ptr": 3844,
+    "regs.rows[3].ptr": 1793,
+    "regs.rows[4].ptr": 16134,
+    "regs.star_at": 1807
+   }
+  },
+  "20_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch20",
+   "seconds": 3,
+   "steps": [
+    "page"
+   ],
+   "touched": [],
+   "values": {
+    "page.otir.end[0]": 146,
+    "page.otir.lost": 52,
+    "page.otir.rows_right": 0,
+    "page.otir.start[0]": 69,
+    "page.outi.end[0]": 166,
+    "page.outi.lost": 0,
+    "page.outi.start[0]": 69
+   }
+  },
+  "21_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch21",
+   "seconds": 11,
+   "steps": [
+    "bits"
+   ],
+   "touched": [],
+   "values": {
+    "bits.eu[1].film": 23,
+    "bits.eu[4].ink_pixels": 0
+   }
+  },
+  "22_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch22",
+   "seconds": 6,
+   "steps": [
+    "leak"
+   ],
+   "touched": [],
+   "values": {
+    "leak.eu.after_table[0]": 245,
+    "leak.eu.fix.reads.colours": 2048,
+    "leak.eu.fix.regs[3]": 159,
+    "leak.eu.m3.reads.colours": 64,
+    "leak.eu.m3.regs[3]": 128,
+    "leak.eu.m3.regs[4]": 0,
+    "leak.eu.m3.wrong": 0,
+    "leak.eu.m3.wrong_no_rule6": 1538,
+    "leak.eu.shape_differs.fix": 0,
+    "leak.jp.m3.wrong_no_rule6": 1628
+   }
+  },
+  "23_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch23",
+   "seconds": 75,
+   "steps": [
+    "ways"
+   ],
+   "touched": [],
+   "values": {
+    "ways.zero.summary.wrong[0]": 228,
+    "ways.zero.summary.wrong[1]": 3908
+   }
+  },
+  "24_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch24",
+   "seconds": 24,
+   "steps": [
+    "meta",
+    "copies",
+    "prices",
+    "answers"
+   ],
+   "touched": [],
+   "values": {
+    "answers.q2.jp": 15960,
+    "copies.full.jp.wrong_names": [
+     0,
+     1,
+     2,
+     1,
+     0,
+     1,
+     0,
+     1,
+     2,
+     1,
+     0,
+     1,
+     0,
+     1,
+     2,
+     2,
+     2,
+     1,
+     0,
+     0,
+     0,
+     2,
+     2,
+     1,
+     0,
+     0,
+     0,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     0,
+     1,
+     2,
+     1,
+     1,
+     1,
+     0,
+     1,
+     2,
+     2,
+     0,
+     0,
+     1,
+     0,
+     2,
+     2,
+     2,
+     0,
+     0,
+     1,
+     0,
+     2,
+     2,
+     1,
+     1,
+     0,
+     0,
+     0,
+     2,
+     1,
+     1
+    ],
+    "copies.full.summary.jp.fast": 348,
+    "copies.full.summary.jp.fast_per_send[0]": 3,
+    "copies.full.summary.jp.fast_per_send[1]": 8,
+    "copies.full.summary.jp.frames_wrong": 42,
+    "copies.full.summary.jp.into_paper": 1841
+   }
+  },
+  "25_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch25",
+   "seconds": 16,
+   "steps": [
+    "fan",
+    "hidden"
+   ],
+   "touched": [],
+   "values": {
+    "hidden.hidden.cells": 240,
+    "hidden.hidden.eu.inside": 3406,
+    "hidden.hidden.eu.seen": 3899,
+    "hidden.hidden.eu.set": 7305,
+    "hidden.shown.eu.seen": 7305
+   }
+  },
+  "26_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch26",
+   "seconds": 27,
+   "steps": [
+    "tear",
+    "fall"
+   ],
+   "touched": [],
+   "values": {
+    "fall.fall.eu.figure_pixels": 416,
+    "fall.fall.eu.frames": 82,
+    "fall.fall.eu.lost_at_y[0]": 208,
+    "fall.fall.eu.seen_when_lost[0]": 0,
+    "fall.last.eu.frames": 82,
+    "fall.park.eu.frames": 82
+   }
+  },
+  "26_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch26",
+   "seconds": 27,
+   "steps": [
+    "tear",
+    "fall"
+   ],
+   "touched": [],
+   "values": {
+    "tear.eu.first_new[0]": 97,
+    "tear.eu.taken_line[0]": 96,
+    "tear.eu.taken_t": [
+     143.33,
+     164.67
+    ],
+    "tear.eu.write_t": [
+     130.0,
+     140.0,
+     150.0
+    ],
+    "tear.jp.taken_t": [
+     122.0,
+     143.33,
+     164.67
+    ],
+    "tear.jp.write_t": [
+     114.0,
+     116.0,
+     118.0,
+     120.0,
+     122.0,
+     124.0,
+     126.0,
+     128.0,
+     130.0,
+     132.0,
+     134.0,
+     136.0,
+     138.0,
+     140.0,
+     142.0
+    ]
+   }
+  },
+  "27_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch27",
+   "seconds": 24,
+   "steps": [
+    "five",
+    "adaptive",
+    "reads"
+   ],
+   "touched": [],
+   "values": {
+    "adaptive.keep.eu.frames": 48,
+    "adaptive.keep.eu.shown_per_figure[0]": 32,
+    "adaptive.poll.eu.found_f[0]": 134,
+    "adaptive.poll.eu.frames": 48,
+    "adaptive.poll.eu.ored[0]": 198,
+    "reads.eu.lines_5s[0]": 88,
+    "reads.eu.lines_5s[1]": 103,
+    "reads.eu.reads": 1412,
+    "reads.eu.runs[1][0]": 68,
+    "reads.eu.runs[2][0]": 4,
+    "reads.eu.runs[33][0]": 6,
+    "reads.eu.runs[33][1]": 104,
+    "reads.eu.runs[33][2]": 191,
+    "reads.eu.runs[34][0]": 134,
+    "reads.eu.with_5s": 16,
+    "reads.jp.reads": 1180
+   }
+  },
+  "27_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch27",
+   "seconds": 24,
+   "steps": [
+    "five",
+    "adaptive",
+    "reads"
+   ],
+   "touched": [],
+   "values": {
+    "five.eu.ball_lines[0]": 96,
+    "five.eu.ball_lines[1]": 102,
+    "five.eu.rule10_pixels": 78,
+    "five.eu.seen[0][1]": 104,
+    "five.eu.seen[4][0]": 78,
+    "five.eu.seen[4][1]": 156
+   }
+  },
+  "28_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch28",
+   "seconds": 16,
+   "steps": [
+    "cross"
+   ],
+   "touched": [],
+   "values": {
+    "cross.overlap.eu.off_ideal": {
+     "json_bytes": 2373,
+     "sha256": "77b9db4c312f11490f45f6084a0f37d860403d2bd62a7c418f64d261e2ddad05"
+    }
+   }
+  },
+  "29_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch29",
+   "seconds": 9,
+   "steps": [
+    "pillar"
+   ],
+   "touched": [],
+   "values": {
+    "pillar.eu.off_ideal[0].level": 77,
+    "pillar.eu.off_ideal[1].level": 175,
+    "pillar.eu.off_ideal[2].level": 273,
+    "pillar.eu.off_ideal[3].level": 371,
+    "pillar.eu.off_ideal[4].level": 448,
+    "pillar.eu.off_ideal[5].level": 546,
+    "pillar.eu.off_ideal[6].level": 644,
+    "pillar.eu.off_ideal[7].level": 0
+   }
+  },
+  "30_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch30",
+   "seconds": 3,
+   "steps": [
+    "bar"
+   ],
+   "touched": [],
+   "values": {
+    "bar.eu.bar_ink": 768,
+    "bar.jp.bar": 528,
+    "bar.jp.bar_ink": 240,
+    "bar.jp.label": 151
+   }
+  },
+  "31_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch31",
+   "seconds": 4,
+   "steps": [
+    "fixed"
+   ],
+   "touched": [],
+   "values": {
+    "fixed.jp.after[0]": 27057,
+    "fixed.jp.end_line": 91,
+    "fixed.jp.fast": 882,
+    "fixed.jp.off": 7577,
+    "fixed.jp.wrong_end": 1297
+   }
+  },
+  "32_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch32",
+   "seconds": 5,
+   "steps": [
+    "crowd"
+   ],
+   "touched": [],
+   "values": {
+    "crowd.eu.bar_line[0]": 12,
+    "crowd.eu.bar_line[1]": 16,
+    "crowd.eu.bar_line[8]": 44,
+    "crowd.eu.frames": 16,
+    "crowd.eu.hidden_lines[9]": [
+     48,
+     55
+    ],
+    "crowd.eu.hidden_px[0]": 52,
+    "crowd.eu.hidden_px[8]": 156,
+    "crowd.eu.hidden_px[9]": 260,
+    "crowd.eu.jumped": 9
+   }
+  },
+  "33_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch33",
+   "seconds": 11,
+   "steps": [
+    "first"
+   ],
+   "touched": [],
+   "values": {
+    "first.eu.torn[0].fast": 8,
+    "first.eu.torn[0].off": 1670,
+    "first.eu.torn[0].send[0]": 87,
+    "first.eu.torn[0].send[1]": 100,
+    "first.eu.torn[0].wrong": 75
+   }
+  },
+  "34_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch34",
+   "seconds": 17,
+   "steps": [
+    "matrix",
+    "rowonly",
+    "layouts"
+   ],
+   "touched": [],
+   "values": {
+    "rowonly.matrix.caps": [],
+    "rowonly.matrix.portc": "5F",
+    "rowonly.matrix.tape_end": 0.0,
+    "rowonly.rowonly.caps[0][1]": 1,
+    "rowonly.rowonly.portc": "0F",
+    "rowonly.rowonly.tape_end": 0.7808,
+    "rowonly.rowonly.tape_from": 2,
+    "rowonly.rowonly.tape_per_frame[0]": 0.01994
+   }
+  },
+  "34_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch34",
+   "seconds": 17,
+   "steps": [
+    "matrix",
+    "rowonly",
+    "layouts"
+   ],
+   "touched": [],
+   "values": {
+    "layouts.machines.ghosting_off": {
+     "json_bytes": 280,
+     "sha256": "2902fd035867508770156ba945c9bd62066d14cde3f14b080b3f85ea00ad7ef2"
+    },
+    "layouts.machines.ghosting_on": 214,
+    "layouts.machines.sgc.false": 107,
+    "layouts.machines.sgc.true": 104,
+    "layouts.machines.with_ppi": 229,
+    "matrix.eu.combos[\"RIGHT+SPACE+S\"][5]": "FE",
+    "matrix.ghost.extra": [
+     "Z"
+    ],
+    "matrix.ghost.held": [
+     "RIGHT",
+     "SPACE",
+     "S"
+    ],
+    "matrix.jp.combos[\"RIGHT+SPACE+S\"][5]": "FE"
+   }
+  },
+  "35_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch35",
+   "seconds": 3,
+   "steps": [
+    "leftover"
+   ],
+   "touched": [],
+   "values": {
+    "leftover.eu.first": 1,
+    "leftover.eu.frames": 40,
+    "leftover.eu.wrong": 24
+   }
+  },
+  "36_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch36",
+   "seconds": 7,
+   "steps": [
+    "mixer",
+    "standard"
+   ],
+   "touched": [],
+   "values": {
+    "mixer.eu.dead": 0,
+    "mixer.eu.seen[\"70\"][1]": "BE",
+    "mixer.jp.dead": 0,
+    "mixer.p.dead": 96,
+    "mixer.p.dead_from": 40,
+    "mixer.p.seen[\"115\"][2]": "BF",
+    "mixer.p.seen[\"41\"][2]": "FF",
+    "mixer.p.seen[\"71\"][2]": "BF",
+    "mixer.script[1][1][0]": "3E",
+    "mixer.script[2][1][0]": "FE",
+    "mixer.script[3][0]": 100,
+    "mixer.script[3][1][0]": "BE",
+    "standard.ignorePortDirections.false": 102,
+    "standard.ignorePortDirections.true": 110,
+    "standard.ignorePortDirections.unsaid": 17,
+    "standard.machines": 229
+   }
+  },
+  "37_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch37",
+   "seconds": 55,
+   "steps": [
+    "pace",
+    "latch",
+    "photos"
+   ],
+   "touched": [],
+   "values": {
+    "latch.eu.frames": 684,
+    "latch.eu.louder": 91,
+    "latch.eu.own_level_back": 42,
+    "latch.eu.r14_misreads": 39,
+    "latch.eu.r15_byte": 94,
+    "latch.jp.frames": 817,
+    "latch.jp.louder": 95,
+    "latch.jp.own_level_back": 50,
+    "latch.jp.r14_misreads": 50,
+    "latch.jp.r15_byte": 100
+   }
+  },
+  "37_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch37",
+   "seconds": 55,
+   "steps": [
+    "pace",
+    "latch",
+    "photos"
+   ],
+   "touched": [],
+   "values": {
+    "pace.fast.jp.seconds": 21.3608,
+    "pace.fast.jp.ticks_in_313_frames": [
+     313
+    ],
+    "pace.tune.eu.seconds": 25.5189,
+    "pace.tune.jp.seconds": 25.5162,
+    "photos.fast_jp.seen[\"779\"].barno": 10,
+    "photos.fast_jp.seen[\"779\"].rowno": 11,
+    "photos.tune_jp.seen[\"779\"].barno": 9,
+    "photos.tune_jp.seen[\"779\"].rowno": 2
+   }
+  },
+  "38_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch38",
+   "seconds": 24,
+   "steps": [
+    "carts",
+    "enaslt",
+    "breaks"
+   ],
+   "touched": [],
+   "values": {
+    "breaks.logo_text": "C-BIOS Logo ROM",
+    "breaks[\"stay32 eu\"].back.T": 104299,
+    "breaks[\"stay32 eu\"].back.vram_writes": 3408,
+    "breaks[\"stay32 eu\"].path[7][0]": "8054",
+    "breaks[\"stay32 eu64\"].c000.frame": 88,
+    "breaks[\"stay32 eu64\"].c000.rst": 16320,
+    "carts.stay32.eu.sum": "75F5"
+   }
+  },
+  "38_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch38",
+   "seconds": 24,
+   "steps": [
+    "carts",
+    "enaslt",
+    "breaks"
+   ],
+   "touched": [],
+   "values": {
+    "breaks[\"quick32 eue\"].T_per_byte": 380.7,
+    "breaks[\"quick32 eue\"].c000.frame": 88,
+    "breaks[\"quick32 eue\"].c000.rst": 16384,
+    "breaks[\"quick32 eue\"].ended": null,
+    "breaks[\"quick32 eue\"].rst_total": 54884
+   }
+  },
+  "38_3": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch38",
+   "seconds": 24,
+   "steps": [
+    "carts",
+    "enaslt",
+    "breaks"
+   ],
+   "touched": [],
+   "values": {
+    "carts.cart32.eue.line": false,
+    "carts.cart32.eue.page2": "1-0",
+    "enaslt.cbios.a8_writes": [
+     "C0",
+     "C4",
+     "D4"
+    ],
+    "enaslt.cbios.ffff_write.byte": "D0",
+    "enaslt.cbios.ram_ffff[0]": "0F",
+    "enaslt.cbios.register1": [
+     "04",
+     "04"
+    ],
+    "enaslt.cbios.slttbl1": [
+     "04",
+     "D0"
+    ],
+    "enaslt.fails": [
+     "ram 1, expander 2",
+     "ram 2, expander 1",
+     "ram 3, expander 1",
+     "ram 3, expander 2"
+    ],
+    "enaslt.fixed.a8_writes": [
+     "44",
+     "C4",
+     "D4"
+    ],
+    "enaslt.fixed.register1[1]": "14"
+   }
+  },
+  "39_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch39",
+   "seconds": 33,
+   "steps": [
+    "walls",
+    "flags",
+    "shapes",
+    "pairs",
+    "prices",
+    "answers"
+   ],
+   "touched": [],
+   "values": {
+    "answers.q9.further[0].apart[0]": 14,
+    "answers.q9.further[1].apart[0]": 15,
+    "pairs.blame.apart_at_stop[0][0]": 15,
+    "pairs.blame.apart_at_stop[0][1]": 15,
+    "pairs.blame.stopped[0]": 22
+   }
+  },
+  "40_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch40",
+   "seconds": 46,
+   "steps": [
+    "films",
+    "prices"
+   ],
+   "touched": [],
+   "values": {
+    "films.blink.eu.pictures": 130,
+    "films.blink.eu.torn": 24,
+    "films.blink.eu.torn_cells": 240,
+    "films.blink.eu.torn_places": [
+     3,
+     9,
+     14
+    ],
+    "films.blink.jp.torn_cells": 228,
+    "prices.redraw": 1783
+   }
+  },
+  "41_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch41",
+   "seconds": 3,
+   "steps": [
+    "rreg"
+   ],
+   "touched": [],
+   "values": {
+    "rreg.eu.count": 2048,
+    "rreg.eu.differences": [
+     5,
+     49
+    ],
+    "rreg.eu.halts[1].r_up": 48,
+    "rreg.eu.halts[2].r_up": 49,
+    "rreg.jp.halts[1].r_up": 27,
+    "rreg.jp.halts[5].r_up": 26
+   }
+  },
+  "42_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch42",
+   "seconds": 54,
+   "steps": [
+    "films",
+    "prices"
+   ],
+   "touched": [],
+   "values": {
+    "films.over.jp.summary.loops": 894,
+    "films.over.jp.summary.lost": 3,
+    "films.over.jp.summary.lost_loops": [
+     144,
+     527,
+     598
+    ],
+    "prices.mark": 50,
+    "prices.nextwin_once": 32686
+   }
+  },
+  "43_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch43",
+   "seconds": 22,
+   "steps": [
+    "films"
+   ],
+   "touched": [],
+   "values": {
+    "films.game.jp.events[24][0]": 765,
+    "films.stale.eu.events[29][0]": 966,
+    "films.stale.eu.touches[1].lag": 0,
+    "films.stale.eu.touches[1].loop": 816,
+    "films.stale.eu.touches[2].loop": 916
+   }
+  },
+  "44_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch44",
+   "seconds": 42,
+   "steps": [
+    "films"
+   ],
+   "touched": [],
+   "values": {
+    "films.extra.jp.events[21][0]": 557,
+    "films.extra.jp.events[33][0]": 697,
+    "films.extra.jp.events[33][2]": 9
+   }
+  },
+  "45_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch45",
+   "seconds": 70,
+   "steps": [
+    "films",
+    "photos",
+    "prices"
+   ],
+   "touched": [],
+   "values": {
+    "films.game.eu.summary.to_paper": 27554.33,
+    "films.game.jp.summary.to_paper": 15926.33,
+    "films.torn.eu.pages[21].behind": 261,
+    "films.torn.jp.pages[21].behind": 677,
+    "films.torn.jp.pages[21].t": 35611.33,
+    "films.torn.jp.pages[23].behind": 411,
+    "films.torn.jp.pages[23].t": 28203.33,
+    "prices.flip0_new[4]": 33261,
+    "prices.flip0_old[3]": 26533,
+    "prices.runs[4]": 163
+   }
+  },
+  "46_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch46",
+   "seconds": 88,
+   "steps": [
+    "films"
+   ],
+   "touched": [],
+   "values": {
+    "films.late.eu.events[28][0]": 267,
+    "films.late.eu.events[28][1]": "TOUCH",
+    "films.late.jp.events[26][4][0]": 175,
+    "films.late.jp.events[26][4][1]": 120,
+    "films.late.jp.events[28][0]": 298,
+    "films.late.jp.events[28][1]": "TOUCH"
+   }
+  },
+  "48_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch48",
+   "seconds": 195,
+   "steps": [
+    "films",
+    "mappers",
+    "photos",
+    "prices"
+   ],
+   "touched": [],
+   "values": {
+    "films.guess.jp.type": "KonamiSCC",
+    "films.guess.jp.wrong.frames": 408,
+    "mappers.types.guess.lds[\"7000\"]": 3,
+    "mappers.types.guess.type": "KonamiSCC",
+    "mappers.types.guess.votes.ascii16": 3,
+    "mappers.types.guess.votes.konamiscc": 3,
+    "mappers.types.long.lds[\"77FF\"]": 3,
+    "mappers.types.long.type": "ASCII16",
+    "photos.guess.jp.figs[0]": 193,
+    "photos.guess.jp.figs[1]": 194
+   }
+  },
+  "48_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch48",
+   "seconds": 195,
+   "steps": [
+    "films",
+    "mappers",
+    "photos",
+    "prices"
+   ],
+   "touched": [],
+   "values": {
+    "films.far.jp.wrong.frames": 7,
+    "films.far.jp.wrong.pixels[0]": 10151,
+    "films.far.jp.wrong.pixels[1]": 10191,
+    "films.far.jp.wrong.runs[0][0]": 187,
+    "films.far.jp.wrong.runs[0][1]": 193,
+    "photos.long.jp.loops[1]": 191,
+    "prices.far_sends[\"a frame\"]": 4462,
+    "prices.long_sends[\"a frame\"]": 4490
+   }
+  },
+  "49_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch49",
+   "seconds": 89,
+   "steps": [
+    "recordings",
+    "quality",
+    "pieces",
+    "prices",
+    "answers"
+   ],
+   "touched": [],
+   "values": {
+    "answers.q4.short": 1207,
+    "prices.play3": 452,
+    "prices.sizes.three.sound": 9820,
+    "prices.skip[\"a new sample\"]": 465,
+    "prices.skip[\"the same\"]": 325,
+    "quality.skip.jp.vowel[0].band": 23.3,
+    "quality.skip.jp.vowel[0].band_grid": -2.8,
+    "quality.skip.jp.vowel[0].begins": 2153936,
+    "quality.skip.jp.vowel[0].lasts": 2174112,
+    "quality.three.jp.vowel[0].band_grid": 23.5,
+    "quality.three.jp.vowel[0].begins": 2219328,
+    "quality.three.jp.vowel[0].lasts": 2147904,
+    "recordings.skip.jp.gaps[\"465\"]": 7705,
+    "recordings.skip.jp.gaps[\"790\"]": 742
+   }
+  },
+  "50_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch50",
+   "seconds": 15,
+   "steps": [
+    "fixed"
+   ],
+   "touched": [],
+   "values": {
+    "fixed.cas.eu.loaded": false,
+    "fixed.cas.eu.longest": 9,
+    "fixed.cas.jp.hs": {
+     "0": 1,
+     "1": 1,
+     "3": 46004,
+     "4": 11844,
+     "8": 7796,
+     "9": 13730
+    },
+    "fixed.cas.jp.loaded": false,
+    "fixed.cas.jp.longest": 9,
+    "fixed.cas.jp.page_end[2]": "  MOTOR ON: LOOKING FOR A FILE  ",
+    "fixed.wav.jp.d": 28,
+    "fixed.wav.jp.loaded": true
+   }
+  },
+  "51_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch51",
+   "seconds": 846,
+   "steps": [
+    "machines",
+    "which",
+    "blind",
+    "games"
+   ],
+   "touched": [],
+   "values": {
+    "games[\"44\"].MSXBOOK_EU8.first": null,
+    "games[\"44\"].MSXBOOK_EU8.start.isr": null,
+    "games[\"44\"].MSXBOOK_EU8.start.main": [
+     1,
+     413268
+    ],
+    "games[\"46\"].MSXBOOK_EU8.first": null,
+    "games[\"46\"].MSXBOOK_EU8.start.isr": null,
+    "games[\"46\"].MSXBOOK_EU8.start.main": [
+     6,
+     69426
+    ]
+   }
+  },
+  "51_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch51",
+   "seconds": 846,
+   "steps": [
+    "machines",
+    "which",
+    "blind",
+    "games"
+   ],
+   "touched": [],
+   "values": {
+    "blind.MSXBOOK_EU16.program.kept[0]": 55,
+    "blind.MSXBOOK_EU16.program.kept[1]": 57,
+    "blind.MSXBOOK_EU16.program.kept[2]": 63,
+    "blind.MSXBOOK_EU16.program.kept[3]": 64,
+    "blind.MSXBOOK_EU16.program.s1": 0,
+    "blind.MSXBOOK_EU16.regs[7]": 0,
+    "blind.MSXBOOK_EU16.s0": 0,
+    "blind.MSXBOOK_EU16.text[5]": "VDP  V9938, S#1 ID  0         ",
+    "machines.MSXBOOK_EU16.bios": [
+     161,
+     2,
+     0
+    ],
+    "machines.MSXBOOK_EU16.vdp": "TMS9929A"
+   }
+  },
+  "52_2": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch52",
+   "seconds": 108,
+   "steps": [
+    "films",
+    "photos"
+   ],
+   "touched": [],
+   "values": {
+    "films.inrom.eu.summary.bumps": 5068,
+    "films.inrom.jp.summary.bumps": 5068,
+    "films.inrom.jp.summary.loops": 898,
+    "films.inrom.jp.summary.score": "000140",
+    "films.patch.eu.summary.bumps": 82,
+    "films.patch.jp.summary.bumps": 82,
+    "films.patch.jp.summary.score": "000540",
+    "photos.corners.last_score_loop": 103,
+    "photos.corners.piles[\"left bottom\"]": 3,
+    "photos.corners.piles[\"left top\"]": 1,
+    "photos.corners.piles[\"right bottom\"]": 2,
+    "photos.corners.piles[\"right top\"]": 3,
+    "photos.corners.settled_loop": 223
+   }
+  },
+  "53_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch53",
+   "seconds": 34,
+   "steps": [
+    "films",
+    "photos"
+   ],
+   "touched": [],
+   "values": {
+    "films.dark.eu.fast": 0,
+    "films.dark.jp.fast": 0,
+    "films.otir.eu.damage.colours": 0,
+    "films.otir.eu.damage.first_row": 19,
+    "films.otir.eu.damage.patterns": 3017,
+    "films.otir.eu.fast": 60,
+    "films.otir.eu.lost": 60,
+    "films.otir.jp.damage.first_row": 17,
+    "films.otir.jp.damage.patterns": 2755,
+    "films.otir.jp.fast": 64,
+    "films.otir.jp.lost": 64,
+    "photos.dark.eu.complete": 11
+   }
+  },
+  "54_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch54",
+   "seconds": 161,
+   "steps": [
+    "demo"
+   ],
+   "touched": [],
+   "values": {
+    "demo.broken.ended[0]": "GAME OVER",
+    "demo.broken.ended[1]": 0,
+    "demo.broken.ended[5]": 0,
+    "demo.broken.ended_loop": 826,
+    "demo.broken.jp_loops_same": 4959,
+    "demo.broken.touches[0]": 36,
+    "demo.broken.touches[1]": 266,
+    "demo.broken.touches[2]": 785
+   }
+  },
+  "55_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch55",
+   "seconds": 11,
+   "steps": [
+    "runs"
+   ],
+   "touched": [],
+   "values": {
+    "runs.dirty.MSXBOOK_EU16.least": 26,
+    "runs.dirty.MSXBOOK_EU16B.least": 0,
+    "runs.dirty.MSXBOOK_EU16B.least_model": 26,
+    "runs.dirty.MSXBOOK_EU16B.lost": [
+     16,
+     12,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "runs.dirty.MSXBOOK_EU16B.ram": [
+     0,
+     0,
+     0,
+     0,
+     255,
+     255,
+     255,
+     255
+    ],
+    "runs.dirty.MSXBOOK_EU16S.least": 0
+   }
+  },
+  "56_1": {
+   "differ": [],
+   "exit": 0,
+   "folder": "ch56",
+   "seconds": 146,
+   "steps": [
+    "files",
+    "release",
+    "guess"
+   ],
+   "touched": [],
+   "values": {
+    "files.lantern_keep.init": 16400,
+    "guess.page12.inits[0]": 135,
+    "guess.page12.inits[1]": 271,
+    "guess.page12.period": 136,
+    "guess.page12.runs": "888305845484d584",
+    "release.wrong.boards[0].inits": 7
+   }
+  }
+ },
+ "gallery": {
+  "ba": {
+   "chapter_photo": "ch05/captures/ba_p0400.png",
+   "extra": [],
+   "folder": "ch05",
+   "frame": 400,
+   "from": "power",
+   "machine": "MSXBOOK_EU16",
+   "rom": "ba.rom",
+   "same_file": true,
+   "sha256": "0124bcae83acb309555ef5d5848af753d17e1714f502b833609e812be4920329"
+  },
+  "bits": {
+   "chapter_photo": "ch21/captures/bits1_eu_f0023.png",
+   "extra": [],
+   "folder": "ch21",
+   "frame": 23,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "bits.rom",
+   "same_file": true,
+   "sha256": "8e7f6cbe58646fefef150a6a6025b9b8f447963c9b15fde599cb7a0572fc809d"
+  },
+  "forgot": {
+   "chapter_photo": "ch17/captures/forgot_f0010.png",
+   "extra": [],
+   "folder": "ch17",
+   "frame": 10,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "forgot.rom",
+   "same_file": true,
+   "sha256": "db89223252d6ef8e42e805ad11b3eb3e9ae3f61aad148859e5441f32ba503e96"
+  },
+  "full": {
+   "chapter_photo": "ch24/captures/full_jp_f0005.png",
+   "extra": [],
+   "folder": "ch24",
+   "frame": 5,
+   "from": "init",
+   "machine": "MSXBOOK_JP16",
+   "rom": "full.rom",
+   "same_file": true,
+   "sha256": "14464196338c0cce070a7d68e0c66fa742f0194a70e5027456668d6b88378527"
+  },
+  "otir": {
+   "chapter_photo": "ch20/captures/otir_eu_f0010.png",
+   "extra": [],
+   "folder": "ch20",
+   "frame": 10,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "otir.rom",
+   "same_file": true,
+   "sha256": "99caccf52a541274bb0dd0d199a47238bbb527458d6d1455137c01e240f7668f"
+  },
+  "overlap": {
+   "chapter_photo": "ch28/captures/overlap_eu_f0046.png",
+   "extra": [],
+   "folder": "ch28",
+   "frame": 46,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "overlap.rom",
+   "same_file": true,
+   "sha256": "d6dedf03916ac17e934e39a31a16c5cbd3fb850df98a9793a9bcb4495a56985f"
+  },
+  "split": {
+   "chapter_photo": "ch19/captures/split_eu_f0150.png",
+   "extra": [],
+   "folder": "ch19",
+   "frame": 150,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "split.rom",
+   "same_file": true,
+   "sha256": "5a9739bccf5b296cac0d4bb1fad2804a14ac653c56c0fe64147ed0fafb33f1d9"
+  },
+  "stay32": {
+   "chapter_photo": "ch38/captures/stay32_eu_f0030.png",
+   "extra": [],
+   "folder": "ch38",
+   "frame": 30,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "stay32.rom",
+   "same_file": true,
+   "sha256": "326863fb01cacffd3508d122d022da361ad1a73f8939b0a0f99050b1ca1368dd"
+  },
+  "unsaved": {
+   "chapter_photo": "ch17/captures/unsaved_f0012.png",
+   "extra": [],
+   "folder": "ch17",
+   "frame": 12,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "unsaved.rom",
+   "same_file": true,
+   "sha256": "28824f54ec4391d82f23bbe94f00c3e8a01934b50dbbd1a08e70a76c39f42bde"
+  },
+  "wrong_board": {
+   "chapter_photo": "ch56/captures/wrong_board.png",
+   "extra": [
+    "-romtype",
+    "page12"
+   ],
+   "folder": "ch56",
+   "frame": 137,
+   "from": "power",
+   "machine": "MSXBOOK_EU16",
+   "rom": "lantern_keep_a14.bin",
+   "same_file": true,
+   "sha256": "a5055ff94e7e9b8575e90761c0d9f320e79e297a428546d3b4ee80cfdf96e598"
+  },
+  "y208": {
+   "chapter_photo": "ch01/captures/y208_f0030.png",
+   "extra": [],
+   "folder": "ch01",
+   "frame": 30,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "y208.rom",
+   "same_file": true,
+   "sha256": "ccd892f71df018d2205d5ffcf0527d68c73b39de44ff18d94a6d8e54bed7bf26"
+  },
+  "zero": {
+   "chapter_photo": "ch23/captures/zero_eu_f0054.png",
+   "extra": [],
+   "folder": "ch23",
+   "frame": 54,
+   "from": "init",
+   "machine": "MSXBOOK_EU16",
+   "rom": "zero.rom",
+   "same_file": true,
+   "sha256": "c7d92b49ba6200a8963c35640a6f1743ae7aa37f2eaabef46fd6da424020c695"
+  }
+ }
+}

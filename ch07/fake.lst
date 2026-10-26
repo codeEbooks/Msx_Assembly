@@ -1,0 +1,10 @@
+# file opened: fake.asm
+1     0000              ; fake.asm - chapter 7: two instructions the Z80 does not have
+2     0000              ; Not a program: assemble it with --lst and read the listing.
+3     0000                      OUTPUT "fake.bin"
+4     0000                      ORG $4000
+5     4000 42 4B                ld bc,de                ; sjasmplus takes it
+6     4002 DD 6E 01 DD          ld hl,(ix+1)            ; and this
+6     4006 66 02
+7     4008
+# file closed: fake.asm

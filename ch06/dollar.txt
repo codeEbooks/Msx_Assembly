@@ -1,0 +1,8 @@
+> debug read memory 0x4010
+243
+> debug read memory 4010
+0
+> debug read memory $4010
+can't read "4010": no such variable
+> format %04X 4010
+0FAA

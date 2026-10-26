@@ -1,0 +1,31 @@
+> machine_info time
+2.7017587430804753
+> debug set_watchpoint write_io 0x99
+wp#1
+> debug list_watchpoints
+wp#1 write_io 0x0099 {} {debug break}
+> debug cont
+> reg pc
+16405
+> debug remove_watchpoint wp#1
+> set ::seen {}
+> proc seen {} {lappend ::seen [format %02X $::wp_last_value]}
+> debug set_watchpoint write_io 0x99 {} seen
+wp#2
+> after time 0.1 {debug break}
+after#…
+> debug cont
+> set ::seen
+87 00 58
+> peek 0xE123
+255
+> poke 0xE123 0xA5
+> after time 0.1 reset
+after#…
+> debug cont
+> reg pc
+16400
+> peek 0xE123
+165
+> machine_info time
+2.7017587430804753

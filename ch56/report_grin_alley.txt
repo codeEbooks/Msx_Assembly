@@ -1,0 +1,30 @@
+grin_alley.rom: 16,384 bytes
+  SHA-256 45704344caad7acaf4deeeaaea7ab870e24d7a1ff11e703a0605f88cd6b6baed
+  header AB, INIT $4010
+  MSXBOOK_EU16     ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_JP16     ok   60 Hz  INIT at 139    0 of 881 different  shift +0
+  MSXBOOK_EU16AY   ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_EU16B    ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_EU16E    ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_EU16G    ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_EU16P    ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_EU16S    ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_EU16X    ok   50 Hz  INIT at 132    0 of 881 different  shift +0
+  MSXBOOK_EU32     ok   50 Hz  INIT at 137    0 of 881 different  shift +0
+  MSXBOOK_EU64     ok   50 Hz  INIT at 137    0 of 881 different  shift +0
+  C-BIOS_MSX1      ok   60 Hz  INIT at 140    0 of 881 different  shift +0
+  C-BIOS_MSX1_EU   ok   50 Hz  INIT at 137    0 of 881 different  shift +0
+  C-BIOS_MSX1_JP   ok   60 Hz  INIT at 140    0 of 881 different  shift +0
+  C-BIOS_MSX1_BR   ok   60 Hz  INIT at 140    0 of 881 different  shift +0
+  C-BIOS_MSX2      ok   60 Hz  INIT at 225    0 of 881 different  shift +0
+  C-BIOS_MSX2_EU   ok   50 Hz  INIT at 221    0 of 881 different  shift -1
+  C-BIOS_MSX2_JP   ok   60 Hz  INIT at 225    0 of 881 different  shift +0
+  C-BIOS_MSX2_BR   ok   60 Hz  INIT at 225    0 of 881 different  shift +0
+  C-BIOS_MSX2+     ok   60 Hz  INIT at 225    0 of 881 different  shift +0
+  C-BIOS_MSX2+_EU  ok   50 Hz  INIT at 221    0 of 881 different  shift -1
+  C-BIOS_MSX2+_JP  ok   60 Hz  INIT at 225    0 of 881 different  shift +0
+  C-BIOS_MSX2+_BR  ok   60 Hz  INIT at 225    0 of 881 different  shift +0
+  board a15: grin_alley_x2.bin     ok   INIT 1 time, 0 of 881 different
+  board a14: grin_alley_x2.bin     ok   INIT 1 time, 0 of 881 different
+  MSXBOOK_EU8      not run: 8 KB of RAM, --ram is 16
+pass

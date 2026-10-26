@@ -1,0 +1,18 @@
+LANTERN KEEP
+A game for MSX1 computers, from the book MSX Assembly (chapters 45, 46 and 54).
+(c) 2026 CODE & BOOKS
+
+Cartridge  a plain ROM of 32 KB, from $4000 to $BFFF; no mapper. It selects
+           its slot for page 2 itself
+File       lantern_keep.rom, 32,768 bytes
+SHA-256    994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c
+Machines   an MSX1 or later, with 16 KB of RAM or more, at 50 or 60 Hz
+Keys       the cursor keys or joystick 1; SPACE or button A at the title;
+           M or button B for the map
+Emulator   openMSX: openmsx -carta lantern_keep.rom
+EPROM      a 27C256 on the slot's /SLTSL and /CS12. If the board drives the
+           EPROM's A14 from the slot's A15: lantern_keep.rom as it is. If
+           from the slot's A14: lantern_keep_a14.bin, its two halves of 16 KB
+           the other way round
+Source     ch56/lantern_keep.asm, chapter 54's game.asm, in the book's repository
+Licence    MIT, as the whole repository (LICENCE)

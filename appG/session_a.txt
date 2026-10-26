@@ -1,0 +1,89 @@
+> reg pc
+16400
+> cpuregs
+AF =1F08  BC =0101  DE =4010  HL =4004
+AF'=C480  BC'=04F3  DE'=01FF  HL'=2467
+IX =4010  IY =0104  PC =4010  SP =F2EC
+I  =00    R  =1D    IM =00    IFF=00
+> disasm
+4010  di                  F3
+4011  ld     a,#03        3E 03
+4013  out    (#99),a      D3 99
+4015  ld     a,#87        3E 87
+4017  out    (#99),a      D3 99
+4019  ld     a,#00        3E 00
+401B  out    (#99),a      D3 99
+401D  ld     a,#58        3E 58
+> step_in
+> reg pc
+16401
+> set bp [debug set_bp 0x4025]
+bp#2
+> debug list_bp
+bp#1 0x4010 {} {debug break}
+bp#2 0x4025 {} {debug break}
+> debug cont
+> reg pc
+16421
+> step_over
+> reg pc
+16424
+> reg b
+0
+> debug remove_bp $bp
+> peek 0x4000
+65
+> peek16 0x0004
+7103
+> vpeek 0x1800
+71
+> debug read {VDP regs} 7
+3
+> debug write {VDP regs} 7 1
+> debug read {VDP regs} 7
+1
+> binary encode hex [debug read_block memory 0x4000 4]
+41421040
+> keymatrixdown 8 0x01
+> debug read keymatrix 8
+254
+> keymatrixup 8 0x01
+> debug read keymatrix 8
+255
+> machine_info time
+2.7018087494360317
+> machine_info VDP_frame_count
+135
+> machine_info VDP_cycle_in_frame
+222636
+> debug probe list
+VDP.IRQvertical z80.pendingIRQ VDP.commandExecuting z80.acceptIRQ VDP.IRQhorizontal
+> set p [debug probe set_bp VDP.IRQvertical]
+pp#1
+> debug cont
+> machine_info VDP_cycle_in_frame
+357294
+> reg pc
+16425
+> debug probe remove_bp $p
+> set speed
+100
+> after time 0.1 {debug break}
+after#…
+> record start -videoonly DIR/film.avi
+Recording to DIR/film.avi
+> debug cont
+> record stop
+> file exists DIR/film.avi
+1
+> screenshot DIR/shot.png
+DIR/shot.png
+> file exists DIR/shot.png
+1
+> set ::f0 [machine_info VDP_frame_count]
+140
+> after frame {set ::f1 [machine_info VDP_frame_count]; debug break}
+after#…
+> debug cont
+> expr {$::f1 - $::f0}
+1

@@ -1,0 +1,52 @@
+# file opened: index.asm
+ 1    0000              ; index.asm - chapter 7: HL, IX and IY
+ 2    0000              ; Not a program: assemble it with --lst and read the listing.
+ 3    0000                      OUTPUT "index.bin"
+ 4    0000                      ORG $4000
+ 5    4000 21 34 12             ld hl,$1234
+ 6    4003 DD 21 34 12          ld ix,$1234
+ 7    4007 FD 21 34 12          ld iy,$1234
+ 8    400B 2A 00 C0             ld hl,($C000)
+ 9    400E DD 2A 00 C0          ld ix,($C000)
+10    4012 FD 2A 00 C0          ld iy,($C000)
+11    4016 23                   inc hl
+12    4017 DD 23                inc ix
+13    4019 FD 23                inc iy
+14    401B 19                   add hl,de
+15    401C DD 19                add ix,de
+16    401E FD 19                add iy,de
+17    4020 E5                   push hl
+18    4021 DD E5                push ix
+19    4023 FD E5                push iy
+20    4025 F9                   ld sp,hl
+21    4026 DD F9                ld sp,ix
+22    4028 FD F9                ld sp,iy
+23    402A E3                   ex (sp),hl
+24    402B DD E3                ex (sp),ix
+25    402D FD E3                ex (sp),iy
+26    402F E9                   jp (hl)
+27    4030 DD E9                jp (ix)
+28    4032 FD E9                jp (iy)
+29    4034 7E                   ld a,(hl)
+30    4035 DD 7E 05             ld a,(ix+5)
+31    4038 FD 7E 05             ld a,(iy+5)
+32    403B 70                   ld (hl),b
+33    403C DD 70 05             ld (ix+5),b
+34    403F FD 70 05             ld (iy+5),b
+35    4042 36 AA                ld (hl),$AA
+36    4044 DD 36 05 AA          ld (ix+5),$AA
+37    4048 FD 36 05 AA          ld (iy+5),$AA
+38    404C 34                   inc (hl)
+39    404D DD 34 05             inc (ix+5)
+40    4050 FD 34 05             inc (iy+5)
+41    4053 86                   add a,(hl)
+42    4054 DD 86 05             add a,(ix+5)
+43    4057 FD 86 05             add a,(iy+5)
+44    405A CB 5E                bit 3,(hl)
+45    405C DD CB 05 5E          bit 3,(ix+5)
+46    4060 FD CB 05 5E          bit 3,(iy+5)
+47    4064 CB CE                set 1,(hl)
+48    4066 DD CB 05 CE          set 1,(ix+5)
+49    406A FD CB 05 CE          set 1,(iy+5)
+50    406E
+# file closed: index.asm

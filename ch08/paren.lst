@@ -1,0 +1,12 @@
+# file opened: paren.asm
+1     0000              ; paren.asm - WHERE IT BREAKS. Only LD A loads from an address in the
+2     0000              ; instruction. Written for B, the parentheses are just parentheses:
+3     0000              ; sjasmplus reads ($C000) as the number $C000, and ($C0) as $C0.
+4     0000                      OUTPUT "paren.bin"
+5     0000                      ORG $4000
+6     4000 3A 00 C0             ld a,($C000)            ; the byte at $C000
+paren.asm(7): warning: value 0xC000 is truncated to 8bit value: 0x00
+7     4003 06 00                ld b,($C000)            ; $00, low byte of $C000
+8     4005 06 C0                ld b,($C0)              ; $C0, and not a word
+9     4007
+# file closed: paren.asm

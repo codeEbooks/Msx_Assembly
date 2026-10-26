@@ -1,0 +1,19 @@
+> reg pc
+16409
+> debug set_bp 0x4010
+bp#1
+> reset
+> cpuregs
+AF =1F08  BC =0101  DE =4010  HL =4004
+AF'=C480  BC'=04F3  DE'=01FF  HL'=2467
+IX =4010  IY =0104  PC =4010  SP =F2EC
+I  =00    R  =1D    IM =00    IFF=00
+> disasm
+4010  di                  F3
+4011  ld     a,#03        3E 03
+4013  out    (#99),a      D3 99
+4015  ld     a,#87        3E 87
+4017  out    (#99),a      D3 99
+4019  jr     #4019        18 FE
+401B  rst    38h          FF
+401C  rst    38h          FF

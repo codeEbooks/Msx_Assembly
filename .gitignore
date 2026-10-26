@@ -1,0 +1,7 @@
+# What the scripts write and the repository does not keep: the frame that
+# ch04/photograph.sh leaves in shots/, the sjasmplus source archive that
+# ch04/setup_linux.sh downloads beside itself, and Python's caches.
+shots/
+sjasmplus-*-src.tar.xz
+__pycache__/
+*.pyc

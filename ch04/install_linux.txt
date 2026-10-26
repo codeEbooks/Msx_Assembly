@@ -1,0 +1,10 @@
+machine  MSXBOOK_EU16.xml
+machine  MSXBOOK_EU16AY.xml
+machine  MSXBOOK_EU32.xml
+machine  MSXBOOK_EU64.xml
+machine  MSXBOOK_EU8.xml
+machine  MSXBOOK_JP16.xml
+ROM      cbios_logo_msx1.rom     sha1 9fbbe400dbaf  ok
+ROM      cbios_main_msx1_eu.rom  sha1 baf2e9c69252  ok
+ROM      cbios_main_msx1_jp.rom  sha1 933719a975a6  ok
+into ~/.openMSX/share

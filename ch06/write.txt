@@ -1,0 +1,4 @@
+> debug write {VDP regs} 7 1
+> set a 0x1A82
+0x1A82
+> foreach c [split "Written by the console" ""] { vpoke $a [scan $c %c]; incr a }

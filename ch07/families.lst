@@ -1,0 +1,423 @@
+# file opened: families.asm
+  1   0000              ; families.asm - chapter 7: the opcodes built from patterns
+  2   0000              ; Not a program: assemble it with --lst and read the listing.
+  3   0000                      OUTPUT "families.bin"
+  4   0000                      ORG $4000
+  5   4000              ; ld r,n
+  6   4000 06 12                ld b,$12
+  7   4002 0E 12                ld c,$12
+  8   4004 16 12                ld d,$12
+  9   4006 1E 12                ld e,$12
+ 10   4008 26 12                ld h,$12
+ 11   400A 2E 12                ld l,$12
+ 12   400C 36 12                ld (hl),$12
+ 13   400E 3E 12                ld a,$12
+ 14   4010              ; inc r
+ 15   4010 04                   inc b
+ 16   4011 0C                   inc c
+ 17   4012 14                   inc d
+ 18   4013 1C                   inc e
+ 19   4014 24                   inc h
+ 20   4015 2C                   inc l
+ 21   4016 34                   inc (hl)
+ 22   4017 3C                   inc a
+ 23   4018              ; dec r
+ 24   4018 05                   dec b
+ 25   4019 0D                   dec c
+ 26   401A 15                   dec d
+ 27   401B 1D                   dec e
+ 28   401C 25                   dec h
+ 29   401D 2D                   dec l
+ 30   401E 35                   dec (hl)
+ 31   401F 3D                   dec a
+ 32   4020              ; alu r
+ 33   4020 80                   add a,b
+ 34   4021 81                   add a,c
+ 35   4022 82                   add a,d
+ 36   4023 83                   add a,e
+ 37   4024 84                   add a,h
+ 38   4025 85                   add a,l
+ 39   4026 86                   add a,(hl)
+ 40   4027 87                   add a,a
+ 41   4028 88                   adc a,b
+ 42   4029 89                   adc a,c
+ 43   402A 8A                   adc a,d
+ 44   402B 8B                   adc a,e
+ 45   402C 8C                   adc a,h
+ 46   402D 8D                   adc a,l
+ 47   402E 8E                   adc a,(hl)
+ 48   402F 8F                   adc a,a
+ 49   4030 90                   sub b
+ 50   4031 91                   sub c
+ 51   4032 92                   sub d
+ 52   4033 93                   sub e
+ 53   4034 94                   sub h
+ 54   4035 95                   sub l
+ 55   4036 96                   sub (hl)
+ 56   4037 97                   sub a
+ 57   4038 98                   sbc a,b
+ 58   4039 99                   sbc a,c
+ 59   403A 9A                   sbc a,d
+ 60   403B 9B                   sbc a,e
+ 61   403C 9C                   sbc a,h
+ 62   403D 9D                   sbc a,l
+ 63   403E 9E                   sbc a,(hl)
+ 64   403F 9F                   sbc a,a
+ 65   4040 A0                   and b
+ 66   4041 A1                   and c
+ 67   4042 A2                   and d
+ 68   4043 A3                   and e
+ 69   4044 A4                   and h
+ 70   4045 A5                   and l
+ 71   4046 A6                   and (hl)
+ 72   4047 A7                   and a
+ 73   4048 A8                   xor b
+ 74   4049 A9                   xor c
+ 75   404A AA                   xor d
+ 76   404B AB                   xor e
+ 77   404C AC                   xor h
+ 78   404D AD                   xor l
+ 79   404E AE                   xor (hl)
+ 80   404F AF                   xor a
+ 81   4050 B0                   or b
+ 82   4051 B1                   or c
+ 83   4052 B2                   or d
+ 84   4053 B3                   or e
+ 85   4054 B4                   or h
+ 86   4055 B5                   or l
+ 87   4056 B6                   or (hl)
+ 88   4057 B7                   or a
+ 89   4058 B8                   cp b
+ 90   4059 B9                   cp c
+ 91   405A BA                   cp d
+ 92   405B BB                   cp e
+ 93   405C BC                   cp h
+ 94   405D BD                   cp l
+ 95   405E BE                   cp (hl)
+ 96   405F BF                   cp a
+ 97   4060              ; rot r
+ 98   4060 CB 00                rlc b
+ 99   4062 CB 01                rlc c
+100   4064 CB 02                rlc d
+101   4066 CB 03                rlc e
+102   4068 CB 04                rlc h
+103   406A CB 05                rlc l
+104   406C CB 06                rlc (hl)
+105   406E CB 07                rlc a
+106   4070 CB 08                rrc b
+107   4072 CB 09                rrc c
+108   4074 CB 0A                rrc d
+109   4076 CB 0B                rrc e
+110   4078 CB 0C                rrc h
+111   407A CB 0D                rrc l
+112   407C CB 0E                rrc (hl)
+113   407E CB 0F                rrc a
+114   4080 CB 10                rl b
+115   4082 CB 11                rl c
+116   4084 CB 12                rl d
+117   4086 CB 13                rl e
+118   4088 CB 14                rl h
+119   408A CB 15                rl l
+120   408C CB 16                rl (hl)
+121   408E CB 17                rl a
+122   4090 CB 18                rr b
+123   4092 CB 19                rr c
+124   4094 CB 1A                rr d
+125   4096 CB 1B                rr e
+126   4098 CB 1C                rr h
+127   409A CB 1D                rr l
+128   409C CB 1E                rr (hl)
+129   409E CB 1F                rr a
+130   40A0 CB 20                sla b
+131   40A2 CB 21                sla c
+132   40A4 CB 22                sla d
+133   40A6 CB 23                sla e
+134   40A8 CB 24                sla h
+135   40AA CB 25                sla l
+136   40AC CB 26                sla (hl)
+137   40AE CB 27                sla a
+138   40B0 CB 28                sra b
+139   40B2 CB 29                sra c
+140   40B4 CB 2A                sra d
+141   40B6 CB 2B                sra e
+142   40B8 CB 2C                sra h
+143   40BA CB 2D                sra l
+144   40BC CB 2E                sra (hl)
+145   40BE CB 2F                sra a
+146   40C0 CB 38                srl b
+147   40C2 CB 39                srl c
+148   40C4 CB 3A                srl d
+149   40C6 CB 3B                srl e
+150   40C8 CB 3C                srl h
+151   40CA CB 3D                srl l
+152   40CC CB 3E                srl (hl)
+153   40CE CB 3F                srl a
+154   40D0              ; bit
+155   40D0 CB 40                bit 0,b
+156   40D2 CB 41                bit 0,c
+157   40D4 CB 42                bit 0,d
+158   40D6 CB 43                bit 0,e
+159   40D8 CB 44                bit 0,h
+160   40DA CB 45                bit 0,l
+161   40DC CB 46                bit 0,(hl)
+162   40DE CB 47                bit 0,a
+163   40E0 CB 48                bit 1,b
+164   40E2 CB 49                bit 1,c
+165   40E4 CB 4A                bit 1,d
+166   40E6 CB 4B                bit 1,e
+167   40E8 CB 4C                bit 1,h
+168   40EA CB 4D                bit 1,l
+169   40EC CB 4E                bit 1,(hl)
+170   40EE CB 4F                bit 1,a
+171   40F0 CB 50                bit 2,b
+172   40F2 CB 51                bit 2,c
+173   40F4 CB 52                bit 2,d
+174   40F6 CB 53                bit 2,e
+175   40F8 CB 54                bit 2,h
+176   40FA CB 55                bit 2,l
+177   40FC CB 56                bit 2,(hl)
+178   40FE CB 57                bit 2,a
+179   4100 CB 58                bit 3,b
+180   4102 CB 59                bit 3,c
+181   4104 CB 5A                bit 3,d
+182   4106 CB 5B                bit 3,e
+183   4108 CB 5C                bit 3,h
+184   410A CB 5D                bit 3,l
+185   410C CB 5E                bit 3,(hl)
+186   410E CB 5F                bit 3,a
+187   4110 CB 60                bit 4,b
+188   4112 CB 61                bit 4,c
+189   4114 CB 62                bit 4,d
+190   4116 CB 63                bit 4,e
+191   4118 CB 64                bit 4,h
+192   411A CB 65                bit 4,l
+193   411C CB 66                bit 4,(hl)
+194   411E CB 67                bit 4,a
+195   4120 CB 68                bit 5,b
+196   4122 CB 69                bit 5,c
+197   4124 CB 6A                bit 5,d
+198   4126 CB 6B                bit 5,e
+199   4128 CB 6C                bit 5,h
+200   412A CB 6D                bit 5,l
+201   412C CB 6E                bit 5,(hl)
+202   412E CB 6F                bit 5,a
+203   4130 CB 70                bit 6,b
+204   4132 CB 71                bit 6,c
+205   4134 CB 72                bit 6,d
+206   4136 CB 73                bit 6,e
+207   4138 CB 74                bit 6,h
+208   413A CB 75                bit 6,l
+209   413C CB 76                bit 6,(hl)
+210   413E CB 77                bit 6,a
+211   4140 CB 78                bit 7,b
+212   4142 CB 79                bit 7,c
+213   4144 CB 7A                bit 7,d
+214   4146 CB 7B                bit 7,e
+215   4148 CB 7C                bit 7,h
+216   414A CB 7D                bit 7,l
+217   414C CB 7E                bit 7,(hl)
+218   414E CB 7F                bit 7,a
+219   4150              ; res
+220   4150 CB 80                res 0,b
+221   4152 CB 81                res 0,c
+222   4154 CB 82                res 0,d
+223   4156 CB 83                res 0,e
+224   4158 CB 84                res 0,h
+225   415A CB 85                res 0,l
+226   415C CB 86                res 0,(hl)
+227   415E CB 87                res 0,a
+228   4160 CB 88                res 1,b
+229   4162 CB 89                res 1,c
+230   4164 CB 8A                res 1,d
+231   4166 CB 8B                res 1,e
+232   4168 CB 8C                res 1,h
+233   416A CB 8D                res 1,l
+234   416C CB 8E                res 1,(hl)
+235   416E CB 8F                res 1,a
+236   4170 CB 90                res 2,b
+237   4172 CB 91                res 2,c
+238   4174 CB 92                res 2,d
+239   4176 CB 93                res 2,e
+240   4178 CB 94                res 2,h
+241   417A CB 95                res 2,l
+242   417C CB 96                res 2,(hl)
+243   417E CB 97                res 2,a
+244   4180 CB 98                res 3,b
+245   4182 CB 99                res 3,c
+246   4184 CB 9A                res 3,d
+247   4186 CB 9B                res 3,e
+248   4188 CB 9C                res 3,h
+249   418A CB 9D                res 3,l
+250   418C CB 9E                res 3,(hl)
+251   418E CB 9F                res 3,a
+252   4190 CB A0                res 4,b
+253   4192 CB A1                res 4,c
+254   4194 CB A2                res 4,d
+255   4196 CB A3                res 4,e
+256   4198 CB A4                res 4,h
+257   419A CB A5                res 4,l
+258   419C CB A6                res 4,(hl)
+259   419E CB A7                res 4,a
+260   41A0 CB A8                res 5,b
+261   41A2 CB A9                res 5,c
+262   41A4 CB AA                res 5,d
+263   41A6 CB AB                res 5,e
+264   41A8 CB AC                res 5,h
+265   41AA CB AD                res 5,l
+266   41AC CB AE                res 5,(hl)
+267   41AE CB AF                res 5,a
+268   41B0 CB B0                res 6,b
+269   41B2 CB B1                res 6,c
+270   41B4 CB B2                res 6,d
+271   41B6 CB B3                res 6,e
+272   41B8 CB B4                res 6,h
+273   41BA CB B5                res 6,l
+274   41BC CB B6                res 6,(hl)
+275   41BE CB B7                res 6,a
+276   41C0 CB B8                res 7,b
+277   41C2 CB B9                res 7,c
+278   41C4 CB BA                res 7,d
+279   41C6 CB BB                res 7,e
+280   41C8 CB BC                res 7,h
+281   41CA CB BD                res 7,l
+282   41CC CB BE                res 7,(hl)
+283   41CE CB BF                res 7,a
+284   41D0              ; set
+285   41D0 CB C0                set 0,b
+286   41D2 CB C1                set 0,c
+287   41D4 CB C2                set 0,d
+288   41D6 CB C3                set 0,e
+289   41D8 CB C4                set 0,h
+290   41DA CB C5                set 0,l
+291   41DC CB C6                set 0,(hl)
+292   41DE CB C7                set 0,a
+293   41E0 CB C8                set 1,b
+294   41E2 CB C9                set 1,c
+295   41E4 CB CA                set 1,d
+296   41E6 CB CB                set 1,e
+297   41E8 CB CC                set 1,h
+298   41EA CB CD                set 1,l
+299   41EC CB CE                set 1,(hl)
+300   41EE CB CF                set 1,a
+301   41F0 CB D0                set 2,b
+302   41F2 CB D1                set 2,c
+303   41F4 CB D2                set 2,d
+304   41F6 CB D3                set 2,e
+305   41F8 CB D4                set 2,h
+306   41FA CB D5                set 2,l
+307   41FC CB D6                set 2,(hl)
+308   41FE CB D7                set 2,a
+309   4200 CB D8                set 3,b
+310   4202 CB D9                set 3,c
+311   4204 CB DA                set 3,d
+312   4206 CB DB                set 3,e
+313   4208 CB DC                set 3,h
+314   420A CB DD                set 3,l
+315   420C CB DE                set 3,(hl)
+316   420E CB DF                set 3,a
+317   4210 CB E0                set 4,b
+318   4212 CB E1                set 4,c
+319   4214 CB E2                set 4,d
+320   4216 CB E3                set 4,e
+321   4218 CB E4                set 4,h
+322   421A CB E5                set 4,l
+323   421C CB E6                set 4,(hl)
+324   421E CB E7                set 4,a
+325   4220 CB E8                set 5,b
+326   4222 CB E9                set 5,c
+327   4224 CB EA                set 5,d
+328   4226 CB EB                set 5,e
+329   4228 CB EC                set 5,h
+330   422A CB ED                set 5,l
+331   422C CB EE                set 5,(hl)
+332   422E CB EF                set 5,a
+333   4230 CB F0                set 6,b
+334   4232 CB F1                set 6,c
+335   4234 CB F2                set 6,d
+336   4236 CB F3                set 6,e
+337   4238 CB F4                set 6,h
+338   423A CB F5                set 6,l
+339   423C CB F6                set 6,(hl)
+340   423E CB F7                set 6,a
+341   4240 CB F8                set 7,b
+342   4242 CB F9                set 7,c
+343   4244 CB FA                set 7,d
+344   4246 CB FB                set 7,e
+345   4248 CB FC                set 7,h
+346   424A CB FD                set 7,l
+347   424C CB FE                set 7,(hl)
+348   424E CB FF                set 7,a
+349   4250              ; ld rr,nn
+350   4250 01 34 12             ld bc,$1234
+351   4253 11 34 12             ld de,$1234
+352   4256 21 34 12             ld hl,$1234
+353   4259 31 34 12             ld sp,$1234
+354   425C              ; inc rr
+355   425C 03                   inc bc
+356   425D 13                   inc de
+357   425E 23                   inc hl
+358   425F 33                   inc sp
+359   4260              ; dec rr
+360   4260 0B                   dec bc
+361   4261 1B                   dec de
+362   4262 2B                   dec hl
+363   4263 3B                   dec sp
+364   4264              ; add hl,rr
+365   4264 09                   add hl,bc
+366   4265 19                   add hl,de
+367   4266 29                   add hl,hl
+368   4267 39                   add hl,sp
+369   4268              ; push qq
+370   4268 C5                   push bc
+371   4269 D5                   push de
+372   426A E5                   push hl
+373   426B F5                   push af
+374   426C              ; pop qq
+375   426C C1                   pop bc
+376   426D D1                   pop de
+377   426E E1                   pop hl
+378   426F F1                   pop af
+379   4270              ; sbc hl,rr
+380   4270 ED 42                sbc hl,bc
+381   4272 ED 52                sbc hl,de
+382   4274 ED 62                sbc hl,hl
+383   4276 ED 72                sbc hl,sp
+384   4278              ; adc hl,rr
+385   4278 ED 4A                adc hl,bc
+386   427A ED 5A                adc hl,de
+387   427C ED 6A                adc hl,hl
+388   427E ED 7A                adc hl,sp
+389   4280              ; jp cc,nn
+390   4280 C2 34 12             jp nz,$1234
+391   4283 CA 34 12             jp z,$1234
+392   4286 D2 34 12             jp nc,$1234
+393   4289 DA 34 12             jp c,$1234
+394   428C E2 34 12             jp po,$1234
+395   428F EA 34 12             jp pe,$1234
+396   4292 F2 34 12             jp p,$1234
+397   4295 FA 34 12             jp m,$1234
+398   4298              ; call cc,nn
+399   4298 C4 34 12             call nz,$1234
+400   429B CC 34 12             call z,$1234
+401   429E D4 34 12             call nc,$1234
+402   42A1 DC 34 12             call c,$1234
+403   42A4 E4 34 12             call po,$1234
+404   42A7 EC 34 12             call pe,$1234
+405   42AA F4 34 12             call p,$1234
+406   42AD FC 34 12             call m,$1234
+407   42B0              ; ret cc
+408   42B0 C0                   ret nz
+409   42B1 C8                   ret z
+410   42B2 D0                   ret nc
+411   42B3 D8                   ret c
+412   42B4 E0                   ret po
+413   42B5 E8                   ret pe
+414   42B6 F0                   ret p
+415   42B7 F8                   ret m
+416   42B8              ; jr cc,e
+417   42B8 20 00                jr nz,$+2
+418   42BA 28 00                jr z,$+2
+419   42BC 30 00                jr nc,$+2
+420   42BE 38 00                jr c,$+2
+421   42C0
+# file closed: families.asm

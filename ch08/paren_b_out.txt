@@ -1,0 +1,2 @@
+paren.asm(7): error: Illegal instruction (can't access memory): ($C000)
+paren.asm(8): error: Illegal instruction (can't access memory): ($C0)

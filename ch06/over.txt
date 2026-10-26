@@ -1,0 +1,10 @@
+> step_in
+> step_in
+> step_in
+> reg pc
+16405
+> step_over
+> reg pc
+16408
+> reg iff
+7

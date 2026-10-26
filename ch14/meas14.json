@@ -1,0 +1,8483 @@
+{
+ "all": {
+  "count": 735,
+  "rows": [
+   {
+    "instr": "in a,($98)",
+    "bytes": [
+     219,
+     152
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,3,4"
+   },
+   {
+    "instr": "out ($98),a",
+    "bytes": [
+     211,
+     152
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,3,4"
+   },
+   {
+    "instr": "in b,(c)",
+    "bytes": [
+     237,
+     64
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "in c,(c)",
+    "bytes": [
+     237,
+     72
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "in d,(c)",
+    "bytes": [
+     237,
+     80
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "in e,(c)",
+    "bytes": [
+     237,
+     88
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "in h,(c)",
+    "bytes": [
+     237,
+     96
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "in l,(c)",
+    "bytes": [
+     237,
+     104
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "in a,(c)",
+    "bytes": [
+     237,
+     120
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "out (c),b",
+    "bytes": [
+     237,
+     65
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "out (c),c",
+    "bytes": [
+     237,
+     73
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "out (c),d",
+    "bytes": [
+     237,
+     81
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "out (c),e",
+    "bytes": [
+     237,
+     89
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "out (c),h",
+    "bytes": [
+     237,
+     97
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "out (c),l",
+    "bytes": [
+     237,
+     105
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "out (c),a",
+    "bytes": [
+     237,
+     121
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "nop",
+    "bytes": [
+     0
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,b",
+    "bytes": [
+     64
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,c",
+    "bytes": [
+     65
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,d",
+    "bytes": [
+     66
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,e",
+    "bytes": [
+     67
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,h",
+    "bytes": [
+     68
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,l",
+    "bytes": [
+     69
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,(hl)",
+    "bytes": [
+     70
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld b,a",
+    "bytes": [
+     71
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld c,b",
+    "bytes": [
+     72
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld c,c",
+    "bytes": [
+     73
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld c,d",
+    "bytes": [
+     74
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld c,e",
+    "bytes": [
+     75
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld c,h",
+    "bytes": [
+     76
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld c,l",
+    "bytes": [
+     77
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld c,(hl)",
+    "bytes": [
+     78
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld c,a",
+    "bytes": [
+     79
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld d,b",
+    "bytes": [
+     80
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld d,c",
+    "bytes": [
+     81
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld d,d",
+    "bytes": [
+     82
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld d,e",
+    "bytes": [
+     83
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld d,h",
+    "bytes": [
+     84
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld d,l",
+    "bytes": [
+     85
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld d,(hl)",
+    "bytes": [
+     86
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld d,a",
+    "bytes": [
+     87
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld e,b",
+    "bytes": [
+     88
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld e,c",
+    "bytes": [
+     89
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld e,d",
+    "bytes": [
+     90
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld e,e",
+    "bytes": [
+     91
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld e,h",
+    "bytes": [
+     92
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld e,l",
+    "bytes": [
+     93
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld e,(hl)",
+    "bytes": [
+     94
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld e,a",
+    "bytes": [
+     95
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld h,b",
+    "bytes": [
+     96
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld h,c",
+    "bytes": [
+     97
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld h,d",
+    "bytes": [
+     98
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld h,e",
+    "bytes": [
+     99
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld h,h",
+    "bytes": [
+     100
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld h,l",
+    "bytes": [
+     101
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld h,(hl)",
+    "bytes": [
+     102
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld h,a",
+    "bytes": [
+     103
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld l,b",
+    "bytes": [
+     104
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld l,c",
+    "bytes": [
+     105
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld l,d",
+    "bytes": [
+     106
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld l,e",
+    "bytes": [
+     107
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld l,h",
+    "bytes": [
+     108
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld l,l",
+    "bytes": [
+     109
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld l,(hl)",
+    "bytes": [
+     110
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld l,a",
+    "bytes": [
+     111
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld (hl),b",
+    "bytes": [
+     112
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (hl),c",
+    "bytes": [
+     113
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (hl),d",
+    "bytes": [
+     114
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (hl),e",
+    "bytes": [
+     115
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (hl),h",
+    "bytes": [
+     116
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (hl),l",
+    "bytes": [
+     117
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (hl),a",
+    "bytes": [
+     119
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld a,b",
+    "bytes": [
+     120
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld a,c",
+    "bytes": [
+     121
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld a,d",
+    "bytes": [
+     122
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld a,e",
+    "bytes": [
+     123
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld a,h",
+    "bytes": [
+     124
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld a,l",
+    "bytes": [
+     125
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld a,(hl)",
+    "bytes": [
+     126
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld a,a",
+    "bytes": [
+     127
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ld b,$5A",
+    "bytes": [
+     6,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld c,$5A",
+    "bytes": [
+     14,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld d,$5A",
+    "bytes": [
+     22,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld e,$5A",
+    "bytes": [
+     30,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld h,$5A",
+    "bytes": [
+     38,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld l,$5A",
+    "bytes": [
+     46,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (hl),$5A",
+    "bytes": [
+     54,
+     90
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "ld a,$5A",
+    "bytes": [
+     62,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "add a,b",
+    "bytes": [
+     128
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "add a,c",
+    "bytes": [
+     129
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "add a,d",
+    "bytes": [
+     130
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "add a,e",
+    "bytes": [
+     131
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "add a,h",
+    "bytes": [
+     132
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "add a,l",
+    "bytes": [
+     133
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "add a,(hl)",
+    "bytes": [
+     134
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "add a,a",
+    "bytes": [
+     135
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "add a,$5A",
+    "bytes": [
+     198,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "adc a,b",
+    "bytes": [
+     136
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "adc a,c",
+    "bytes": [
+     137
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "adc a,d",
+    "bytes": [
+     138
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "adc a,e",
+    "bytes": [
+     139
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "adc a,h",
+    "bytes": [
+     140
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "adc a,l",
+    "bytes": [
+     141
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "adc a,(hl)",
+    "bytes": [
+     142
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "adc a,a",
+    "bytes": [
+     143
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "adc a,$5A",
+    "bytes": [
+     206,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "sub b",
+    "bytes": [
+     144
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sub c",
+    "bytes": [
+     145
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sub d",
+    "bytes": [
+     146
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sub e",
+    "bytes": [
+     147
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sub h",
+    "bytes": [
+     148
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sub l",
+    "bytes": [
+     149
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sub (hl)",
+    "bytes": [
+     150
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "sub a",
+    "bytes": [
+     151
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sub $5A",
+    "bytes": [
+     214,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "sbc a,b",
+    "bytes": [
+     152
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sbc a,c",
+    "bytes": [
+     153
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sbc a,d",
+    "bytes": [
+     154
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sbc a,e",
+    "bytes": [
+     155
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sbc a,h",
+    "bytes": [
+     156
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sbc a,l",
+    "bytes": [
+     157
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sbc a,(hl)",
+    "bytes": [
+     158
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "sbc a,a",
+    "bytes": [
+     159
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "sbc a,$5A",
+    "bytes": [
+     222,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "and b",
+    "bytes": [
+     160
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "and c",
+    "bytes": [
+     161
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "and d",
+    "bytes": [
+     162
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "and e",
+    "bytes": [
+     163
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "and h",
+    "bytes": [
+     164
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "and l",
+    "bytes": [
+     165
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "and (hl)",
+    "bytes": [
+     166
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "and a",
+    "bytes": [
+     167
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "and $5A",
+    "bytes": [
+     230,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "xor b",
+    "bytes": [
+     168
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "xor c",
+    "bytes": [
+     169
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "xor d",
+    "bytes": [
+     170
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "xor e",
+    "bytes": [
+     171
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "xor h",
+    "bytes": [
+     172
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "xor l",
+    "bytes": [
+     173
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "xor (hl)",
+    "bytes": [
+     174
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "xor a",
+    "bytes": [
+     175
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "xor $5A",
+    "bytes": [
+     238,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "or b",
+    "bytes": [
+     176
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "or c",
+    "bytes": [
+     177
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "or d",
+    "bytes": [
+     178
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "or e",
+    "bytes": [
+     179
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "or h",
+    "bytes": [
+     180
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "or l",
+    "bytes": [
+     181
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "or (hl)",
+    "bytes": [
+     182
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "or a",
+    "bytes": [
+     183
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "or $5A",
+    "bytes": [
+     246,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "cp b",
+    "bytes": [
+     184
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cp c",
+    "bytes": [
+     185
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cp d",
+    "bytes": [
+     186
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cp e",
+    "bytes": [
+     187
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cp h",
+    "bytes": [
+     188
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cp l",
+    "bytes": [
+     189
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cp (hl)",
+    "bytes": [
+     190
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "cp a",
+    "bytes": [
+     191
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cp $5A",
+    "bytes": [
+     254,
+     90
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "inc b",
+    "bytes": [
+     4
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "inc c",
+    "bytes": [
+     12
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "inc d",
+    "bytes": [
+     20
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "inc e",
+    "bytes": [
+     28
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "inc h",
+    "bytes": [
+     36
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "inc l",
+    "bytes": [
+     44
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "inc (hl)",
+    "bytes": [
+     52
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,4,3"
+   },
+   {
+    "instr": "inc a",
+    "bytes": [
+     60
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "inc bc",
+    "bytes": [
+     3
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "inc de",
+    "bytes": [
+     19
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "inc hl",
+    "bytes": [
+     35
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "inc sp",
+    "bytes": [
+     51
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "dec b",
+    "bytes": [
+     5
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "dec c",
+    "bytes": [
+     13
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "dec d",
+    "bytes": [
+     21
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "dec e",
+    "bytes": [
+     29
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "dec h",
+    "bytes": [
+     37
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "dec l",
+    "bytes": [
+     45
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "dec (hl)",
+    "bytes": [
+     53
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,4,3"
+   },
+   {
+    "instr": "dec a",
+    "bytes": [
+     61
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "dec bc",
+    "bytes": [
+     11
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "dec de",
+    "bytes": [
+     27
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "dec hl",
+    "bytes": [
+     43
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "dec sp",
+    "bytes": [
+     59
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "add hl,bc",
+    "bytes": [
+     9
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,4,3"
+   },
+   {
+    "instr": "add hl,de",
+    "bytes": [
+     25
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,4,3"
+   },
+   {
+    "instr": "add hl,hl",
+    "bytes": [
+     41
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,4,3"
+   },
+   {
+    "instr": "add hl,sp",
+    "bytes": [
+     57
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "5,4,3"
+   },
+   {
+    "instr": "ld bc,$C098",
+    "bytes": [
+     1,
+     152,
+     192
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "ld de,$C100",
+    "bytes": [
+     17,
+     0,
+     193
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "ld hl,$C200",
+    "bytes": [
+     33,
+     0,
+     194
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "ld sp,SYS_AREA",
+    "bytes": [
+     49,
+     128,
+     243
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "ld a,(bc)",
+    "bytes": [
+     10
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld a,(de)",
+    "bytes": [
+     26
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (bc),a",
+    "bytes": [
+     2
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld (de),a",
+    "bytes": [
+     18
+    ],
+    "t": 8,
+    "zilog": 7,
+    "r": 1,
+    "cycles": "5,3"
+   },
+   {
+    "instr": "ld a,($C500)",
+    "bytes": [
+     58,
+     0,
+     197
+    ],
+    "t": 14,
+    "zilog": 13,
+    "r": 1,
+    "cycles": "5,3,3,3"
+   },
+   {
+    "instr": "ld ($C500),a",
+    "bytes": [
+     50,
+     0,
+     197
+    ],
+    "t": 14,
+    "zilog": 13,
+    "r": 1,
+    "cycles": "5,3,3,3"
+   },
+   {
+    "instr": "ld hl,($C500)",
+    "bytes": [
+     42,
+     0,
+     197
+    ],
+    "t": 17,
+    "zilog": 16,
+    "r": 1,
+    "cycles": "5,3,3,3,3"
+   },
+   {
+    "instr": "ld ($C500),hl",
+    "bytes": [
+     34,
+     0,
+     197
+    ],
+    "t": 17,
+    "zilog": 16,
+    "r": 1,
+    "cycles": "5,3,3,3,3"
+   },
+   {
+    "instr": "ld sp,hl",
+    "bytes": [
+     249
+    ],
+    "t": 7,
+    "zilog": 6,
+    "r": 1,
+    "cycles": "7"
+   },
+   {
+    "instr": "rlca",
+    "bytes": [
+     7
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "rrca",
+    "bytes": [
+     15
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "rla",
+    "bytes": [
+     23
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "rra",
+    "bytes": [
+     31
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "daa",
+    "bytes": [
+     39
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "cpl",
+    "bytes": [
+     47
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "scf",
+    "bytes": [
+     55
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ccf",
+    "bytes": [
+     63
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ex af,af'",
+    "bytes": [
+     8
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "exx",
+    "bytes": [
+     217
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ex de,hl",
+    "bytes": [
+     235
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "ex (sp),hl",
+    "bytes": [
+     227
+    ],
+    "t": 20,
+    "zilog": 19,
+    "r": 1,
+    "cycles": "5,3,4,3,5"
+   },
+   {
+    "instr": "ei",
+    "bytes": [
+     251
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "di",
+    "bytes": [
+     243
+    ],
+    "t": 5,
+    "zilog": 4,
+    "r": 1,
+    "cycles": "5"
+   },
+   {
+    "instr": "push bc",
+    "bytes": [
+     197
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "6,3,3"
+   },
+   {
+    "instr": "pop bc",
+    "bytes": [
+     193
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "push de",
+    "bytes": [
+     213
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "6,3,3"
+   },
+   {
+    "instr": "pop de",
+    "bytes": [
+     209
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "push hl",
+    "bytes": [
+     229
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "6,3,3"
+   },
+   {
+    "instr": "pop hl",
+    "bytes": [
+     225
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "push af",
+    "bytes": [
+     245
+    ],
+    "t": 12,
+    "zilog": 11,
+    "r": 1,
+    "cycles": "6,3,3"
+   },
+   {
+    "instr": "pop af",
+    "bytes": [
+     241
+    ],
+    "t": 11,
+    "zilog": 10,
+    "r": 1,
+    "cycles": "5,3,3"
+   },
+   {
+    "instr": "rlc b",
+    "bytes": [
+     203,
+     0
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rlc c",
+    "bytes": [
+     203,
+     1
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rlc d",
+    "bytes": [
+     203,
+     2
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rlc e",
+    "bytes": [
+     203,
+     3
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rlc h",
+    "bytes": [
+     203,
+     4
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rlc l",
+    "bytes": [
+     203,
+     5
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rlc (hl)",
+    "bytes": [
+     203,
+     6
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "rlc a",
+    "bytes": [
+     203,
+     7
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rrc b",
+    "bytes": [
+     203,
+     8
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rrc c",
+    "bytes": [
+     203,
+     9
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rrc d",
+    "bytes": [
+     203,
+     10
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rrc e",
+    "bytes": [
+     203,
+     11
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rrc h",
+    "bytes": [
+     203,
+     12
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rrc l",
+    "bytes": [
+     203,
+     13
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rrc (hl)",
+    "bytes": [
+     203,
+     14
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "rrc a",
+    "bytes": [
+     203,
+     15
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rl b",
+    "bytes": [
+     203,
+     16
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rl c",
+    "bytes": [
+     203,
+     17
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rl d",
+    "bytes": [
+     203,
+     18
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rl e",
+    "bytes": [
+     203,
+     19
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rl h",
+    "bytes": [
+     203,
+     20
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rl l",
+    "bytes": [
+     203,
+     21
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rl (hl)",
+    "bytes": [
+     203,
+     22
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "rl a",
+    "bytes": [
+     203,
+     23
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rr b",
+    "bytes": [
+     203,
+     24
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rr c",
+    "bytes": [
+     203,
+     25
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rr d",
+    "bytes": [
+     203,
+     26
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rr e",
+    "bytes": [
+     203,
+     27
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rr h",
+    "bytes": [
+     203,
+     28
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rr l",
+    "bytes": [
+     203,
+     29
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "rr (hl)",
+    "bytes": [
+     203,
+     30
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "rr a",
+    "bytes": [
+     203,
+     31
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sla b",
+    "bytes": [
+     203,
+     32
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sla c",
+    "bytes": [
+     203,
+     33
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sla d",
+    "bytes": [
+     203,
+     34
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sla e",
+    "bytes": [
+     203,
+     35
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sla h",
+    "bytes": [
+     203,
+     36
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sla l",
+    "bytes": [
+     203,
+     37
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sla (hl)",
+    "bytes": [
+     203,
+     38
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "sla a",
+    "bytes": [
+     203,
+     39
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sra b",
+    "bytes": [
+     203,
+     40
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sra c",
+    "bytes": [
+     203,
+     41
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sra d",
+    "bytes": [
+     203,
+     42
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sra e",
+    "bytes": [
+     203,
+     43
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sra h",
+    "bytes": [
+     203,
+     44
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sra l",
+    "bytes": [
+     203,
+     45
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sra (hl)",
+    "bytes": [
+     203,
+     46
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "sra a",
+    "bytes": [
+     203,
+     47
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sll b",
+    "bytes": [
+     203,
+     48
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sll c",
+    "bytes": [
+     203,
+     49
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sll d",
+    "bytes": [
+     203,
+     50
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sll e",
+    "bytes": [
+     203,
+     51
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sll h",
+    "bytes": [
+     203,
+     52
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sll l",
+    "bytes": [
+     203,
+     53
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sll (hl)",
+    "bytes": [
+     203,
+     54
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "sll a",
+    "bytes": [
+     203,
+     55
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "srl b",
+    "bytes": [
+     203,
+     56
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "srl c",
+    "bytes": [
+     203,
+     57
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "srl d",
+    "bytes": [
+     203,
+     58
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "srl e",
+    "bytes": [
+     203,
+     59
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "srl h",
+    "bytes": [
+     203,
+     60
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "srl l",
+    "bytes": [
+     203,
+     61
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "srl (hl)",
+    "bytes": [
+     203,
+     62
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "srl a",
+    "bytes": [
+     203,
+     63
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 0,b",
+    "bytes": [
+     203,
+     64
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 0,c",
+    "bytes": [
+     203,
+     65
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 0,d",
+    "bytes": [
+     203,
+     66
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 0,e",
+    "bytes": [
+     203,
+     67
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 0,h",
+    "bytes": [
+     203,
+     68
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 0,l",
+    "bytes": [
+     203,
+     69
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 0,(hl)",
+    "bytes": [
+     203,
+     70
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 0,a",
+    "bytes": [
+     203,
+     71
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 1,b",
+    "bytes": [
+     203,
+     72
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 1,c",
+    "bytes": [
+     203,
+     73
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 1,d",
+    "bytes": [
+     203,
+     74
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 1,e",
+    "bytes": [
+     203,
+     75
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 1,h",
+    "bytes": [
+     203,
+     76
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 1,l",
+    "bytes": [
+     203,
+     77
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 1,(hl)",
+    "bytes": [
+     203,
+     78
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 1,a",
+    "bytes": [
+     203,
+     79
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 2,b",
+    "bytes": [
+     203,
+     80
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 2,c",
+    "bytes": [
+     203,
+     81
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 2,d",
+    "bytes": [
+     203,
+     82
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 2,e",
+    "bytes": [
+     203,
+     83
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 2,h",
+    "bytes": [
+     203,
+     84
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 2,l",
+    "bytes": [
+     203,
+     85
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 2,(hl)",
+    "bytes": [
+     203,
+     86
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 2,a",
+    "bytes": [
+     203,
+     87
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 3,b",
+    "bytes": [
+     203,
+     88
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 3,c",
+    "bytes": [
+     203,
+     89
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 3,d",
+    "bytes": [
+     203,
+     90
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 3,e",
+    "bytes": [
+     203,
+     91
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 3,h",
+    "bytes": [
+     203,
+     92
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 3,l",
+    "bytes": [
+     203,
+     93
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 3,(hl)",
+    "bytes": [
+     203,
+     94
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 3,a",
+    "bytes": [
+     203,
+     95
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 4,b",
+    "bytes": [
+     203,
+     96
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 4,c",
+    "bytes": [
+     203,
+     97
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 4,d",
+    "bytes": [
+     203,
+     98
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 4,e",
+    "bytes": [
+     203,
+     99
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 4,h",
+    "bytes": [
+     203,
+     100
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 4,l",
+    "bytes": [
+     203,
+     101
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 4,(hl)",
+    "bytes": [
+     203,
+     102
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 4,a",
+    "bytes": [
+     203,
+     103
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 5,b",
+    "bytes": [
+     203,
+     104
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 5,c",
+    "bytes": [
+     203,
+     105
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 5,d",
+    "bytes": [
+     203,
+     106
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 5,e",
+    "bytes": [
+     203,
+     107
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 5,h",
+    "bytes": [
+     203,
+     108
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 5,l",
+    "bytes": [
+     203,
+     109
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 5,(hl)",
+    "bytes": [
+     203,
+     110
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 5,a",
+    "bytes": [
+     203,
+     111
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 6,b",
+    "bytes": [
+     203,
+     112
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 6,c",
+    "bytes": [
+     203,
+     113
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 6,d",
+    "bytes": [
+     203,
+     114
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 6,e",
+    "bytes": [
+     203,
+     115
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 6,h",
+    "bytes": [
+     203,
+     116
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 6,l",
+    "bytes": [
+     203,
+     117
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 6,(hl)",
+    "bytes": [
+     203,
+     118
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 6,a",
+    "bytes": [
+     203,
+     119
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 7,b",
+    "bytes": [
+     203,
+     120
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 7,c",
+    "bytes": [
+     203,
+     121
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 7,d",
+    "bytes": [
+     203,
+     122
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 7,e",
+    "bytes": [
+     203,
+     123
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 7,h",
+    "bytes": [
+     203,
+     124
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 7,l",
+    "bytes": [
+     203,
+     125
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "bit 7,(hl)",
+    "bytes": [
+     203,
+     126
+    ],
+    "t": 14,
+    "zilog": 12,
+    "r": 2,
+    "cycles": "5,5,4"
+   },
+   {
+    "instr": "bit 7,a",
+    "bytes": [
+     203,
+     127
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 0,b",
+    "bytes": [
+     203,
+     128
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 0,c",
+    "bytes": [
+     203,
+     129
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 0,d",
+    "bytes": [
+     203,
+     130
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 0,e",
+    "bytes": [
+     203,
+     131
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 0,h",
+    "bytes": [
+     203,
+     132
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 0,l",
+    "bytes": [
+     203,
+     133
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 0,(hl)",
+    "bytes": [
+     203,
+     134
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 0,a",
+    "bytes": [
+     203,
+     135
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 1,b",
+    "bytes": [
+     203,
+     136
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 1,c",
+    "bytes": [
+     203,
+     137
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 1,d",
+    "bytes": [
+     203,
+     138
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 1,e",
+    "bytes": [
+     203,
+     139
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 1,h",
+    "bytes": [
+     203,
+     140
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 1,l",
+    "bytes": [
+     203,
+     141
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 1,(hl)",
+    "bytes": [
+     203,
+     142
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 1,a",
+    "bytes": [
+     203,
+     143
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 2,b",
+    "bytes": [
+     203,
+     144
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 2,c",
+    "bytes": [
+     203,
+     145
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 2,d",
+    "bytes": [
+     203,
+     146
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 2,e",
+    "bytes": [
+     203,
+     147
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 2,h",
+    "bytes": [
+     203,
+     148
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 2,l",
+    "bytes": [
+     203,
+     149
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 2,(hl)",
+    "bytes": [
+     203,
+     150
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 2,a",
+    "bytes": [
+     203,
+     151
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 3,b",
+    "bytes": [
+     203,
+     152
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 3,c",
+    "bytes": [
+     203,
+     153
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 3,d",
+    "bytes": [
+     203,
+     154
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 3,e",
+    "bytes": [
+     203,
+     155
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 3,h",
+    "bytes": [
+     203,
+     156
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 3,l",
+    "bytes": [
+     203,
+     157
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 3,(hl)",
+    "bytes": [
+     203,
+     158
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 3,a",
+    "bytes": [
+     203,
+     159
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 4,b",
+    "bytes": [
+     203,
+     160
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 4,c",
+    "bytes": [
+     203,
+     161
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 4,d",
+    "bytes": [
+     203,
+     162
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 4,e",
+    "bytes": [
+     203,
+     163
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 4,h",
+    "bytes": [
+     203,
+     164
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 4,l",
+    "bytes": [
+     203,
+     165
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 4,(hl)",
+    "bytes": [
+     203,
+     166
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 4,a",
+    "bytes": [
+     203,
+     167
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 5,b",
+    "bytes": [
+     203,
+     168
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 5,c",
+    "bytes": [
+     203,
+     169
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 5,d",
+    "bytes": [
+     203,
+     170
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 5,e",
+    "bytes": [
+     203,
+     171
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 5,h",
+    "bytes": [
+     203,
+     172
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 5,l",
+    "bytes": [
+     203,
+     173
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 5,(hl)",
+    "bytes": [
+     203,
+     174
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 5,a",
+    "bytes": [
+     203,
+     175
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 6,b",
+    "bytes": [
+     203,
+     176
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 6,c",
+    "bytes": [
+     203,
+     177
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 6,d",
+    "bytes": [
+     203,
+     178
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 6,e",
+    "bytes": [
+     203,
+     179
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 6,h",
+    "bytes": [
+     203,
+     180
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 6,l",
+    "bytes": [
+     203,
+     181
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 6,(hl)",
+    "bytes": [
+     203,
+     182
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 6,a",
+    "bytes": [
+     203,
+     183
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 7,b",
+    "bytes": [
+     203,
+     184
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 7,c",
+    "bytes": [
+     203,
+     185
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 7,d",
+    "bytes": [
+     203,
+     186
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 7,e",
+    "bytes": [
+     203,
+     187
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 7,h",
+    "bytes": [
+     203,
+     188
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 7,l",
+    "bytes": [
+     203,
+     189
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "res 7,(hl)",
+    "bytes": [
+     203,
+     190
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "res 7,a",
+    "bytes": [
+     203,
+     191
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 0,b",
+    "bytes": [
+     203,
+     192
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 0,c",
+    "bytes": [
+     203,
+     193
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 0,d",
+    "bytes": [
+     203,
+     194
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 0,e",
+    "bytes": [
+     203,
+     195
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 0,h",
+    "bytes": [
+     203,
+     196
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 0,l",
+    "bytes": [
+     203,
+     197
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 0,(hl)",
+    "bytes": [
+     203,
+     198
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 0,a",
+    "bytes": [
+     203,
+     199
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 1,b",
+    "bytes": [
+     203,
+     200
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 1,c",
+    "bytes": [
+     203,
+     201
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 1,d",
+    "bytes": [
+     203,
+     202
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 1,e",
+    "bytes": [
+     203,
+     203
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 1,h",
+    "bytes": [
+     203,
+     204
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 1,l",
+    "bytes": [
+     203,
+     205
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 1,(hl)",
+    "bytes": [
+     203,
+     206
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 1,a",
+    "bytes": [
+     203,
+     207
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 2,b",
+    "bytes": [
+     203,
+     208
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 2,c",
+    "bytes": [
+     203,
+     209
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 2,d",
+    "bytes": [
+     203,
+     210
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 2,e",
+    "bytes": [
+     203,
+     211
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 2,h",
+    "bytes": [
+     203,
+     212
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 2,l",
+    "bytes": [
+     203,
+     213
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 2,(hl)",
+    "bytes": [
+     203,
+     214
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 2,a",
+    "bytes": [
+     203,
+     215
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 3,b",
+    "bytes": [
+     203,
+     216
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 3,c",
+    "bytes": [
+     203,
+     217
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 3,d",
+    "bytes": [
+     203,
+     218
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 3,e",
+    "bytes": [
+     203,
+     219
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 3,h",
+    "bytes": [
+     203,
+     220
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 3,l",
+    "bytes": [
+     203,
+     221
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 3,(hl)",
+    "bytes": [
+     203,
+     222
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 3,a",
+    "bytes": [
+     203,
+     223
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 4,b",
+    "bytes": [
+     203,
+     224
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 4,c",
+    "bytes": [
+     203,
+     225
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 4,d",
+    "bytes": [
+     203,
+     226
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 4,e",
+    "bytes": [
+     203,
+     227
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 4,h",
+    "bytes": [
+     203,
+     228
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 4,l",
+    "bytes": [
+     203,
+     229
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 4,(hl)",
+    "bytes": [
+     203,
+     230
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 4,a",
+    "bytes": [
+     203,
+     231
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 5,b",
+    "bytes": [
+     203,
+     232
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 5,c",
+    "bytes": [
+     203,
+     233
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 5,d",
+    "bytes": [
+     203,
+     234
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 5,e",
+    "bytes": [
+     203,
+     235
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 5,h",
+    "bytes": [
+     203,
+     236
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 5,l",
+    "bytes": [
+     203,
+     237
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 5,(hl)",
+    "bytes": [
+     203,
+     238
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 5,a",
+    "bytes": [
+     203,
+     239
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 6,b",
+    "bytes": [
+     203,
+     240
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 6,c",
+    "bytes": [
+     203,
+     241
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 6,d",
+    "bytes": [
+     203,
+     242
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 6,e",
+    "bytes": [
+     203,
+     243
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 6,h",
+    "bytes": [
+     203,
+     244
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 6,l",
+    "bytes": [
+     203,
+     245
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 6,(hl)",
+    "bytes": [
+     203,
+     246
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 6,a",
+    "bytes": [
+     203,
+     247
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 7,b",
+    "bytes": [
+     203,
+     248
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 7,c",
+    "bytes": [
+     203,
+     249
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 7,d",
+    "bytes": [
+     203,
+     250
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 7,e",
+    "bytes": [
+     203,
+     251
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 7,h",
+    "bytes": [
+     203,
+     252
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 7,l",
+    "bytes": [
+     203,
+     253
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "set 7,(hl)",
+    "bytes": [
+     203,
+     254
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "set 7,a",
+    "bytes": [
+     203,
+     255
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sbc hl,bc",
+    "bytes": [
+     237,
+     66
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "adc hl,bc",
+    "bytes": [
+     237,
+     74
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "sbc hl,de",
+    "bytes": [
+     237,
+     82
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "adc hl,de",
+    "bytes": [
+     237,
+     90
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "sbc hl,hl",
+    "bytes": [
+     237,
+     98
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "adc hl,hl",
+    "bytes": [
+     237,
+     106
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "sbc hl,sp",
+    "bytes": [
+     237,
+     114
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "adc hl,sp",
+    "bytes": [
+     237,
+     122
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "ld ($C500),bc",
+    "bytes": [
+     237,
+     67,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "ld bc,($C500)",
+    "bytes": [
+     237,
+     75,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "ld ($C500),de",
+    "bytes": [
+     237,
+     83,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "ld de,($C500)",
+    "bytes": [
+     237,
+     91,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "ld ($C500),sp",
+    "bytes": [
+     237,
+     115,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "ld sp,($C500)",
+    "bytes": [
+     237,
+     123,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "neg",
+    "bytes": [
+     237,
+     68
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "im 0",
+    "bytes": [
+     237,
+     70
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "im 2",
+    "bytes": [
+     237,
+     94
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "im 1",
+    "bytes": [
+     237,
+     86
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld i,a",
+    "bytes": [
+     237,
+     71
+    ],
+    "t": 11,
+    "zilog": 9,
+    "r": 2,
+    "cycles": "5,6"
+   },
+   {
+    "instr": "ld r,a",
+    "bytes": [
+     237,
+     79
+    ],
+    "t": 11,
+    "zilog": 9,
+    "r": 23,
+    "cycles": "5,6"
+   },
+   {
+    "instr": "ld a,i",
+    "bytes": [
+     237,
+     87
+    ],
+    "t": 11,
+    "zilog": 9,
+    "r": 2,
+    "cycles": "5,6"
+   },
+   {
+    "instr": "ld a,r",
+    "bytes": [
+     237,
+     95
+    ],
+    "t": 11,
+    "zilog": 9,
+    "r": 2,
+    "cycles": "5,6"
+   },
+   {
+    "instr": "rrd",
+    "bytes": [
+     237,
+     103
+    ],
+    "t": 20,
+    "zilog": 18,
+    "r": 2,
+    "cycles": "5,5,3,4,3"
+   },
+   {
+    "instr": "rld",
+    "bytes": [
+     237,
+     111
+    ],
+    "t": 20,
+    "zilog": 18,
+    "r": 2,
+    "cycles": "5,5,3,4,3"
+   },
+   {
+    "instr": "ld ix,$C300",
+    "bytes": [
+     221,
+     33,
+     0,
+     195
+    ],
+    "t": 16,
+    "zilog": 14,
+    "r": 2,
+    "cycles": "5,5,3,3"
+   },
+   {
+    "instr": "ld ($C500),ix",
+    "bytes": [
+     221,
+     34,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "ld ix,($C500)",
+    "bytes": [
+     221,
+     42,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "inc ix",
+    "bytes": [
+     221,
+     35
+    ],
+    "t": 12,
+    "zilog": 10,
+    "r": 2,
+    "cycles": "5,7"
+   },
+   {
+    "instr": "dec ix",
+    "bytes": [
+     221,
+     43
+    ],
+    "t": 12,
+    "zilog": 10,
+    "r": 2,
+    "cycles": "5,7"
+   },
+   {
+    "instr": "push ix",
+    "bytes": [
+     221,
+     229
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,6,3,3"
+   },
+   {
+    "instr": "pop ix",
+    "bytes": [
+     221,
+     225
+    ],
+    "t": 16,
+    "zilog": 14,
+    "r": 2,
+    "cycles": "5,5,3,3"
+   },
+   {
+    "instr": "ex (sp),ix",
+    "bytes": [
+     221,
+     227
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,4,3,5"
+   },
+   {
+    "instr": "ld sp,ix",
+    "bytes": [
+     221,
+     249
+    ],
+    "t": 12,
+    "zilog": 10,
+    "r": 2,
+    "cycles": "5,7"
+   },
+   {
+    "instr": "add ix,bc",
+    "bytes": [
+     221,
+     9
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "add ix,de",
+    "bytes": [
+     221,
+     25
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "add ix,ix",
+    "bytes": [
+     221,
+     41
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "add ix,sp",
+    "bytes": [
+     221,
+     57
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "ld b,(ix+5)",
+    "bytes": [
+     221,
+     70,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),b",
+    "bytes": [
+     221,
+     112,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld c,(ix+5)",
+    "bytes": [
+     221,
+     78,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),c",
+    "bytes": [
+     221,
+     113,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld d,(ix+5)",
+    "bytes": [
+     221,
+     86,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),d",
+    "bytes": [
+     221,
+     114,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld e,(ix+5)",
+    "bytes": [
+     221,
+     94,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),e",
+    "bytes": [
+     221,
+     115,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld h,(ix+5)",
+    "bytes": [
+     221,
+     102,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),h",
+    "bytes": [
+     221,
+     116,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld l,(ix+5)",
+    "bytes": [
+     221,
+     110,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),l",
+    "bytes": [
+     221,
+     117,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld a,(ix+5)",
+    "bytes": [
+     221,
+     126,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),a",
+    "bytes": [
+     221,
+     119,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (ix+5),$5A",
+    "bytes": [
+     221,
+     54,
+     5,
+     90
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "add a,(ix+5)",
+    "bytes": [
+     221,
+     134,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "add a,ixh",
+    "bytes": [
+     221,
+     132
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "add a,ixl",
+    "bytes": [
+     221,
+     133
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "adc a,(ix+5)",
+    "bytes": [
+     221,
+     142,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "adc a,ixh",
+    "bytes": [
+     221,
+     140
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "adc a,ixl",
+    "bytes": [
+     221,
+     141
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sub (ix+5)",
+    "bytes": [
+     221,
+     150,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "sub ixh",
+    "bytes": [
+     221,
+     148
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sub ixl",
+    "bytes": [
+     221,
+     149
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sbc a,(ix+5)",
+    "bytes": [
+     221,
+     158,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "sbc a,ixh",
+    "bytes": [
+     221,
+     156
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sbc a,ixl",
+    "bytes": [
+     221,
+     157
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "and (ix+5)",
+    "bytes": [
+     221,
+     166,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "and ixh",
+    "bytes": [
+     221,
+     164
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "and ixl",
+    "bytes": [
+     221,
+     165
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "xor (ix+5)",
+    "bytes": [
+     221,
+     174,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "xor ixh",
+    "bytes": [
+     221,
+     172
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "xor ixl",
+    "bytes": [
+     221,
+     173
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "or (ix+5)",
+    "bytes": [
+     221,
+     182,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "or ixh",
+    "bytes": [
+     221,
+     180
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "or ixl",
+    "bytes": [
+     221,
+     181
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "cp (ix+5)",
+    "bytes": [
+     221,
+     190,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "cp ixh",
+    "bytes": [
+     221,
+     188
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "cp ixl",
+    "bytes": [
+     221,
+     189
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "inc (ix+5)",
+    "bytes": [
+     221,
+     52,
+     5
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "dec (ix+5)",
+    "bytes": [
+     221,
+     53,
+     5
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "inc ixh",
+    "bytes": [
+     221,
+     36
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "dec ixh",
+    "bytes": [
+     221,
+     37
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "inc ixl",
+    "bytes": [
+     221,
+     44
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "dec ixl",
+    "bytes": [
+     221,
+     45
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld b,ixh",
+    "bytes": [
+     221,
+     68
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld b,ixl",
+    "bytes": [
+     221,
+     69
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld c,ixh",
+    "bytes": [
+     221,
+     76
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld c,ixl",
+    "bytes": [
+     221,
+     77
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld d,ixh",
+    "bytes": [
+     221,
+     84
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld d,ixl",
+    "bytes": [
+     221,
+     85
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld e,ixh",
+    "bytes": [
+     221,
+     92
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld e,ixl",
+    "bytes": [
+     221,
+     93
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld a,ixh",
+    "bytes": [
+     221,
+     124
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld a,ixl",
+    "bytes": [
+     221,
+     125
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,ixh",
+    "bytes": [
+     221,
+     100
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,ixl",
+    "bytes": [
+     221,
+     101
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixl,ixh",
+    "bytes": [
+     221,
+     108
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixl,ixl",
+    "bytes": [
+     221,
+     109
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,b",
+    "bytes": [
+     221,
+     96
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixl,b",
+    "bytes": [
+     221,
+     104
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,c",
+    "bytes": [
+     221,
+     97
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixl,c",
+    "bytes": [
+     221,
+     105
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,d",
+    "bytes": [
+     221,
+     98
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixl,d",
+    "bytes": [
+     221,
+     106
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,e",
+    "bytes": [
+     221,
+     99
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixl,e",
+    "bytes": [
+     221,
+     107
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,a",
+    "bytes": [
+     221,
+     103
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixl,a",
+    "bytes": [
+     221,
+     111
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld ixh,$5A",
+    "bytes": [
+     221,
+     38,
+     90
+    ],
+    "t": 13,
+    "zilog": 11,
+    "r": 2,
+    "cycles": "5,5,3"
+   },
+   {
+    "instr": "ld ixl,$5A",
+    "bytes": [
+     221,
+     46,
+     90
+    ],
+    "t": 13,
+    "zilog": 11,
+    "r": 2,
+    "cycles": "5,5,3"
+   },
+   {
+    "instr": "rlc (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     6
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "rrc (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     14
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "rl (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     22
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "rr (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     30
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "sla (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     38
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "sra (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     46
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "sll (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     54
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "srl (ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     62
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "bit 0,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     70
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 1,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     78
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 2,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     86
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 3,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     94
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 4,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     102
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 5,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     110
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 6,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     118
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 7,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     126
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "res 0,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     134
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 1,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     142
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 2,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     150
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 3,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     158
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 4,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     166
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 5,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     174
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 6,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     182
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 7,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     190
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 0,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     198
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 1,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     206
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 2,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     214
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 3,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     222
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 4,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     230
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 5,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     238
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 6,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     246
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 7,(ix+5)",
+    "bytes": [
+     221,
+     203,
+     5,
+     254
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "ld iy,$C400",
+    "bytes": [
+     253,
+     33,
+     0,
+     196
+    ],
+    "t": 16,
+    "zilog": 14,
+    "r": 2,
+    "cycles": "5,5,3,3"
+   },
+   {
+    "instr": "ld ($C500),iy",
+    "bytes": [
+     253,
+     34,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "ld iy,($C500)",
+    "bytes": [
+     253,
+     42,
+     0,
+     197
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,3,3,3"
+   },
+   {
+    "instr": "inc iy",
+    "bytes": [
+     253,
+     35
+    ],
+    "t": 12,
+    "zilog": 10,
+    "r": 2,
+    "cycles": "5,7"
+   },
+   {
+    "instr": "dec iy",
+    "bytes": [
+     253,
+     43
+    ],
+    "t": 12,
+    "zilog": 10,
+    "r": 2,
+    "cycles": "5,7"
+   },
+   {
+    "instr": "push iy",
+    "bytes": [
+     253,
+     229
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,6,3,3"
+   },
+   {
+    "instr": "pop iy",
+    "bytes": [
+     253,
+     225
+    ],
+    "t": 16,
+    "zilog": 14,
+    "r": 2,
+    "cycles": "5,5,3,3"
+   },
+   {
+    "instr": "ex (sp),iy",
+    "bytes": [
+     253,
+     227
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,4,3,5"
+   },
+   {
+    "instr": "ld sp,iy",
+    "bytes": [
+     253,
+     249
+    ],
+    "t": 12,
+    "zilog": 10,
+    "r": 2,
+    "cycles": "5,7"
+   },
+   {
+    "instr": "add iy,bc",
+    "bytes": [
+     253,
+     9
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "add iy,de",
+    "bytes": [
+     253,
+     25
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "add iy,iy",
+    "bytes": [
+     253,
+     41
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "add iy,sp",
+    "bytes": [
+     253,
+     57
+    ],
+    "t": 17,
+    "zilog": 15,
+    "r": 2,
+    "cycles": "5,5,4,3"
+   },
+   {
+    "instr": "ld b,(iy+5)",
+    "bytes": [
+     253,
+     70,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),b",
+    "bytes": [
+     253,
+     112,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld c,(iy+5)",
+    "bytes": [
+     253,
+     78,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),c",
+    "bytes": [
+     253,
+     113,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld d,(iy+5)",
+    "bytes": [
+     253,
+     86,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),d",
+    "bytes": [
+     253,
+     114,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld e,(iy+5)",
+    "bytes": [
+     253,
+     94,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),e",
+    "bytes": [
+     253,
+     115,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld h,(iy+5)",
+    "bytes": [
+     253,
+     102,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),h",
+    "bytes": [
+     253,
+     116,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld l,(iy+5)",
+    "bytes": [
+     253,
+     110,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),l",
+    "bytes": [
+     253,
+     117,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld a,(iy+5)",
+    "bytes": [
+     253,
+     126,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),a",
+    "bytes": [
+     253,
+     119,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "ld (iy+5),$5A",
+    "bytes": [
+     253,
+     54,
+     5,
+     90
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "add a,(iy+5)",
+    "bytes": [
+     253,
+     134,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "add a,iyh",
+    "bytes": [
+     253,
+     132
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "add a,iyl",
+    "bytes": [
+     253,
+     133
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "adc a,(iy+5)",
+    "bytes": [
+     253,
+     142,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "adc a,iyh",
+    "bytes": [
+     253,
+     140
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "adc a,iyl",
+    "bytes": [
+     253,
+     141
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sub (iy+5)",
+    "bytes": [
+     253,
+     150,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "sub iyh",
+    "bytes": [
+     253,
+     148
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sub iyl",
+    "bytes": [
+     253,
+     149
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sbc a,(iy+5)",
+    "bytes": [
+     253,
+     158,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "sbc a,iyh",
+    "bytes": [
+     253,
+     156
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "sbc a,iyl",
+    "bytes": [
+     253,
+     157
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "and (iy+5)",
+    "bytes": [
+     253,
+     166,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "and iyh",
+    "bytes": [
+     253,
+     164
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "and iyl",
+    "bytes": [
+     253,
+     165
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "xor (iy+5)",
+    "bytes": [
+     253,
+     174,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "xor iyh",
+    "bytes": [
+     253,
+     172
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "xor iyl",
+    "bytes": [
+     253,
+     173
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "or (iy+5)",
+    "bytes": [
+     253,
+     182,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "or iyh",
+    "bytes": [
+     253,
+     180
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "or iyl",
+    "bytes": [
+     253,
+     181
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "cp (iy+5)",
+    "bytes": [
+     253,
+     190,
+     5
+    ],
+    "t": 21,
+    "zilog": 19,
+    "r": 2,
+    "cycles": "5,5,3,5,3"
+   },
+   {
+    "instr": "cp iyh",
+    "bytes": [
+     253,
+     188
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "cp iyl",
+    "bytes": [
+     253,
+     189
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "inc (iy+5)",
+    "bytes": [
+     253,
+     52,
+     5
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "dec (iy+5)",
+    "bytes": [
+     253,
+     53,
+     5
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "inc iyh",
+    "bytes": [
+     253,
+     36
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "dec iyh",
+    "bytes": [
+     253,
+     37
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "inc iyl",
+    "bytes": [
+     253,
+     44
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "dec iyl",
+    "bytes": [
+     253,
+     45
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld b,iyh",
+    "bytes": [
+     253,
+     68
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld b,iyl",
+    "bytes": [
+     253,
+     69
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld c,iyh",
+    "bytes": [
+     253,
+     76
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld c,iyl",
+    "bytes": [
+     253,
+     77
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld d,iyh",
+    "bytes": [
+     253,
+     84
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld d,iyl",
+    "bytes": [
+     253,
+     85
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld e,iyh",
+    "bytes": [
+     253,
+     92
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld e,iyl",
+    "bytes": [
+     253,
+     93
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld a,iyh",
+    "bytes": [
+     253,
+     124
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld a,iyl",
+    "bytes": [
+     253,
+     125
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,iyh",
+    "bytes": [
+     253,
+     100
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,iyl",
+    "bytes": [
+     253,
+     101
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyl,iyh",
+    "bytes": [
+     253,
+     108
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyl,iyl",
+    "bytes": [
+     253,
+     109
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,b",
+    "bytes": [
+     253,
+     96
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyl,b",
+    "bytes": [
+     253,
+     104
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,c",
+    "bytes": [
+     253,
+     97
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyl,c",
+    "bytes": [
+     253,
+     105
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,d",
+    "bytes": [
+     253,
+     98
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyl,d",
+    "bytes": [
+     253,
+     106
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,e",
+    "bytes": [
+     253,
+     99
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyl,e",
+    "bytes": [
+     253,
+     107
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,a",
+    "bytes": [
+     253,
+     103
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyl,a",
+    "bytes": [
+     253,
+     111
+    ],
+    "t": 10,
+    "zilog": 8,
+    "r": 2,
+    "cycles": "5,5"
+   },
+   {
+    "instr": "ld iyh,$5A",
+    "bytes": [
+     253,
+     38,
+     90
+    ],
+    "t": 13,
+    "zilog": 11,
+    "r": 2,
+    "cycles": "5,5,3"
+   },
+   {
+    "instr": "ld iyl,$5A",
+    "bytes": [
+     253,
+     46,
+     90
+    ],
+    "t": 13,
+    "zilog": 11,
+    "r": 2,
+    "cycles": "5,5,3"
+   },
+   {
+    "instr": "rlc (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     6
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "rrc (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     14
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "rl (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     22
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "rr (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     30
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "sla (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     38
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "sra (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     46
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "sll (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     54
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "srl (iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     62
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "bit 0,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     70
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 1,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     78
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 2,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     86
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 3,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     94
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 4,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     102
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 5,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     110
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 6,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     118
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "bit 7,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     126
+    ],
+    "t": 22,
+    "zilog": 20,
+    "r": 2,
+    "cycles": "5,5,3,5,4"
+   },
+   {
+    "instr": "res 0,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     134
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 1,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     142
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 2,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     150
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 3,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     158
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 4,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     166
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 5,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     174
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 6,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     182
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "res 7,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     190
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 0,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     198
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 1,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     206
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 2,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     214
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 3,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     222
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 4,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     230
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 5,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     238
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 6,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     246
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   },
+   {
+    "instr": "set 7,(iy+5)",
+    "bytes": [
+     253,
+     203,
+     5,
+     254
+    ],
+    "t": 25,
+    "zilog": 23,
+    "r": 2,
+    "cycles": "5,5,3,5,4,3"
+   }
+  ],
+  "kinds": {
+   "none": 209,
+   "ED": 38,
+   "CB": 256,
+   "DD, FD": 168,
+   "DD CB, FD CB": 64
+  },
+  "patterns": {
+   "5,3,4": {
+    "t": 12,
+    "zilog": 11,
+    "n": 2,
+    "first": "in a,($98)"
+   },
+   "5,5,4": {
+    "t": 14,
+    "zilog": 12,
+    "n": 22,
+    "first": "in b,(c)"
+   },
+   "5": {
+    "t": 5,
+    "zilog": 4,
+    "n": 133,
+    "first": "nop"
+   },
+   "5,3": {
+    "t": 8,
+    "zilog": 7,
+    "n": 41,
+    "first": "ld b,(hl)"
+   },
+   "5,3,3": {
+    "t": 11,
+    "zilog": 10,
+    "n": 9,
+    "first": "ld (hl),$5A"
+   },
+   "5,4,3": {
+    "t": 12,
+    "zilog": 11,
+    "n": 6,
+    "first": "inc (hl)"
+   },
+   "7": {
+    "t": 7,
+    "zilog": 6,
+    "n": 9,
+    "first": "inc bc"
+   },
+   "5,3,3,3": {
+    "t": 14,
+    "zilog": 13,
+    "n": 2,
+    "first": "ld a,($C500)"
+   },
+   "5,3,3,3,3": {
+    "t": 17,
+    "zilog": 16,
+    "n": 2,
+    "first": "ld hl,($C500)"
+   },
+   "5,3,4,3,5": {
+    "t": 20,
+    "zilog": 19,
+    "n": 1,
+    "first": "ex (sp),hl"
+   },
+   "6,3,3": {
+    "t": 12,
+    "zilog": 11,
+    "n": 4,
+    "first": "push bc"
+   },
+   "5,5": {
+    "t": 10,
+    "zilog": 8,
+    "n": 316,
+    "first": "rlc b"
+   },
+   "5,5,4,3": {
+    "t": 17,
+    "zilog": 15,
+    "n": 40,
+    "first": "rlc (hl)"
+   },
+   "5,5,3,3,3,3": {
+    "t": 22,
+    "zilog": 20,
+    "n": 10,
+    "first": "ld ($C500),bc"
+   },
+   "5,6": {
+    "t": 11,
+    "zilog": 9,
+    "n": 4,
+    "first": "ld i,a"
+   },
+   "5,5,3,4,3": {
+    "t": 20,
+    "zilog": 18,
+    "n": 2,
+    "first": "rrd"
+   },
+   "5,5,3,3": {
+    "t": 16,
+    "zilog": 14,
+    "n": 4,
+    "first": "ld ix,$C300"
+   },
+   "5,7": {
+    "t": 12,
+    "zilog": 10,
+    "n": 6,
+    "first": "inc ix"
+   },
+   "5,6,3,3": {
+    "t": 17,
+    "zilog": 15,
+    "n": 2,
+    "first": "push ix"
+   },
+   "5,5,3,4,3,5": {
+    "t": 25,
+    "zilog": 23,
+    "n": 2,
+    "first": "ex (sp),ix"
+   },
+   "5,5,3,5,3": {
+    "t": 21,
+    "zilog": 19,
+    "n": 46,
+    "first": "ld b,(ix+5)"
+   },
+   "5,5,3,5,4,3": {
+    "t": 25,
+    "zilog": 23,
+    "n": 52,
+    "first": "inc (ix+5)"
+   },
+   "5,5,3": {
+    "t": 13,
+    "zilog": 11,
+    "n": 4,
+    "first": "ld ixh,$5A"
+   },
+   "5,5,3,5,4": {
+    "t": 22,
+    "zilog": 20,
+    "n": 16,
+    "first": "bit 0,(ix+5)"
+   }
+  },
+  "gen14_prices": 19
+ },
+ "price": {
+  "per_char": 279,
+  "chars": 16,
+  "line": 5205,
+  "cell": 174,
+  "putc_own": 87,
+  "loop_turn": 38,
+  "screen": 214272
+ },
+ "budget": {
+  "eu": {
+   "f0": 10078,
+   "frames": 10,
+   "first_frame": 137,
+   "wait": 37048,
+   "sync": 60064
+  },
+  "jp": {
+   "f0": 15553,
+   "frames": 10,
+   "first_frame": 141,
+   "wait": 25420,
+   "sync": 53911
+  },
+  "starts": [
+   0,
+   4907,
+   12335,
+   22917,
+   24579,
+   28322
+  ],
+  "busy": 34316,
+  "prices": [
+   4867,
+   7388,
+   10542,
+   1622,
+   3703,
+   5913
+  ],
+  "zilog": [
+   4354,
+   6745,
+   9196,
+   1427,
+   3402,
+   5398
+  ],
+  "names": [
+   "nop256",
+   "ldir320",
+   "mirror32",
+   "table32",
+   "push100",
+   "cpir256"
+  ],
+  "rows": [
+   -1,
+   20,
+   53,
+   99,
+   107,
+   123
+  ],
+  "xs": [
+   92,
+   271,
+   127,
+   268,
+   25,
+   167
+  ],
+  "wait_parts": {
+   "eu": [
+    1233,
+    4,
+    4
+   ],
+   "jp": [
+    846,
+    3,
+    2
+   ]
+  },
+  "preamble": 21378,
+  "preamble_parts": [
+   711,
+   4,
+   2
+  ],
+  "vdp_reg": 40,
+  "choose": 30,
+  "pixels": 68160,
+  "frame": 12
+ },
+ "slow": {
+  "turns": 2744,
+  "sevens": 1,
+  "fours": 2,
+  "zilog": 71364,
+  "wait": 82344,
+  "over": 10980,
+  "lines_over": 48.2,
+  "pct": 15.4,
+  "nops_zilog": 1051,
+  "nops": 1309,
+  "nops_pct": 24.5
+ },
+ "answers": {
+  "q1": {
+   "ld (ix+5),a": {
+    "cycles": "5,5,3,5,3",
+    "t": 21
+   },
+   "add a,(iy+5)": {
+    "cycles": "5,5,3,5,3",
+    "t": 21
+   }
+  },
+  "q2": {
+   "inc (hl)": "5,4,3",
+   "ld a,(hl)": "5,3"
+  },
+  "q3": {
+   "turn": 35,
+   "parts": [
+    8,
+    6,
+    7,
+    14
+   ]
+  },
+  "q4": {
+   "t": 233,
+   "saved": 46
+  },
+  "q5": {
+   "t": 1000,
+   "turns": 32,
+   "ld_c": 3,
+   "nops": 2
+  },
+  "q6": {
+   "lines": 13.2
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 5378,
+   "same_values": 5378,
+   "captures": 1,
+   "same_captures": 1,
+   "same_in_drawn": 1,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 5378,
+   "same_values": 5378,
+   "captures": 1,
+   "same_captures": 1,
+   "same_in_drawn": 1,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 5378,
+   "same_values": 5378,
+   "captures": 1,
+   "same_captures": 1,
+   "same_in_drawn": 1,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 5378,
+   "same_values": 5378,
+   "captures": 1,
+   "same_captures": 1,
+   "same_in_drawn": 1,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 5378,
+   "same_values": 5378,
+   "captures": 1,
+   "same_captures": 1,
+   "same_in_drawn": 1,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

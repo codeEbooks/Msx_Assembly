@@ -1,0 +1,422 @@
+#!/usr/bin/env python3
+"""gen55.py - the programs of chapter 55: testing on real hardware.
+
+    python3 gen55.py && ./build.sh
+
+    check.asm   a cartridge to take to a real MSX: it measures, on the machine
+                it runs on, the things in which an emulator and a machine can
+                differ, and writes them on a page:
+                  the RAM as the BIOS left it, eight bytes from $E87C, read
+                  before the cartridge writes a byte of the RAM;
+                  the PSG: register 1 read back (chapter 51);
+                  the processor: the flags 5 and 3 that SCF leaves, after four
+                  sequences that tell the makers of the Z80 apart;
+                  the frame, in turns of 57 T-states (chapter 51);
+                  the VRAM: a run of 240 bytes written while the paper is
+                  drawn at each of nine speeds, 23 to 31 T-states a byte, that
+                  meets every T-state of the line; how many bytes each lost,
+                  and the least speed that lost none
+    dirty.asm   WHERE IT BREAKS: check.asm without the two lines that start
+                that least at $FF: it starts at whatever the RAM held
+
+The page is drawn in Graphic I with the BIOS's own character set, black on
+white (chapter 51). The variables are at $E000, above the 8 KB machine's floor.
+build.sh assembles with --syntax=bFw.
+"""
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.dirname(HERE)
+for ch in ("tools", "ch26", "ch51"):
+    sys.path.insert(0, os.path.join(REPO, ch))
+from asmparts import TEXT_PAGE, CART_END, library, PUTDEC, PUTD16  # noqa: E402
+from gen26 import tidy  # noqa: E402  (chapter 26)
+import gen51  # noqa: E402  (chapter 51: the frame, the PSG, the paper's 40th line)
+
+VARS_AT = gen51.VARS_AT         # $E000
+SAMPLE = 0xE87C                 # eight bytes of the RAM, across a 128-byte boundary
+TURN = gen51.TURN               # 57
+VRAM_AT = 0x3000                # the runs write their bytes one after the other from here
+N_BYTES = 240                   # a run: never $FF, the mark of a byte that did not come
+SPEEDS = list(range(23, 32))    # T-states a byte
+LINE = 228                      # T-states a line
+SHIFT = 5                       # the NOP between two blocks of a run
+
+# each speed's byte, as instructions with their prices; a run is 240 of
+# them in a row, in blocks. OUT (C),A with INC A writes A = 0, 1, 2 ...; OUTI
+# writes the table bytes, 0 to 239, from HL. The fillers do nothing the loop needs:
+# INC DE and LD E,n touch only DE; JP $+3 and JR $+2 go to the next line.
+BYTE = {
+    23: [("outi", 18), ("nop", 5)],
+    24: [("out (c), a", 14), ("inc a", 5), ("nop", 5)],
+    25: [("outi", 18), ("inc de", 7)],
+    26: [("outi", 18), ("ld e, 0", 8)],
+    27: [("out (c), a", 14), ("inc a", 5), ("ld e, 0", 8)],
+    28: [("outi", 18), ("nop", 5), ("nop", 5)],
+    29: [("outi", 18), ("jp $ + 3", 11)],
+    30: [("outi", 18), ("nop", 5), ("inc de", 7)],
+    31: [("outi", 18), ("jr $ + 2", 13)],
+}
+for _t, _seq in BYTE.items():
+    assert sum(c for _, c in _seq) == _t, _t
+
+
+def blocks(t, split=True):
+    """a run of bytes T T-states apart meets, from wherever it starts, only
+    the line's T-states a multiple of g = gcd(T, 228) on, and comes back to
+    the first after 228 / g bytes. So the run is cut into g blocks of
+    228 / g + 1 bytes, the last taking what is left, with a NOP between two:
+    each block starts 5 T-states further on, modulo g, than the one before,
+    and since 5 shares no factor with 228, the g blocks meet every T-state of
+    the line with a byte that has another T T-states after it, wherever the
+    run starts. SPLIT False: the run in one block"""
+    from math import gcd
+    g = gcd(t, LINE) if split else 1
+    if g == 1:
+        return [N_BYTES]
+    n = LINE // g + 1
+    return [n] * (g - 1) + [N_BYTES - n * (g - 1)]
+
+
+for _t in SPEEDS:
+    _b = blocks(_t)
+    assert sum(_b) == N_BYTES and _b[-1] >= _b[0] >= LINE // len(_b) + 1, _t
+    assert sorted({(SHIFT * r) % len(_b) for r in range(len(_b))}) == list(range(len(_b))), _t
+BLOCKS = [len(blocks(t)) for t in SPEEDS]
+assert VRAM_AT + len(SPEEDS) * N_BYTES <= 0x4000 and N_BYTES < 0xFF
+
+# where each answer is written: (row, column)
+AT = {"title": (0, 1), "ram": (2, 1), "rambytes": (3, 1), "psg": (5, 1), "scf": (6, 1),
+      "frame": (7, 1), "vram": (9, 1), "speeds": (10, 1), "lost": (11, 1), "least": (12, 1)}
+LABELS = {"title": "THIS MSX, MEASURED", "ram": f"RAM at INIT, ${SAMPLE:04X} on:",
+          "psg": "PSG R1 reads", "scf": "SCF, bits 5 and 3:", "frame": "frame",
+          "vram": f"VRAM: bytes lost of {N_BYTES}", "speeds": "T", "lost": "lost",
+          "least": "none lost from"}
+CELLS = 5                       # the speeds' and the counts' first column; three a cell
+
+
+def head(name, what):
+    return gen51.head(name, what).replace("chapter 51:", "chapter 55:").replace(
+        "generated by gen51.py", "generated by gen55.py")
+
+
+EQUS = f"""        INCLUDE "bios.inc"
+ramb    EQU VARS + $10          ; the eight bytes of the RAM at ${SAMPLE:04X}, as INIT found them
+psgr    EQU VARS + $18          ; PSG register 1, read back
+xy      EQU VARS + $19          ; bits 5 and 3 of F after each SCF: 4
+turns   EQU VARS + $1E          ; the frame, in turns of {TURN} T-states
+lines   EQU VARS + $20          ; and in lines
+delay   EQU VARS + $22          ; 30-T turns from the flag to the paper's line 40
+lost    EQU VARS + $24          ; the bytes the run of each speed lost: {len(SPEEDS)}
+least   EQU VARS + $2D          ; the least speed that lost none
+"""
+assert gen51.EQUS.count("turns   EQU VARS + $16") == 1      # gen51.FRAME's names, ours here
+
+# INIT: the RAM looked at before anything writes to it: LDIR writes only at ramb
+SAMPLE_RAM = f"""        ld hl, ${SAMPLE:04X}           ; the RAM as the BIOS left it: nothing
+        ld de, ramb             ; of the cartridge's has been written yet
+        ld bc, 8
+        ldir
+"""
+
+# the page with the display off: the blocks the loops write, all $FF, and the labels
+DRAW = f"""        VRAM_WRITE ${VRAM_AT:04X}        ; where the runs write: {len(SPEEDS)} x {N_BYTES} bytes of $FF
+        ld bc, {len(SPEEDS) * N_BYTES}
+        ld a, $FF
+.fill:  out (VDP_DATA), a
+        dec bc
+        ld a, b
+        or c
+        ld a, $FF
+        jr nz, .fill
+""" + "".join(f"""        ld b, {AT[k][0]}
+        ld c, {AT[k][1]}
+        ld hl, l_{k}
+        call puts
+""" for k in LABELS)
+
+# the four sequences: in each, A and F's bits 5 and 3 before SCF, and whether
+# the instruction just before it changed the flags
+FLAG_CASES = [
+    ("ld a, $28", "cp $28", "ld a, 0", "case 1: A 0, F's bits $28, LD between"),
+    ("xor a", "cp $28", None, "case 2: A 0, F's bits $28, CP just before"),
+    ("ld a, $28", "cp 0", None, "case 3: A $28, F's bits 0, CP just before"),
+    ("ld a, $28", "cp 0", "nop", "case 4: A $28, F's bits 0, NOP between"),
+]
+
+
+def flags(op="scf"):
+    out = []
+    for k, (set_a, cp, between, what) in enumerate(FLAG_CASES):
+        lab = "flags:  " if k == 0 else "        "
+        out.append(f"{lab}{set_a:<24}; {what}")
+        out.append(f"        {cp}")
+        if between:
+            out.append(f"        {between}")
+        out.append(f"        {op}")
+        out.append("        push af")
+        out.append("        pop hl                  ; L: F")
+        out.append("        ld a, l")
+        out.append("        and $28                 ; bits 5 and 3")
+        out.append(f"        ld (xy + {k}), a")
+    return "\n".join(out) + "\n"
+
+
+# the least speed that lost none starts above every speed; dirty.asm leaves it out
+LEAST0 = """        ld a, $FF               ; above every speed: none found yet
+        ld (least), a
+"""
+
+
+def loops():
+    """the runs: each waits for the paper's 40th line, sets the address and
+    calls its speed's bytes"""
+    out = []
+    at = VRAM_AT
+    for t in SPEEDS:
+        lab = "vram:   " if at == VRAM_AT else "        "
+        out.append(f"{lab}call paper40            ; the run of {t} T-states a byte")
+        out.append(f"        VRAM_WRITE ${at:04X}")
+        out.append("        ld c, VDP_DATA")
+        if BYTE[t][0][0] == "outi":
+            out.append("        ld hl, bytes")
+        else:
+            out.append("        xor a                   ; the first byte: 0")
+        out.append(f"        call w{t}")
+        at += N_BYTES
+    out.append("        jp count")
+    return "\n".join(out) + "\n"
+
+
+def writers(split=True):
+    """for each speed, its bytes in a row, block by block, and RET"""
+    out = []
+    for t in SPEEDS:
+        bl = blocks(t, split)
+        if len(bl) == 1:
+            out.append(f"\n; w{t}: {N_BYTES} bytes to the VDP, one every {t} T-states")
+        else:
+            last = "" if bl[-1] == bl[0] else f", the last of {bl[-1]}"
+            out.append(f"\n; w{t}: {N_BYTES} bytes to the VDP, one every {t} T-states, in {len(bl)} "
+                       f"blocks\n; of {bl[0]}{last}, a NOP between two")
+        body = [f"        {ins:<24}; {c:>2}" for ins, c in BYTE[t]]
+        lab = f"w{t}:    "
+        if len(bl) > 2:
+            out.append(f"{lab}DUP {len(bl) - 1}")
+            lab = "        "
+        for k, n in enumerate(bl if len(bl) <= 2 else bl[:1] + bl[-1:]):
+            out.append(f"{lab}DUP {n}")
+            lab = "        "
+            out += body
+            out.append("        EDUP")
+            if k == 0 and len(bl) > 1:
+                out.append(f"        nop                     ;  {SHIFT}  the next block {SHIFT} T-states later")
+                if len(bl) > 2:
+                    out.append("        EDUP")
+        out.append("        ret")
+    return "\n".join(out) + "\n"
+
+
+COUNT = f"""count:  ld a, low ${VRAM_AT:04X}         ; the runs read back: a byte that came
+        out (VDP_CTRL), a       ; is no longer $FF
+        ld a, high ${VRAM_AT:04X}        ; bit 6 clear: an address to read from
+        out (VDP_CTRL), a
+        ld hl, lost
+        ld de, speeds
+        ld c, {len(SPEEDS)}
+.speed: ld b, {N_BYTES}
+        xor a
+        ld (hl), a              ; none lost yet
+.byte:  in a, (VDP_DATA)        ; 12
+        inc a                   ;  5  $FF becomes 0
+        jr nz, .came            ;  8 / 13
+        inc (hl)                ; 12  one more lost
+.came:  djnz .byte              ; 14: 44 or 51 a byte
+        ld a, (hl)              ; the bytes the run of this speed lost
+        inc hl
+        or a
+        jr nz, .next            ; some lost: not a speed that lost none
+        ld a, (de)              ; this speed
+        push hl
+        ld hl, least
+        cp (hl)                 ; carry: less than the least so far
+        jr nc, .keep
+        ld (hl), a
+.keep:  pop hl
+.next:  inc de
+        dec c
+        jr nz, .speed
+"""
+
+PSG_SAY = """        ld a, (psgr)
+        call puthex
+        inc c
+        ld a, (psgr)
+        ld hl, l_ym
+        cp $FF                  ; a YM2149 keeps all eight bits
+        jr z, .chip
+        ld hl, l_ay
+        cp $0F                  ; an AY-3-8910 the four of a coarse tune
+        jr z, .chip
+        ld hl, l_unknown
+.chip:  call puts
+"""
+
+
+def col_after(k):
+    return AT[k][1] + len(LABELS[k]) + 1
+
+
+SHOW = f"""show:   ld b, {AT['rambytes'][0]}
+        ld c, {AT['rambytes'][1]}
+        ld hl, ramb
+        ld e, 8
+.ram:   ld a, (hl)
+        call puthex
+        inc c
+        inc hl
+        dec e
+        jr nz, .ram
+        ld b, {AT['psg'][0]}
+        ld c, {col_after('psg')}
+{PSG_SAY}        ld b, {AT['scf'][0]}
+        ld c, {col_after('scf')}
+        ld hl, xy
+        ld e, {len(FLAG_CASES)}
+.xy:    ld a, (hl)
+        call puthex
+        inc c
+        inc hl
+        dec e
+        jr nz, .xy
+        ld b, {AT['frame'][0]}
+        ld c, {col_after('frame') - 1}
+        ld hl, (turns)
+        call putd16
+        ld hl, l_turn
+        call puts
+        ld b, {AT['speeds'][0]}
+        ld c, {CELLS}
+        ld hl, speeds
+        ld e, {len(SPEEDS)}
+.t:     ld a, (hl)
+        push de
+        push hl
+        call putdec
+        pop hl
+        pop de
+        inc hl
+        dec e
+        jr nz, .t
+        ld b, {AT['lost'][0]}
+        ld c, {CELLS}
+        ld hl, lost
+        ld e, {len(SPEEDS)}
+.n:     ld a, (hl)
+        push de
+        push hl
+        call putdec
+        pop hl
+        pop de
+        inc hl
+        dec e
+        jr nz, .n
+        ld b, {AT['least'][0]}
+        ld c, {col_after('least') - 1}
+        ld a, (least)
+        call putdec
+        inc c
+        ld a, 'T'
+        call putc
+done:   jr done
+"""
+
+
+def texts():
+    out = []
+    for k, s in LABELS.items():
+        assert AT[k][1] + len(s) <= 31, k
+        out.append(f'l_{k}: db "{s}", 0')
+    out += [f'l_turn: db " x {TURN} T", 0', 'l_ym: db "YM2149", 0', 'l_ay: db "AY-3-8910", 0',
+            'l_unknown: db "?", 0']
+    out.append("speeds: db " + ", ".join(str(t) for t in SPEEDS) + "    ; T-states a byte")
+    out.append("        ALIGN 256")
+    out.append(f"bytes:                          ; the OUTI loops' {N_BYTES} bytes: 0 to {N_BYTES - 1}")
+    out += ["        db " + ", ".join(str(i) for i in range(k, k + 16)) for k in range(0, N_BYTES, 16)]
+    return "\n".join(out) + "\n"
+
+
+SAY = {
+    "check": """; A cartridge for a real MSX. It measures what an emulator may get wrong: the
+; RAM as the BIOS left it, the PSG, the flags SCF leaves, the frame, and how
+; fast the VDP takes a byte while the paper is drawn; and writes it on a page.
+""",
+    "dirty": """; WHERE IT BREAKS. check.asm without the two lines that start the least speed
+; at $FF: it starts at whatever the RAM held.
+""",
+}
+WHAT = {"check": "this MSX, measured", "dirty": "a variable the RAM sets"}
+
+
+def program(name, split=True, least_at=None, ccf=False):
+    """the program NAME; the workshop's variants: SPLIT False, each run in one
+    block; LEAST_AT, the least speed kept elsewhere in VARS; CCF, CCF for SCF"""
+    page = TEXT_PAGE.replace("        ld sp, SYS_AREA\n", "        ld sp, SYS_AREA\n" + SAMPLE_RAM, 1)
+    assert page != TEXT_PAGE
+    body = (page + DRAW + gen51.ASK_PSG + flags("ccf" if ccf else "scf") + gen51.FRAME +
+            (LEAST0 if name == "check" else "") + loops() + COUNT + SHOW + writers(split) +
+            gen51.PAPER40 + library(PUTDEC, PUTD16) + texts())
+    equs = EQUS
+    if least_at is not None:
+        old = "least   EQU VARS + $2D"
+        assert equs.count(old) == 1 and least_at > 0x2D
+        equs = equs.replace(old, f"least   EQU VARS + ${least_at:02X}")
+    return head(name, WHAT[name]) + equs + SAY[name] + tidy(body) + CART_END
+
+
+PROGRAMS = ["check", "dirty"]
+
+# ---------------------------------------------------------------- two machines
+# The book's reference machine with its RAM switched on as two real MSX1s'
+# was: openMSX's own descriptions of the Philips VG 8010 and of the Canon V-20
+# give their RAM these first bytes (openMSX's <initialContent>, repeated over
+# the whole RAM). Without one, openMSX fills the RAM with $FF.
+RAM_STATES = {
+    "MSXBOOK_EU16B": ("MSX1 EU 16K RAM 00/FF", bytes(128) + b"\xff" * 128,
+                      "128 bytes of $00, then 128 of $FF, over and over, as openMSX's description "
+                      "of the Philips VG 8010 has it"),
+    "MSXBOOK_EU16S": ("MSX1 EU 16K RAM FF00", b"\xff\x00",
+                      "$FF, $00, over and over, as openMSX's description of the Canon V-20 has it"),
+}
+RAM_TAG = """      <RAM id="Main RAM">
+        <mem base="0xC000" size="0x4000"/>
+      </RAM>
+"""
+
+
+def machine(name):
+    base = open(os.path.join(REPO, "machines", "MSXBOOK_EU16.xml")).read()
+    code, first, how = RAM_STATES[name]
+    old_code = "<code>MSX1 EU 16K</code>"
+    old_desc = base[base.index("<description>"):base.index("</description>") + len("</description>")]
+    assert base.count(RAM_TAG) == 1 and base.count(old_code) == 1
+    ram = RAM_TAG.replace("      </RAM>\n", f'        <initialContent encoding="hex">{first.hex().upper()}'
+                                            "</initialContent>\n      </RAM>\n")
+    return (base.replace(RAM_TAG, ram).replace(old_code, f"<code>{code}</code>")
+            .replace(old_desc, "<description>The book's reference machine with its RAM switched on "
+                     f"as a real MSX1's: {how} (chapter 55).</description>"))
+
+
+def main():
+    for name in PROGRAMS:
+        with open(os.path.join(HERE, f"{name}.asm"), "w") as f:
+            f.write(program(name))
+    for name in RAM_STATES:
+        with open(os.path.join(REPO, "machines", f"{name}.xml"), "w") as f:
+            f.write(machine(name))
+    print(" ".join(f"{n}.asm" for n in PROGRAMS) + " " + " ".join(f"../machines/{n}.xml" for n in RAM_STATES))
+
+
+if __name__ == "__main__":
+    main()

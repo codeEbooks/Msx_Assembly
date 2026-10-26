@@ -1,0 +1,15 @@
+# file opened: notation.asm
+ 1    0000              ; notation.asm - one byte, written six ways, and a 16-bit number.
+ 2    0000              ; Not a program: assemble it with --lst and read the listing.
+ 3    0000                      OUTPUT "notation.bin"
+ 4    0000                      ORG $4000
+ 5    4000 FF                   db 255          ; decimal
+ 6    4001 FF                   db $FF          ; hex, as in this book
+ 7    4002 FF                   db #FF          ; hex, another prefix
+ 8    4003 FF                   db 0FFh         ; hex, a suffix
+ 9    4004 FF                   db 0xFF         ; hex, as in C
+10    4005 FF                   db %11111111    ; binary
+11    4006 34 12                dw $1234        ; 16 bits: 2 bytes
+12    4008 21 34 12             ld hl,$1234     ; an instruction too
+13    400B
+# file closed: notation.asm

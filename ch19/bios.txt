@@ -1,0 +1,25 @@
+> disasm 0x004D 1
+004D  jp     #024d        C3 4D 02
+> disasm [peek16 0x004E] 5
+024D  push   af           F5
+024E  call   #0260        CD 60 02
+0251  pop    af           F1
+0252  out    (#98),a      D3 98
+0254  ret                 C9
+> disasm [peek16 0x0054] 9
+0260  di                  F3
+0261  ld     a,l          7D
+0262  out    (#99),a      D3 99
+0264  ld     a,h          7C
+0265  and    #3f          E6 3F
+0267  or     #40          F6 40
+0269  out    (#99),a      D3 99
+026B  ei                  FB
+026C  ret                 C9
+> disasm 0x004A 1
+004A  jp     #0245        C3 45 02
+> disasm [peek16 0x004B] 4
+0245  call   #0255        CD 55 02
+0248  or     #00          F6 00
+024A  in     a,(#98)      DB 98
+024C  ret                 C9

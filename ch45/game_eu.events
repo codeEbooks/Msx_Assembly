@@ -1,0 +1,129 @@
+# game_eu.events -- chapter 45: the keys of the walk planned for the 50 Hz machine,
+# written by model45.py: a frame (from INIT) and the keys held from then on
+85 space
+86 -
+88 up
+130 -
+132 up
+136 right up
+156 right
+176 right up
+183 right
+187 -
+189 up
+194 right up
+197 up
+216 right up
+226 right
+259 right up
+260 up
+263 -
+265 up
+337 -
+339 up
+353 right up
+370 right
+407 -
+409 m
+411 -
+470 m
+472 right
+501 down right
+509 down
+519 down right
+529 down
+533 -
+535 down
+607 -
+609 down
+624 down left
+634 down
+667 down right
+677 down
+681 -
+683 down
+700 down left
+714 left
+741 down left
+744 left
+748 -
+750 right
+751 -
+752 right
+782 right up
+786 up
+799 right up
+813 up
+816 -
+817 up
+828 left up
+838 up
+875 right up
+885 up
+889 -
+890 up
+962 -
+963 up
+977 left up
+987 left
+1014 left up
+1020 left
+1025 -
+1026 left
+1062 down left
+1063 down
+1080 down left
+1090 down
+1093 -
+1094 left
+1098 down left
+1115 left
+1129 down left
+1145 left
+1149 -
+1151 left
+1161 left up
+1162 left
+1163 left up
+1175 left
+1181 left up
+1198 up
+1202 -
+1204 left
+1208 left up
+1211 left
+1228 left up
+1255 left
+1259 -
+1261 left
+1284 down left
+1292 down
+1296 down left
+1312 down
+1315 -
+1317 down
+1389 -
+1391 down
+1395 right
+1424 down right
+1428 down
+1444 down right
+1454 right
+1458 -
+1459 right
+1475 down right
+1490 down
+1494 down right
+1510 down
+1513 -
+1514 down
+1518 left
+1524 down left
+1525 left
+1526 down left
+1541 left
+1548 down left
+1561 left
+1566 -
+1568 m
+1570 -

@@ -1,0 +1,9 @@
+> cpuregs
+AF =5580  BC =1234  DE =5678  HL =9ABC
+AF'=AA44  BC'=1111  DE'=2222  HL'=3333
+IX =C000  IY =C010  PC =4037  SP =F380
+I  =00    R  =0E    IM =00    IFF=00
+> reg b
+18
+> reg c
+52

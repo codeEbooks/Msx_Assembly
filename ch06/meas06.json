@@ -1,0 +1,338 @@
+{
+ "stop": {
+  "session": [
+   [
+    "reg pc",
+    "16409",
+    false
+   ],
+   [
+    "debug set_bp 0x4010",
+    "bp#1",
+    false
+   ],
+   [
+    "reset",
+    "",
+    false
+   ],
+   [
+    "cpuregs",
+    "AF =1F08  BC =0101  DE =4010  HL =4004\nAF'=C480  BC'=04F3  DE'=01FF  HL'=2467\nIX =4010  IY =0104  PC =4010  SP =F2EC\nI  =00    R  =1D    IM =00    IFF=00",
+    false
+   ],
+   [
+    "disasm",
+    "4010  di                  F3\n4011  ld     a,#03        3E 03\n4013  out    (#99),a      D3 99\n4015  ld     a,#87        3E 87\n4017  out    (#99),a      D3 99\n4019  jr     #4019        18 FE\n401B  rst    38h          FF\n401C  rst    38h          FF\n",
+    false
+   ]
+  ],
+  "registers": {
+   "AF": "1F08",
+   "BC": "0101",
+   "DE": "4010",
+   "HL": "4004",
+   "AF'": "C480",
+   "BC'": "04F3",
+   "DE'": "01FF",
+   "HL'": "2467",
+   "IX": "4010",
+   "IY": "0104",
+   "PC": "4010",
+   "SP": "F2EC",
+   "I": "00",
+   "R": "1D",
+   "IM": "00",
+   "IFF": "00"
+  },
+  "disasm_lines": 8,
+  "same_as_chapter_3": [
+   "AF",
+   "BC",
+   "DE",
+   "HL",
+   "I",
+   "IX",
+   "IY",
+   "SP"
+  ]
+ },
+ "step": {
+  "session": [
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "reg a",
+    "3",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "debug read {VDP register latch status} 0",
+    "1",
+    false
+   ],
+   [
+    "debug read {VDP regs} 7",
+    "244",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "debug read {VDP register latch status} 0",
+    "0",
+    false
+   ],
+   [
+    "debug read {VDP regs} 7",
+    "3",
+    false
+   ],
+   [
+    "reg pc",
+    "16409",
+    false
+   ]
+  ],
+  "latch_readable": true
+ },
+ "watch": {
+  "session": [
+   [
+    "debug set_watchpoint write_io 0x99",
+    "wp#1",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16405",
+    false
+   ],
+   [
+    "debug read {VDP data latch value} 0",
+    "3",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16409",
+    false
+   ],
+   [
+    "debug read {VDP regs} 7",
+    "3",
+    false
+   ]
+  ],
+  "cbios_writes_before_init": 366
+ },
+ "over": {
+  "session": [
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16405",
+    false
+   ],
+   [
+    "step_over",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16408",
+    false
+   ],
+   [
+    "reg iff",
+    "7",
+    false
+   ]
+  ],
+  "step_in_pc": 71,
+  "iff": "7"
+ },
+ "write": {
+  "session": [
+   [
+    "debug write {VDP regs} 7 1",
+    "",
+    false
+   ],
+   [
+    "set a 0x1A82",
+    "0x1A82",
+    false
+   ],
+   [
+    "foreach c [split \"Written by the console\" \"\"] { vpoke $a [scan $c %c]; incr a }",
+    "",
+    false
+   ]
+  ],
+  "row20": "Written by the console",
+  "frames": [
+   60,
+   62
+  ]
+ },
+ "dollar": {
+  "session": [
+   [
+    "debug read memory 0x4010",
+    "243",
+    false
+   ],
+   [
+    "debug read memory 4010",
+    "0",
+    false
+   ],
+   [
+    "debug read memory $4010",
+    "can't read \"4010\": no such variable",
+    true
+   ],
+   [
+    "format %04X 4010",
+    "0FAA",
+    false
+   ]
+  ],
+  "bios_byte_4010": 0
+ },
+ "time": {
+  "output": [
+   "info: INIT to stop: 45 T-states"
+  ],
+  "t_states": 45
+ },
+ "answers": {
+  "byte_0038": "195",
+  "disasm_0038": "0038  jp     #18e6        C3 E6 18\n003B  jp     #114e        C3 4E 11\n",
+  "biosway_time": [
+   "info: INIT to stop: 190 T-states"
+  ],
+  "biosway_stop": "4018",
+  "writes_through_reset": 368
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 151,
+   "same_values": 144,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [
+    "ch06/step/session/4/1",
+    "ch06/step/session/4/2",
+    "ch06/step/session/8/1",
+    "ch06/step/session/8/2",
+    "ch06/step/latch_readable",
+    "ch06/watch/session/3/1",
+    "ch06/watch/session/3/2"
+   ],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 151,
+   "same_values": 144,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [
+    "ch06/step/session/4/1",
+    "ch06/step/session/4/2",
+    "ch06/step/session/8/1",
+    "ch06/step/session/8/2",
+    "ch06/step/latch_readable",
+    "ch06/watch/session/3/1",
+    "ch06/watch/session/3/2"
+   ],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 151,
+   "same_values": 151,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 151,
+   "same_values": 151,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 151,
+   "same_values": 151,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

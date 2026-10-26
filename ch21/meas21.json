@@ -1,0 +1,978 @@
+{
+ "modes": {
+  "text": {
+   "eu": {
+    "wrong": 0,
+    "mode": "text",
+    "bases": {
+     "names": 0,
+     "colours": 0,
+     "patterns": 2048
+    },
+    "fidelity": {
+     "shape": 0,
+     "colour": 9856,
+     "ink": 9856
+    },
+    "bios_bytes": 13691,
+    "text_x0": 9
+   },
+   "jp": {
+    "wrong": 0,
+    "mode": "text",
+    "bases": {
+     "names": 0,
+     "colours": 0,
+     "patterns": 2048
+    },
+    "fidelity": {
+     "shape": 0,
+     "colour": 9856,
+     "ink": 9856
+    },
+    "bios_bytes": 13677,
+    "text_x0": 9
+   },
+   "reads": {
+    "names": 960,
+    "patterns": 2048,
+    "colours": 0
+   }
+  },
+  "graphic1": {
+   "eu": {
+    "wrong": 0,
+    "mode": "graphic1",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "fidelity": {
+     "shape": 0,
+     "colour": 448,
+     "ink": 9856
+    },
+    "bios_bytes": 13641
+   },
+   "jp": {
+    "wrong": 0,
+    "mode": "graphic1",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "fidelity": {
+     "shape": 0,
+     "colour": 448,
+     "ink": 9856
+    },
+    "bios_bytes": 13623
+   },
+   "reads": {
+    "names": 768,
+    "patterns": 2048,
+    "colours": 32
+   }
+  },
+  "graphic2": {
+   "eu": {
+    "wrong": 0,
+    "mode": "graphic2",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "fidelity": {
+     "shape": 0,
+     "colour": 0,
+     "ink": 9856
+    },
+    "bios_bytes": 4067
+   },
+   "jp": {
+    "wrong": 0,
+    "mode": "graphic2",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "fidelity": {
+     "shape": 0,
+     "colour": 0,
+     "ink": 9856
+    },
+    "bios_bytes": 4066
+   },
+   "reads": {
+    "names": 768,
+    "patterns": 6144,
+    "colours": 6144
+   }
+  },
+  "multi": {
+   "eu": {
+    "wrong": 0,
+    "mode": "multicolour",
+    "bases": {
+     "names": 2048,
+     "colours": 0,
+     "patterns": 0
+    },
+    "fidelity": {
+     "shape": 288,
+     "colour": 0,
+     "ink": 9712
+    },
+    "bios_bytes": 14085
+   },
+   "jp": {
+    "wrong": 0,
+    "mode": "multicolour",
+    "bases": {
+     "names": 2048,
+     "colours": 0,
+     "patterns": 0
+    },
+    "fidelity": {
+     "shape": 288,
+     "colour": 0,
+     "ink": 9712
+    },
+    "bios_bytes": 14085
+   },
+   "reads": {
+    "names": 768,
+    "patterns": 2048,
+    "colours": 0
+   }
+  }
+ },
+ "keep": {
+  "kept": [
+   3,
+   251,
+   15,
+   255,
+   7,
+   127,
+   7,
+   255
+  ],
+  "bits": [
+   2,
+   7,
+   4,
+   8,
+   3,
+   7,
+   3,
+   8
+  ]
+ },
+ "bios": {
+  "eu": {
+   "INITXT": {
+    "t": 92516,
+    "window": 93032,
+    "interrupts": 1,
+    "isr_t": [
+     516
+    ],
+    "regs": [
+     0,
+     240,
+     0,
+     128,
+     1,
+     54,
+     7,
+     244
+    ],
+    "bytes": 3008,
+    "vars": {
+     "names": 0,
+     "colours": 0,
+     "patterns": 2048,
+     "attributes": 0,
+     "sprites": 0
+    },
+    "mode": "text",
+    "bases": {
+     "names": 0,
+     "colours": 8192,
+     "patterns": 2048
+    },
+    "chgmod_t": 92633,
+    "chgmod_window": 93149,
+    "chgmod_interrupts": 1,
+    "chgmod_isr_t": [
+     516
+    ],
+    "chgmod_same": true
+   },
+   "INIT32": {
+    "t": 96981,
+    "window": 98013,
+    "interrupts": 2,
+    "isr_t": [
+     516,
+     516
+    ],
+    "regs": [
+     0,
+     224,
+     6,
+     128,
+     0,
+     54,
+     7,
+     244
+    ],
+    "bytes": 2976,
+    "vars": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0,
+     "attributes": 6912,
+     "sprites": 14336
+    },
+    "mode": "graphic1",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "chgmod_t": 97098,
+    "chgmod_window": 98130,
+    "chgmod_interrupts": 2,
+    "chgmod_isr_t": [
+     516,
+     516
+    ],
+    "chgmod_same": true
+   },
+   "INIGRP": {
+    "t": 403835,
+    "window": 406931,
+    "interrupts": 6,
+    "isr_t": [
+     516,
+     516,
+     516,
+     516,
+     516,
+     516
+    ],
+    "regs": [
+     2,
+     224,
+     6,
+     255,
+     3,
+     54,
+     7,
+     244
+    ],
+    "bytes": 13184,
+    "vars": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0,
+     "attributes": 6912,
+     "sprites": 14336
+    },
+    "mode": "graphic2",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "chgmod_t": 403952,
+    "chgmod_window": 406532,
+    "chgmod_interrupts": 5,
+    "chgmod_isr_t": [
+     516,
+     516,
+     516,
+     516,
+     516
+    ],
+    "chgmod_same": true
+   },
+   "INIMLT": {
+    "t": 98038,
+    "window": 98554,
+    "interrupts": 1,
+    "isr_t": [
+     516
+    ],
+    "regs": [
+     0,
+     232,
+     2,
+     0,
+     0,
+     54,
+     7,
+     244
+    ],
+    "bytes": 2944,
+    "vars": {
+     "names": 2048,
+     "colours": 0,
+     "patterns": 0,
+     "attributes": 6912,
+     "sprites": 14336
+    },
+    "mode": "multicolour",
+    "bases": {
+     "names": 2048,
+     "colours": 0,
+     "patterns": 0
+    },
+    "chgmod_t": 98155,
+    "chgmod_window": 99187,
+    "chgmod_interrupts": 2,
+    "chgmod_isr_t": [
+     516,
+     516
+    ],
+    "chgmod_same": true
+   }
+  },
+  "jp": {
+   "INITXT": {
+    "t": 92516,
+    "window": 93032,
+    "interrupts": 1,
+    "isr_t": [
+     516
+    ],
+    "regs": [
+     0,
+     240,
+     0,
+     128,
+     1,
+     54,
+     7,
+     247
+    ],
+    "bytes": 3008,
+    "vars": {
+     "names": 0,
+     "colours": 0,
+     "patterns": 2048,
+     "attributes": 0,
+     "sprites": 0
+    },
+    "mode": "text",
+    "bases": {
+     "names": 0,
+     "colours": 8192,
+     "patterns": 2048
+    },
+    "chgmod_t": 92633,
+    "chgmod_window": 93149,
+    "chgmod_interrupts": 1,
+    "chgmod_isr_t": [
+     516
+    ],
+    "chgmod_same": true
+   },
+   "INIT32": {
+    "t": 96981,
+    "window": 98013,
+    "interrupts": 2,
+    "isr_t": [
+     516,
+     516
+    ],
+    "regs": [
+     0,
+     224,
+     6,
+     128,
+     0,
+     54,
+     7,
+     247
+    ],
+    "bytes": 2976,
+    "vars": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0,
+     "attributes": 6912,
+     "sprites": 14336
+    },
+    "mode": "graphic1",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "chgmod_t": 97098,
+    "chgmod_window": 98130,
+    "chgmod_interrupts": 2,
+    "chgmod_isr_t": [
+     516,
+     516
+    ],
+    "chgmod_same": true
+   },
+   "INIGRP": {
+    "t": 403835,
+    "window": 407447,
+    "interrupts": 7,
+    "isr_t": [
+     516,
+     516,
+     516,
+     516,
+     516,
+     516,
+     516
+    ],
+    "regs": [
+     2,
+     224,
+     6,
+     255,
+     3,
+     54,
+     7,
+     247
+    ],
+    "bytes": 13184,
+    "vars": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0,
+     "attributes": 6912,
+     "sprites": 14336
+    },
+    "mode": "graphic2",
+    "bases": {
+     "names": 6144,
+     "colours": 8192,
+     "patterns": 0
+    },
+    "chgmod_t": 403952,
+    "chgmod_window": 407564,
+    "chgmod_interrupts": 7,
+    "chgmod_isr_t": [
+     516,
+     516,
+     516,
+     516,
+     516,
+     516,
+     516
+    ],
+    "chgmod_same": true
+   },
+   "INIMLT": {
+    "t": 98038,
+    "window": 99070,
+    "interrupts": 2,
+    "isr_t": [
+     516,
+     516
+    ],
+    "regs": [
+     0,
+     232,
+     2,
+     0,
+     0,
+     54,
+     7,
+     247
+    ],
+    "bytes": 2944,
+    "vars": {
+     "names": 2048,
+     "colours": 0,
+     "patterns": 0,
+     "attributes": 6912,
+     "sprites": 14336
+    },
+    "mode": "multicolour",
+    "bases": {
+     "names": 2048,
+     "colours": 0,
+     "patterns": 0
+    },
+    "chgmod_t": 98155,
+    "chgmod_window": 98671,
+    "chgmod_interrupts": 1,
+    "chgmod_isr_t": [
+     516
+    ],
+    "chgmod_same": true
+   }
+  },
+  "INITXT": {
+   "t": 92516
+  },
+  "INIT32": {
+   "t": 96981
+  },
+  "INIGRP": {
+   "t": 403835
+  },
+  "INIMLT": {
+   "t": 98038
+  },
+  "chgmod_dispatch": 117,
+  "irq": 516,
+  "interrupts": 22
+ },
+ "chars": {
+  "eu": {
+   "g1": {
+    "film": 7,
+    "mode": "graphic1",
+    "ink": 3626,
+    "text_x0": null
+   },
+   "tx": {
+    "film": 15,
+    "mode": "text",
+    "ink": 3345,
+    "text_x0": 9
+   },
+   "cut_from_font": 281,
+   "chars_cut": 44,
+   "chars_cut_32_127": 0
+  },
+  "jp": {
+   "g1": {
+    "film": 7,
+    "mode": "graphic1",
+    "ink": 3384,
+    "text_x0": null
+   },
+   "tx": {
+    "film": 15,
+    "mode": "text",
+    "ink": 3299,
+    "text_x0": 9
+   },
+   "cut_from_font": 85,
+   "chars_cut": 34,
+   "chars_cut_32_127": 10
+  }
+ },
+ "bands": {
+  "eu": {
+   "wrong": 0,
+   "rows_right": 24
+  },
+  "jp": {
+   "wrong": 0,
+   "rows_right": 24
+  }
+ },
+ "flip": {
+  "eu": {
+   "shots": [
+    {
+     "film": 5,
+     "r2": 6,
+     "names": 6144
+    },
+    {
+     "film": 13,
+     "r2": 7,
+     "names": 7168
+    },
+    {
+     "film": 21,
+     "r2": 6,
+     "names": 6144
+    }
+   ],
+   "p7": [
+    9,
+    25
+   ],
+   "p6": [
+    17,
+    33
+   ]
+  },
+  "jp": {
+   "shots": [
+    {
+     "film": 5,
+     "r2": 6,
+     "names": 6144
+    },
+    {
+     "film": 13,
+     "r2": 7,
+     "names": 7168
+    },
+    {
+     "film": 21,
+     "r2": 6,
+     "names": 6144
+    }
+   ],
+   "p7": [
+    9,
+    25
+   ],
+   "p6": [
+    17,
+    33
+   ]
+  }
+ },
+ "bits": {
+  "eu": [
+   {
+    "frame": 12,
+    "film": 15,
+    "regs": [
+     0,
+     192,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "graphic1",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 7792
+   },
+   {
+    "frame": 20,
+    "film": 23,
+    "regs": [
+     0,
+     208,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "text",
+    "wrong": 0,
+    "text_x0": 9,
+    "ink_pixels": 9770
+   },
+   {
+    "frame": 28,
+    "film": 31,
+    "regs": [
+     0,
+     200,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "multicolour",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 16608
+   },
+   {
+    "frame": 36,
+    "film": 39,
+    "regs": [
+     0,
+     216,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "text+multicolour",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 30720
+   },
+   {
+    "frame": 44,
+    "film": 47,
+    "regs": [
+     0,
+     208,
+     6,
+     128,
+     0,
+     54,
+     7,
+     15
+    ],
+    "mode": "text",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 0
+   }
+  ],
+  "jp": [
+   {
+    "frame": 12,
+    "film": 15,
+    "regs": [
+     0,
+     192,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "graphic1",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 7823
+   },
+   {
+    "frame": 20,
+    "film": 23,
+    "regs": [
+     0,
+     208,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "text",
+    "wrong": 0,
+    "text_x0": 9,
+    "ink_pixels": 9322
+   },
+   {
+    "frame": 28,
+    "film": 31,
+    "regs": [
+     0,
+     200,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "multicolour",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 22416
+   },
+   {
+    "frame": 36,
+    "film": 39,
+    "regs": [
+     0,
+     216,
+     6,
+     128,
+     0,
+     54,
+     7,
+     31
+    ],
+    "mode": "text+multicolour",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 30720
+   },
+   {
+    "frame": 44,
+    "film": 47,
+    "regs": [
+     0,
+     208,
+     6,
+     128,
+     0,
+     54,
+     7,
+     15
+    ],
+    "mode": "text",
+    "wrong": 0,
+    "text_x0": null,
+    "ink_pixels": 0
+   }
+  ]
+ },
+ "switch": {
+  "eu": {
+   "t": 136251,
+   "film": 15,
+   "before": 7,
+   "mode": "text",
+   "regs": [
+    0,
+    208,
+    0,
+    128,
+    1,
+    54,
+    7,
+    31
+   ],
+   "wrong": 0,
+   "text_x0": 9,
+   "frames": 1.9092399529174373
+  },
+  "jp": {
+   "t": 136251,
+   "film": 16,
+   "before": 7,
+   "mode": "text",
+   "regs": [
+    0,
+    208,
+    0,
+    128,
+    1,
+    54,
+    7,
+    31
+   ],
+   "wrong": 0,
+   "text_x0": 9,
+   "frames": 2.2808858979509843
+  },
+  "priced": {
+   "start": 113,
+   "shapes": 47267,
+   "spaces": 48046,
+   "names": 40705,
+   "registers": 120
+  }
+ },
+ "answers": {
+  "q1": {
+   "characters": 192,
+   "names": 192
+  },
+  "q2": 14336,
+  "q3": {
+   "eu": 0,
+   "jp": 0
+  },
+  "q4": 0,
+  "q5": [
+   2,
+   3
+  ],
+  "q6": {
+   "INIT32": {
+    "bytes": 2976,
+    "t": 96981,
+    "t_per_byte": 32.6
+   },
+   "INIGRP": {
+    "bytes": 13184,
+    "t": 403835,
+    "t_per_byte": 30.6
+   }
+  }
+ },
+ "builds": {
+  "17.0": 9,
+  "18.0": 9,
+  "19.1": 9,
+  "20.0": 9,
+  "21.0": 6
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 593,
+   "same_values": 593,
+   "captures": 34,
+   "same_captures": 34,
+   "same_in_drawn": 34,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 593,
+   "same_values": 593,
+   "captures": 34,
+   "same_captures": 34,
+   "same_in_drawn": 34,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 593,
+   "same_values": 593,
+   "captures": 34,
+   "same_captures": 34,
+   "same_in_drawn": 34,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 593,
+   "same_values": 593,
+   "captures": 34,
+   "same_captures": 34,
+   "same_in_drawn": 34,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 593,
+   "same_values": 579,
+   "captures": 34,
+   "same_captures": 26,
+   "same_in_drawn": 26,
+   "failed": [],
+   "different": [
+    "ch21/modes/text/eu/fidelity/shape",
+    "ch21/modes/text/eu/fidelity/colour",
+    "ch21/modes/text/eu/fidelity/ink",
+    "ch21/modes/text/eu/text_x0",
+    "ch21/modes/text/jp/fidelity/shape",
+    "ch21/modes/text/jp/fidelity/colour",
+    "ch21/modes/text/jp/fidelity/ink",
+    "ch21/modes/text/jp/text_x0",
+    "ch21/chars/eu/tx/text_x0",
+    "ch21/chars/jp/tx/text_x0",
+    "ch21/bits/eu/1/text_x0",
+    "ch21/bits/jp/1/text_x0",
+    "ch21/switch/eu/text_x0",
+    "ch21/switch/jp/text_x0"
+   ],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

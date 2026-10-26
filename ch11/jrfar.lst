@@ -1,0 +1,13 @@
+# file opened: jrfar.asm
+ 1    0000              ; jrfar.asm -- chapter 11: JR as far as it goes. The distance counts from
+ 2    0000              ; the byte after the JR, and it is one signed byte: 127 forward, 128 back.
+ 3    0000              ; Not a cartridge: build.sh assembles it into a listing, jrfar.lst.
+ 4    0000                      ORG $4000
+ 5    4000 18 7F        fwd:    jr ahead                ; 127 bytes on from the next instruction
+ 6    4002 00 00 00...          ds 127
+ 7    4081 00           ahead:  nop
+ 8    4082 00           behind: nop
+ 9    4083 00 00 00...          ds 125
+10    4100 18 80        back:   jr behind               ; 128 bytes back from the next instruction
+11    4102
+# file closed: jrfar.asm

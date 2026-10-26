@@ -1,0 +1,8 @@
+> debug read "VDP regs" 7
+15
+> debug read "VRAM pointer" 1
+7
+> debug read "VRAM pointer" 0
+16
+> debug read VRAM 0x070F
+42

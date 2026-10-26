@@ -1,0 +1,1903 @@
+{
+ "beat": {
+  "MSXBOOK_EU16": {
+   "first_line": 72,
+   "lost": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    97,
+    98,
+    99,
+    100,
+    101,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    161,
+    162,
+    163,
+    164,
+    165,
+    182,
+    183,
+    184,
+    185,
+    203,
+    204,
+    205,
+    206,
+    207
+   ],
+   "runs": [
+    [
+     33,
+     37
+    ],
+    [
+     54,
+     59
+    ],
+    [
+     75,
+     80
+    ],
+    [
+     97,
+     101
+    ],
+    [
+     118,
+     123
+    ],
+    [
+     139,
+     144
+    ],
+    [
+     161,
+     165
+    ],
+    [
+     182,
+     185
+    ],
+    [
+     203,
+     207
+    ]
+   ],
+   "pairs": 228,
+   "lines": [
+    72,
+    186
+   ]
+  },
+  "MSXBOOK_JP16": {
+   "first_line": 45,
+   "lost": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    97,
+    98,
+    99,
+    100,
+    101,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    161,
+    162,
+    163,
+    164,
+    165,
+    182,
+    183,
+    184,
+    185,
+    203,
+    204,
+    205,
+    206,
+    207
+   ],
+   "runs": [
+    [
+     33,
+     37
+    ],
+    [
+     54,
+     59
+    ],
+    [
+     75,
+     80
+    ],
+    [
+     97,
+     101
+    ],
+    [
+     118,
+     123
+    ],
+    [
+     139,
+     144
+    ],
+    [
+     161,
+     165
+    ],
+    [
+     182,
+     185
+    ],
+    [
+     203,
+     207
+    ]
+   ],
+   "pairs": 228,
+   "lines": [
+    45,
+    159
+   ]
+  }
+ },
+ "beats": {
+  "12": {
+   "lost": 133,
+   "runs": [
+    [
+     1,
+     7
+    ],
+    [
+     19,
+     24
+    ],
+    [
+     33,
+     45
+    ],
+    [
+     54,
+     67
+    ],
+    [
+     75,
+     88
+    ],
+    [
+     97,
+     109
+    ],
+    [
+     118,
+     131
+    ],
+    [
+     139,
+     152
+    ],
+    [
+     161,
+     173
+    ],
+    [
+     182,
+     193
+    ],
+    [
+     203,
+     215
+    ]
+   ],
+   "lines": {
+    "eu": [
+     72,
+     186
+    ],
+    "jp": [
+     45,
+     159
+    ]
+   }
+  },
+  "17": {
+   "lost": 78,
+   "runs": [
+    [
+     1,
+     2
+    ],
+    [
+     19,
+     19
+    ],
+    [
+     33,
+     40
+    ],
+    [
+     54,
+     62
+    ],
+    [
+     75,
+     83
+    ],
+    [
+     97,
+     104
+    ],
+    [
+     118,
+     126
+    ],
+    [
+     139,
+     147
+    ],
+    [
+     161,
+     168
+    ],
+    [
+     182,
+     188
+    ],
+    [
+     203,
+     210
+    ]
+   ],
+   "lines": {
+    "eu": [
+     72,
+     186
+    ],
+    "jp": [
+     45,
+     159
+    ]
+   }
+  },
+  "24": {
+   "lost": 12,
+   "runs": [
+    [
+     33,
+     33
+    ],
+    [
+     54,
+     55
+    ],
+    [
+     75,
+     76
+    ],
+    [
+     97,
+     97
+    ],
+    [
+     118,
+     119
+    ],
+    [
+     139,
+     140
+    ],
+    [
+     161,
+     161
+    ],
+    [
+     203,
+     203
+    ]
+   ],
+   "lines": {
+    "eu": [
+     72,
+     190
+    ],
+    "jp": [
+     45,
+     163
+    ]
+   }
+  },
+  "25": {
+   "lost": 4,
+   "runs": [
+    [
+     54,
+     54
+    ],
+    [
+     75,
+     75
+    ],
+    [
+     118,
+     118
+    ],
+    [
+     139,
+     139
+    ]
+   ],
+   "lines": {
+    "eu": [
+     72,
+     196
+    ],
+    "jp": [
+     45,
+     169
+    ]
+   }
+  },
+  "26": {
+   "lost": 0,
+   "runs": [],
+   "lines": {
+    "eu": [
+     72,
+     192
+    ],
+    "jp": [
+     45,
+     165
+    ]
+   }
+  }
+ },
+ "probe": {
+  "MSXBOOK_EU16": {
+   "pairs": 13312,
+   "by_gap": {
+    "12": {
+     "paper": 608,
+     "paper_lost": 356,
+     "other": 416,
+     "other_lost": 0
+    },
+    "14": {
+     "paper": 597,
+     "paper_lost": 299,
+     "other": 427,
+     "other_lost": 0
+    },
+    "17": {
+     "paper": 662,
+     "paper_lost": 213,
+     "other": 362,
+     "other_lost": 0
+    },
+    "18": {
+     "paper": 653,
+     "paper_lost": 199,
+     "other": 371,
+     "other_lost": 0
+    },
+    "19": {
+     "paper": 573,
+     "paper_lost": 145,
+     "other": 451,
+     "other_lost": 0
+    },
+    "20": {
+     "paper": 642,
+     "paper_lost": 135,
+     "other": 382,
+     "other_lost": 0
+    },
+    "21": {
+     "paper": 663,
+     "paper_lost": 106,
+     "other": 361,
+     "other_lost": 0
+    },
+    "22": {
+     "paper": 606,
+     "paper_lost": 81,
+     "other": 418,
+     "other_lost": 0
+    },
+    "23": {
+     "paper": 598,
+     "paper_lost": 49,
+     "other": 426,
+     "other_lost": 0
+    },
+    "24": {
+     "paper": 663,
+     "paper_lost": 37,
+     "other": 361,
+     "other_lost": 0
+    },
+    "25": {
+     "paper": 650,
+     "paper_lost": 10,
+     "other": 374,
+     "other_lost": 0
+    },
+    "26": {
+     "paper": 573,
+     "paper_lost": 0,
+     "other": 451,
+     "other_lost": 0
+    },
+    "27": {
+     "paper": 644,
+     "paper_lost": 0,
+     "other": 380,
+     "other_lost": 0
+    }
+   },
+   "reach_ok": [
+    27,
+    28
+   ],
+   "reach_all": true,
+   "border_ok": [
+    0,
+    222
+   ],
+   "near": 342,
+   "sheet_wrong": 6502,
+   "sheet_t": 28.64
+  },
+  "MSXBOOK_JP16": {
+   "pairs": 13312,
+   "by_gap": {
+    "12": {
+     "paper": 756,
+     "paper_lost": 442,
+     "other": 268,
+     "other_lost": 0
+    },
+    "14": {
+     "paper": 744,
+     "paper_lost": 371,
+     "other": 280,
+     "other_lost": 0
+    },
+    "17": {
+     "paper": 745,
+     "paper_lost": 229,
+     "other": 279,
+     "other_lost": 0
+    },
+    "18": {
+     "paper": 746,
+     "paper_lost": 219,
+     "other": 278,
+     "other_lost": 0
+    },
+    "19": {
+     "paper": 746,
+     "paper_lost": 195,
+     "other": 278,
+     "other_lost": 0
+    },
+    "20": {
+     "paper": 745,
+     "paper_lost": 160,
+     "other": 279,
+     "other_lost": 0
+    },
+    "21": {
+     "paper": 745,
+     "paper_lost": 124,
+     "other": 279,
+     "other_lost": 0
+    },
+    "22": {
+     "paper": 744,
+     "paper_lost": 104,
+     "other": 280,
+     "other_lost": 0
+    },
+    "23": {
+     "paper": 745,
+     "paper_lost": 62,
+     "other": 279,
+     "other_lost": 0
+    },
+    "24": {
+     "paper": 746,
+     "paper_lost": 36,
+     "other": 278,
+     "other_lost": 0
+    },
+    "25": {
+     "paper": 754,
+     "paper_lost": 15,
+     "other": 270,
+     "other_lost": 0
+    },
+    "26": {
+     "paper": 765,
+     "paper_lost": 0,
+     "other": 259,
+     "other_lost": 0
+    },
+    "27": {
+     "paper": 765,
+     "paper_lost": 0,
+     "other": 259,
+     "other_lost": 0
+    }
+   },
+   "reach_ok": [
+    27,
+    28
+   ],
+   "reach_all": true,
+   "border_ok": [
+    133,
+    210
+   ],
+   "near": 405,
+   "sheet_wrong": 7789,
+   "sheet_t": 28.64
+  }
+ },
+ "speeds": {
+  "MSXBOOK_EU16": {
+   "23": {
+    "lost": 5,
+    "model": 5,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     109,
+     81.0
+    ],
+    "end": [
+     118,
+     214.0
+    ],
+    "in_paper": 96
+   },
+   "25": {
+    "lost": 1,
+    "model": 1,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     109,
+     79.0
+    ],
+    "end": [
+     119,
+     174.0
+    ],
+    "in_paper": 96
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     109,
+     75.0
+    ],
+    "end": [
+     120,
+     37.0
+    ],
+    "in_paper": 96
+   },
+   "27": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     27.0
+    ],
+    "start": [
+     109,
+     83.0
+    ],
+    "end": [
+     120,
+     140.0
+    ],
+    "in_paper": 96
+   },
+   "29": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     29.0
+    ],
+    "start": [
+     109,
+     82.0
+    ],
+    "end": [
+     121,
+     101.0
+    ],
+    "in_paper": 96
+   },
+   "31": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     31.0
+    ],
+    "start": [
+     109,
+     82.0
+    ],
+    "end": [
+     122,
+     63.0
+    ],
+    "in_paper": 96
+   }
+  },
+  "MSXBOOK_JP16": {
+   "23": {
+    "lost": 6,
+    "model": 6,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     82,
+     80.0
+    ],
+    "end": [
+     91,
+     213.0
+    ],
+    "in_paper": 96
+   },
+   "25": {
+    "lost": 2,
+    "model": 2,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     82,
+     78.0
+    ],
+    "end": [
+     92,
+     173.0
+    ],
+    "in_paper": 96
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     82,
+     74.0
+    ],
+    "end": [
+     93,
+     36.0
+    ],
+    "in_paper": 96
+   },
+   "27": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     27.0
+    ],
+    "start": [
+     82,
+     82.0
+    ],
+    "end": [
+     93,
+     139.0
+    ],
+    "in_paper": 96
+   },
+   "29": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     29.0
+    ],
+    "start": [
+     82,
+     81.0
+    ],
+    "end": [
+     94,
+     100.0
+    ],
+    "in_paper": 96
+   },
+   "31": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     31.0
+    ],
+    "start": [
+     82,
+     81.0
+    ],
+    "end": [
+     95,
+     62.0
+    ],
+    "in_paper": 96
+   }
+  }
+ },
+ "blank": {
+  "MSXBOOK_EU16": {
+   "18": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     18.0
+    ],
+    "start": [
+     262,
+     134.0
+    ],
+    "end": [
+     267,
+     128.0
+    ],
+    "in_paper": 0
+   },
+   "23": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     262,
+     142.0
+    ],
+    "end": [
+     268,
+     223.0
+    ],
+    "in_paper": 0
+   },
+   "25": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     262,
+     139.0
+    ],
+    "end": [
+     269,
+     118.0
+    ],
+    "in_paper": 0
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     262,
+     135.0
+    ],
+    "end": [
+     269,
+     177.0
+    ],
+    "in_paper": 0
+   },
+   "27": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     27.0
+    ],
+    "start": [
+     262,
+     141.0
+    ],
+    "end": [
+     270,
+     18.0
+    ],
+    "in_paper": 0
+   },
+   "29": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     29.0
+    ],
+    "start": [
+     262,
+     141.0
+    ],
+    "end": [
+     270,
+     144.0
+    ],
+    "in_paper": 0
+   },
+   "31": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     31.0
+    ],
+    "start": [
+     262,
+     143.0
+    ],
+    "end": [
+     271,
+     44.0
+    ],
+    "in_paper": 0
+   }
+  },
+  "MSXBOOK_JP16": {
+   "18": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     18.0
+    ],
+    "start": [
+     235,
+     132.0
+    ],
+    "end": [
+     240,
+     126.0
+    ],
+    "in_paper": 0
+   },
+   "23": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     235,
+     143.0
+    ],
+    "end": [
+     241,
+     224.0
+    ],
+    "in_paper": 0
+   },
+   "25": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     235,
+     138.0
+    ],
+    "end": [
+     242,
+     117.0
+    ],
+    "in_paper": 0
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     235,
+     132.0
+    ],
+    "end": [
+     242,
+     174.0
+    ],
+    "in_paper": 0
+   },
+   "27": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     27.0
+    ],
+    "start": [
+     235,
+     141.0
+    ],
+    "end": [
+     243,
+     18.0
+    ],
+    "in_paper": 0
+   },
+   "29": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     29.0
+    ],
+    "start": [
+     235,
+     139.0
+    ],
+    "end": [
+     243,
+     142.0
+    ],
+    "in_paper": 0
+   },
+   "31": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     31.0
+    ],
+    "start": [
+     235,
+     139.0
+    ],
+    "end": [
+     244,
+     40.0
+    ],
+    "in_paper": 0
+   }
+  }
+ },
+ "off": {
+  "MSXBOOK_EU16": {
+   "18": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     18.0
+    ],
+    "start": [
+     157,
+     70.0
+    ],
+    "end": [
+     162,
+     64.0
+    ],
+    "in_paper": 0
+   },
+   "23": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     162,
+     149.0
+    ],
+    "end": [
+     169,
+     2.0
+    ],
+    "in_paper": 0
+   },
+   "25": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     169,
+     86.0
+    ],
+    "end": [
+     176,
+     65.0
+    ],
+    "in_paper": 0
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     176,
+     142.0
+    ],
+    "end": [
+     183,
+     184.0
+    ],
+    "in_paper": 0
+   },
+   "27": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     27.0
+    ],
+    "start": [
+     184,
+     50.0
+    ],
+    "end": [
+     191,
+     155.0
+    ],
+    "in_paper": 0
+   },
+   "29": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     29.0
+    ],
+    "start": [
+     192,
+     12.0
+    ],
+    "end": [
+     200,
+     15.0
+    ],
+    "in_paper": 0
+   },
+   "31": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     31.0
+    ],
+    "start": [
+     200,
+     111.0
+    ],
+    "end": [
+     209,
+     12.0
+    ],
+    "in_paper": 0
+   }
+  },
+  "MSXBOOK_JP16": {
+   "18": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     18.0
+    ],
+    "start": [
+     227,
+     128.0
+    ],
+    "end": [
+     232,
+     122.0
+    ],
+    "in_paper": 0
+   },
+   "23": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     232,
+     207.0
+    ],
+    "end": [
+     239,
+     60.0
+    ],
+    "in_paper": 0
+   },
+   "25": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     239,
+     144.0
+    ],
+    "end": [
+     246,
+     123.0
+    ],
+    "in_paper": 0
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     246,
+     200.0
+    ],
+    "end": [
+     254,
+     14.0
+    ],
+    "in_paper": 0
+   },
+   "27": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     27.0
+    ],
+    "start": [
+     254,
+     108.0
+    ],
+    "end": [
+     261,
+     213.0
+    ],
+    "in_paper": 0
+   },
+   "29": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     29.0
+    ],
+    "start": [
+     0,
+     70.0
+    ],
+    "end": [
+     8,
+     73.0
+    ],
+    "in_paper": 0
+   },
+   "31": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     31.0
+    ],
+    "start": [
+     8,
+     169.0
+    ],
+    "end": [
+     17,
+     70.0
+    ],
+    "in_paper": 0
+   }
+  }
+ },
+ "edge": {
+  "top": {
+   "MSXBOOK_EU16": {
+    "border_ok": [
+     0,
+     216
+    ],
+    "border_all": true,
+    "bytes": 128,
+    "starts_in_paper": false,
+    "cross": 59,
+    "cross_at": [
+     69,
+     36.0
+    ],
+    "before_cross_at": [
+     69,
+     18.0
+    ],
+    "first_lost": 59,
+    "first_lost_at": [
+     69,
+     36.0
+    ],
+    "last_lost": 126,
+    "last_lost_at": [
+     74,
+     102.0
+    ],
+    "lost": 10,
+    "start": [
+     64,
+     114.0
+    ],
+    "end": [
+     74,
+     120.0
+    ]
+   },
+   "MSXBOOK_JP16": {
+    "border_ok": [
+     0,
+     210
+    ],
+    "border_all": true,
+    "bytes": 128,
+    "starts_in_paper": false,
+    "cross": 59,
+    "cross_at": [
+     42,
+     35.0
+    ],
+    "before_cross_at": [
+     42,
+     17.0
+    ],
+    "first_lost": 59,
+    "first_lost_at": [
+     42,
+     35.0
+    ],
+    "last_lost": 126,
+    "last_lost_at": [
+     47,
+     101.0
+    ],
+    "lost": 15,
+    "start": [
+     37,
+     113.0
+    ],
+    "end": [
+     47,
+     119.0
+    ]
+   }
+  },
+  "bottom": {
+   "MSXBOOK_EU16": {
+    "border_ok": [
+     0,
+     204
+    ],
+    "border_all": true,
+    "bytes": 128,
+    "starts_in_paper": true,
+    "cross": 59,
+    "cross_at": [
+     261,
+     34.0
+    ],
+    "before_cross_at": [
+     261,
+     16.0
+    ],
+    "first_lost": 3,
+    "first_lost_at": [
+     256,
+     166.0
+    ],
+    "last_lost": 56,
+    "last_lost_at": [
+     260,
+     208.0
+    ],
+    "lost": 11,
+    "start": [
+     256,
+     112.0
+    ],
+    "end": [
+     266,
+     118.0
+    ]
+   },
+   "MSXBOOK_JP16": {
+    "border_ok": [
+     199,
+     738
+    ],
+    "border_all": true,
+    "bytes": 128,
+    "starts_in_paper": true,
+    "cross": 60,
+    "cross_at": [
+     234,
+     51.0
+    ],
+    "before_cross_at": [
+     234,
+     33.0
+    ],
+    "first_lost": 3,
+    "first_lost_at": [
+     229,
+     165.0
+    ],
+    "last_lost": 59,
+    "last_lost_at": [
+     234,
+     33.0
+    ],
+    "lost": 11,
+    "start": [
+     229,
+     111.0
+    ],
+    "end": [
+     239,
+     117.0
+    ]
+   }
+  }
+ },
+ "window": {
+  "MSXBOOK_EU16": {
+   "before_paper": 1515,
+   "first_lost": 1517,
+   "lost": 15,
+   "start": [
+    262,
+    135.0
+   ],
+   "first_in_paper_at": [
+    69,
+    45.0
+   ],
+   "free_t": 27258.667
+  },
+  "MSXBOOK_JP16": {
+   "before_paper": 869,
+   "first_lost": 871,
+   "lost": 134,
+   "start": [
+    235,
+    135.0
+   ],
+   "first_in_paper_at": [
+    42,
+    45.0
+   ],
+   "free_t": 15630.667
+  }
+ },
+ "sprites": {
+  "MSXBOOK_EU16": {
+   "23": {
+    "lost": 6,
+    "model": 6,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     199,
+     80.0
+    ],
+    "end": [
+     208,
+     213.0
+    ],
+    "in_paper": 96
+   },
+   "25": {
+    "lost": 2,
+    "model": 2,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     199,
+     78.0
+    ],
+    "end": [
+     209,
+     173.0
+    ],
+    "in_paper": 96
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     199,
+     74.0
+    ],
+    "end": [
+     210,
+     36.0
+    ],
+    "in_paper": 96
+   },
+   "drawn": 32
+  },
+  "MSXBOOK_JP16": {
+   "23": {
+    "lost": 4,
+    "model": 4,
+    "gaps_t": [
+     23.0
+    ],
+    "start": [
+     172,
+     79.0
+    ],
+    "end": [
+     181,
+     212.0
+    ],
+    "in_paper": 96
+   },
+   "25": {
+    "lost": 2,
+    "model": 2,
+    "gaps_t": [
+     25.0
+    ],
+    "start": [
+     172,
+     82.0
+    ],
+    "end": [
+     182,
+     177.0
+    ],
+    "in_paper": 96
+   },
+   "26": {
+    "lost": 0,
+    "model": 0,
+    "gaps_t": [
+     26.0
+    ],
+    "start": [
+     172,
+     73.0
+    ],
+    "end": [
+     183,
+     35.0
+    ],
+    "in_paper": 96
+   },
+   "drawn": 32
+  }
+ },
+ "ignore": {
+  "default": "real",
+  "whole": 6,
+  "too_soon": 0,
+  "bytes": 576
+ },
+ "reads": {
+  "MSXBOOK_EU16": {
+   "inir": {
+    "wrong": 124,
+    "not_made": 8,
+    "read": "ABCDDEFGHIJKLLMNOPQRSTTUVWXYZ0012345ABCCDEFGHIJKKLMNOPQRSTUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCCDEFGHIJKLMNOPQRSSTUVWX",
+    "start": [
+     109,
+     35.0
+    ]
+   },
+   "ini": {
+    "wrong": 0,
+    "not_made": 0,
+    "read": "ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "start": [
+     109,
+     34.0
+    ]
+   }
+  },
+  "MSXBOOK_JP16": {
+   "inir": {
+    "wrong": 115,
+    "not_made": 9,
+    "read": "ABCDEFGHIJKLMMNOPQRSTUUVWXYZ0122345ABCDEEFGHIJKLMMNOPQRSTUUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCCDEFGHIJKKLMNOPQRSSTUVW",
+    "start": [
+     82,
+     34.0
+    ]
+   },
+   "ini": {
+    "wrong": 0,
+    "not_made": 0,
+    "read": "ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345ABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "start": [
+     82,
+     33.0
+    ]
+   }
+  }
+ },
+ "modes": {
+  "MSXBOOK_EU16": {
+   "graphic1_18": 46,
+   "graphic1_23": 18,
+   "graphic2_18": 46,
+   "graphic2_23": 18,
+   "text_18": 0,
+   "text_23": 0
+  },
+  "MSXBOOK_JP16": {
+   "graphic1_18": 46,
+   "graphic1_23": 18,
+   "graphic2_18": 46,
+   "graphic2_23": 18,
+   "text_18": 0,
+   "text_23": 0
+  },
+  "longest": {
+   "graphic": 155,
+   "text": 51,
+   "off": 43
+  },
+  "moments": {
+   "graphic": 19,
+   "text": 91,
+   "off": 107
+  }
+ },
+ "page": {
+  "otir": {
+   "lost": 52,
+   "trailing": 53,
+   "start": [
+    69,
+    55.0
+   ],
+   "end": [
+    146,
+    162.0
+   ],
+   "rows_right": 0,
+   "first": [
+    {
+     "byte": 0,
+     "line": 0,
+     "t": 55.0,
+     "lost": true,
+     "taken": null,
+     "after": 1
+    },
+    {
+     "byte": 1,
+     "line": 0,
+     "t": 78.0,
+     "lost": false,
+     "taken": [
+      0,
+      79.33333333333333
+     ],
+     "after": null
+    },
+    {
+     "byte": 2,
+     "line": 0,
+     "t": 101.0,
+     "lost": false,
+     "taken": [
+      0,
+      122.0
+     ],
+     "after": null
+    },
+    {
+     "byte": 3,
+     "line": 0,
+     "t": 124.0,
+     "lost": false,
+     "taken": [
+      0,
+      143.33333333333334
+     ],
+     "after": null
+    },
+    {
+     "byte": 4,
+     "line": 0,
+     "t": 147.0,
+     "lost": false,
+     "taken": [
+      0,
+      164.66666666666666
+     ],
+     "after": null
+    },
+    {
+     "byte": 5,
+     "line": 0,
+     "t": 170.0,
+     "lost": false,
+     "taken": [
+      0,
+      186.0
+     ],
+     "after": null
+    },
+    {
+     "byte": 6,
+     "line": 0,
+     "t": 193.0,
+     "lost": false,
+     "taken": [
+      0,
+      206.0
+     ],
+     "after": null
+    },
+    {
+     "byte": 7,
+     "line": 0,
+     "t": 216.0,
+     "lost": false,
+     "taken": [
+      0,
+      227.33333333333334
+     ],
+     "after": null
+    },
+    {
+     "byte": 8,
+     "line": 1,
+     "t": 11.0,
+     "lost": false,
+     "taken": [
+      1,
+      19.333333333333332
+     ],
+     "after": null
+    },
+    {
+     "byte": 9,
+     "line": 1,
+     "t": 34.0,
+     "lost": true,
+     "taken": null,
+     "after": 10
+    },
+    {
+     "byte": 10,
+     "line": 1,
+     "t": 57.0,
+     "lost": false,
+     "taken": [
+      1,
+      58.0
+     ],
+     "after": null
+    },
+    {
+     "byte": 11,
+     "line": 1,
+     "t": 80.0,
+     "lost": false,
+     "taken": [
+      1,
+      100.66666666666667
+     ],
+     "after": null
+    }
+   ]
+  },
+  "outi": {
+   "lost": 0,
+   "trailing": 1,
+   "start": [
+    69,
+    55.0
+   ],
+   "end": [
+    166,
+    214.0
+   ],
+   "rows_right": 24
+  }
+ },
+ "answers": {
+  "q1": [
+   [
+    33,
+    35
+   ],
+   [
+    54,
+    57
+   ],
+   [
+    75,
+    78
+   ],
+   [
+    97,
+    99
+   ],
+   [
+    118,
+    121
+   ],
+   [
+    139,
+    142
+   ],
+   [
+    161,
+    163
+   ],
+   [
+    182,
+    183
+   ],
+   [
+    203,
+    205
+   ]
+  ],
+  "free": {
+   "MSXBOOK_EU16": {
+    "t": 27588,
+    "bytes": 1532
+   },
+   "MSXBOOK_JP16": {
+    "t": 15960,
+    "bytes": 886
+   }
+  },
+  "q2": {
+   "MSXBOOK_EU16": {
+    "free_t": 27258.667,
+    "later": 5000,
+    "bytes": 1237
+   },
+   "MSXBOOK_JP16": {
+    "free_t": 15630.667,
+    "later": 5000,
+    "bytes": 591
+   }
+  },
+  "q4": {
+   "longest_cycles": 155,
+   "longest_t": 25.833,
+   "lost_25": 25,
+   "lost_26": 0
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 995,
+   "same_values": 995,
+   "captures": 29,
+   "same_captures": 29,
+   "same_in_drawn": 29,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 995,
+   "same_values": 995,
+   "captures": 29,
+   "same_captures": 29,
+   "same_in_drawn": 29,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 995,
+   "same_values": 995,
+   "captures": 29,
+   "same_captures": 29,
+   "same_in_drawn": 29,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 995,
+   "same_values": 995,
+   "captures": 29,
+   "same_captures": 29,
+   "same_in_drawn": 29,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 995,
+   "same_values": 995,
+   "captures": 29,
+   "same_captures": 29,
+   "same_in_drawn": 29,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

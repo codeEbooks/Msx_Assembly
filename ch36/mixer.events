@@ -1,0 +1,3 @@
+# mixer.events -- written by gen36.py: a frame counted from INIT, a port,
+# and the switches held from that frame on (- for none)
+5 1 right

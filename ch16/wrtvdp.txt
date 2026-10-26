@@ -1,0 +1,19 @@
+> disasm 0x0047 1
+0047  jp     #022e        C3 2E 02
+> disasm [peek16 0x0048] 16
+022E  di                  F3
+022F  res    7,c          CB B9
+0231  ld     a,b          78
+0232  out    (#99),a      D3 99
+0234  ld     a,c          79
+0235  or     #80          F6 80
+0237  out    (#99),a      D3 99
+0239  ei                  FB
+023A  push   hl           E5
+023B  ld     hl,#f3df     21 DF F3
+023E  ld     a,b          78
+023F  ld     b,#00        06 00
+0241  add    hl,bc        09
+0242  ld     (hl),a       77
+0243  pop    hl           E1
+0244  ret                 C9

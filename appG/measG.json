@@ -1,0 +1,1583 @@
+{
+ "help": {
+  "version": "SjASMPlus Z80 Cross-Assembler v1.24.0 (https://github.com/z00m128/sjasmplus)",
+  "options": {
+   "--nologo": "--nologo                 Do not show startup message",
+   "--msg=": "--msg=[all|war|err|none|lst|lstlab]",
+   "--sym=": "--sym=<filename>         Save symbol table to <filename>",
+   "--lst[": "--lst[=<filename>]       Save listing to <filename> (<source>.lst is default)",
+   "-D<NAME>": "-D<NAME>[=<value>] or --define <NAME>[=<value>]",
+   "--syntax=": "--syntax=<...>           Adjust parsing syntax, see \"--help=syntax\""
+  },
+  "letters": {
+   "b": "Whole expression parentheses are legal for memory access only",
+   "F": "Fake instructions: warning / disabled (default = enabled)",
+   "w": "Report warnings as errors"
+  }
+ },
+ "probe": {
+  "bytes": 63,
+  "hex": "014142ff003412a0a100000000000000bb77773412004078563412555555aaaa5a0000992306010234120708cdab040200c03240deadbecc10101010ff05ee",
+  "aligned": 16400,
+  "after": 16434,
+  "true": 255,
+  "false": 0,
+  "align_fill": 7,
+  "window": [
+   3,
+   15
+  ],
+  "marks": {
+   "included": [
+    1,
+    2,
+    3
+   ],
+   "copied": [
+    8,
+    8,
+    15
+   ],
+   "kept": [
+    13
+   ],
+   "filled": [
+    10
+   ],
+   "goes_on": [
+    6
+   ]
+  },
+  "kept": [
+   13,
+   33,
+   34,
+   35
+  ],
+  "sym_line": "COUNT: EQU 0x00000006",
+  "symbols": 21,
+  "first_sym": "COUNT",
+  "last_sym": "start",
+  "incbin_line": 44
+ },
+ "options": {
+  "plain": {
+   "rc": 0,
+   "text": "SjASMPlus Z80 Cross-Assembler v1.24.0 (https://github.com/z00m128/sjasmplus)\nPass 1 complete (0 errors)\nPass 2 complete (0 errors)\ninclude data: name=blob.bin (3 bytes) Offset=0  Len=3\n> aligned at 0x4010\nPass 3 complete\nErrors: 0, warnings: 0, compiled: 66 lines, work time: \u2026 seconds\n",
+   "made": [
+    "probe.bin"
+   ]
+  },
+  "nologo": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\ninclude data: name=blob.bin (3 bytes) Offset=0  Len=3\n> aligned at 0x4010\nPass 3 complete\nErrors: 0, warnings: 0, compiled: 66 lines, work time: \u2026 seconds\n"
+  },
+  "warn": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nwarn.asm(5): warning: value 0x100 is truncated to 8bit value: 0x00\nPass 3 complete\nErrors: 0, warnings: 1, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "warn.bin"
+   ],
+   "bin": "3e00"
+  },
+  "warn_err": {
+   "rc": 0,
+   "text": "",
+   "made": [
+    "warn.bin"
+   ],
+   "bin": "3e00"
+  },
+  "warn_w": {
+   "rc": 1,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nwarn.asm(5): error: value 0x100 is truncated to 8bit value: 0x00\nPass 3 complete\nErrors: 1, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "warn.bin"
+   ],
+   "bin": "3e00"
+  },
+  "warn_w_err": {
+   "rc": 1,
+   "text": "warn.asm(5): error: value 0x100 is truncated to 8bit value: 0x00\n",
+   "made": [
+    "warn.bin"
+   ],
+   "bin": "3e00"
+  },
+  "fake": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nPass 3 complete\nErrors: 0, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "fake.bin"
+   ],
+   "bin": "626b"
+  },
+  "fake_F": {
+   "rc": 1,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nfake.asm(5): error: Fake instructions are not enabled: ld hl, de\nPass 3 complete\nErrors: 1, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "fake.bin"
+   ],
+   "bin": ""
+  },
+  "paren": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nparen.asm(5): warning: value 0xC000 is truncated to 8bit value: 0x00\nPass 3 complete\nErrors: 0, warnings: 1, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "paren.bin"
+   ],
+   "bin": "0600"
+  },
+  "paren_b": {
+   "rc": 1,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nparen.asm(5): error: Illegal instruction (can't access memory):  ($C000)\nPass 3 complete\nErrors: 1, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "paren.bin"
+   ],
+   "bin": "0600"
+  },
+  "define": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nPass 3 complete\nErrors: 0, warnings: 0, compiled: 9 lines, work time: \u2026 seconds\n",
+   "made": [
+    "define.bin"
+   ],
+   "bin": "0201"
+  },
+  "define_D": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nPass 3 complete\nErrors: 0, warnings: 0, compiled: 8 lines, work time: \u2026 seconds\n",
+   "made": [
+    "define.bin"
+   ],
+   "bin": "01"
+  },
+  "equ": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nPass 3 complete\nErrors: 0, warnings: 0, compiled: 10 lines, work time: \u2026 seconds\n",
+   "made": [
+    "equ.bin"
+   ],
+   "bin": "0201"
+  },
+  "value_D": {
+   "rc": 1,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nvalue.asm(5): error: Expression expected\nPass 3 complete\nErrors: 1, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "value.bin"
+   ],
+   "bin": ""
+  },
+  "value_D7": {
+   "rc": 0,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nPass 3 complete\nErrors: 0, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "value.bin"
+   ],
+   "bin": "07"
+  },
+  "hex": {
+   "rc": 1,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nhex.asm(5): error: Label not found: FFh\nPass 3 complete\nErrors: 1, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [
+    "hex.bin"
+   ],
+   "bin": "00"
+  },
+  "assert": {
+   "rc": 1,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nassert.asm(6): error: [ASSERT] Assertion failed:  FIVE == 6, FIVE is not 6\nassert.asm(7): error: [ASSERT] Assertion failed:  FIVE == 7\nPass 3 complete\nErrors: 2, warnings: 0, compiled: 8 lines, work time: \u2026 seconds\n",
+   "made": [
+    "assert.bin"
+   ],
+   "bin": ""
+  },
+  "paren_clean": {
+   "rc": 1,
+   "text": "Pass 1 complete (0 errors)\nPass 2 complete (0 errors)\nparen.asm(5): error: Illegal instruction (can't access memory):  ($C000)\nPass 3 complete\nDeleting files on error (--cleanonerror):\n - DIR/paren.bin\nErrors: 1, warnings: 0, compiled: 6 lines, work time: \u2026 seconds\n",
+   "made": [],
+   "bin": ""
+  },
+  "files": {
+   "rc": 0,
+   "text": "> aligned at 0x4010\n",
+   "made": [
+    "probe.bin",
+    "probe.lst",
+    "probe.sym"
+   ]
+  },
+  "nowhere": {
+   "rc": 0,
+   "line": 46,
+   "kept": [
+    13,
+    33,
+    34,
+    35,
+    46
+   ]
+  },
+  "written_on_failure": {
+   "warn_w": 2,
+   "warn_w_err": 2,
+   "fake_F": 0,
+   "paren_b": 2,
+   "value_D": 0,
+   "hex": 1,
+   "assert": 0
+  }
+ },
+ "messages": {
+  "ch04/case.asm": {
+   "rc": 1,
+   "message": "opening file: MSX.INC",
+   "line": "case.asm(3): error: opening file: MSX.INC",
+   "own": null,
+   "errors": 4
+  },
+  "ch05/margin.asm": {
+   "rc": 1,
+   "message": "Unrecognized instruction: (VDP_CTRL), a",
+   "line": "margin.asm(8): error: Unrecognized instruction: (VDP_CTRL), a",
+   "own": null,
+   "errors": 1
+  },
+  "ch05/typo.asm": {
+   "rc": 1,
+   "message": "Label not found: LIGHT_GREN",
+   "line": "typo.asm(7): error: Label not found: LIGHT_GREN",
+   "own": null,
+   "errors": 1
+  },
+  "ch07/fake.asm": {
+   "rc": 1,
+   "message": "Fake instructions are not enabled: ld bc,de",
+   "line": "fake.asm(5): error: Fake instructions are not enabled: ld bc,de",
+   "own": [
+    "--nologo",
+    "--msg=err"
+   ],
+   "errors": 2,
+   "own_rc": 0,
+   "own_warnings": 0
+  },
+  "ch08/paren.asm": {
+   "rc": 1,
+   "message": "Illegal instruction (can't access memory): ($C000)",
+   "line": "paren.asm(7): error: Illegal instruction (can't access memory): ($C000)",
+   "own": [
+    "--nologo",
+    "--msg=err"
+   ],
+   "errors": 2,
+   "own_rc": 0,
+   "own_warnings": 1
+  },
+  "ch15/big.asm": {
+   "rc": 1,
+   "message": "Negative BLOCK moves PC backwards",
+   "line": "big.asm(19): error: Negative BLOCK moves PC backwards",
+   "own": [
+    "--nologo",
+    "--msg=err",
+    "--syntax=bF"
+   ],
+   "errors": 2,
+   "own_rc": 0,
+   "own_warnings": 2
+  },
+  "ch15/fits.asm": {
+   "rc": 1,
+   "message": "value 0x100 is truncated to 8bit value: 0x00",
+   "line": "fits.asm(6): error: value 0x100 is truncated to 8bit value: 0x00",
+   "own": [
+    "--nologo",
+    "--msg=err",
+    "--syntax=bF"
+   ],
+   "errors": 3,
+   "own_rc": 0,
+   "own_warnings": 3
+  }
+ },
+ "book": {
+  "build_stops": {
+   "ch01": "|| exit 1",
+   "ch02": "|| exit 1",
+   "ch03": "|| exit 1",
+   "ch04": "|| exit 1",
+   "ch05": "|| exit 1",
+   "ch06": "|| exit 1",
+   "ch07": "|| exit 1",
+   "ch08": "|| exit 1",
+   "ch09": "|| exit 1",
+   "ch10": "|| exit 1",
+   "ch11": "|| exit 1",
+   "ch12": "|| exit 1",
+   "ch13": "|| exit 1",
+   "ch14": "|| exit 1",
+   "ch15": "|| exit 1",
+   "ch16": "|| exit 1",
+   "ch17": "|| exit 1",
+   "ch18": "|| exit 1",
+   "ch19": "|| exit 1",
+   "ch20": "|| exit 1",
+   "ch21": "|| exit 1",
+   "ch22": "|| exit 1",
+   "ch23": "|| exit 1",
+   "ch24": "|| exit 1",
+   "ch25": "|| exit 1",
+   "ch26": "|| exit 1",
+   "ch27": "|| exit 1",
+   "ch28": "|| exit 1",
+   "ch29": "|| exit 1",
+   "ch30": "|| exit 1",
+   "ch31": "|| exit 1",
+   "ch32": "|| exit 1",
+   "ch33": "|| exit 1",
+   "ch34": "|| exit 1",
+   "ch35": "|| exit 1",
+   "ch36": "|| exit 1",
+   "ch37": "|| exit 1",
+   "ch38": "|| exit 1",
+   "ch39": "|| exit 1",
+   "ch40": "|| exit 1",
+   "ch41": "|| exit 1",
+   "ch42": "|| exit 1",
+   "ch43": "|| exit 1",
+   "ch44": "|| exit 1",
+   "ch45": "|| exit 1",
+   "ch46": "|| exit 1",
+   "ch47": "|| exit 1",
+   "ch48": "|| exit 1",
+   "ch49": "|| exit 1",
+   "ch50": "|| exit 1",
+   "ch51": "|| exit 1",
+   "ch52": "|| exit 1",
+   "ch53": "|| exit 1",
+   "ch54": "|| exit 1",
+   "ch55": "|| exit 1",
+   "ch56": "|| exit 1",
+   "appA": "set -e",
+   "appB": "set -e",
+   "appC": "set -e",
+   "appD": "set -e",
+   "appE": "set -e",
+   "appF": "set -e"
+  },
+  "build_syntax": {
+   "ch01": [
+    ""
+   ],
+   "ch02": [
+    ""
+   ],
+   "ch03": [
+    ""
+   ],
+   "ch04": [
+    ""
+   ],
+   "ch05": [
+    ""
+   ],
+   "ch06": [
+    ""
+   ],
+   "ch07": [
+    ""
+   ],
+   "ch08": [
+    "",
+    "bF"
+   ],
+   "ch09": [
+    "bF"
+   ],
+   "ch10": [
+    "bF"
+   ],
+   "ch11": [
+    "bF"
+   ],
+   "ch12": [
+    "bF"
+   ],
+   "ch13": [
+    "bF"
+   ],
+   "ch14": [
+    "bF"
+   ],
+   "ch15": [
+    "bF",
+    "bFw"
+   ],
+   "ch16": [
+    "bFw"
+   ],
+   "ch17": [
+    "bFw"
+   ],
+   "ch18": [
+    "bFw"
+   ],
+   "ch19": [
+    "bFw"
+   ],
+   "ch20": [
+    "bFw"
+   ],
+   "ch21": [
+    "bFw"
+   ],
+   "ch22": [
+    "bFw"
+   ],
+   "ch23": [
+    "bFw"
+   ],
+   "ch24": [
+    "bFw"
+   ],
+   "ch25": [
+    "bFw"
+   ],
+   "ch26": [
+    "bFw"
+   ],
+   "ch27": [
+    "bFw"
+   ],
+   "ch28": [
+    "bFw"
+   ],
+   "ch29": [
+    "bFw"
+   ],
+   "ch30": [
+    "bFw"
+   ],
+   "ch31": [
+    "bFw"
+   ],
+   "ch32": [
+    "bFw"
+   ],
+   "ch33": [
+    "bFw"
+   ],
+   "ch34": [
+    "bFw"
+   ],
+   "ch35": [
+    "bFw"
+   ],
+   "ch36": [
+    "bFw"
+   ],
+   "ch37": [
+    "bFw"
+   ],
+   "ch38": [
+    "bFw"
+   ],
+   "ch39": [
+    "bFw"
+   ],
+   "ch40": [
+    "bFw"
+   ],
+   "ch41": [
+    "bFw"
+   ],
+   "ch42": [
+    "bFw"
+   ],
+   "ch43": [
+    "bFw"
+   ],
+   "ch44": [
+    "bFw"
+   ],
+   "ch45": [
+    "bFw"
+   ],
+   "ch46": [
+    "bFw"
+   ],
+   "ch47": [
+    "bFw"
+   ],
+   "ch48": [
+    "bFw"
+   ],
+   "ch49": [
+    "bFw"
+   ],
+   "ch50": [
+    "bFw"
+   ],
+   "ch51": [
+    "bFw"
+   ],
+   "ch52": [
+    "bFw"
+   ],
+   "ch53": [
+    "bFw"
+   ],
+   "ch54": [
+    "bFw"
+   ],
+   "ch55": [
+    "bFw"
+   ],
+   "ch56": [
+    "bFw"
+   ],
+   "appA": [
+    "bFw"
+   ],
+   "appB": [
+    "bFw"
+   ],
+   "appC": [
+    "bFw"
+   ],
+   "appD": [
+    "bFw"
+   ],
+   "appE": [
+    "bFw"
+   ],
+   "appF": [
+    "bFw"
+   ]
+  },
+  "sym_lst_from": "ch16",
+  "tools": {
+   "asmparts.py": "ch01",
+   "console.py": "ch06",
+   "meas.py": "ch02",
+   "msxcap.py": "ch01",
+   "probe.py": "ch08",
+   "screentext.py": "ch03",
+   "versions.py": "ch04"
+  },
+  "options": {
+   "--nologo": [
+    "ch01",
+    "ch01/build.sh",
+    5,
+    "sjasmplus --nologo --msg=err --sym=\"${f%.asm}.sym\" \"$f\" || exit 1"
+   ],
+   "--msg=err": [
+    "ch01",
+    "ch01/build.sh",
+    5,
+    "sjasmplus --nologo --msg=err --sym=\"${f%.asm}.sym\" \"$f\" || exit 1"
+   ],
+   "--sym": [
+    "ch01",
+    "ch01/build.sh",
+    5,
+    "sjasmplus --nologo --msg=err --sym=\"${f%.asm}.sym\" \"$f\" || exit 1"
+   ],
+   "--lst": [
+    "ch02",
+    "ch02/meas02.py",
+    138,
+    "args = [\"sjasmplus\", \"--nologo\", \"--msg=err\"] + ([\"--lst=out.lst\"] if lst else []) + [name]"
+   ],
+   "b": [
+    "ch08",
+    "ch08/meas08.py",
+    434,
+    "(\"b\", [\"--msg=war\", \"--syntax=b\"])):"
+   ],
+   "F": [
+    "ch07",
+    "ch07/meas07.py",
+    537,
+    "for opt in (\"\", \"--syntax=f\", \"--syntax=F\"):"
+   ],
+   "w": [
+    "ch15",
+    "ch15/meas15.py",
+    304,
+    "code_w, out_w, _ = assemble(\"fits.asm\", [\"--msg=err\", \"--syntax=bFw\"])"
+   ],
+   "-D": [
+    "ch15",
+    "ch15/meas15.py",
+    411,
+    "code_u, out_u, files_u = assemble(\"rows.asm\", [\"--msg=err\", \"--syntax=bFw\", \"-DUNALIGNED\"])"
+   ],
+   "-D=": null,
+   "plain": [
+    "ch05",
+    "ch05/border_out.txt",
+    1,
+    ""
+   ]
+  },
+  "openmsx": {
+   "-machine": [
+    "ch01",
+    "tools/msxcap.py",
+    98,
+    "subprocess.run([OPENMSX, *([\"-machine\", machine] if machine else []), \"-carta\", str(rom),"
+   ],
+   "-carta": [
+    "ch01",
+    "tools/msxcap.py",
+    98,
+    "subprocess.run([OPENMSX, *([\"-machine\", machine] if machine else []), \"-carta\", str(rom),"
+   ],
+   "-romtype": [
+    "ch03",
+    "ch03/meas03.py",
+    144,
+    "extra = (\"-romtype\", romtype) if romtype else ()"
+   ],
+   "-script": [
+    "ch01",
+    "tools/msxcap.py",
+    99,
+    "\"-script\", str(script), *extra_args],"
+   ],
+   "-cassetteplayer": [
+    "ch50",
+    "ch50/meas50.py",
+    93,
+    "return [\"-cassetteplayer\", str((Path(d) / tape).resolve())]"
+   ],
+   "reg pc": [
+    "ch03",
+    "ch03/meas03.py",
+    234,
+    "' [reg i] [reg im] [reg iff] [reg pc]\"')"
+   ],
+   "cpuregs": [
+    "ch06",
+    "ch06/meas06.py",
+    60,
+    "[\"reg pc\", \"debug set_bp 0x4010\", \"reset\", \"cpuregs\", \"disasm\"],"
+   ],
+   "disasm": [
+    "ch06",
+    "ch06/meas06.py",
+    60,
+    "[\"reg pc\", \"debug set_bp 0x4010\", \"reset\", \"cpuregs\", \"disasm\"],"
+   ],
+   "step_in": [
+    "ch06",
+    "ch06/meas06.py",
+    79,
+    "STEP = [\"step_in\", \"step_in\", \"reg a\","
+   ],
+   "debug set_bp": [
+    "ch01",
+    "ch01/meas01.py",
+    137,
+    "f'debug set_bp {s[lab]:#06x} {{}} {{ L \"{lab} [machine_info time] '"
+   ],
+   "debug list_bp": null,
+   "debug cont": [
+    "ch06",
+    "ch06/meas06.py",
+    98,
+    "WATCH = [\"debug set_watchpoint write_io 0x99\", \"debug cont\", \"reg pc\","
+   ],
+   "step_over": [
+    "ch06",
+    "ch06/meas06.py",
+    117,
+    "[\"step_in\", \"step_in\", \"step_in\", \"reg pc\", \"step_over\", \"reg pc\", \"reg iff\"],"
+   ],
+   "debug remove_bp": [
+    "ch07",
+    "ch07/meas07.py",
+    81,
+    "tcl = f\"set ::bp [debug set_bp {s[label]} {{}} {{ {tcl_body}; debug remove_bp $::bp }}]\""
+   ],
+   "peek": [
+    "ch16",
+    "ch16/meas16.py",
+    189,
+    "frames=PRINT_FRAME, hits=len(text) + 1, extra=\"[peek 0xF3DC] [peek 0xF3DD]\")"
+   ],
+   "peek16": [
+    "ch12",
+    "ch12/meas12.py",
+    181,
+    "lines = [f\"format %04X [reg sp]\"] + [f\"format %04X [peek16 0x{model.sp + 2 * k:04X}]\""
+   ],
+   "vpeek": null,
+   "poke": null,
+   "debug read": [
+    "ch01",
+    "ch01/meas01.py",
+    108,
+    "events={30: 'L \"status [debug read memory 0xC000]\"'})"
+   ],
+   "debug write": [
+    "ch06",
+    "ch06/meas06.py",
+    128,
+    "WRITE = [\"debug write {VDP regs} 7 1\","
+   ],
+   "debug read_block": [
+    "ch01",
+    "ch01/meas01.py",
+    138,
+    "f'[binary encode hex [debug read_block VRAM 0x1800 768]]\" }}' for lab in labels)"
+   ],
+   "keymatrixdown": [
+    "ch03",
+    "ch03/gen03.py",
+    964,
+    "f\"held down from frame {fr}\\n{fr} keymatrixdown {row} 0x{mask:02X}\\n\")"
+   ],
+   "keymatrixup": [
+    "ch16",
+    "ch16/meas16.py",
+    532,
+    "ev = {down: \"keymatrixdown 8 0x01\", up: \"keymatrixup 8 0x01\","
+   ],
+   "machine_info time": [
+    "ch01",
+    "ch01/meas01.py",
+    137,
+    "f'debug set_bp {s[lab]:#06x} {{}} {{ L \"{lab} [machine_info time] '"
+   ],
+   "machine_info VDP_frame_count": [
+    "ch01",
+    "tools/msxcap.py",
+    119,
+    "set n [expr {{[machine_info VDP_frame_count] - $::f0}}]"
+   ],
+   "machine_info VDP_cycle_in_frame": [
+    "ch05",
+    "ch05/meas05.py",
+    152,
+    "setup += f'''debug set_bp {bp} {{}} {{ if {{![info exists ::bp]}} {{ set ::bp 1; L \"bp [machine_info VDP_frame_count] [machine_info time] [machine_info VDP_cycle_in_frame]\" }} }}"
+   ],
+   "debug probe list": null,
+   "debug probe set_bp": [
+    "ch17",
+    "ch17/meas17.py",
+    130,
+    "debug probe set_bp z80.acceptIRQ {{}} {{"
+   ],
+   "debug probe remove_bp": null,
+   "debug set_watchpoint": [
+    "ch05",
+    "ch05/meas05.py",
+    290,
+    "debug set_watchpoint write_io 0x98 {{}} {{"
+   ],
+   "debug list_watchpoints": null,
+   "debug remove_watchpoint": [
+    "ch51",
+    "ch51/meas51.py",
+    321,
+    "f'debug set_bp {s[\"askkeys\"]} {{}} {{ L \"askkeys {POS}\"; debug remove_watchpoint $::w1; '"
+   ],
+   "wp_last_value": [
+    "ch20",
+    "ch20/meas20.py",
+    78,
+    "debug set_watchpoint write_io {0x98 0x99} {} { if {$::on} { L \"w %POS% $::wp_last_address $::wp_last_value\" } }"
+   ],
+   "after time": [
+    "ch01",
+    "tools/msxcap.py",
+    133,
+    "after time 3600 {{ L \"timeout\"; exit }}"
+   ],
+   "after frame": [
+    "ch01",
+    "tools/msxcap.py",
+    122,
+    "after frame tick"
+   ],
+   "record start": [
+    "ch01",
+    "tools/msxcap.py",
+    154,
+    "f\"record start -videoonly {{{film}}}\", \"record stop\"))"
+   ],
+   "screenshot": null,
+   "reset": [
+    "ch06",
+    "ch06/meas06.py",
+    60,
+    "[\"reg pc\", \"debug set_bp 0x4010\", \"reset\", \"cpuregs\", \"disasm\"],"
+   ],
+   "set speed": [
+    "ch01",
+    "tools/msxcap.py",
+    114,
+    "set speed {speed}"
+   ],
+   "[set speed]": null
+  },
+  "directives": {
+   "include": [
+    "ch01/beam_000.asm",
+    3,
+    "        INCLUDE \"msx.inc\""
+   ],
+   "output": [
+    "ch01/beam_000.asm",
+    4,
+    "        OUTPUT \"beam_000.rom\""
+   ],
+   "org": [
+    "ch01/beam_000.asm",
+    5,
+    "        ORG $4000"
+   ],
+   "<macro>": [
+    "ch01/beam_000.asm",
+    6,
+    "        CART_HEADER init"
+   ],
+   "equ": [
+    "ch01/beam_000.asm",
+    8,
+    "IM2_TABLE EQU $C100             ; 257 bytes of $C2: the interrupt vector is $C2C2"
+   ],
+   "ds n, m": [
+    "ch01/beam_000.asm",
+    164,
+    "        ds $8000 - $, $FF       ; pad the cartridge to 16 KB"
+   ],
+   "assert n": [
+    "ch01/beam_000.asm",
+    165,
+    "        ASSERT $ == $8000"
+   ],
+   "align n": [
+    "ch01/clash_ball.asm",
+    93,
+    "        ALIGN 4"
+   ],
+   "db": [
+    "ch01/clash_ball.asm",
+    94,
+    "dots:   db $88, $22, $44, $11"
+   ],
+   "dw": [
+    "ch01/clash_ball.asm",
+    96,
+    "        dw $0B78"
+   ],
+   "macro": [
+    "ch01/msx.inc",
+    37,
+    "    MACRO CART_HEADER init_addr"
+   ],
+   "db \"...\"": [
+    "ch01/msx.inc",
+    38,
+    "        db \"AB\""
+   ],
+   "endm": [
+    "ch01/msx.inc",
+    42,
+    "    ENDM"
+   ],
+   "db '...'": [
+    "ch08/records.asm",
+    74,
+    "        db '#'                     ; its character"
+   ],
+   "disp": [
+    "ch08/selfmod.asm",
+    30,
+    "        DISP RAM_START + $10"
+   ],
+   "ent": [
+    "ch08/selfmod.asm",
+    35,
+    "        ENT"
+   ],
+   "dd": [
+    "ch09/add32.asm",
+    368,
+    "a0:     dd $000000FF"
+   ],
+   "ds n": [
+    "ch11/jrfar.asm",
+    6,
+    "        ds 127"
+   ],
+   "dup n": [
+    "ch12/fast.asm",
+    35,
+    "qu1:    DUP 16                  ; sjasmplus writes the next line 16 times"
+   ],
+   "edup": [
+    "ch12/fast.asm",
+    37,
+    "        EDUP"
+   ],
+   "assert n, m": [
+    "ch15/cart32.asm",
+    18,
+    "        ASSERT $ <= $8000, the first half is full"
+   ],
+   "dup n, m": [
+    "ch15/macro.asm",
+    32,
+    "m0:     DUP 8, k                ; k = 0, 1 ... 7"
+   ],
+   "struct": [
+    "ch15/names.asm",
+    13,
+    "        STRUCT obj              ; a record's layout: offsets, not memory"
+   ],
+   "word": [
+    "ch15/names.asm",
+    14,
+    "cell    WORD                    ; obj.cell = 0: the first cell's address"
+   ],
+   "byte": [
+    "ch15/names.asm",
+    15,
+    "char    BYTE                    ; obj.char = 2: its character"
+   ],
+   "ends": [
+    "ch15/names.asm",
+    16,
+    "        ENDS                    ; obj = 3: the size of a record"
+   ],
+   "<struct> {...}": [
+    "ch15/names.asm",
+    83,
+    "        obj {NAMES+3*32+3, 2}"
+   ],
+   "incbin": [
+    "ch15/picture.asm",
+    59,
+    "        INCBIN \"picture.bin\"    ; 6,144 bytes, as they are in the file"
+   ],
+   "ifndef": [
+    "ch15/rows.asm",
+    27,
+    "        IFNDEF UNALIGNED        ; sjasmplus -DUNALIGNED leaves this out"
+   ],
+   "endif": [
+    "ch15/rows.asm",
+    29,
+    "        ENDIF"
+   ],
+   "=": [
+    "ch15/rows.asm",
+    31,
+    "adr = PATTERNS + (y >> 3) * 256 + (y & 7)"
+   ],
+   "display": [
+    "ch15/rows.asm",
+    40,
+    "        DISPLAY \"lines \",/H,lines,\", high bytes \",/H,highs,\", end \",/H,$"
+   ],
+   "align n, m": [
+    "ch39/meet.asm",
+    304,
+    "        ALIGN 512, 0"
+   ],
+   "outend": [
+    "ch48/banks.asm",
+    171,
+    "        OUTEND"
+   ],
+   "output ..., a": [
+    "ch48/banks.asm",
+    172,
+    "        OUTPUT \"banks.rom\", a   ; blocks 2 and 3"
+   ]
+  },
+  "probe_only": [
+   "<struct>"
+  ],
+  "romtypes": {
+   "normal": [
+    "ch03",
+    "ch03/meas03.py",
+    202,
+    "for romtype, frame in ((None, 600), (\"normal\", 600)):"
+   ],
+   "ascii16": [
+    "ch48",
+    "ch48/meas48.py",
+    88,
+    "MAPPER = {\"long\": \"ascii16\", \"far\": \"ascii16\", \"guess\": \"konamiscc\"}"
+   ],
+   "ascii8": [
+    "ch48",
+    "ch48/meas48.py",
+    577,
+    "ROMTYPES = [None, \"ascii16\", \"ascii8\", \"konami\", \"konamiscc\"]"
+   ],
+   "konami": [
+    "ch48",
+    "ch48/meas48.py",
+    577,
+    "ROMTYPES = [None, \"ascii16\", \"ascii8\", \"konami\", \"konamiscc\"]"
+   ],
+   "konamiscc": [
+    "ch48",
+    "ch48/meas48.py",
+    88,
+    "MAPPER = {\"long\": \"ascii16\", \"far\": \"ascii16\", \"guess\": \"konamiscc\"}"
+   ],
+   "page12": [
+    "ch56",
+    "ch56/meas56.py",
+    211,
+    "r = power(KEEP, read=[f], mem=[0x4000, 0x8000], extra=[\"-romtype\", \"page12\"])"
+   ]
+  },
+  "machines": {
+   "MSXBOOK_EU16": "ch01",
+   "MSXBOOK_EU16AY": "ch03",
+   "MSXBOOK_EU16B": "ch55",
+   "MSXBOOK_EU16E": "ch38",
+   "MSXBOOK_EU16G": "ch34",
+   "MSXBOOK_EU16P": "ch36",
+   "MSXBOOK_EU16S": "ch55",
+   "MSXBOOK_EU16X": "ch38",
+   "MSXBOOK_EU32": "ch03",
+   "MSXBOOK_EU64": "ch03",
+   "MSXBOOK_EU8": "ch03",
+   "MSXBOOK_JP16": "ch01"
+  }
+ },
+ "start": {
+  "eu": {
+   "cfg": "MSXBOOK_EU16",
+   "cart": "cart.rom",
+   "page2": "65",
+   "page1": "65",
+   "tape": "cassetteplayer: {} stop"
+  },
+  "jp": {
+   "cfg": "MSXBOOK_JP16",
+   "cart": "cart.rom",
+   "page2": "65",
+   "page1": "65",
+   "tape": "cassetteplayer: {} stop"
+  },
+  "normal": {
+   "cfg": "MSXBOOK_EU16",
+   "cart": "cart.rom",
+   "page2": "255",
+   "page1": "65",
+   "tape": "cassetteplayer: {} stop"
+  },
+  "tape": {
+   "cfg": "MSXBOOK_EU16",
+   "cart": "cart.rom",
+   "page2": "65",
+   "page1": "65",
+   "tape": "cassetteplayer: tape.wav play"
+  },
+  "script": {
+   "time": 0.0,
+   "pc": 0
+  }
+ },
+ "console": {
+  "a": [
+   [
+    "reg pc",
+    "16400",
+    false
+   ],
+   [
+    "cpuregs",
+    "AF =1F08  BC =0101  DE =4010  HL =4004\nAF'=C480  BC'=04F3  DE'=01FF  HL'=2467\nIX =4010  IY =0104  PC =4010  SP =F2EC\nI  =00    R  =1D    IM =00    IFF=00",
+    false
+   ],
+   [
+    "disasm",
+    "4010  di                  F3\n4011  ld     a,#03        3E 03\n4013  out    (#99),a      D3 99\n4015  ld     a,#87        3E 87\n4017  out    (#99),a      D3 99\n4019  ld     a,#00        3E 00\n401B  out    (#99),a      D3 99\n401D  ld     a,#58        3E 58\n",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16401",
+    false
+   ],
+   [
+    "set bp [debug set_bp 0x4025]",
+    "bp#2",
+    false
+   ],
+   [
+    "debug list_bp",
+    "bp#1 0x4010 {} {debug break}\nbp#2 0x4025 {} {debug break}\n",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16421",
+    false
+   ],
+   [
+    "step_over",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16424",
+    false
+   ],
+   [
+    "reg b",
+    "0",
+    false
+   ],
+   [
+    "debug remove_bp $bp",
+    "",
+    false
+   ],
+   [
+    "peek 0x4000",
+    "65",
+    false
+   ],
+   [
+    "peek16 0x0004",
+    "7103",
+    false
+   ],
+   [
+    "vpeek 0x1800",
+    "71",
+    false
+   ],
+   [
+    "debug read {VDP regs} 7",
+    "3",
+    false
+   ],
+   [
+    "debug write {VDP regs} 7 1",
+    "",
+    false
+   ],
+   [
+    "debug read {VDP regs} 7",
+    "1",
+    false
+   ],
+   [
+    "binary encode hex [debug read_block memory 0x4000 4]",
+    "41421040",
+    false
+   ],
+   [
+    "keymatrixdown 8 0x01",
+    "",
+    false
+   ],
+   [
+    "debug read keymatrix 8",
+    "254",
+    false
+   ],
+   [
+    "keymatrixup 8 0x01",
+    "",
+    false
+   ],
+   [
+    "debug read keymatrix 8",
+    "255",
+    false
+   ],
+   [
+    "machine_info time",
+    "2.7018087494360317",
+    false
+   ],
+   [
+    "machine_info VDP_frame_count",
+    "135",
+    false
+   ],
+   [
+    "machine_info VDP_cycle_in_frame",
+    "222636",
+    false
+   ],
+   [
+    "debug probe list",
+    "VDP.IRQvertical z80.pendingIRQ VDP.commandExecuting z80.acceptIRQ VDP.IRQhorizontal",
+    false
+   ],
+   [
+    "set p [debug probe set_bp VDP.IRQvertical]",
+    "pp#1",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "machine_info VDP_cycle_in_frame",
+    "357294",
+    false
+   ],
+   [
+    "reg pc",
+    "16425",
+    false
+   ],
+   [
+    "debug probe remove_bp $p",
+    "",
+    false
+   ],
+   [
+    "set speed",
+    "100",
+    false
+   ],
+   [
+    "after time 0.1 {debug break}",
+    "after#\u2026",
+    false
+   ],
+   [
+    "record start -videoonly DIR/film.avi",
+    "Recording to DIR/film.avi",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "record stop",
+    "",
+    false
+   ],
+   [
+    "file exists DIR/film.avi",
+    "1",
+    false
+   ],
+   [
+    "screenshot DIR/shot.png",
+    "DIR/shot.png",
+    false
+   ],
+   [
+    "file exists DIR/shot.png",
+    "1",
+    false
+   ],
+   [
+    "set ::f0 [machine_info VDP_frame_count]",
+    "140",
+    false
+   ],
+   [
+    "after frame {set ::f1 [machine_info VDP_frame_count]; debug break}",
+    "after#\u2026",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "expr {$::f1 - $::f0}",
+    "1",
+    false
+   ]
+  ],
+  "b": [
+   [
+    "machine_info time",
+    "2.7017587430804753",
+    false
+   ],
+   [
+    "debug set_watchpoint write_io 0x99",
+    "wp#1",
+    false
+   ],
+   [
+    "debug list_watchpoints",
+    "wp#1 write_io 0x0099 {} {debug break}\n",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16405",
+    false
+   ],
+   [
+    "debug remove_watchpoint wp#1",
+    "",
+    false
+   ],
+   [
+    "set ::seen {}",
+    "",
+    false
+   ],
+   [
+    "proc seen {} {lappend ::seen [format %02X $::wp_last_value]}",
+    "",
+    false
+   ],
+   [
+    "debug set_watchpoint write_io 0x99 {} seen",
+    "wp#2",
+    false
+   ],
+   [
+    "after time 0.1 {debug break}",
+    "after#\u2026",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "set ::seen",
+    "87 00 58",
+    false
+   ],
+   [
+    "peek 0xE123",
+    "255",
+    false
+   ],
+   [
+    "poke 0xE123 0xA5",
+    "",
+    false
+   ],
+   [
+    "after time 0.1 reset",
+    "after#\u2026",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "reg pc",
+    "16400",
+    false
+   ],
+   [
+    "peek 0xE123",
+    "165",
+    false
+   ],
+   [
+    "machine_info time",
+    "2.7017587430804753",
+    false
+   ]
+  ],
+  "c": [
+   [
+    "set p [debug probe set_bp VDP.IRQvertical]",
+    "pp#1",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "debug probe read VDP.IRQvertical",
+    "1",
+    false
+   ],
+   [
+    "machine_info VDP_cycle_in_frame",
+    "357264",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "debug probe read VDP.IRQvertical",
+    "0",
+    false
+   ],
+   [
+    "machine_info VDP_cycle_in_frame",
+    "358494",
+    false
+   ],
+   [
+    "peek16 [expr {[reg pc] - 2}]",
+    "39387",
+    false
+   ]
+  ],
+  "up": 357264,
+  "down": 358494,
+  "irq_cycle": 357294,
+  "init": 16400,
+  "call": 16421,
+  "back": 16424,
+  "stop": 16425,
+  "first_out": 16403,
+  "late": 0.0,
+  "ram_before": 255,
+  "time_at_init": 2.7017587430804753,
+  "time_after_reset": 2.7017587430804753
+ },
+ "before": {
+  "ch06_registers": 16,
+  "ch06_disasm_lines": 8,
+  "ch06_disasm_same": 5,
+  "ch06_watch": 16405,
+  "ch15_fits": "value 0x100 is truncated to 8bit value: 0x00",
+  "irq_cycle": 357294,
+  "ch17_signal": 357250,
+  "jr_t": 13,
+  "ch05_lines": 5
+ },
+ "openmsx": {
+  "roms": {
+   "cart.rom": "39108f26a05f4903"
+  },
+  "17.0 Ubuntu 22.04 package": {
+   "values": 250,
+   "same_values": 250,
+   "captures": 0,
+   "same_captures": 0,
+   "same_in_drawn": 0,
+   "failed": [],
+   "different": [],
+   "values_of": {},
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 250,
+   "same_values": 250,
+   "captures": 0,
+   "same_captures": 0,
+   "same_in_drawn": 0,
+   "failed": [],
+   "different": [],
+   "values_of": {},
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 250,
+   "same_values": 250,
+   "captures": 0,
+   "same_captures": 0,
+   "same_in_drawn": 0,
+   "failed": [],
+   "different": [],
+   "values_of": {},
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 250,
+   "same_values": 250,
+   "captures": 0,
+   "same_captures": 0,
+   "same_in_drawn": 0,
+   "failed": [],
+   "different": [],
+   "values_of": {},
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 250,
+   "same_values": 244,
+   "captures": 0,
+   "same_captures": 0,
+   "same_in_drawn": 0,
+   "failed": [],
+   "different": [
+    "appG/console/a/6/1",
+    "appG/console/a/33/1",
+    "appG/console/a/39/1",
+    "appG/console/b/2/1",
+    "appG/console/b/18/1",
+    "appG/console/time_after_reset"
+   ],
+   "values_of": {
+    "appG/console/a/6/1": [
+     "bp#1 0x4010 {} {debug break}\nbp#2 0x4025 {} {debug break}\n",
+     "bp#1 16400 {} {debug break}\nbp#2 0x4025 {} {debug break}\n"
+    ],
+    "appG/console/a/33/1": [
+     "100",
+     "100.0"
+    ],
+    "appG/console/a/39/1": [
+     "DIR/shot.png",
+     ""
+    ],
+    "appG/console/b/2/1": [
+     "wp#1 write_io 0x0099 {} {debug break}\n",
+     "wp#1 write_io 0x99 {} {debug break}\n"
+    ],
+    "appG/console/b/18/1": [
+     "2.7017587430804753",
+     "5.603525587749281"
+    ],
+    "appG/console/time_after_reset": [
+     2.7017587430804753,
+     5.603525587749281
+    ]
+   },
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

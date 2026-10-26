@@ -1,0 +1,25 @@
+> disasm 0x0038 1
+0038  jp     #18e6        C3 E6 18
+> disasm [peek16 0x0039] 22
+18E6  push   hl           E5
+18E7  push   de           D5
+18E8  push   bc           C5
+18E9  push   af           F5
+18EA  exx                 D9
+18EB  ex     af,af'       08
+18EC  push   hl           E5
+18ED  push   de           D5
+18EE  push   bc           C5
+18EF  push   af           F5
+18F0  push   iy           FD E5
+18F2  push   ix           DD E5
+18F4  call   #fd9a        CD 9A FD
+18F7  in     a,(#99)      DB 99
+18F9  or     a            B7
+18FA  ld     (#f3e7),a    32 E7 F3
+18FD  jp     p,#194e      F2 4E 19
+1900  call   #fd9f        CD 9F FD
+1903  ld     hl,(#fc9e)   2A 9E FC
+1906  inc    hl           23
+1907  ld     (#fc9e),hl   22 9E FC
+190A  xor    a            AF

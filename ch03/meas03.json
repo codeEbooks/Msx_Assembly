@@ -1,0 +1,743 @@
+{
+ "memmap": {
+  "a8": "C4",
+  "pages": [
+   {
+    "page": 0,
+    "boxes": "0000000000000000",
+    "kept": 0
+   },
+   {
+    "page": 1,
+    "boxes": "0000000000000000",
+    "kept": 0
+   },
+   {
+    "page": 2,
+    "boxes": "0000000000000000",
+    "kept": 0
+   },
+   {
+    "page": 3,
+    "boxes": "1111111111111111",
+    "kept": 16384
+   }
+  ],
+  "total": 16384,
+  "vram_unchanged": true,
+  "test_T": 7324580,
+  "test_frames": 102.6
+ },
+ "slots": {
+  "default": {
+   "grid": {
+    "00": [
+     "ROM",
+     "4967",
+     "C-BIOS Main ROM"
+    ],
+    "01": [
+     "ROM",
+     "1F80",
+     "C-BIOS Main ROM"
+    ],
+    "02": [
+     "ROM",
+     "75F5",
+     "C-BIOS Logo ROM"
+    ],
+    "03": [
+     "-",
+     null,
+     ""
+    ],
+    "10": [
+     "ROM",
+     "DF88",
+     "slots.rom"
+    ],
+    "11": [
+     "ROM",
+     "DF88",
+     "slots.rom"
+    ],
+    "12": [
+     "ROM",
+     "DF88",
+     "slots.rom"
+    ],
+    "13": [
+     "ROM",
+     "DF88",
+     "slots.rom"
+    ],
+    "20": [
+     "-",
+     null,
+     ""
+    ],
+    "21": [
+     "-",
+     null,
+     ""
+    ],
+    "22": [
+     "-",
+     null,
+     ""
+    ],
+    "23": [
+     "-",
+     null,
+     ""
+    ],
+    "30": [
+     "-",
+     null,
+     ""
+    ],
+    "31": [
+     "-",
+     null,
+     ""
+    ],
+    "32": [
+     "-",
+     null,
+     ""
+    ],
+    "33": [
+     "RAM",
+     16384,
+     "Main RAM"
+    ]
+   },
+   "a8": "C4"
+  },
+  "normal": {
+   "grid": {
+    "00": [
+     "ROM",
+     "4967",
+     "C-BIOS Main ROM"
+    ],
+    "01": [
+     "ROM",
+     "1F80",
+     "C-BIOS Main ROM"
+    ],
+    "02": [
+     "ROM",
+     "75F5",
+     "C-BIOS Logo ROM"
+    ],
+    "03": [
+     "-",
+     null,
+     ""
+    ],
+    "10": [
+     "-",
+     null,
+     "slots.rom"
+    ],
+    "11": [
+     "ROM",
+     "DF88",
+     "slots.rom"
+    ],
+    "12": [
+     "-",
+     null,
+     "slots.rom"
+    ],
+    "13": [
+     "-",
+     null,
+     "slots.rom"
+    ],
+    "20": [
+     "-",
+     null,
+     ""
+    ],
+    "21": [
+     "-",
+     null,
+     ""
+    ],
+    "22": [
+     "-",
+     null,
+     ""
+    ],
+    "23": [
+     "-",
+     null,
+     ""
+    ],
+    "30": [
+     "-",
+     null,
+     ""
+    ],
+    "31": [
+     "-",
+     null,
+     ""
+    ],
+    "32": [
+     "-",
+     null,
+     ""
+    ],
+    "33": [
+     "RAM",
+     16384,
+     "Main RAM"
+    ]
+   },
+   "a8": "C4"
+  }
+ },
+ "sysvars": {
+  "vars": {
+   "BOTTOM": [
+    "C000"
+   ],
+   "HIMEM": [
+    "F380"
+   ],
+   "STKTOP": [
+    "F380"
+   ],
+   "EXPTBL": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "CGPNT": [
+    "00",
+    "BF",
+    "1B"
+   ],
+   "SCRMOD": [
+    "01"
+   ],
+   "FORCLR": [
+    "0F",
+    "04",
+    "04"
+   ],
+   "RG0SAV": [
+    "00",
+    "E0",
+    "06",
+    "80"
+   ],
+   "RG4SAV": [
+    "00",
+    "36",
+    "07",
+    "F4"
+   ],
+   "STATFL": [
+    "9F"
+   ],
+   "JIFFY": [
+    "0081"
+   ],
+   "CLIKSW": [
+    "00"
+   ],
+   "H.KEYI": [
+    "C9",
+    "C9",
+    "C9",
+    "C9",
+    "C9"
+   ],
+   "H.TIMI": [
+    "C9",
+    "C9",
+    "C9",
+    "C9",
+    "C9"
+   ]
+  },
+  "regs": {
+   "AF": "1F08",
+   "BC": "0101",
+   "DE": "4010",
+   "HL": "4004",
+   "IX": "4010",
+   "IY": "0104",
+   "SP": "F2EC",
+   "I": "00",
+   "IFF2": 0
+  },
+  "at_init": {
+   "IM": 0,
+   "IFF": 0,
+   "PC": "4010",
+   "init_label": "4010"
+  },
+  "vdp_regs": [
+   "00",
+   "E0",
+   "06",
+   "80",
+   "00",
+   "36",
+   "07",
+   "F4"
+  ],
+  "rgsav_equals_vdp": true,
+  "hooks_c9_bytes": 330,
+  "cgtabl": "1BBF",
+  "model": {
+   "ram_first": "C000",
+   "sys_area": "F380",
+   "secondary_slots": false
+  }
+ },
+ "switch_on": {
+  "MSXBOOK_EU8": {
+   "init_frame": 133,
+   "seconds": 2.662,
+   "bottom": "E000",
+   "a8": "C4",
+   "ram": [
+    "E000-FFFF"
+   ]
+  },
+  "MSXBOOK_EU16": {
+   "init_frame": 135,
+   "seconds": 2.702,
+   "bottom": "C000",
+   "a8": "C4",
+   "ram": [
+    "C000-FFFF"
+   ]
+  },
+  "MSXBOOK_EU32": {
+   "init_frame": 137,
+   "seconds": 2.742,
+   "bottom": "8000",
+   "a8": "F4",
+   "ram": [
+    "8000-FFFF"
+   ]
+  },
+  "MSXBOOK_EU64": {
+   "init_frame": 137,
+   "seconds": 2.742,
+   "bottom": "8000",
+   "a8": "F4",
+   "ram": [
+    "0000-FFFF"
+   ]
+  },
+  "MSXBOOK_JP16": {
+   "init_frame": 139,
+   "seconds": 2.325,
+   "bottom": "C000",
+   "a8": "C4",
+   "ram": [
+    "C000-FFFF"
+   ]
+  },
+  "film": {
+   "init_frame": 135,
+   "logo_first": 13,
+   "logo_last": 131,
+   "logo_frames": 119
+  }
+ },
+ "jiffy": {
+  "j20": 148,
+  "j40": 168,
+  "per_20_frames": 20,
+  "isr_first": 503,
+  "isr_frames": 44,
+  "isr_T": 503,
+  "isr_same": 43,
+  "isr_pct": 0.7
+ },
+ "timing": {
+  "rows": [
+   {
+    "ins": "nop",
+    "bytes": 1,
+    "zilog": 4,
+    "m1": 1,
+    "model": 5,
+    "measured": 5,
+    "r_moved_mod128": 116
+   },
+   {
+    "ins": "inc hl",
+    "bytes": 1,
+    "zilog": 6,
+    "m1": 1,
+    "model": 7,
+    "measured": 7,
+    "r_moved_mod128": 116
+   },
+   {
+    "ins": "ld a,(hl)",
+    "bytes": 1,
+    "zilog": 7,
+    "m1": 1,
+    "model": 8,
+    "measured": 8,
+    "r_moved_mod128": 116
+   },
+   {
+    "ins": "ld a,$55",
+    "bytes": 2,
+    "zilog": 7,
+    "m1": 1,
+    "model": 8,
+    "measured": 8,
+    "r_moved_mod128": 116
+   },
+   {
+    "ins": "push hl",
+    "bytes": 1,
+    "zilog": 11,
+    "m1": 1,
+    "model": 12,
+    "measured": 12,
+    "r_moved_mod128": 116
+   },
+   {
+    "ins": "pop hl",
+    "bytes": 1,
+    "zilog": 10,
+    "m1": 1,
+    "model": 11,
+    "measured": 11,
+    "r_moved_mod128": 116
+   },
+   {
+    "ins": "out (c),a",
+    "bytes": 2,
+    "zilog": 12,
+    "m1": 2,
+    "model": 14,
+    "measured": 14,
+    "r_moved_mod128": 104
+   },
+   {
+    "ins": "sla a",
+    "bytes": 2,
+    "zilog": 8,
+    "m1": 2,
+    "model": 10,
+    "measured": 10,
+    "r_moved_mod128": 104
+   },
+   {
+    "ins": "ld a,(ix+0)",
+    "bytes": 3,
+    "zilog": 19,
+    "m1": 2,
+    "model": 21,
+    "measured": 21,
+    "r_moved_mod128": 104
+   },
+   {
+    "ins": "bit 0,(ix+0)",
+    "bytes": 4,
+    "zilog": 20,
+    "m1": 2,
+    "model": 22,
+    "measured": 22,
+    "r_moved_mod128": 104
+   },
+   {
+    "ins": "jr $+2",
+    "bytes": 2,
+    "zilog": 12,
+    "m1": 1,
+    "model": 13,
+    "measured": 13,
+    "r_moved_mod128": 116
+   }
+  ],
+  "ldir": {
+   "bytes": 500,
+   "T": 11495,
+   "model": 11495,
+   "zilog": 10495
+  },
+  "ram_nops": {
+   "T": 2500,
+   "per": 5.0
+  },
+  "frame_T": 71364,
+  "nops_per_frame": 14272.8,
+  "nops_per_frame_zilog": 17841.0
+ },
+ "nops": {
+  "frame30": [
+   {
+    "rows": [
+     218,
+     221
+    ],
+    "x_first": 20,
+    "x_last": 61,
+    "length": 42
+   },
+   {
+    "rows": [
+     226,
+     229
+    ],
+    "x_first": 20,
+    "x_last": 181,
+    "length": 162
+   },
+   {
+    "rows": [
+     234,
+     237
+    ],
+    "x_first": 20,
+    "x_last": 301,
+    "length": 282
+   }
+  ],
+  "lengths": [
+   42,
+   162,
+   282
+  ],
+  "model": [
+   42,
+   162,
+   282
+  ],
+  "zilog": [
+   36,
+   132,
+   228
+  ],
+  "x_first_by_frame": {
+   "30": 20,
+   "31": 20,
+   "32": 20,
+   "33": 20,
+   "34": 20
+  },
+  "rows": [
+   [
+    218,
+    221
+   ],
+   [
+    226,
+    229
+   ],
+   [
+    234,
+    237
+   ]
+  ]
+ },
+ "vdp": {
+  "addresses": [
+   "3FFE",
+   "3FFF",
+   "0000",
+   "0001"
+  ],
+  "bytes": [
+   "11",
+   "22",
+   "33",
+   "44"
+  ],
+  "read": [
+   "11",
+   "22",
+   "33",
+   "44"
+  ],
+  "status": [
+   "9F",
+   "1F"
+  ],
+  "after_reg": "1F"
+ },
+ "psg": {
+  "MSXBOOK_EU16": {
+   "before": [
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "B8",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "BF",
+    "8F"
+   ],
+   "after": [
+    "FF",
+    "FF",
+    "FF",
+    "FF",
+    "FF",
+    "FF",
+    "FF",
+    "BF",
+    "FF",
+    "FF",
+    "FF",
+    "FF",
+    "FF",
+    "FF",
+    "BF",
+    "FF"
+   ]
+  },
+  "MSXBOOK_EU16AY": {
+   "before": [
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "B8",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "00",
+    "BF",
+    "8F"
+   ],
+   "after": [
+    "FF",
+    "0F",
+    "FF",
+    "0F",
+    "FF",
+    "0F",
+    "1F",
+    "BF",
+    "1F",
+    "1F",
+    "1F",
+    "FF",
+    "FF",
+    "0F",
+    "BF",
+    "FF"
+   ]
+  },
+  "ay_bits": {
+   "0": 8,
+   "1": 4,
+   "2": 8,
+   "3": 4,
+   "4": 8,
+   "5": 4,
+   "6": 5,
+   "7": 8,
+   "8": 5,
+   "9": 5,
+   "10": 5,
+   "11": 8,
+   "12": 8,
+   "13": 4,
+   "14": 8,
+   "15": 8
+  },
+  "r7_written": "BF"
+ },
+ "keys": {
+  "idle": [
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF"
+  ],
+  "held": [
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "BF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF",
+   "FF"
+  ],
+  "held_row": 4,
+  "held_bit": 6,
+  "ports": {
+   "R14": "BF",
+   "AA": "5A",
+   "A8": "C4"
+  },
+  "ports_jp": {
+   "R14": "BF",
+   "AA": "5A",
+   "A8": "C4"
+  },
+  "type_q": [
+   [
+    4,
+    "BF"
+   ]
+  ]
+ },
+ "page0": {
+  "page0_di": {
+   "pc": "40CA",
+   "sp": "F380",
+   "iff": 7,
+   "counted": 85,
+   "sum": "C000",
+   "look_reached_end": true,
+   "look_T": 950374,
+   "look_frames": 13.32,
+   "ram_pattern_bytes": 0,
+   "ram_all_pattern": false
+  },
+  "page0_ei": {
+   "pc": "0038",
+   "sp": "6422",
+   "iff": 0,
+   "counted": 50,
+   "sum": null,
+   "look_reached_end": false,
+   "ram_pattern_bytes": 16384,
+   "ram_all_pattern": true
+  }
+ }
+}

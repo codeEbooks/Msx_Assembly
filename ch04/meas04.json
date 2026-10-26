@@ -1,0 +1,552 @@
+{
+ "versions": {
+  "sjasmplus": "SjASMPlus Z80 Cross-Assembler v1.24.0 (https://github.com/z00m128/sjasmplus)",
+  "openmsx": "openMSX 19.1",
+  "cbios": "0.29a-1"
+ },
+ "check": {
+  "book_eu": {
+   "machine": "MSXBOOK_EU16",
+   "assembler": "sjasmplus 1.24.0",
+   "bios_sum": "4967",
+   "b002B": "A1",
+   "hz": "50 Hz",
+   "b002D": "00",
+   "msx": "MSX1",
+   "ram_from": "C000",
+   "turns": 1928,
+   "frame_T": 71364
+  },
+  "book_jp": {
+   "machine": "MSXBOOK_JP16",
+   "assembler": "sjasmp?us 1.24.0",
+   "bios_sum": "7370",
+   "b002B": "00",
+   "hz": "60 Hz",
+   "b002D": "00",
+   "msx": "MSX1",
+   "ram_from": "C000",
+   "turns": 1615,
+   "frame_T": 59736
+  },
+  "openmsx_msx1_eu": {
+   "machine": "C-BIOS_MSX1_EU",
+   "assembler": "sjasmplus 1.24.0",
+   "bios_sum": "4967",
+   "b002B": "A1",
+   "hz": "50 Hz",
+   "b002D": "00",
+   "msx": "MSX1",
+   "ram_from": "8000",
+   "turns": 1929
+  },
+  "default": {
+   "machine": "(none: openMSX's default)",
+   "assembler": "sjasmplus 1.24.0",
+   "bios_sum": "BF47",
+   "b002B": "21",
+   "hz": "60 Hz",
+   "b002D": "02",
+   "msx": "MSX2+",
+   "ram_from": "8000",
+   "turns": 1615,
+   "bios_file": "cbios_main_msx2+.rom"
+  },
+  "turn_T": 37
+ },
+ "cartridge": {
+  "bytes": 16384,
+  "header": [
+   "41",
+   "42",
+   "10",
+   "40",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00"
+  ],
+  "init": "4010",
+  "used": 713
+ },
+ "photograph": {
+  "rc": 0,
+  "output": "60 shots/check_f0060.png",
+  "same_as_figure": true
+ },
+ "speed": {
+  "speeds": [
+   100,
+   400,
+   2000
+  ],
+  "frames": 60,
+  "identical": true
+ },
+ "edge": {
+  "model": [
+   [
+    8,
+    49
+   ],
+   [
+    20,
+    181
+   ],
+   [
+    143,
+    304
+   ]
+  ],
+  "model_clamped": [
+   [
+    0,
+    49
+   ],
+   [
+    20,
+    181
+   ],
+   [
+    143,
+    319
+   ]
+  ],
+  "drawn": [
+   19,
+   302
+  ],
+  "builds": {
+   "book": {
+    "stripes": [
+     [
+      8,
+      49
+     ],
+     [
+      20,
+      181
+     ],
+     [
+      143,
+      304
+     ]
+    ],
+    "capture": "edge_book_f0030.png",
+    "still_30_34": true,
+    "as_written": true,
+    "as_clamped": false
+   },
+   "17.0 Ubuntu 22.04 package": {
+    "stripes": [
+     [
+      8,
+      49
+     ],
+     [
+      20,
+      181
+     ],
+     [
+      143,
+      304
+     ]
+    ],
+    "capture": "edge_170_f0030.png",
+    "still_30_34": true,
+    "as_written": true,
+    "as_clamped": false
+   },
+   "18.0 Debian package": {
+    "stripes": [
+     [
+      8,
+      49
+     ],
+     [
+      20,
+      181
+     ],
+     [
+      143,
+      304
+     ]
+    ],
+    "capture": "edge_180_f0030.png",
+    "still_30_34": true,
+    "as_written": true,
+    "as_clamped": false
+   },
+   "19.1 openMSX Linux build": {
+    "stripes": [
+     [
+      8,
+      49
+     ],
+     [
+      20,
+      181
+     ],
+     [
+      143,
+      304
+     ]
+    ],
+    "capture": "edge_191_f0030.png",
+    "still_30_34": true,
+    "as_written": true,
+    "as_clamped": false
+   },
+   "20.0 openMSX Linux build": {
+    "stripes": [
+     [
+      0,
+      49
+     ],
+     [
+      20,
+      181
+     ],
+     [
+      143,
+      319
+     ]
+    ],
+    "capture": "edge_200_f0030.png",
+    "still_30_34": true,
+    "as_written": false,
+    "as_clamped": true
+   },
+   "21.0 openMSX Linux build": {
+    "stripes": [
+     [
+      0,
+      49
+     ],
+     [
+      20,
+      181
+     ],
+     [
+      143,
+      319
+     ]
+    ],
+    "capture": "edge_210_f0030.png",
+    "still_30_34": true,
+    "as_written": false,
+    "as_clamped": true
+   }
+  }
+ },
+ "troubles": {
+  "no_sjasmplus": "sjasmplus: not found on the PATH",
+  "package_cbios_eu": {
+   "ran": null,
+   "error": "Fatal error: Error in \"C-BIOS_MSX1_EU\" machine: Couldn't find ROM file for \"C-BIOS Main ROM\" cbios_main_msx1_eu.rom (sha1: baf2e9c69252fd9b350b488d89c71887b9d05eec)."
+  },
+  "package_cbios_jp": {
+   "ran": "C-BIOS_MSX1_JP",
+   "error": null
+  },
+  "book_machine_not_installed": {
+   "ran": null,
+   "error": "Fatal error: Error in \"MSXBOOK_EU16\" machine: machines/MSXBOOK_EU16.xml not found in this context"
+  },
+  "book_machine_installed": {
+   "ran": "MSXBOOK_EU16",
+   "error": null
+  },
+  "package_cbios_eu_installed": {
+   "ran": "C-BIOS_MSX1_EU",
+   "error": null
+  },
+  "package_missing_links": [
+   "cbios_main_msx1_eu.rom",
+   "cbios_main_msx2+_eu.rom",
+   "cbios_main_msx2_eu.rom"
+  ],
+  "official_zip_no_system_data": {
+   "ran": null,
+   "error": "info: Failed to initialize default machine: Error in \"C-BIOS_MSX2+\" machine: Couldn't find machines/C-BIOS_MSX2+.xml in any of: ~/.openMSX/share, /share"
+  },
+  "official_zip_with_system_data": {
+   "ran": "C-BIOS_MSX2+",
+   "error": null
+  }
+ },
+ "case": {
+  "linux": {
+   "rc": 1,
+   "lines": [
+    "case.asm(3): error: opening file: MSX.INC",
+    "Pass 1 complete (1 errors)",
+    "case.asm(3): error: opening file: MSX.INC",
+    "Pass 2 complete (2 errors)",
+    "case.asm(3): error: opening file: MSX.INC",
+    "case.asm(5): error: Label not found: VDP_DATA",
+    "Errors: 4, warnings: 0, compiled: 6 lines"
+   ]
+  },
+  "windows": {
+   "rc": 0,
+   "lines": [
+    "Pass 1 complete (0 errors)",
+    "Pass 2 complete (0 errors)",
+    "Errors: 0, warnings: 0, compiled: 65 lines"
+   ]
+  }
+ },
+ "assemblers": {
+  "book": "SjASMPlus Z80 Cross-Assembler v1.24.0 (https://github.com/z00m128/sjasmplus)",
+  "windows": {
+   "version": "SjASMPlus Z80 Cross-Assembler v1.24.0 (https://github.com/z00m128/sjasmplus)",
+   "sha256": "0064b0476c77723dcbdfc4d6baeaf56ed5677ae484287e9de25291664d73168c",
+   "version_line": "sjasmplus 1.24.0 (the book: 1.24.0)",
+   "summary": "40 files, 0 different",
+   "different": []
+  },
+  "older": [
+   {
+    "version_line": "sjasmplus 1.20.3 (the book: 1.24.0)",
+    "summary": "40 files, 1 different",
+    "different": [
+     "ch04/check.rom"
+    ],
+    "version": "SjASMPlus Z80 Cross-Assembler v1.20.3 (https://github.com/z00m128/sjasmplus)",
+    "sha256": "ae27a497866afeabf5ea8f85998d041e203c922ce2708da43091eff442f03c29"
+   },
+   {
+    "version_line": "sjasmplus 1.23.1 (the book: 1.24.0)",
+    "summary": "40 files, 1 different",
+    "different": [
+     "ch04/check.rom"
+    ],
+    "version": "SjASMPlus Z80 Cross-Assembler v1.23.1 (https://github.com/z00m128/sjasmplus)",
+    "sha256": "42b3b712d30075a563d0e51ae4eb065317018ec837c6727b01f14834339256d3"
+   }
+  ]
+ },
+ "downloads": {
+  "files": {
+   "cbios-0.29a.zip": {
+    "bytes": 269374,
+    "sha256": "c585a2f4a10b397e460a95043d59ac79cf4442fbb45a6e14a1e27ef9febaed73"
+   },
+   "openmsx-19.1-linux-x86_64-bin.zip": {
+    "bytes": 7394527,
+    "sha256": "f6b69eb3a192f214019674987773f1dc0be4ff309902a45def85113ba34e7020"
+   },
+   "openmsx-20.0-linux-x86_64-bin.zip": {
+    "bytes": 9257327,
+    "sha256": "a54138c7b9c71666faf89691bd7032088dc98c4e07fee1551afe4780baae39e3"
+   },
+   "openmsx-21.0-linux-x86_64-bin.zip": {
+    "bytes": 10061071,
+    "sha256": "53cc1e9dc3a97b0ff56d1a1572b3ffdbba4fcaee3eb78c4391b9b1443f92284a"
+   },
+   "openmsx-21.0-mac-aarch64-bin.dmg": {
+    "bytes": 9172754,
+    "sha256": "f211e299ff039658dd8e943b775bb6b5e111a064caa78420e9d2345f2d116e51"
+   },
+   "openmsx-21.0-mac-x86_64-bin.dmg": {
+    "bytes": 9710214,
+    "sha256": "dba74cb02b431ff6255a209887f65af32d6bb165afbb7815931b40915f589ba6"
+   },
+   "openmsx-21.0-windows-vc-x64-bin.zip": {
+    "bytes": 13406976,
+    "sha256": "0a41664e7b2e3bdd195dd6bc804b9ca2e51bc6b02fb3b5507849e9edd22d7fe4"
+   },
+   "sjasmplus-1.20.3-src.tar.xz": {
+    "bytes": 1210584,
+    "sha256": "343839b79bc8bc79f97ac0b3ac05ea9c17799aa561af46f3ac7a1da863b1b286"
+   },
+   "sjasmplus-1.23.1-src.tar.xz": {
+    "bytes": 1280128,
+    "sha256": "0203a01199b16660027fbe04b0a87dc5aff299401b5e3e49bff8468a3801cc54"
+   },
+   "sjasmplus-1.24.0-src.tar.xz": {
+    "bytes": 1290980,
+    "sha256": "0b5013f07e8d8505f9e296529655668b6fdf0268625c19e883b0fff484e209f1"
+   },
+   "sjasmplus-1.24.0.win.zip": {
+    "bytes": 737953,
+    "sha256": "7e1f8840842039bdb97e51a59abda2e5c25a9da160097e8f79a62583ab72d0e0"
+   }
+  },
+  "cbios_book_sha1": {
+   "cbios_main_msx1_eu.rom": "baf2e9c69252fd9b350b488d89c71887b9d05eec",
+   "cbios_main_msx1_jp.rom": "933719a975a62395068b0a251dd4395b67217630",
+   "cbios_logo_msx1.rom": "9fbbe400dbaf186aeba42e170d9424b032412c42"
+  },
+  "sjasmplus_exe": "i386 (32-bit)",
+  "openmsx_exe": "x86-64 (64-bit)",
+  "windows_zip_cbios_same": true,
+  "linux_zip_cbios_same": true,
+  "cbios_zip_same": true,
+  "install_from": {
+   "cbios-0.29a.zip": {
+    "rc": 0,
+    "found": 3
+   },
+   "share\\machines of the Windows zip": {
+    "rc": 0,
+    "found": 3
+   },
+   "openMSX.app, aarch64": {
+    "rc": 0,
+    "found": 3
+   },
+   "openMSX.app, x86_64": {
+    "rc": 0,
+    "found": 3
+   }
+  },
+  "mac": {
+   "aarch64": {
+    "cpu": "arm64",
+    "minimum_macos": "11.0",
+    "cbios_same": true,
+    "user_folder_string": "~/.openMSX"
+   },
+   "x86_64": {
+    "cpu": "x86-64",
+    "minimum_macos": "10.15",
+    "cbios_same": true,
+    "user_folder_string": "~/.openMSX"
+   }
+  }
+ },
+ "emulators": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 1143,
+   "same_values": 1143,
+   "captures": 37,
+   "same_captures": 37,
+   "same_in_drawn": 37,
+   "failed": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 1143,
+   "same_values": 1143,
+   "captures": 37,
+   "same_captures": 37,
+   "same_in_drawn": 37,
+   "failed": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 1143,
+   "same_values": 1143,
+   "captures": 37,
+   "same_captures": 37,
+   "same_in_drawn": 37,
+   "failed": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 1143,
+   "same_values": 1143,
+   "captures": 37,
+   "same_captures": 37,
+   "same_in_drawn": 37,
+   "failed": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 1143,
+   "same_values": 1143,
+   "captures": 37,
+   "same_captures": 37,
+   "same_in_drawn": 37,
+   "failed": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ },
+ "windows": {
+  "exe_sha256": "18831e49acfa38f9f18efa7129415a6798842ca4da3f90a7f03a0294a6fc7f9f",
+  "runs": [
+   {
+    "rom": "ch02/count.rom",
+    "machine": "MSXBOOK_EU16",
+    "frames": 60,
+    "identical": 60
+   },
+   {
+    "rom": "ch03/nops.rom",
+    "machine": "MSXBOOK_EU16",
+    "frames": 60,
+    "identical": 60
+   },
+   {
+    "rom": "ch03/keys.rom",
+    "machine": "MSXBOOK_EU16",
+    "frames": 80,
+    "identical": 80
+   },
+   {
+    "rom": "ch04/check.rom",
+    "machine": "MSXBOOK_EU16",
+    "frames": 60,
+    "identical": 60
+   },
+   {
+    "rom": "ch04/check.rom",
+    "machine": "MSXBOOK_JP16",
+    "frames": 60,
+    "identical": 60
+   }
+  ]
+ },
+ "setup": {
+  "rc": 0,
+  "last_lines": [
+   "ROM      cbios_logo_msx1.rom     sha1 9fbbe400dbaf  ok",
+   "ROM      cbios_main_msx1_eu.rom  sha1 baf2e9c69252  ok",
+   "ROM      cbios_main_msx1_jp.rom  sha1 933719a975a6  ok",
+   "into ~/.openMSX/share",
+   "SjASMPlus Z80 Cross-Assembler v1.24.0 (https://github.com/z00m128/sjasmplus)",
+   "openMSX 19.1"
+  ]
+ },
+ "listings": {
+  "verify": {
+   "rc": 0,
+   "first": "sjasmplus 1.24.0 (the book: 1.24.0)",
+   "summary": "40 files, 0 different"
+  },
+  "install": {
+   "rc": 0,
+   "lines": [
+    "machine  MSXBOOK_EU16.xml",
+    "machine  MSXBOOK_EU16AY.xml",
+    "machine  MSXBOOK_EU32.xml",
+    "machine  MSXBOOK_EU64.xml",
+    "machine  MSXBOOK_EU8.xml",
+    "machine  MSXBOOK_JP16.xml",
+    "ROM      cbios_logo_msx1.rom     sha1 9fbbe400dbaf  ok",
+    "ROM      cbios_main_msx1_eu.rom  sha1 baf2e9c69252  ok",
+    "ROM      cbios_main_msx1_jp.rom  sha1 933719a975a6  ok",
+    "into ~/.openMSX/share"
+   ]
+  }
+ },
+ "default_setting": {
+  "first_start": "C-BIOS_MSX2+",
+  "second_start": "MSXBOOK_EU16"
+ }
+}

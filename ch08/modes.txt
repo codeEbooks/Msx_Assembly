@@ -1,0 +1,6 @@
+> disasm [reg pc] 5
+4050  jr     #4050        18 FE
+4052  inc    (hl)         34
+4053  ld     (de),a       12
+4054  ld     a,b          78
+4055  ld     d,(hl)       56

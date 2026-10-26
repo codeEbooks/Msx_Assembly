@@ -1,0 +1,13 @@
+> disasm [reg pc] 1
+4032  ld     a,#00        3E 00
+> step_in
+> reg a
+0
+> debug set_bp 0xC015
+bp#2
+> debug cont
+> disasm [reg pc] 1
+C015  ld     a,#47        3E 47
+> step_in
+> reg a
+71

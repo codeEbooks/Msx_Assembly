@@ -1,0 +1,438 @@
+{
+ "map": {
+  "pixels": 8192,
+  "set": [
+   2016,
+   2016
+  ],
+  "frame": 30,
+  "step": 4
+ },
+ "cmp": {
+  "unsigned": 32640,
+  "signed": 32640,
+  "differ": 32768,
+  "opposite": 32768,
+  "pairs": 131072
+ },
+ "cost": {
+  "rows": [
+   {
+    "instr": "jp z, c2",
+    "bytes": [
+     202,
+     25,
+     64
+    ],
+    "taken": true,
+    "t": 11
+   },
+   {
+    "instr": "jp nz, never",
+    "bytes": [
+     194,
+     71,
+     64
+    ],
+    "taken": false,
+    "t": 11
+   },
+   {
+    "instr": "jp c4",
+    "bytes": [
+     195,
+     32,
+     64
+    ],
+    "taken": true,
+    "t": 11
+   },
+   {
+    "instr": "jr z, c5",
+    "bytes": [
+     40,
+     1
+    ],
+    "taken": true,
+    "t": 13
+   },
+   {
+    "instr": "jr nz, never",
+    "bytes": [
+     32,
+     34
+    ],
+    "taken": false,
+    "t": 8
+   },
+   {
+    "instr": "jr c7",
+    "bytes": [
+     24,
+     1
+    ],
+    "taken": true,
+    "t": 13
+   },
+   {
+    "instr": "ld b, 2",
+    "bytes": [
+     6,
+     2
+    ],
+    "taken": false,
+    "t": 8
+   },
+   {
+    "instr": "djnz c8",
+    "bytes": [
+     16,
+     254
+    ],
+    "taken": true,
+    "t": 14
+   },
+   {
+    "instr": "djnz c8",
+    "bytes": [
+     16,
+     254
+    ],
+    "taken": false,
+    "t": 9
+   },
+   {
+    "instr": "call z, sub",
+    "bytes": [
+     204,
+     68,
+     64
+    ],
+    "taken": true,
+    "t": 18
+   },
+   {
+    "instr": "ret nz",
+    "bytes": [
+     192
+    ],
+    "taken": false,
+    "t": 6
+   },
+   {
+    "instr": "ret z",
+    "bytes": [
+     200
+    ],
+    "taken": true,
+    "t": 12
+   },
+   {
+    "instr": "call nz, never",
+    "bytes": [
+     196,
+     71,
+     64
+    ],
+    "taken": false,
+    "t": 11
+   },
+   {
+    "instr": "call sub2",
+    "bytes": [
+     205,
+     70,
+     64
+    ],
+    "taken": true,
+    "t": 18
+   },
+   {
+    "instr": "ret",
+    "bytes": [
+     201
+    ],
+    "taken": true,
+    "t": 11
+   },
+   {
+    "instr": "ld hl, c14",
+    "bytes": [
+     33,
+     58,
+     64
+    ],
+    "taken": false,
+    "t": 11
+   },
+   {
+    "instr": "jp (hl)",
+    "bytes": [
+     233
+    ],
+    "taken": true,
+    "t": 5
+   },
+   {
+    "instr": "ld ix, c16",
+    "bytes": [
+     221,
+     33,
+     65,
+     64
+    ],
+    "taken": false,
+    "t": 16
+   },
+   {
+    "instr": "jp (ix)",
+    "bytes": [
+     221,
+     233
+    ],
+    "taken": true,
+    "t": 10
+   },
+   {
+    "instr": "nop",
+    "bytes": [
+     0
+    ],
+    "taken": false,
+    "t": 5
+   }
+  ]
+ },
+ "jrfar": {
+  "fwd": [
+   24,
+   127
+  ],
+  "back": [
+   24,
+   128
+  ],
+  "fwd_at": 16384,
+  "back_at": 16640,
+  "further_fwd": {
+   "exit": 1,
+   "messages": [
+    "t.asm(2): error: [JR] Target out of range (+128)"
+   ]
+  },
+  "further_back": {
+   "exit": 1,
+   "messages": [
+    "t.asm(4): error: [JR] Target out of range (-129)"
+   ]
+  }
+ },
+ "loops": {
+  "turns": {
+   "0": 256,
+   "1": 1,
+   "255": 255
+  },
+  "timed": [
+   {
+    "b": 1,
+    "turns": 1,
+    "t": 22
+   },
+   {
+    "b": 10,
+    "turns": 10,
+    "t": 193
+   },
+   {
+    "b": 0,
+    "turns": 256,
+    "t": 4867
+   }
+  ],
+  "big": {
+   "count": 1000,
+   "t": 30006,
+   "turn": 30
+  },
+  "model": {
+   "ld": 8,
+   "nop": 5,
+   "djnz": 14,
+   "djnz_last": 9
+  }
+ },
+ "table": {
+  "rows": [
+   {
+    "k": 0,
+    "table": 111,
+    "chain": 55
+   },
+   {
+    "k": 1,
+    "table": 111,
+    "chain": 71
+   },
+   {
+    "k": 2,
+    "table": 111,
+    "chain": 87
+   },
+   {
+    "k": 3,
+    "table": 111,
+    "chain": 103
+   },
+   {
+    "k": 4,
+    "table": 111,
+    "chain": 119
+   },
+   {
+    "k": 5,
+    "table": 111,
+    "chain": 135
+   },
+   {
+    "k": 6,
+    "table": 111,
+    "chain": 151
+   },
+   {
+    "k": 7,
+    "table": 111,
+    "chain": 167
+   }
+  ],
+  "step": 16
+ },
+ "abs": {
+  "jump": [
+   45,
+   55
+  ],
+  "nojump": [
+   59
+  ],
+  "same_80": true,
+  "of_81": 127
+ },
+ "idioms": {
+  "yes": [
+   128,
+   16,
+   128,
+   1,
+   1,
+   156
+  ],
+  "cases": 1536
+ },
+ "bounce": {
+  "cells": 140,
+  "turns": 10,
+  "end": [
+   26,
+   12
+  ],
+  "frame": 15
+ },
+ "search": {
+  "rows": [
+   {
+    "value": 17,
+    "at": 0,
+    "found": 1,
+    "t": 38
+   },
+   {
+    "value": 167,
+    "at": 10,
+    "found": 1,
+    "t": 388
+   },
+   {
+    "value": 226,
+    "at": 31,
+    "found": 1,
+    "t": 1123
+   },
+   {
+    "value": 7,
+    "at": null,
+    "found": 0,
+    "t": 1144
+   }
+  ],
+  "turn": 35,
+  "first": 38
+ },
+ "answers": {
+  "q1": "NC",
+  "q2": 32640,
+  "q4": 8707,
+  "q5": {
+   "dispatch": 111,
+   "chain": 183
+  },
+  "q6": 127
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 199,
+   "same_values": 199,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 199,
+   "same_values": 199,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 199,
+   "same_values": 199,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 199,
+   "same_values": 199,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 199,
+   "same_values": 199,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

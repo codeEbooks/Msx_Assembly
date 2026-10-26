@@ -1,0 +1,12 @@
+> debug set_watchpoint write_io 0x99
+wp#1
+> debug cont
+> reg pc
+16405
+> debug read {VDP data latch value} 0
+3
+> debug cont
+> reg pc
+16409
+> debug read {VDP regs} 7
+3

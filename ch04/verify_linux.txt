@@ -1,0 +1,6 @@
+sjasmplus 1.24.0 (the book: 1.24.0)
+  ok    ch01/beam_000.rom
+  ok    ch01/beam_016.rom
+  ...
+  ok    ch05/wait.rom
+40 files, 0 different

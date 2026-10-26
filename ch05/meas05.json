@@ -1,0 +1,516 @@
+{
+ "assembly": {
+  "rc": 0,
+  "output": [
+   "SjASMPlus Z80 Cross-Assembler v1.24.0 (https://github.com/z00m128/sjasmplus)",
+   "Pass 1 complete (0 errors)",
+   "Pass 2 complete (0 errors)",
+   "Pass 3 complete",
+   "Errors: 0, warnings: 0, compiled: 77 lines"
+  ],
+  "rom_bytes": 16384,
+  "header": [
+   "41",
+   "42",
+   "10",
+   "40",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00",
+   "00"
+  ],
+  "code": [
+   "F3",
+   "3E",
+   "03",
+   "D3",
+   "99",
+   "3E",
+   "87",
+   "D3",
+   "99",
+   "18",
+   "FE"
+  ],
+  "code_at": "4010",
+  "padding": 16357,
+  "stop": "4019"
+ },
+ "errors": {
+  "typo": {
+   "rc": 1,
+   "errors": [
+    "typo.asm(7): error: Label not found: LIGHT_GREN",
+    "Errors: 1, warnings: 0, compiled: 77 lines"
+   ],
+   "rom_written": true,
+   "code": [
+    "F3",
+    "3E",
+    "00",
+    "D3",
+    "99",
+    "3E",
+    "87",
+    "D3",
+    "99",
+    "18",
+    "FE",
+    "FF"
+   ],
+   "border_frame60": 1,
+   "R7": "00"
+  },
+  "margin": {
+   "rc": 1,
+   "errors": [
+    "margin.asm(8): error: Unrecognized instruction: (VDP_CTRL), a",
+    "Errors: 1, warnings: 0, compiled: 77 lines"
+   ],
+   "rom_written": true,
+   "code": [
+    "F3",
+    "3E",
+    "03",
+    "3E",
+    "87",
+    "D3",
+    "99",
+    "18",
+    "FE",
+    "FF",
+    "FF",
+    "FF"
+   ],
+   "border_frame60": 4,
+   "R7": "F4"
+  }
+ },
+ "start": {
+  "init_frame": 135,
+  "init_seconds": 2.7018,
+  "out_frame": 135,
+  "out_line": 162,
+  "out_t_in_line": 24,
+  "out_t_in_frame": 36959,
+  "init_t_in_frame": 36926,
+  "split_frame": 135,
+  "first_green_row": 117,
+  "first_green_x_drawn": 19,
+  "row_model": 117,
+  "x_model": 17,
+  "whole_frame": 136,
+  "frames": {
+   "128": [
+    5,
+    5
+   ],
+   "129": [
+    5,
+    5
+   ],
+   "130": [
+    5,
+    5
+   ],
+   "131": [
+    5,
+    4
+   ],
+   "132": [
+    4,
+    4
+   ],
+   "133": [
+    4,
+    4
+   ],
+   "134": [
+    4,
+    4
+   ],
+   "135": [
+    4,
+    3
+   ],
+   "136": [
+    3,
+    3
+   ],
+   "137": [
+    3,
+    3
+   ],
+   "138": [
+    3,
+    3
+   ],
+   "139": [
+    3,
+    3
+   ],
+   "140": [
+    3,
+    3
+   ]
+  },
+  "screen_text": [
+   "C-BIOS 0.29      cbios.sf.net",
+   "Character set: US",
+   "Interrupt frequency: 50Hz",
+   "Keyboard type: US",
+   "Init ROM in slot: 1"
+  ]
+ },
+ "japan": {
+  "init_frame": 139,
+  "whole_frame": 140,
+  "text": [
+   "C-BIOS 0.29      cbios.sf.net",
+   "Character set: JP",
+   "Interrupt frequency: 60Hz",
+   "Keyboard type: JP",
+   "Init ROM in s?ot: 1"
+  ],
+  "turns_in_a_frame": 4596,
+  "model": 4595.076923076923
+ },
+ "clock": {
+  "init": 135,
+  "from_init_1_is_power": 136,
+  "from_init_2_is_power": 137
+ },
+ "loop": {
+  "turns_in_a_frame": 5489,
+  "model": 5489.538461538462,
+  "jr_t": 13,
+  "iff": 0
+ },
+ "ba": {
+  "init_called": false,
+  "settled_from": 138,
+  "text": [
+   [
+    0,
+    "C-BIOS 0.29      cbios.sf.net"
+   ],
+   [
+    2,
+    "Character set: US"
+   ],
+   [
+    3,
+    "Interrupt frequency: 50Hz"
+   ],
+   [
+    4,
+    "Keyboard type: US"
+   ],
+   [
+    10,
+    "No cartridge found."
+   ],
+   [
+    12,
+    "This version of C-BIOS can"
+   ],
+   [
+    13,
+    "only start cartridges."
+   ],
+   [
+    14,
+    "Please restart your MSX"
+   ],
+   [
+    15,
+    "(emulator) with a cartridge"
+   ],
+   [
+    16,
+    "inserted."
+   ]
+  ],
+  "border": 4
+ },
+ "noend": {
+  "first_ff_frame": 135,
+  "first_ff_byte": "FF",
+  "last_byte_frame": 223,
+  "page2_frame": 223,
+  "page2_a8": "C4",
+  "page2_bytes": "432D",
+  "rst38_before_page2": 16446,
+  "bytes_walked": 16359,
+  "t_per_byte": 382.8,
+  "seconds_to_page2": 1.749,
+  "end_pc": "1A65",
+  "end_bytes": "18FE",
+  "end_a8": "C0",
+  "end_iff": 7,
+  "end_frame": 228,
+  "back_to": "F392",
+  "back_frame": 224,
+  "vram_writes_in_page2": 3408,
+  "vram_writes_after": 153,
+  "photos_alike": [
+   136,
+   185,
+   224
+  ],
+  "photo_frames": [
+   136,
+   185,
+   224,
+   225,
+   229,
+   400
+  ],
+  "text": [
+   [
+    0,
+    "C-BIOS 0.29      cbios.sf.net"
+   ],
+   [
+    2,
+    "Character set: US"
+   ],
+   [
+    3,
+    "Interrupt frequency: 50Hz"
+   ],
+   [
+    4,
+    "Ke  ??? ???"
+   ],
+   [
+    5,
+    "???? ????             ?"
+   ],
+   [
+    6,
+    "???? ??    ?           ?"
+   ],
+   [
+    7,
+    "? ?  ?? ?????? ???     ?"
+   ],
+   [
+    8,
+    "In? ?  ??  ????  ???   ? ?"
+   ],
+   [
+    9,
+    "Cannot execute a BASIC ROM."
+   ],
+   [
+    10,
+    "? ?  ?  ?????????   ?? ?"
+   ],
+   [
+    11,
+    "? ?                    ?"
+   ],
+   [
+    12,
+    "No cartridge found. V0.29?"
+   ],
+   [
+    13,
+    "??? ???               ?"
+   ],
+   [
+    14,
+    "This version of C-BIOS can"
+   ],
+   [
+    15,
+    "only start cartridges."
+   ],
+   [
+    16,
+    "Please restart your MSX"
+   ],
+   [
+    17,
+    "(emulator) with a cartridge"
+   ],
+   [
+    18,
+    "inserted."
+   ]
+  ]
+ },
+ "di": {
+  "wait": {
+   "gap_frames": 27.55,
+   "isr_between": 0,
+   "R7": "03",
+   "border": 3
+  },
+  "split": {
+   "gap_frames": 0.32,
+   "isr_between": 1,
+   "R7": "F4",
+   "border": 4
+  }
+ },
+ "monitor": {
+  "console": [
+   [
+    "debug read \"VDP regs\" 7",
+    "3"
+   ],
+   [
+    "reg pc",
+    "16409"
+   ],
+   [
+    "debug read memory 0xF3E6",
+    "244"
+   ]
+  ]
+ },
+ "bios": {
+  "border": {
+   "t_states": 40,
+   "bytes": 8,
+   "code": [
+    "3E",
+    "03",
+    "D3",
+    "99",
+    "3E",
+    "87",
+    "D3",
+    "99"
+   ],
+   "iff": 0,
+   "RG7SAV": "F4",
+   "R7": "03",
+   "isr_in_10_frames": 0
+  },
+  "biosway": {
+   "t_states": 185,
+   "bytes": 7,
+   "code": [
+    "06",
+    "03",
+    "0E",
+    "07",
+    "CD",
+    "47",
+    "00"
+   ],
+   "iff": 7,
+   "RG7SAV": "03",
+   "R7": "03",
+   "isr_in_10_frames": 10
+  },
+  "same_picture": true
+ },
+ "photograph": {
+  "rc": 0,
+  "output": "1 shots/border_f0001.png",
+  "same_as_power_frame": true
+ },
+ "answers": {
+  "ret": {
+   "rc": 0,
+   "init": 135,
+   "text": [
+    "C-BIOS 0.29      cbios.sf.net",
+    "Character set: US",
+    "Interrupt frequency: 50Hz",
+    "Keyboard type: US",
+    "Init ROM in slot: 1",
+    "Cannot execute a BASIC ROM.",
+    "No cartridge found.",
+    "This version of C-BIOS can",
+    "only start cartridges.",
+    "Please restart your MSX",
+    "(emulator) with a cartridge",
+    "inserted."
+   ],
+   "border": 3
+  },
+  "early": {
+   "rc": 0,
+   "code": [
+    "F3",
+    "3E",
+    "03",
+    "D3",
+    "99",
+    "3E",
+    "87",
+    "D3",
+    "99",
+    "18",
+    "FC"
+   ],
+   "R7": "87",
+   "border": 7
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 294,
+   "same_values": 294,
+   "captures": 4,
+   "same_captures": 4,
+   "same_in_drawn": 4,
+   "failed": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 294,
+   "same_values": 294,
+   "captures": 4,
+   "same_captures": 4,
+   "same_in_drawn": 4,
+   "failed": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 294,
+   "same_values": 294,
+   "captures": 4,
+   "same_captures": 4,
+   "same_in_drawn": 4,
+   "failed": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 294,
+   "same_values": 294,
+   "captures": 4,
+   "same_captures": 3,
+   "same_in_drawn": 4,
+   "failed": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 294,
+   "same_values": 294,
+   "captures": 4,
+   "same_captures": 3,
+   "same_in_drawn": 4,
+   "failed": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

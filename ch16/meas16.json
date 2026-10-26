@@ -1,0 +1,806 @@
+{
+ "jump": {
+  "entries": 94,
+  "first": 65,
+  "last": 345,
+  "stubs": {
+   "0099": "STRTMS",
+   "00BA": "ISCNTC",
+   "00BD": "\u2192ISCNTC",
+   "00C0": "BEEP",
+   "00C9": "FNKSB",
+   "00CC": "ERAFNK",
+   "00CF": "DSPFNK",
+   "00DB": "GTPAD",
+   "00DE": "GTPDL",
+   "00E1": "TAPION",
+   "00E4": "TAPIN",
+   "00E7": "TAPIOF",
+   "00EA": "TAPOON",
+   "00ED": "TAPOUT",
+   "00F0": "TAPOOF",
+   "00FC": "RIGHTC",
+   "00FF": "LEFTC",
+   "0102": "UPC",
+   "0105": "TUPC",
+   "0108": "DOWNC",
+   "010B": "TDOWNC",
+   "0117": "STOREC",
+   "011A": "SETATR",
+   "011D": "READC",
+   "0120": "SETC",
+   "0123": "NSETCX",
+   "0126": "GTASPC",
+   "0129": "PNTINI",
+   "012C": "SCANR",
+   "012F": "SCANL",
+   "014D": "OUTDLP",
+   "0159": "CALBAS"
+  },
+  "stub_routines": 31,
+  "vdp_dr": 152,
+  "vdp_dw": 152,
+  "wrtvdp_target": 558,
+  "report": 2463,
+  "report_ports": [
+   46,
+   47
+  ]
+ },
+ "session": {
+  "wrtvdp": {
+   "session": [
+    [
+     "disasm 0x0047 1",
+     "0047  jp     #022e        C3 2E 02\n",
+     false
+    ],
+    [
+     "disasm [peek16 0x0048] 16",
+     "022E  di                  F3\n022F  res    7,c          CB B9\n0231  ld     a,b          78\n0232  out    (#99),a      D3 99\n0234  ld     a,c          79\n0235  or     #80          F6 80\n0237  out    (#99),a      D3 99\n0239  ei                  FB\n023A  push   hl           E5\n023B  ld     hl,#f3df     21 DF F3\n023E  ld     a,b          78\n023F  ld     b,#00        06 00\n0241  add    hl,bc        09\n0242  ld     (hl),a       77\n0243  pop    hl           E1\n0244  ret                 C9\n",
+     false
+    ]
+   ],
+   "lines": 16
+  },
+  "chput": {
+   "session": [
+    [
+     "disasm 0x00A2 1",
+     "00A2  jp     #11b4        C3 B4 11\n",
+     false
+    ],
+    [
+     "disasm [peek16 0x00A3] 9",
+     "11B4  push   hl           E5\n11B5  push   de           D5\n11B6  push   bc           C5\n11B7  push   af           F5\n11B8  call   #fda4        CD A4 FD\n11BB  ld     a,(#fcaf)    3A AF FC\n11BE  cp     #02          FE 02\n11C0  jr     nc,#11d5     30 13\n11C2  pop    af           F1\n",
+     false
+    ]
+   ],
+   "lines": 9
+  }
+ },
+ "print": {
+  "chgmod": 98130,
+  "chgmod_isr": 2,
+  "chars": 132,
+  "each": [
+   25040,
+   1097,
+   1121,
+   742,
+   725,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1260,
+   1046,
+   942,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1783,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1267,
+   1097,
+   1121,
+   742,
+   725,
+   1328,
+   1328,
+   1328,
+   1328,
+   1582,
+   1328,
+   1328,
+   1328,
+   1328,
+   1328,
+   1328,
+   1328,
+   1328,
+   1328,
+   1097,
+   1121,
+   742,
+   725,
+   1382,
+   1382,
+   1382,
+   1382,
+   1382,
+   1382,
+   1382,
+   815,
+   815,
+   1382,
+   1097,
+   1121,
+   742,
+   725,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1905,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1389,
+   1571,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1396,
+   1098
+  ],
+  "per_line": {
+   "3": 1260,
+   "4": 1267,
+   "7": 1328,
+   "9": 1382,
+   "11": 1389,
+   "12": 1396
+  },
+  "codes": {
+   "12": 25040,
+   "27": 1097,
+   "13": 1046,
+   "10": 942,
+   "9": 1582,
+   "8": 815,
+   "7": 1098
+  },
+  "with_isr": 2,
+  "isr_extra": [
+   516
+  ],
+  "esc_y": [
+   725,
+   742,
+   1121
+  ],
+  "rows": {
+   "2": [
+    5,
+    "Printed by CHPUT,"
+   ],
+   "3": [
+    2,
+    "a character at a time."
+   ],
+   "6": [
+    5,
+    "TAB: next stop"
+   ],
+   "8": [
+    5,
+    "BS: aXc"
+   ],
+   "10": [
+    2,
+    "A line longer than the twenty"
+   ],
+   "11": [
+    2,
+    "-nine columns wraps."
+   ]
+  },
+  "csry": 12,
+  "csrx": 21,
+  "scrmod": 1,
+  "linlen": 29,
+  "rg7": 19,
+  "frame": 20,
+  "total": 193107
+ },
+ "calls": {
+  "rows": [
+   {
+    "n": 1,
+    "call": "CHGMOD",
+    "what": "screen 1, cleared",
+    "t": 98646,
+    "changed": [
+     "af",
+     "bc",
+     "de",
+     "hl"
+    ],
+    "a_after": 224,
+    "written": [
+     "CSRY",
+     "RG7SAV",
+     "SCNCNT",
+     "LINTTB",
+     "JIFFY"
+    ],
+    "iff_before": 0,
+    "iff_after": 7,
+    "interrupts": 3,
+    "hooks": [
+     "hFD9A",
+     "hFD9F"
+    ]
+   },
+   {
+    "n": 2,
+    "call": "CHPUT",
+    "what": "one letter",
+    "t": 1192,
+    "changed": [],
+    "a_after": 65,
+    "written": [
+     "CSRX",
+     "TTYPOS"
+    ],
+    "iff_before": 0,
+    "iff_after": 7,
+    "interrupts": 0,
+    "hooks": [
+     "hFDA4"
+    ]
+   },
+   {
+    "n": 3,
+    "call": "WRTVDP",
+    "what": "the border's register",
+    "t": 169,
+    "changed": [
+     "af",
+     "bc"
+    ],
+    "a_after": 3,
+    "written": [
+     "RG7SAV"
+    ],
+    "iff_before": 0,
+    "iff_after": 7,
+    "interrupts": 0,
+    "hooks": []
+   },
+   {
+    "n": 4,
+    "call": "LDIRVM",
+    "what": "768 bytes to the name table",
+    "t": 22500,
+    "changed": [
+     "af",
+     "bc",
+     "de",
+     "hl"
+    ],
+    "a_after": 0,
+    "written": [],
+    "iff_before": 0,
+    "iff_after": 7,
+    "interrupts": 0,
+    "hooks": []
+   },
+   {
+    "n": 5,
+    "call": "GTSTCK",
+    "what": "the cursor keys",
+    "t": 308,
+    "changed": [
+     "af",
+     "de"
+    ],
+    "a_after": 0,
+    "written": [],
+    "iff_before": 0,
+    "iff_after": 7,
+    "interrupts": 0,
+    "hooks": []
+   }
+  ],
+  "ports": {
+   "page": 157234,
+   "vdp_reg": 40,
+   "otir": 17716,
+   "stick": 130,
+   "putc": 303
+  },
+  "putc": 279
+ },
+ "copies": {
+  "rows": [
+   [
+    "CHGMOD",
+    224,
+    224
+   ],
+   [
+    "the port",
+    226,
+    224
+   ],
+   [
+    "DISSCR",
+    160,
+    160
+   ],
+   [
+    "ENASCR",
+    224,
+    224
+   ],
+   [
+    "WRTVDP",
+    226,
+    226
+   ],
+   [
+    "DISSCR",
+    162,
+    162
+   ],
+   [
+    "ENASCR",
+    226,
+    226
+   ]
+  ]
+ },
+ "hooks": {
+  "hooks": 112,
+  "ret_at_init": 111,
+  "outd": "c3b411c9c9",
+  "chput": 4532,
+  "outdo": 4379,
+  "called": {
+   "H.CHGE": [
+    "118F"
+   ],
+   "H.CHPU": [
+    "11B8"
+   ],
+   "H.CHRG": [
+    "10FF"
+   ],
+   "H.FORM": [
+    "1786"
+   ],
+   "H.KEYI": [
+    "18F4"
+   ],
+   "H.LPTO": [
+    "14D9"
+   ],
+   "H.LPTS": [
+    "1503"
+   ],
+   "H.NMI": [
+    "195E"
+   ],
+   "H.OUTD": [
+    "111C"
+   ],
+   "H.PHYD": [
+    "1782"
+   ],
+   "H.PINL": [
+    "1536"
+   ],
+   "H.QINL": [
+    "154B"
+   ],
+   "H.RUNC": [
+    "0E07"
+   ],
+   "H.STKE": [
+    "0DF8",
+    "1A67"
+   ],
+   "H.TIMI": [
+    "1900"
+   ],
+   "H.TOTE": [
+    "16A8"
+   ]
+  },
+  "went": {
+   "H.KEYI": 21,
+   "H.TIMI": 21,
+   "H.CHPU": 576
+  },
+  "isr": 21,
+  "frames": 20,
+  "text": 32,
+  "outs": [
+   9944,
+   11189,
+   12458,
+   13348,
+   14221,
+   15765,
+   17309,
+   18853,
+   20397,
+   21941,
+   23485,
+   25029,
+   26573,
+   28117,
+   29661,
+   31205,
+   32749,
+   34293,
+   35837,
+   37381,
+   38925,
+   40469,
+   42013,
+   43557,
+   45101,
+   46645,
+   48189,
+   49733,
+   51277,
+   52821,
+   54365,
+   55909
+  ],
+  "bands": [
+   1245,
+   1269,
+   890,
+   873,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544,
+   1544
+  ],
+  "letter": 1544,
+  "loop": 41,
+  "with_hook": 1503,
+  "without": 1396,
+  "line": 12,
+  "hook_price": 107,
+  "iff_at_hook": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "letters_on": 27,
+  "first_row": -2,
+  "last_row": 200,
+  "pixels": 19008,
+  "frame": 20
+ },
+ "stick": {
+  "holds": [
+   {
+    "keys": [],
+    "gtstck": 0,
+    "stick": 0,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "UP"
+    ],
+    "gtstck": 1,
+    "stick": 1,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "UP",
+     "RIGHT"
+    ],
+    "gtstck": 2,
+    "stick": 2,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "RIGHT"
+    ],
+    "gtstck": 3,
+    "stick": 3,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "DOWN",
+     "RIGHT"
+    ],
+    "gtstck": 4,
+    "stick": 4,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "DOWN"
+    ],
+    "gtstck": 5,
+    "stick": 5,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "DOWN",
+     "LEFT"
+    ],
+    "gtstck": 6,
+    "stick": 6,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "LEFT"
+    ],
+    "gtstck": 7,
+    "stick": 7,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "UP",
+     "LEFT"
+    ],
+    "gtstck": 8,
+    "stick": 8,
+    "t_gtstck": 313,
+    "t_stick": 130
+   },
+   {
+    "keys": [
+     "UP",
+     "DOWN"
+    ],
+    "gtstck": 0,
+    "stick": 0,
+    "t_gtstck": 313,
+    "t_stick": 130
+   }
+  ],
+  "t_stick": 130,
+  "t_gtstck": [
+   313
+  ]
+ },
+ "chget": {
+  "scncnt": 127,
+  "returned_frame": 141,
+  "key": 32,
+  "pressed": 140,
+  "early_pressed": [
+   10,
+   14
+  ],
+  "early_lost": true,
+  "early_pc": 4512,
+  "iff_after": true
+ },
+ "ints": {
+  "price": 142745,
+  "before": 142745,
+  "after": 143777,
+  "extra": 1032,
+  "isr_inside": 2,
+  "each": 516,
+  "isr_during_chput": 1,
+  "jiffy": [
+   129,
+   132
+  ],
+  "chput": 1913
+ },
+ "answers": {
+  "q1": {
+   "line": 20,
+   "t": 1457
+  },
+  "q4": {
+   "gtstck_1": 0
+  },
+  "q5": {
+   "ldirvm": 179814,
+   "interrupts": 2,
+   "per_byte": 29.3,
+   "otir": 141192
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 534,
+   "same_values": 534,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 534,
+   "same_values": 534,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 534,
+   "same_values": 534,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 534,
+   "same_values": 534,
+   "captures": 2,
+   "same_captures": 1,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 534,
+   "same_values": 534,
+   "captures": 2,
+   "same_captures": 1,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

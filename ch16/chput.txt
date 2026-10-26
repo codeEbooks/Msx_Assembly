@@ -1,0 +1,12 @@
+> disasm 0x00A2 1
+00A2  jp     #11b4        C3 B4 11
+> disasm [peek16 0x00A3] 9
+11B4  push   hl           E5
+11B5  push   de           D5
+11B6  push   bc           C5
+11B7  push   af           F5
+11B8  call   #fda4        CD A4 FD
+11BB  ld     a,(#fcaf)    3A AF FC
+11BE  cp     #02          FE 02
+11C0  jr     nc,#11d5     30 13
+11C2  pop    af           F1

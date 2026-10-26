@@ -1,0 +1,15 @@
+GRIN ALLEY
+A game for MSX1 computers, from the book MSX Assembly (chapters 43 and 44).
+(c) 2026 CODE & BOOKS
+
+Cartridge  a plain ROM of 16 KB, from $4000 to $7FFF; no mapper
+File       grin_alley.rom, 16,384 bytes
+SHA-256    45704344caad7acaf4deeeaaea7ab870e24d7a1ff11e703a0605f88cd6b6baed
+Machines   an MSX1 or later, with 16 KB of RAM or more, at 50 or 60 Hz
+Keys       the cursor keys or joystick 1; SPACE or button A at the title
+Emulator   openMSX: openmsx -carta grin_alley.rom
+EPROM      a 27C128 on the slot's /SLTSL and /CS1: grin_alley.rom as it is.
+           A 27C256 on /SLTSL and /CS12: grin_alley_x2.bin, the game twice,
+           whichever of the slot's lines drives the EPROM's A14
+Source     ch56/grin_alley.asm, chapter 44's game.asm, in the book's repository
+Licence    MIT, as the whole repository (LICENCE)

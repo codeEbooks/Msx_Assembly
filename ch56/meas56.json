@@ -1,0 +1,968 @@
+{
+ "files": {
+  "grin_alley": {
+   "size": 16384,
+   "sha256": "45704344caad7acaf4deeeaaea7ab870e24d7a1ff11e703a0605f88cd6b6baed",
+   "init": 16400,
+   "book": "ch44/game.rom",
+   "text_lines": 15
+  },
+  "lantern_keep": {
+   "size": 32768,
+   "sha256": "994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c",
+   "init": 16400,
+   "book": "ch54/game.rom",
+   "text_lines": 18
+  },
+  "images": {
+   "grin_alley_x2.bin": 32768,
+   "lantern_keep_a14.bin": 32768
+  },
+  "keep_at_4010": "888305845484d584",
+  "licence_lines": 21
+ },
+ "release": {
+  "grin_alley": {
+   "file": {
+    "file": "grin_alley.rom",
+    "size": 16384,
+    "sha256": "45704344caad7acaf4deeeaaea7ab870e24d7a1ff11e703a0605f88cd6b6baed",
+    "header": true,
+    "init": 16400,
+    "init_inside": true,
+    "rest_zero": true,
+    "size_ok": true,
+    "pass": true
+   },
+   "ram": 16,
+   "stock_machines": 12,
+   "skipped": {
+    "MSXBOOK_EU8": 8
+   },
+   "machines": {
+    "MSXBOOK_EU16": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_JP16": {
+     "init": 139,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16AY": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16B": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16E": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16G": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16P": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16S": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16X": {
+     "init": 132,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU32": {
+     "init": 137,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU64": {
+     "init": 137,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "C-BIOS_MSX1": {
+     "init": 140,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX1_EU": {
+     "init": 137,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "C-BIOS_MSX1_JP": {
+     "init": 140,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "C-BIOS_MSX1_BR": {
+     "init": 140,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2_EU": {
+     "init": 221,
+     "inits": 1,
+     "rate": 50,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2_JP": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2_BR": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2+": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2+_EU": {
+     "init": 221,
+     "inits": 1,
+     "rate": 50,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2+_JP": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    },
+    "C-BIOS_MSX2+_BR": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": true
+    }
+   },
+   "boards": [
+    {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true,
+     "image": "grin_alley_x2.bin",
+     "wiring": "a15",
+     "sha256": "1d754e60c0532c37eed8b90f81aeedf021278fc3e50971d487bdf9090b5ea6c2"
+    },
+    {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true,
+     "image": "grin_alley_x2.bin",
+     "wiring": "a14",
+     "sha256": "1d754e60c0532c37eed8b90f81aeedf021278fc3e50971d487bdf9090b5ea6c2"
+    }
+   ],
+   "pass": true
+  },
+  "lantern_keep": {
+   "file": {
+    "file": "lantern_keep.rom",
+    "size": 32768,
+    "sha256": "994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c",
+    "header": true,
+    "init": 16400,
+    "init_inside": true,
+    "rest_zero": true,
+    "size_ok": true,
+    "pass": true
+   },
+   "ram": 16,
+   "stock_machines": 12,
+   "skipped": {
+    "MSXBOOK_EU8": 8
+   },
+   "machines": {
+    "MSXBOOK_EU16": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_JP16": {
+     "init": 139,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16AY": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16B": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16E": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 862,
+     "pass": true
+    },
+    "MSXBOOK_EU16G": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16P": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16S": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_EU16X": {
+     "init": 132,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 880,
+     "pass": true
+    },
+    "MSXBOOK_EU32": {
+     "init": 137,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 880,
+     "pass": true
+    },
+    "MSXBOOK_EU64": {
+     "init": 137,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 880,
+     "pass": true
+    },
+    "C-BIOS_MSX1": {
+     "init": 140,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 864,
+     "pass": true
+    },
+    "C-BIOS_MSX1_EU": {
+     "init": 137,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 880,
+     "pass": true
+    },
+    "C-BIOS_MSX1_JP": {
+     "init": 140,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "C-BIOS_MSX1_BR": {
+     "init": 140,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 863,
+     "pass": true
+    },
+    "C-BIOS_MSX2": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 863,
+     "pass": true
+    },
+    "C-BIOS_MSX2_EU": {
+     "init": 221,
+     "inits": 1,
+     "rate": 50,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 863,
+     "pass": true
+    },
+    "C-BIOS_MSX2_JP": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 862,
+     "pass": true
+    },
+    "C-BIOS_MSX2_BR": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 862,
+     "pass": true
+    },
+    "C-BIOS_MSX2+": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 864,
+     "pass": true
+    },
+    "C-BIOS_MSX2+_EU": {
+     "init": 221,
+     "inits": 1,
+     "rate": 50,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 864,
+     "pass": true
+    },
+    "C-BIOS_MSX2+_JP": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": -1,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 864,
+     "pass": true
+    },
+    "C-BIOS_MSX2+_BR": {
+     "init": 225,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 864,
+     "pass": true
+    }
+   },
+   "boards": [
+    {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true,
+     "image": "lantern_keep.rom",
+     "wiring": "a15",
+     "sha256": "994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c"
+    },
+    {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true,
+     "image": "lantern_keep_a14.bin",
+     "wiring": "a14",
+     "sha256": "b70470e301279c80947f0e93cd4d619c55e1821e9e11241a49bb12cdb771df7c"
+    }
+   ],
+   "pass": true
+  },
+  "wrong": {
+   "file": {
+    "file": "lantern_keep.rom",
+    "size": 32768,
+    "sha256": "994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c",
+    "header": true,
+    "init": 16400,
+    "init_inside": true,
+    "rest_zero": true,
+    "size_ok": true,
+    "pass": true
+   },
+   "ram": 16,
+   "stock_machines": 12,
+   "skipped": {},
+   "machines": {
+    "MSXBOOK_EU16": {
+     "init": 135,
+     "inits": 1,
+     "rate": 50,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    },
+    "MSXBOOK_JP16": {
+     "init": 139,
+     "inits": 1,
+     "rate": 60,
+     "shift": 0,
+     "different": 0,
+     "first_different": null,
+     "compared": 881,
+     "same_vram": 881,
+     "pass": true
+    }
+   },
+   "boards": [
+    {
+     "init": 135,
+     "inits": 7,
+     "rate": 50,
+     "shift": -3,
+     "different": 881,
+     "first_different": 10,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": false,
+     "image": "lantern_keep_a14.bin",
+     "wiring": "a15",
+     "sha256": "b70470e301279c80947f0e93cd4d619c55e1821e9e11241a49bb12cdb771df7c"
+    },
+    {
+     "init": 135,
+     "inits": 7,
+     "rate": 50,
+     "shift": -3,
+     "different": 881,
+     "first_different": 10,
+     "compared": 881,
+     "same_vram": 0,
+     "pass": false,
+     "image": "lantern_keep.rom",
+     "wiring": "a14",
+     "sha256": "994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c"
+    }
+   ],
+   "pass": false
+  }
+ },
+ "guess": {
+  "guessed": {
+   "init": 135,
+   "inits": 1,
+   "rate": 50,
+   "shift": 0,
+   "different": 0,
+   "first_different": null,
+   "compared": 881,
+   "same_vram": 881,
+   "pass": true
+  },
+  "slot": {
+   "0000": "20808b80de805781a6814982be822383",
+   "4000": "41421040000000000000000000000000",
+   "8000": "20808b80de805781a6814982be822383",
+   "C000": "41421040000000000000000000000000"
+  },
+  "reads": {
+   "4000": "41421040000000000000000000000000",
+   "8000": "20808b80de805781a6814982be822383",
+   "file_4000": "41421040000000000000000000000000",
+   "file_0000": "20808b80de805781a6814982be822383"
+  },
+  "page12_keep": {
+   "4000": "41421040000000000000000000000000",
+   "8000": "20808b80de805781a6814982be822383"
+  },
+  "page12": {
+   "inits": [
+    135,
+    271,
+    407,
+    543,
+    679,
+    815,
+    951
+   ],
+   "period": 136,
+   "resets": [
+    135,
+    271,
+    407,
+    543,
+    679,
+    815,
+    951
+   ],
+   "reset_after_init": [
+    135,
+    271,
+    407,
+    543,
+    679,
+    815,
+    951
+   ],
+   "runs": "888305845484d584"
+  }
+ },
+ "photos": {
+  "label_words": {
+   "frame": 200,
+   "different": 0,
+   "still": true,
+   "mode": "graphic1",
+   "regs": [
+    0,
+    192,
+    6,
+    128,
+    0,
+    54,
+    7,
+    1
+   ],
+   "names": "2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020204c414e5445524e204b454550202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020204752494e20414c4c45592020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020204d5358312043415254524944474520202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020203332204b4220524f4d202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020203136204b4220524f4d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020434f4445202620424f4f4b5320323032362020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020"
+  },
+  "title_grin_alley": {
+   "frame": 178,
+   "different": 0,
+   "still": false,
+   "mode": "graphic2",
+   "regs": [
+    2,
+    226,
+    6,
+    159,
+    0,
+    54,
+    7,
+    1
+   ],
+   "names": "2053434f524520303030303030204c4956455320332020484920303032303030000000000000000000000000000000000000000000000000000000000000000000000000000303030000030303030000000303030000030000000300000000000000000003000000000003000000030000000300000003030000030000000000000000000300030303000300000003000000030000000300030003000000000000000000030000000300030303030000000003000000030000030300000000000000000003000000030003000003000000000300000003000000030000000000000000000003030300000300000003000003030300000300000003000000000000000000000000000000000000000000000000000000000000000000000000000000030303000003000000000003000000000003030303030003000000030000000300000003000300000000000300000000000300000000000003000300000000030000000300030000000000030000000000030303030000000003000000000003030303030003000000000003000000000003000000000000000300000000000300000003000300000000000300000000000300000000000000030000000000030000000300030303030300030303030300030303030300000003000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000000000000000000000000000000000000000000505245535320535041434500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000435552534f52204b455953204f52204a4f59535449434b2031000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "title_lantern_keep": {
+   "frame": 163,
+   "different": 0,
+   "still": true,
+   "mode": "graphic2",
+   "regs": [
+    2,
+    226,
+    6,
+    255,
+    3,
+    54,
+    7,
+    1
+   ],
+   "names": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+  },
+  "wrong_guessed": {
+   "frame": 163,
+   "different": 0,
+   "still": true,
+   "mode": "graphic2",
+   "regs": [
+    2,
+    226,
+    6,
+    255,
+    3,
+    54,
+    7,
+    1
+   ],
+   "names": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+  },
+  "wrong_board": {
+   "frame": 137,
+   "different": 0,
+   "still": true,
+   "mode": "graphic1",
+   "regs": [
+    0,
+    224,
+    6,
+    128,
+    0,
+    54,
+    7,
+    244
+   ],
+   "names": "2020432d42494f5320302e32392020202020206362696f732e73662e6e65742020202020202020202020202020202020202020202020202020202020202020202020436861726163746572207365743a205553202020202020202020202020202020496e74657272757074206672657175656e63793a203530487a202020202020204b6579626f61726420747970653a205553202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020496e697420524f4d20696e20736c6f743a20312020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020"
+  },
+  "init": {
+   "grin_alley": 135,
+   "lantern_keep": 135
+  }
+ },
+ "answers": {
+  "q1": {
+   "MSXBOOK_EU16": {
+    "pass": true,
+    "different": 0,
+    "inits": 1,
+    "shift": 0
+   },
+   "MSXBOOK_JP16": {
+    "pass": true,
+    "different": 0,
+    "inits": 1,
+    "shift": 0
+   },
+   "MSXBOOK_EU8": {
+    "pass": false,
+    "different": 854,
+    "inits": 1,
+    "shift": -3
+   }
+  },
+  "q2": [
+   {
+    "wiring": "a15",
+    "pass": true,
+    "inits": 1,
+    "different": 0
+   },
+   {
+    "wiring": "a14",
+    "pass": false,
+    "inits": 1,
+    "different": 881
+   }
+  ],
+  "q3": {
+   "address": 49151,
+   "pass": true,
+   "sha256": "5f4a050e76eeeb0097dfe2300380a96a55168a24c491df821baf368dee637f2b",
+   "released": "994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c"
+  },
+  "q4": {
+   "pixel_mm": 0.254,
+   "x5_dots": 960,
+   "x5_mm": 60.96,
+   "room_dots": 882,
+   "room_mm": 56.01
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 680,
+   "same_values": 680,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 680,
+   "same_values": 680,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 680,
+   "same_values": 680,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 680,
+   "same_values": 680,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 680,
+   "same_values": 675,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [
+    "ch56/release/lantern_keep/machines/C-BIOS_MSX2_EU/same_vram",
+    "ch56/release/lantern_keep/machines/C-BIOS_MSX2+/same_vram",
+    "ch56/release/lantern_keep/machines/C-BIOS_MSX2+_EU/same_vram",
+    "ch56/release/lantern_keep/machines/C-BIOS_MSX2+_JP/same_vram",
+    "ch56/release/lantern_keep/machines/C-BIOS_MSX2+_BR/same_vram"
+   ],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

@@ -1,0 +1,6 @@
+> reg hl
+0
+> reg f
+17
+> format %08b [reg f]
+00010001

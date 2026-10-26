@@ -1,0 +1,8 @@
+lantern_keep.rom: 32,768 bytes
+  SHA-256 994fc46575474963dce14fe1a8b87e89a685ea5aca47312ca114698de603874c
+  header AB, INIT $4010
+  MSXBOOK_EU16     ok   50 Hz  INIT at 135    0 of 881 different  shift +0
+  MSXBOOK_JP16     ok   60 Hz  INIT at 139    0 of 881 different  shift +0
+  board a15: lantern_keep_a14.bin  FAIL INIT 7 times, 881 of 881 different
+  board a14: lantern_keep.rom      FAIL INIT 7 times, 881 of 881 different
+FAIL

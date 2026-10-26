@@ -1,0 +1,425 @@
+{
+ "copy": {
+  "loop": 11318,
+  "ldir": 5945,
+  "ldi": 4846,
+  "bytes": 256,
+  "ldir_f": 233,
+  "ldi_f": [
+   197,
+   201
+  ],
+  "after": {
+   "bc": 0,
+   "de": 54276,
+   "hl": 53252
+  },
+  "fill": {
+   "t": 23524,
+   "len": 1024,
+   "byte": 170
+  },
+  "per": {
+   "ldir": 23,
+   "ldi": 18,
+   "loop": 44
+  }
+ },
+ "overlap": {
+  "rows": {
+   "2": "Move this line one place right. ",
+   "5": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+   "8": "MMove this line one place right."
+  },
+  "frame": 10
+ },
+ "cpir": {
+  "rows": [
+   {
+    "value": 17,
+    "at": 0,
+    "looked": 1,
+    "t": 18,
+    "z": 1,
+    "pv": 1,
+    "bc": 31,
+    "hl_past": 1
+   },
+   {
+    "value": 167,
+    "at": 10,
+    "looked": 11,
+    "t": 248,
+    "z": 1,
+    "pv": 1,
+    "bc": 21,
+    "hl_past": 11
+   },
+   {
+    "value": 226,
+    "at": 31,
+    "looked": 32,
+    "t": 731,
+    "z": 1,
+    "pv": 0,
+    "bc": 0,
+    "hl_past": 32
+   },
+   {
+    "value": 7,
+    "at": null,
+    "looked": 32,
+    "t": 731,
+    "z": 0,
+    "pv": 0,
+    "bc": 0,
+    "hl_past": 32
+   }
+  ],
+  "list": 32,
+  "per": 23,
+  "last": 18
+ },
+ "flip": {
+  "make": 76835,
+  "routine": 10552,
+  "table": 1632,
+  "bytes": 32,
+  "mirror_call": 269
+ },
+ "lines": {
+  "make": 29792,
+  "look": 19971,
+  "calc": 22275,
+  "line_t": 68,
+  "calc_t": 80,
+  "lines": 192
+ },
+ "sine": {
+  "ink": 256,
+  "low": 8,
+  "high": 184,
+  "frame": 20
+ },
+ "qsmul": {
+  "init": 72108,
+  "products": [
+   {
+    "a": 0,
+    "e": 0,
+    "hl": 0,
+    "t": 185
+   },
+   {
+    "a": 255,
+    "e": 255,
+    "hl": 65025,
+    "t": 185
+   },
+   {
+    "a": 200,
+    "e": 100,
+    "hl": 20000,
+    "t": 185
+   },
+   {
+    "a": 100,
+    "e": 200,
+    "hl": 20000,
+    "t": 190
+   },
+   {
+    "a": 13,
+    "e": 17,
+    "hl": 221,
+    "t": 190
+   },
+   {
+    "a": 255,
+    "e": 1,
+    "hl": 255,
+    "t": 185
+   },
+   {
+    "a": 1,
+    "e": 255,
+    "hl": 255,
+    "t": 190
+   },
+   {
+    "a": 128,
+    "e": 128,
+    "hl": 16384,
+    "t": 185
+   }
+  ],
+  "sum": 1065369600,
+  "sum_t": 22663457,
+  "pairs": 65536,
+  "per_pair": 345.8,
+  "mul_t": [
+   185,
+   190
+  ],
+  "after_511": [
+   255,
+   255
+  ]
+ },
+ "moire": {
+  "pixels": 49152,
+  "ink": 23672,
+  "bit": 9,
+  "frame": 280
+ },
+ "cost": {
+  "rows": [
+   {
+    "instr": "ldi",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "ldd",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "ldir",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "ldir",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "lddr",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "lddr",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "cpi",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "cpd",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "cpir",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "cpir",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "cpdr",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "cpdr",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "ini",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "ind",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "inir",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "inir",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "indr",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "indr",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "outi",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "outd",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "otir",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "otir",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "otdr",
+    "t": 23,
+    "again": true
+   },
+   {
+    "instr": "otdr",
+    "t": 18,
+    "again": false
+   },
+   {
+    "instr": "ld ixh, $12",
+    "t": 13,
+    "again": false
+   },
+   {
+    "instr": "ld ixl, $34",
+    "t": 13,
+    "again": false
+   },
+   {
+    "instr": "ld a, ixh",
+    "t": 10,
+    "again": false
+   },
+   {
+    "instr": "ld e, ixl",
+    "t": 10,
+    "again": false
+   },
+   {
+    "instr": "inc ixh",
+    "t": 10,
+    "again": false
+   },
+   {
+    "instr": "dec ixl",
+    "t": 10,
+    "again": false
+   },
+   {
+    "instr": "add a, ixl",
+    "t": 10,
+    "again": false
+   },
+   {
+    "instr": "cp ixh",
+    "t": 10,
+    "again": false
+   },
+   {
+    "instr": "nop",
+    "t": 5,
+    "again": false
+   }
+  ]
+ },
+ "otir": {
+  "turns": 256,
+  "gap": 23,
+  "last": 18,
+  "total": 5883,
+  "bytes": 256
+ },
+ "answers": {
+  "q1": {
+   "ldir": 141307,
+   "ldi": 114816
+  },
+  "q2": "the last byte first: HL = end, DE = end - 1, BC = length - 1, LDDR",
+  "q3": {
+   "count": 4,
+   "in_last_place": true
+  },
+  "q5": "511 entries need two pages; the 512th is never written",
+  "q6": {
+   "hl": 53347,
+   "de": 53363,
+   "bc": 100
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 228,
+   "same_values": 228,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 228,
+   "same_values": 228,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 228,
+   "same_values": 228,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 228,
+   "same_values": 228,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 228,
+   "same_values": 228,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

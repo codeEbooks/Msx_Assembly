@@ -1,0 +1,756 @@
+{
+ "sticks": {
+  "eu": {
+   "offset": 0,
+   "top": 128,
+   "r15": "CF",
+   "r7": "B8",
+   "frames": 192,
+   "combos": {
+    "1": [
+     0,
+     1,
+     5,
+     0,
+     7,
+     8,
+     6,
+     7,
+     3,
+     2,
+     4,
+     3,
+     0,
+     1,
+     5,
+     0
+    ],
+    "2": [
+     0,
+     1,
+     5,
+     0,
+     7,
+     8,
+     6,
+     7,
+     3,
+     2,
+     4,
+     3,
+     0,
+     1,
+     5,
+     0
+    ]
+   },
+   "photos": 36,
+   "lag": -1,
+   "idle": "BF"
+  },
+  "jp": {
+   "offset": 0,
+   "top": 128,
+   "r15": "CF",
+   "r7": "B8",
+   "frames": 192,
+   "combos": {
+    "1": [
+     0,
+     1,
+     5,
+     0,
+     7,
+     8,
+     6,
+     7,
+     3,
+     2,
+     4,
+     3,
+     0,
+     1,
+     5,
+     0
+    ],
+    "2": [
+     0,
+     1,
+     5,
+     0,
+     7,
+     8,
+     6,
+     7,
+     3,
+     2,
+     4,
+     3,
+     0,
+     1,
+     5,
+     0
+    ]
+   },
+   "photos": 36,
+   "lag": -1,
+   "idle": "BF"
+  }
+ },
+ "gtstck": {
+  "eu": {
+   "offset": 0,
+   "frames": 192,
+   "iff_on": 192,
+   "iff_at": {
+    "s1": "0",
+    "s2": "1",
+    "g1": "1",
+    "g2": "1",
+    "g3": "1",
+    "g4": "1",
+    "after": "1"
+   },
+   "gtstck_1": [
+    477
+   ],
+   "gtstck_2": [
+    482
+   ],
+   "gttrig": [
+    [
+     450,
+     455
+    ],
+    [
+     453,
+     458
+    ],
+    [
+     453,
+     458
+    ],
+    [
+     456,
+     461
+    ]
+   ],
+   "gttrig_by": {
+    "1": {
+     "held": 450,
+     "idle": 455
+    },
+    "2": {
+     "held": 453,
+     "idle": 458
+    },
+    "3": {
+     "held": 453,
+     "idle": 458
+    },
+    "4": {
+     "held": 456,
+     "idle": 461
+    }
+   },
+   "r15_from_80": {
+    "g1": "83",
+    "g2": "CC",
+    "g3": "83",
+    "g4": "CC"
+   }
+  },
+  "jp": {
+   "offset": 0,
+   "frames": 192,
+   "iff_on": 192,
+   "iff_at": {
+    "s1": "0",
+    "s2": "1",
+    "g1": "1",
+    "g2": "1",
+    "g3": "1",
+    "g4": "1",
+    "after": "1"
+   },
+   "gtstck_1": [
+    477
+   ],
+   "gtstck_2": [
+    482
+   ],
+   "gttrig": [
+    [
+     450,
+     455
+    ],
+    [
+     453,
+     458
+    ],
+    [
+     453,
+     458
+    ],
+    [
+     456,
+     461
+    ]
+   ],
+   "gttrig_by": {
+    "1": {
+     "held": 450,
+     "idle": 455
+    },
+    "2": {
+     "held": 453,
+     "idle": 458
+    },
+    "3": {
+     "held": 453,
+     "idle": 458
+    },
+    "4": {
+     "held": 456,
+     "idle": 461
+    }
+   },
+   "r15_from_80": {
+    "g1": "83",
+    "g2": "CC",
+    "g3": "83",
+    "g4": "CC"
+   }
+  }
+ },
+ "pins": {
+  "eu": {
+   "top": 128,
+   "table": {
+    "a": [
+     "AF",
+     "AF",
+     "AF",
+     "AF",
+     "AF",
+     "BF",
+     "BF",
+     "AF",
+     "AF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "b": [
+     "9F",
+     "9F",
+     "9F",
+     "9F",
+     "9F",
+     "BF",
+     "BF",
+     "9F",
+     "9F",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "up": [
+     "BE",
+     "BE",
+     "BE",
+     "BE",
+     "BE",
+     "BF",
+     "BF",
+     "BE",
+     "BE",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "a b up": [
+     "8E",
+     "8E",
+     "8E",
+     "8E",
+     "8E",
+     "BF",
+     "BF",
+     "8E",
+     "8E",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "-": [
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ]
+   },
+   "pins67": "ignored",
+   "kana": {
+    "frame": 1,
+    "changes": [
+     [
+      "00",
+      "on"
+     ],
+     [
+      "80",
+      "off"
+     ],
+     [
+      "10",
+      "on"
+     ],
+     [
+      "9F",
+      "off"
+     ],
+     [
+      "20",
+      "on"
+     ],
+     [
+      "AF",
+      "off"
+     ],
+     [
+      "40",
+      "on"
+     ],
+     [
+      "FF",
+      "off"
+     ]
+    ],
+    "lit": [
+     "00",
+     "03",
+     "0F",
+     "10",
+     "20",
+     "40",
+     "4C"
+    ]
+   }
+  },
+  "jp": {
+   "top": 128,
+   "table": {
+    "a": [
+     "AF",
+     "AF",
+     "AF",
+     "AF",
+     "AF",
+     "BF",
+     "BF",
+     "AF",
+     "AF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "b": [
+     "9F",
+     "9F",
+     "9F",
+     "9F",
+     "9F",
+     "BF",
+     "BF",
+     "9F",
+     "9F",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "up": [
+     "BE",
+     "BE",
+     "BE",
+     "BE",
+     "BE",
+     "BF",
+     "BF",
+     "BE",
+     "BE",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "a b up": [
+     "8E",
+     "8E",
+     "8E",
+     "8E",
+     "8E",
+     "BF",
+     "BF",
+     "8E",
+     "8E",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ],
+    "-": [
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF",
+     "BF"
+    ]
+   },
+   "pins67": "ignored",
+   "kana": {
+    "frame": 1,
+    "changes": [
+     [
+      "00",
+      "on"
+     ],
+     [
+      "80",
+      "off"
+     ],
+     [
+      "10",
+      "on"
+     ],
+     [
+      "9F",
+      "off"
+     ],
+     [
+      "20",
+      "on"
+     ],
+     [
+      "AF",
+      "off"
+     ],
+     [
+      "40",
+      "on"
+     ],
+     [
+      "FF",
+      "off"
+     ]
+    ],
+    "lit": [
+     "00",
+     "03",
+     "0F",
+     "10",
+     "20",
+     "40",
+     "4C"
+    ]
+   }
+  }
+ },
+ "players": {
+  "eu": {
+   "offset": 0,
+   "frames": 110,
+   "end": [
+    86,
+    90,
+    1,
+    116,
+    150,
+    7
+   ],
+   "photos": 10,
+   "lag": -1,
+   "swaps": {
+    "1": 2,
+    "2": 2
+   }
+  },
+  "jp": {
+   "offset": 0,
+   "frames": 110,
+   "end": [
+    86,
+    90,
+    1,
+    116,
+    150,
+    7
+   ],
+   "photos": 10,
+   "lag": -1,
+   "swaps": {
+    "1": 2,
+    "2": 2
+   }
+  }
+ },
+ "leftover": {
+  "eu": {
+   "offset": 0,
+   "first": 1,
+   "frames": 40,
+   "wrong": 24,
+   "wrong_from": 10,
+   "lag": -1
+  },
+  "jp": {
+   "offset": 0,
+   "first": 1,
+   "frames": 40,
+   "wrong": 24,
+   "wrong_from": 10,
+   "lag": -1
+  }
+ },
+ "prices": {
+  "joy_00": 105,
+  "joy_40": 105,
+  "dir": 48,
+  "keys": 166,
+  "move_none": 128,
+  "move_fire": 183,
+  "frame": 1071
+ },
+ "standard": {
+  "files": 235,
+  "with_ppi": 229,
+  "with_psg": 229
+ },
+ "answers": {
+  "q1": {
+   "idle": "BF",
+   "top": 128
+  },
+  "q2": {
+   "up_down": 0,
+   "left_right": 0,
+   "all": 0,
+   "up_down_left": 7
+  },
+  "q3": {
+   "gtstck": 477,
+   "own": 189,
+   "times": 2.5
+  },
+  "q4": {
+   "gttrig_1": {
+    "held": 450,
+    "idle": 455
+   },
+   "less_held": 5
+  },
+  "q5": {
+   "9F_with_a": "BF",
+   "AF_with_a": "AF"
+  },
+  "q6": [
+   "00",
+   "03",
+   "0F",
+   "10",
+   "20",
+   "40",
+   "4C"
+  ],
+  "q7": {
+   "bits": "3C",
+   "way": 0
+  },
+  "q8": {
+   "frame": 1071,
+   "eu": 1.5,
+   "jp": 1.79
+  },
+  "q9": {
+   "wrong": 24,
+   "frames": 40,
+   "first": 1
+  },
+  "q10": {
+   "both_ports": 378,
+   "gtstck_both": 959
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 372,
+   "same_values": 326,
+   "captures": 100,
+   "same_captures": 100,
+   "same_in_drawn": 100,
+   "failed": [],
+   "different": [
+    "ch35/pins/eu/table/a/1",
+    "ch35/pins/eu/table/a/4",
+    "ch35/pins/eu/table/a/5",
+    "ch35/pins/eu/table/a/7",
+    "ch35/pins/eu/table/a/11",
+    "ch35/pins/eu/table/b/1",
+    "ch35/pins/eu/table/b/4",
+    "ch35/pins/eu/table/b/5",
+    "ch35/pins/eu/table/b/7",
+    "ch35/pins/eu/table/b/11",
+    "ch35/pins/eu/table/up/1",
+    "ch35/pins/eu/table/up/4",
+    "ch35/pins/eu/table/up/5",
+    "ch35/pins/eu/table/up/7",
+    "ch35/pins/eu/table/up/11",
+    "ch35/pins/eu/table/a b up/5",
+    "ch35/pins/eu/table/a b up/11",
+    "ch35/pins/eu/table/-/1",
+    "ch35/pins/eu/table/-/4",
+    "ch35/pins/eu/table/-/5",
+    "ch35/pins/eu/table/-/7",
+    "ch35/pins/eu/table/-/11",
+    "ch35/pins/eu/pins67",
+    "ch35/pins/jp/table/a/1",
+    "ch35/pins/jp/table/a/4",
+    "ch35/pins/jp/table/a/5",
+    "ch35/pins/jp/table/a/7",
+    "ch35/pins/jp/table/a/11",
+    "ch35/pins/jp/table/b/1",
+    "ch35/pins/jp/table/b/4",
+    "ch35/pins/jp/table/b/5",
+    "ch35/pins/jp/table/b/7",
+    "ch35/pins/jp/table/b/11",
+    "ch35/pins/jp/table/up/1",
+    "ch35/pins/jp/table/up/4",
+    "ch35/pins/jp/table/up/5",
+    "ch35/pins/jp/table/up/7",
+    "ch35/pins/jp/table/up/11",
+    "ch35/pins/jp/table/a b up/5",
+    "ch35/pins/jp/table/a b up/11"
+   ],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 372,
+   "same_values": 326,
+   "captures": 100,
+   "same_captures": 100,
+   "same_in_drawn": 100,
+   "failed": [],
+   "different": [
+    "ch35/pins/eu/table/a/1",
+    "ch35/pins/eu/table/a/4",
+    "ch35/pins/eu/table/a/5",
+    "ch35/pins/eu/table/a/7",
+    "ch35/pins/eu/table/a/11",
+    "ch35/pins/eu/table/b/1",
+    "ch35/pins/eu/table/b/4",
+    "ch35/pins/eu/table/b/5",
+    "ch35/pins/eu/table/b/7",
+    "ch35/pins/eu/table/b/11",
+    "ch35/pins/eu/table/up/1",
+    "ch35/pins/eu/table/up/4",
+    "ch35/pins/eu/table/up/5",
+    "ch35/pins/eu/table/up/7",
+    "ch35/pins/eu/table/up/11",
+    "ch35/pins/eu/table/a b up/5",
+    "ch35/pins/eu/table/a b up/11",
+    "ch35/pins/eu/table/-/1",
+    "ch35/pins/eu/table/-/4",
+    "ch35/pins/eu/table/-/5",
+    "ch35/pins/eu/table/-/7",
+    "ch35/pins/eu/table/-/11",
+    "ch35/pins/eu/pins67",
+    "ch35/pins/jp/table/a/1",
+    "ch35/pins/jp/table/a/4",
+    "ch35/pins/jp/table/a/5",
+    "ch35/pins/jp/table/a/7",
+    "ch35/pins/jp/table/a/11",
+    "ch35/pins/jp/table/b/1",
+    "ch35/pins/jp/table/b/4",
+    "ch35/pins/jp/table/b/5",
+    "ch35/pins/jp/table/b/7",
+    "ch35/pins/jp/table/b/11",
+    "ch35/pins/jp/table/up/1",
+    "ch35/pins/jp/table/up/4",
+    "ch35/pins/jp/table/up/5",
+    "ch35/pins/jp/table/up/7",
+    "ch35/pins/jp/table/up/11",
+    "ch35/pins/jp/table/a b up/5",
+    "ch35/pins/jp/table/a b up/11"
+   ],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 372,
+   "same_values": 372,
+   "captures": 100,
+   "same_captures": 100,
+   "same_in_drawn": 100,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 372,
+   "same_values": 372,
+   "captures": 100,
+   "same_captures": 100,
+   "same_in_drawn": 100,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 372,
+   "same_values": 372,
+   "captures": 100,
+   "same_captures": 100,
+   "same_in_drawn": 100,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+> disasm [reg pc] 12
+4014  nop                 00
+4015  ld     a,#55        3E 55
+4017  ld     hl,#1234     21 34 12
+401A  ld     a,(#c000)    3A 00 C0
+401D  rlc    b            CB 00
+401F  neg                 ED 44
+4021  ld     bc,(#c000)   ED 4B 00 C0
+4025  ld     ix,#c000     DD 21 00 C0
+4029  ld     a,(ix+#05)   DD 7E 05
+402C  ld     (ix+#05),#aa DD 36 05 AA
+4030  set    1,ix+#02     DD CB 02 CE
+4034  jr     #4034        18 FE

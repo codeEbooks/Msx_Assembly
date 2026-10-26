@@ -1,0 +1,4 @@
+# Every file is kept exactly as it was checked, byte for byte: no line-ending
+# conversion on any system. verify.py compares the cartridges byte for byte,
+# and the measuring scripts compare their own outputs the same way.
+* -text

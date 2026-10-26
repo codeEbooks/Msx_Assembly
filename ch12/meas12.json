@@ -1,0 +1,548 @@
+{
+ "stack": {
+  "sp_before": [
+   62336,
+   62334,
+   62332
+  ],
+  "sp_full": 62330,
+  "bytes": {
+   "$F37A": 188,
+   "$F37B": 154,
+   "$F37C": 120,
+   "$F37D": 86,
+   "$F37E": 52,
+   "$F37F": 18
+  },
+  "after": {
+   "sp": 62336,
+   "bc": 39612,
+   "de": 22136,
+   "hl": 4660
+  },
+  "left": true
+ },
+ "calls": {
+  "sp": 62328,
+  "words": [
+   16426,
+   16421,
+   4369,
+   16410
+  ],
+  "returns": {
+   "back0": 16410,
+   "back1": 16421,
+   "back2": 16426
+  },
+  "sp_end": 62336,
+  "bc_end": 4369,
+  "session": [
+   [
+    "format %04X [reg sp]",
+    "F378",
+    false
+   ],
+   [
+    "format %04X [peek16 0xF378]",
+    "402A",
+    false
+   ],
+   [
+    "format %04X [peek16 0xF37A]",
+    "4025",
+    false
+   ],
+   [
+    "format %04X [peek16 0xF37C]",
+    "1111",
+    false
+   ],
+   [
+    "format %04X [peek16 0xF37E]",
+    "401A",
+    false
+   ]
+  ]
+ },
+ "lost": {
+  "pc": 16416,
+  "sp": 62334,
+  "left": 16410,
+  "back": 16410,
+  "lost": 16416
+ },
+ "cost": {
+  "rows": [
+   {
+    "instr": "push bc",
+    "bytes": [
+     197
+    ],
+    "t": 12
+   },
+   {
+    "instr": "ex (sp), hl",
+    "bytes": [
+     227
+    ],
+    "t": 20
+   },
+   {
+    "instr": "ex (sp), hl",
+    "bytes": [
+     227
+    ],
+    "t": 20
+   },
+   {
+    "instr": "pop bc",
+    "bytes": [
+     193
+    ],
+    "t": 11
+   },
+   {
+    "instr": "push ix",
+    "bytes": [
+     221,
+     229
+    ],
+    "t": 17
+   },
+   {
+    "instr": "ex (sp), ix",
+    "bytes": [
+     221,
+     227
+    ],
+    "t": 25
+   },
+   {
+    "instr": "pop ix",
+    "bytes": [
+     221,
+     225
+    ],
+    "t": 16
+   },
+   {
+    "instr": "call sub",
+    "bytes": [
+     205,
+     65,
+     64
+    ],
+    "t": 18
+   },
+   {
+    "instr": "ret",
+    "bytes": [
+     201
+    ],
+    "t": 11
+   },
+   {
+    "instr": "ex af, af'",
+    "bytes": [
+     8
+    ],
+    "t": 5
+   },
+   {
+    "instr": "ex af, af'",
+    "bytes": [
+     8
+    ],
+    "t": 5
+   },
+   {
+    "instr": "exx",
+    "bytes": [
+     217
+    ],
+    "t": 5
+   },
+   {
+    "instr": "exx",
+    "bytes": [
+     217
+    ],
+    "t": 5
+   },
+   {
+    "instr": "ex de, hl",
+    "bytes": [
+     235
+    ],
+    "t": 5
+   },
+   {
+    "instr": "ld (keep), sp",
+    "bytes": [
+     237,
+     115,
+     0,
+     193
+    ],
+    "t": 22
+   },
+   {
+    "instr": "ld hl, $C800",
+    "bytes": [
+     33,
+     0,
+     200
+    ],
+    "t": 11
+   },
+   {
+    "instr": "ld sp, hl",
+    "bytes": [
+     249
+    ],
+    "t": 7
+   },
+   {
+    "instr": "inc sp",
+    "bytes": [
+     51
+    ],
+    "t": 7
+   },
+   {
+    "instr": "dec sp",
+    "bytes": [
+     59
+    ],
+    "t": 7
+   },
+   {
+    "instr": "add hl, sp",
+    "bytes": [
+     57
+    ],
+    "t": 12
+   },
+   {
+    "instr": "ld ix, $C800",
+    "bytes": [
+     221,
+     33,
+     0,
+     200
+    ],
+    "t": 16
+   },
+   {
+    "instr": "ld sp, ix",
+    "bytes": [
+     221,
+     249
+    ],
+    "t": 12
+   },
+   {
+    "instr": "ld sp, $C800",
+    "bytes": [
+     49,
+     0,
+     200
+    ],
+    "t": 11
+   },
+   {
+    "instr": "ld sp, (keep)",
+    "bytes": [
+     237,
+     123,
+     0,
+     193
+    ],
+    "t": 22
+   },
+   {
+    "instr": "nop",
+    "bytes": [
+     0
+    ],
+    "t": 5
+   }
+  ]
+ },
+ "keep": {
+  "t_push": 167,
+  "t_exx": 95,
+  "work": 46,
+  "caller": [
+   4660,
+   22136,
+   39612,
+   57072
+  ],
+  "push_pop": 92,
+  "swaps": 20,
+  "second_before": [
+   50304,
+   1267,
+   511,
+   9319
+  ],
+  "second_after": [
+   43692,
+   48059,
+   56797,
+   17476
+  ]
+ },
+ "frame": {
+  "args": [
+   1000,
+   2000,
+   3000
+  ],
+  "ix": 62328,
+  "words": [
+   16419,
+   3000,
+   2000,
+   1000
+  ],
+  "t_call": 212,
+  "t_pops": 33,
+  "sum": 6000,
+  "sp_in": 62330,
+  "ld_ix": 21
+ },
+ "say": {
+  "lines": [
+   "The text comes after the CALL,",
+   "and say returns past it,",
+   "so the program goes on here."
+  ],
+  "hl": 4660,
+  "sp": 62336,
+  "frame": 10
+ },
+ "where": {
+  "model": 11040,
+  "runs": [
+   {
+    "sp": 62336,
+    "display": false,
+    "lines": [
+     225,
+     274
+    ],
+    "t": 11040
+   },
+   {
+    "sp": 62336,
+    "display": true,
+    "lines": [
+     95,
+     143
+    ],
+    "t": 11040
+   },
+   {
+    "sp": 51200,
+    "display": true,
+    "lines": [
+     82,
+     130
+    ],
+    "t": 11040
+   }
+  ],
+  "paper_lines": [
+   69,
+   260
+  ]
+ },
+ "irq": {
+  "bytes": 24,
+  "lowest": [
+   62312,
+   62312
+  ],
+  "shown": [
+   23,
+   23
+  ]
+ },
+ "top": {
+  "depth": 320,
+  "sp_deep": 64896,
+  "frame_deep": 135,
+  "isr_after": 8778,
+  "hook_after": 169,
+  "zero_after": 3682,
+  "hook_bytes": [
+   51,
+   64
+  ],
+  "way_back": 16435,
+  "frame_zero": 135,
+  "frame_init": 271,
+  "frames_to_init": 136,
+  "init_sp": 62188,
+  "hook_after_restart": 201
+ },
+ "fill": {
+  "cells": 280,
+  "walls": 104,
+  "calls": 1121,
+  "deepest": 164,
+  "stack_bytes": 328,
+  "lowest": 62008,
+  "frame": 20
+ },
+ "fillall": {
+  "cells": 768,
+  "walls": 0,
+  "calls": 3073,
+  "deepest": 770,
+  "stack_bytes": 1540,
+  "lowest": 60796,
+  "frame": 25
+ },
+ "fast": {
+  "slow": 178731,
+  "quick": 39650,
+  "bytes": 6144,
+  "per_byte": [
+   29.09,
+   6.45
+  ],
+  "push": 12,
+  "ld_inc_djnz": 29
+ },
+ "popsum": {
+  "sum": 64512,
+  "off": [
+   64512,
+   64512,
+   64512,
+   64512
+  ],
+  "on": [
+   64512,
+   33218,
+   15601,
+   25284
+  ],
+  "interrupts": 6,
+  "blocks": [
+   [
+    53404,
+    19
+   ],
+   [
+    53424,
+    4
+   ],
+   [
+    53688,
+    19
+   ],
+   [
+    53708,
+    4
+   ],
+   [
+    56664,
+    19
+   ],
+   [
+    56684,
+    4
+   ],
+   [
+    56946,
+    19
+   ],
+   [
+    56966,
+    4
+   ],
+   [
+    57230,
+    19
+   ],
+   [
+    57250,
+    4
+   ]
+  ],
+  "damaged": 115
+ },
+ "answers": {
+  "q1": {
+   "sp": 57342,
+   "c_at": 57342,
+   "b_at": 57343
+  },
+  "q5": {
+   "stack_bytes": 3078,
+   "cells": 768
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 269,
+   "same_values": 269,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 269,
+   "same_values": 269,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 269,
+   "same_values": 269,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 269,
+   "same_values": 269,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 269,
+   "same_values": 269,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

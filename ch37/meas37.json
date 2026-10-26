@@ -1,0 +1,1209 @@
+{
+ "bytes": {
+  "tune": {
+   "music": 923,
+   "engine": 436
+  },
+  "effects": {
+   "music": 923,
+   "engine": 436,
+   "sfx": 47
+  },
+  "fast": {
+   "music": 923,
+   "engine": 418
+  },
+  "sixth": {
+   "music": 923,
+   "engine": 435
+  },
+  "latch": {
+   "music": 923,
+   "engine": 436
+  },
+  "sizes": {
+   "notes": 170,
+   "instruments": 66,
+   "tables": 195,
+   "effects": 16,
+   "song": 98,
+   "patterns": 378
+  },
+  "patterns": 27,
+  "events": 157,
+  "ticks": 1280,
+  "seconds_eu": 25.519,
+  "dump_bytes": 14080
+ },
+ "writes": {
+  "tune": {
+   "eu": {
+    "frames": 1296,
+    "ticks": 1296,
+    "writes": 14256,
+    "r7_writes": 1296
+   },
+   "jp": {
+    "frames": 1548,
+    "ticks": 1295,
+    "writes": 14245,
+    "r7_writes": 1295
+   }
+  },
+  "effects": {
+   "eu": {
+    "frames": 344,
+    "ticks": 344,
+    "writes": 3784,
+    "r7_writes": 344
+   },
+   "jp": {
+    "frames": 411,
+    "ticks": 344,
+    "writes": 3784,
+    "r7_writes": 344
+   }
+  },
+  "fast": {
+   "eu": {
+    "frames": 1296,
+    "ticks": 1296,
+    "writes": 14256,
+    "r7_writes": 1296
+   },
+   "jp": {
+    "frames": 1296,
+    "ticks": 1296,
+    "writes": 14256,
+    "r7_writes": 1296
+   }
+  },
+  "sixth": {
+   "eu": {
+    "frames": 1296,
+    "ticks": 1296,
+    "writes": 14256,
+    "r7_writes": 1296
+   },
+   "jp": {
+    "frames": 1555,
+    "ticks": 1296,
+    "writes": 14256,
+    "r7_writes": 1296
+   }
+  }
+ },
+ "walk": {
+  "tune": {
+   "eu": {
+    "frames": 1296,
+    "isr_min": 2555,
+    "isr_max": 5316,
+    "r0": 303,
+    "r10": 783,
+    "step": 48
+   },
+   "jp": {
+    "frames": 1548,
+    "isr_min": 323,
+    "isr_max": 5316,
+    "r0": 303,
+    "r10": 783,
+    "step": 48
+   }
+  },
+  "offsets": [
+   303,
+   351,
+   399,
+   447,
+   495,
+   543,
+   591,
+   639,
+   687,
+   735,
+   783
+  ],
+  "effects": {
+   "eu": {
+    "frames": 344,
+    "isr_min": 2802,
+    "isr_max": 6001,
+    "r0": 303,
+    "r10": 783,
+    "step": 48
+   },
+   "jp": {
+    "frames": 411,
+    "isr_min": 323,
+    "isr_max": 6001,
+    "r0": 303,
+    "r10": 783,
+    "step": 48
+   }
+  },
+  "fast": {
+   "eu": {
+    "frames": 1296,
+    "isr_min": 2456,
+    "isr_max": 5217,
+    "r0": 204,
+    "r10": 684,
+    "step": 48
+   },
+   "jp": {
+    "frames": 1296,
+    "isr_min": 2456,
+    "isr_max": 5217,
+    "r0": 204,
+    "r10": 684,
+    "step": 48
+   }
+  },
+  "sixth": {
+   "eu": {
+    "frames": 1296,
+    "isr_min": 2476,
+    "isr_max": 5237,
+    "r0": 224,
+    "r10": 704,
+    "step": 48
+   },
+   "jp": {
+    "frames": 1555,
+    "isr_min": 294,
+    "isr_max": 5267,
+    "r0": 254,
+    "r10": 734,
+    "step": 48
+   }
+  }
+ },
+ "vgm": {
+  "tune_eu": {
+   "writes": 14256,
+   "samples": 1138711,
+   "bytes": 69899,
+   "seconds": 25.821
+  },
+  "tune_jp": {
+   "writes": 14245,
+   "samples": 1137849,
+   "bytes": 69842,
+   "seconds": 25.802
+  },
+  "latch_eu": {
+   "writes": 7660,
+   "samples": 600638,
+   "bytes": 37826,
+   "seconds": 13.62
+  },
+  "latch_jp": {
+   "writes": 7663,
+   "samples": 599871,
+   "bytes": 37856,
+   "seconds": 13.603
+  }
+ },
+ "model": {
+  "recordings": 10,
+  "runs": {
+   "tune": {
+    "eu": 5781949,
+    "jp": 5781812
+   },
+   "effects": {
+    "eu": 1535791,
+    "jp": 1536728
+   },
+   "fast": {
+    "eu": 5781943,
+    "jp": 4840869
+   },
+   "sixth": {
+    "eu": 5781944,
+    "jp": 5807849
+   },
+   "latch": {
+    "eu": 3052276,
+    "jp": 3049347
+   }
+  },
+  "samples": 128851524,
+  "off": 0,
+  "outi_later": 6,
+  "tune_eu_off_with": {
+   "0": 386500,
+   "5": 321,
+   "7": 85604
+  }
+ },
+ "pace": {
+  "tune": {
+   "eu": {
+    "length_t": 91345920,
+    "seconds": 25.5189,
+    "against_eu_t": 0,
+    "lag_lines": [
+     0.0,
+     0.0
+    ],
+    "gaps_frames": [
+     1
+    ],
+    "ticks_in_313_frames": null,
+    "late_lines": [
+     0,
+     0
+    ],
+    "late_first_bar": [
+     0,
+     0
+    ]
+   },
+   "jp": {
+    "length_t": 91336345,
+    "seconds": 25.5162,
+    "against_eu_t": -9575,
+    "lag_lines": [
+     -160.01,
+     101.0
+    ],
+    "gaps_frames": [
+     1,
+     2
+    ],
+    "ticks_in_313_frames": [
+     262
+    ],
+    "late_lines": [
+     51,
+     312
+    ],
+    "late_first_bar": [
+     211,
+     169
+    ],
+    "first_frames": [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true
+    ],
+    "frames": 1529
+   }
+  },
+  "fast": {
+   "eu": {
+    "length_t": 91345920,
+    "seconds": 25.5189,
+    "against_eu_t": 0,
+    "lag_lines": [
+     -0.02,
+     0.01
+    ],
+    "gaps_frames": [
+     1
+    ],
+    "ticks_in_313_frames": null,
+    "late_lines": [
+     0,
+     0
+    ],
+    "late_first_bar": [
+     0,
+     0
+    ]
+   },
+   "jp": {
+    "length_t": 76462080,
+    "seconds": 21.3608,
+    "against_eu_t": -14883840,
+    "lag_lines": [
+     -65280.0,
+     0.0
+    ],
+    "gaps_frames": [
+     1
+    ],
+    "ticks_in_313_frames": [
+     313
+    ],
+    "late_lines": [
+     -65331,
+     0
+    ],
+    "late_first_bar": [
+     -51,
+     -65331
+    ],
+    "first_frames": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "frames": 1280
+   }
+  },
+  "sixth": {
+   "eu": {
+    "length_t": 91345920,
+    "seconds": 25.5189,
+    "against_eu_t": 0,
+    "lag_lines": [
+     -0.02,
+     0.02
+    ],
+    "gaps_frames": [
+     1
+    ],
+    "ticks_in_313_frames": null,
+    "late_lines": [
+     0,
+     0
+    ],
+    "late_first_bar": [
+     0,
+     0
+    ]
+   },
+   "jp": {
+    "length_t": 91754496,
+    "seconds": 25.633,
+    "against_eu_t": 408576,
+    "lag_lines": [
+     -153.01,
+     1843.0
+    ],
+    "gaps_frames": [
+     1,
+     2
+    ],
+    "ticks_in_313_frames": [
+     260,
+     261
+    ],
+    "late_lines": [
+     -204,
+     1792
+    ],
+    "late_first_bar": [
+     -51,
+     1741
+    ],
+    "first_frames": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     true
+    ],
+    "frames": 1536
+   }
+  },
+  "eu_rate": 50.159,
+  "jp_rate": 59.9227,
+  "tune_seconds": 25.5189
+ },
+ "effects": {
+  "requests": [
+   {
+    "tick": 30,
+    "effect": "JUMP",
+    "priority": 1,
+    "sounding": null,
+    "answer": "taken"
+   },
+   {
+    "tick": 90,
+    "effect": "SHOT",
+    "priority": 1,
+    "sounding": null,
+    "answer": "taken"
+   },
+   {
+    "tick": 96,
+    "effect": "SHOT",
+    "priority": 1,
+    "sounding": "SHOT",
+    "answer": "taken"
+   },
+   {
+    "tick": 150,
+    "effect": "COIN",
+    "priority": 2,
+    "sounding": null,
+    "answer": "taken"
+   },
+   {
+    "tick": 156,
+    "effect": "JUMP",
+    "priority": 1,
+    "sounding": "COIN",
+    "answer": "refused"
+   },
+   {
+    "tick": 220,
+    "effect": "BOOM",
+    "priority": 3,
+    "sounding": null,
+    "answer": "taken"
+   },
+   {
+    "tick": 230,
+    "effect": "COIN",
+    "priority": 2,
+    "sounding": "BOOM",
+    "answer": "refused"
+   },
+   {
+    "tick": 236,
+    "effect": "BOOM",
+    "priority": 3,
+    "sounding": "BOOM",
+    "answer": "taken"
+   },
+   {
+    "tick": 300,
+    "effect": "COIN",
+    "priority": 2,
+    "sounding": null,
+    "answer": "taken"
+   },
+   {
+    "tick": 306,
+    "effect": "BOOM",
+    "priority": 3,
+    "sounding": "COIN",
+    "answer": "taken"
+   }
+  ],
+  "said": [
+   0,
+   0,
+   0,
+   0,
+   255,
+   0,
+   255,
+   0,
+   0,
+   0
+  ],
+  "effect_ticks": 114,
+  "differ_ticks": 114,
+  "r6_only": [
+   328,
+   331,
+   4
+  ],
+  "same_as_music": [],
+  "first_heard": 32,
+  "last_heard": 327
+ },
+ "latch": {
+  "eu": {
+   "frames": 684,
+   "ticks": 684,
+   "writes_by_main": 226075,
+   "reached_r10": 136,
+   "r15_byte": 94,
+   "louder": 91,
+   "own_level_back": 42,
+   "reads_by_main": 452150,
+   "reads_of_r10": 81,
+   "r14_misreads": 39,
+   "louder_frames": [
+    3,
+    8,
+    13,
+    14,
+    17,
+    18,
+    19,
+    38,
+    51,
+    58,
+    59,
+    60
+   ]
+  },
+  "jp": {
+   "frames": 817,
+   "ticks": 683,
+   "writes_by_main": 221577,
+   "reached_r10": 150,
+   "r15_byte": 100,
+   "louder": 95,
+   "own_level_back": 50,
+   "reads_by_main": 443154,
+   "reads_of_r10": 100,
+   "r14_misreads": 50,
+   "louder_frames": [
+    6,
+    9,
+    12,
+    21,
+    36,
+    48,
+    52,
+    69,
+    70,
+    81,
+    82,
+    83
+   ]
+  }
+ },
+ "photos": {
+  "tune_eu": {
+   "frames": 658,
+   "first": 1,
+   "shots": [
+    41,
+    42,
+    652,
+    653
+   ],
+   "lag": -1,
+   "at": 652,
+   "seen": {
+    "41": {
+     "ticks": 40,
+     "barno": 1,
+     "rowno": 7,
+     "levels": [
+      10,
+      9,
+      0
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "42": {
+     "ticks": 41,
+     "barno": 1,
+     "rowno": 8,
+     "levels": [
+      15,
+      15,
+      15
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "652": {
+     "ticks": 651,
+     "barno": 9,
+     "rowno": 2,
+     "levels": [
+      10,
+      15,
+      6
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "653": {
+     "ticks": 652,
+     "barno": 9,
+     "rowno": 2,
+     "levels": [
+      10,
+      13,
+      6
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    }
+   }
+  },
+  "tune_jp": {
+   "frames": 785,
+   "first": 1,
+   "shots": [
+    41,
+    42,
+    779,
+    780
+   ],
+   "lag": -1,
+   "at": 779,
+   "seen": {
+    "41": {
+     "ticks": 33,
+     "barno": 1,
+     "rowno": 6,
+     "levels": [
+      10,
+      12,
+      4
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "42": {
+     "ticks": 34,
+     "barno": 1,
+     "rowno": 6,
+     "levels": [
+      10,
+      11,
+      2
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "779": {
+     "ticks": 651,
+     "barno": 9,
+     "rowno": 2,
+     "levels": [
+      10,
+      15,
+      6
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "780": {
+     "ticks": 652,
+     "barno": 9,
+     "rowno": 2,
+     "levels": [
+      10,
+      13,
+      6
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    }
+   }
+  },
+  "fast_jp": {
+   "frames": 785,
+   "first": 1,
+   "shots": [
+    41,
+    42,
+    779,
+    780
+   ],
+   "lag": -1,
+   "at": 779,
+   "seen": {
+    "41": {
+     "ticks": 40,
+     "barno": 1,
+     "rowno": 7,
+     "levels": [
+      10,
+      9,
+      0
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "42": {
+     "ticks": 41,
+     "barno": 1,
+     "rowno": 8,
+     "levels": [
+      15,
+      15,
+      15
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "779": {
+     "ticks": 778,
+     "barno": 10,
+     "rowno": 11,
+     "levels": [
+      10,
+      9,
+      6
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    },
+    "780": {
+     "ticks": 779,
+     "barno": 10,
+     "rowno": 11,
+     "levels": [
+      10,
+      9,
+      6
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 255
+    }
+   }
+  },
+  "effects_eu": {
+   "frames": 658,
+   "first": 1,
+   "shots": [
+    41,
+    42,
+    652,
+    653
+   ],
+   "lag": -1,
+   "at": 652,
+   "seen": {
+    "41": {
+     "ticks": 40,
+     "barno": 1,
+     "rowno": 7,
+     "levels": [
+      10,
+      9,
+      7
+     ],
+     "fx": 4,
+     "prio": 1,
+     "port1": 255
+    },
+    "42": {
+     "ticks": 41,
+     "barno": 1,
+     "rowno": 8,
+     "levels": [
+      15,
+      15,
+      6
+     ],
+     "fx": 3,
+     "prio": 1,
+     "port1": 255
+    },
+    "652": {
+     "ticks": 651,
+     "barno": 9,
+     "rowno": 2,
+     "levels": [
+      10,
+      15,
+      6
+     ],
+     "fx": 0,
+     "prio": 3,
+     "port1": 255
+    },
+    "653": {
+     "ticks": 652,
+     "barno": 9,
+     "rowno": 2,
+     "levels": [
+      10,
+      13,
+      6
+     ],
+     "fx": 0,
+     "prio": 3,
+     "port1": 255
+    }
+   }
+  },
+  "latch_misread_frames": 37,
+  "latch_eu": {
+   "frames": 658,
+   "first": 1,
+   "shots": [
+    9,
+    10,
+    652
+   ],
+   "lag": -1,
+   "at": 652,
+   "seen": {
+    "9": {
+     "ticks": 8,
+     "barno": 1,
+     "rowno": 1,
+     "levels": [
+      10,
+      9,
+      2
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 191
+    },
+    "10": {
+     "ticks": 9,
+     "barno": 1,
+     "rowno": 1,
+     "levels": [
+      10,
+      9,
+      0
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 2
+    },
+    "652": {
+     "ticks": 651,
+     "barno": 9,
+     "rowno": 2,
+     "levels": [
+      10,
+      15,
+      6
+     ],
+     "fx": 0,
+     "prio": 0,
+     "port1": 191
+    }
+   }
+  }
+ },
+ "prices": {
+  "checked": {
+   "tune": 231,
+   "effects": 281,
+   "fast": 224,
+   "sixth": 234,
+   "latch": 242
+  },
+  "isr_eu": {
+   "a row and a new bar": [
+    5305,
+    5316,
+    17
+   ],
+   "no row": [
+    2555,
+    2958,
+    1025
+   ],
+   "a row": [
+    2828,
+    4904,
+    240
+   ]
+  },
+  "tochip": 561,
+  "pace_tick": 115,
+  "pace_jp": [
+   115,
+   127
+  ],
+  "isr_skip": 323,
+  "isr_effect": [
+   3482,
+   6001
+  ],
+  "request_made": [
+   388,
+   869
+  ],
+  "show": 5132
+ },
+ "pieces": {
+  "bar": [
+   "tune_eu_ch1_10355_356820.wav",
+   "tune_eu_ch2_10355_356820.wav",
+   "tune_eu_ch3_10355_356820.wav"
+  ],
+  "kick": "tune_eu_ch3_10355_44602.wav",
+  "snare": "tune_eu_ch3_54957_89205.wav",
+  "fx": [
+   "tune_eu_ch3_1285986_223013.wav",
+   "effects_eu_ch3_1285986_223013.wav"
+  ],
+  "hz": [
+   "tune_eu_ch1_10355_1118608.wav",
+   "tune_jp_ch1_13429_1118608.wav",
+   "fast_jp_ch1_9690_1118608.wav"
+  ],
+  "latch": [
+   "tune_eu_ch3_10355_267615.wav",
+   "latch_eu_ch3_10355_267616.wav"
+  ],
+  "burst": "latch_eu_ch3_169924_6460.wav",
+  "burst_at": {
+   "tick": 38,
+   "level_before": 0,
+   "write_t_after_r0": 2558,
+   "samples_loud": 4331
+  }
+ },
+ "answers": {
+  "q1": {
+   "ticks": 1536,
+   "seconds": 30.62,
+   "bpm": 125.4,
+   "bpm_now": 150.48
+  },
+  "q2": {
+   "skipped": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    50,
+    56,
+    62,
+    68,
+    74,
+    80,
+    86,
+    93,
+    99,
+    105,
+    111,
+    117,
+    123,
+    129,
+    136,
+    142,
+    148,
+    154,
+    160,
+    166,
+    172,
+    178,
+    185,
+    191,
+    197,
+    203,
+    209,
+    215,
+    221,
+    228,
+    234,
+    240,
+    246,
+    252,
+    258,
+    264,
+    271,
+    277,
+    283,
+    289,
+    295,
+    301,
+    307
+   ],
+   "gaps": [
+    6,
+    7
+   ]
+  },
+  "q7": {
+   "JUMP": {
+    "eu": 279.1,
+    "jp": 267.0,
+    "jp_frames": [
+     16,
+     17
+    ],
+    "jp_ms": [
+     267.0,
+     283.7
+    ],
+    "eu_ms": 279.1
+   },
+   "BOOM": {
+    "eu": 398.7,
+    "jp": 400.5,
+    "jp_frames": [
+     23,
+     24
+    ],
+    "jp_ms": [
+     383.8,
+     400.5
+    ],
+    "eu_ms": 398.7
+   }
+  },
+  "q3_owed0": {
+   "first": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "ticks": 262,
+   "lag_lines": [
+    51,
+    312
+   ]
+  },
+  "q3_owed51": {
+   "first": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "ticks": 262,
+   "lag_lines": [
+    0,
+    261
+   ]
+  },
+  "q4": {
+   "ticks_in_6": [
+    5
+   ],
+   "sixth_in_6": [
+    5
+   ],
+   "seconds_60hz": 25.633
+  },
+  "q5": {
+   "answers": [
+    "taken",
+    "taken",
+    "taken",
+    "taken",
+    "refused",
+    "refused",
+    "taken",
+    "refused",
+    "taken",
+    "taken",
+    "taken"
+   ]
+  },
+  "q6": {
+   "answers": [
+    "taken",
+    "taken",
+    "taken",
+    "taken",
+    "refused",
+    "taken",
+    "taken",
+    "refused",
+    "taken",
+    "refused"
+   ]
+  },
+  "q9": {
+   "eu": {
+    "writes": 195535,
+    "to_r10": 0,
+    "reads": 391070,
+    "of_r10": 0
+   },
+   "jp": {
+    "writes": 160394,
+    "to_r10": 0,
+    "reads": 320788,
+    "of_r10": 0
+   }
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 563,
+   "same_values": 563,
+   "captures": 19,
+   "same_captures": 19,
+   "same_in_drawn": 19,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 563,
+   "same_values": 563,
+   "captures": 19,
+   "same_captures": 19,
+   "same_in_drawn": 19,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 563,
+   "same_values": 563,
+   "captures": 19,
+   "same_captures": 19,
+   "same_in_drawn": 19,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 563,
+   "same_values": 563,
+   "captures": 19,
+   "same_captures": 19,
+   "same_in_drawn": 19,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 563,
+   "same_values": 563,
+   "captures": 19,
+   "same_captures": 19,
+   "same_in_drawn": 19,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

@@ -1,0 +1,2038 @@
+{
+ "pages": {
+  "eu": {
+   "layout": {
+    "0": [
+     "C-BIOS Main ROM 0000-7FFF",
+     "C-BIOS Logo ROM 8000-BFFF"
+    ],
+    "1": [
+     "socket"
+    ],
+    "2": [
+     "socket"
+    ],
+    "3": [
+     "Main RAM C000-FFFF"
+    ]
+   },
+   "a8": "C4",
+   "pages": [
+    "0",
+    "1",
+    "0",
+    "3"
+   ],
+   "ids": [
+    "00",
+    "01",
+    "00",
+    "03"
+   ],
+   "shows": [
+    "C-BIOS Main ROM",
+    "cartridge",
+    "C-BIOS Logo ROM",
+    "Main RAM"
+   ],
+   "exptbl": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "slttbl": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "registers": {},
+   "photo": "pages_eu_f0010.png"
+  },
+  "eux": {
+   "layout": {
+    "0": [
+     "C-BIOS Main ROM 0000-7FFF",
+     "C-BIOS Logo ROM 8000-BFFF"
+    ],
+    "1": [
+     "socket"
+    ],
+    "2": [
+     "socket"
+    ],
+    "3-2": [
+     "Main RAM C000-FFFF"
+    ]
+   },
+   "a8": "C4",
+   "pages": [
+    "0",
+    "1",
+    "0",
+    "3-2"
+   ],
+   "ids": [
+    "00",
+    "01",
+    "00",
+    "8B"
+   ],
+   "shows": [
+    "C-BIOS Main ROM",
+    "cartridge",
+    "C-BIOS Logo ROM",
+    "Main RAM"
+   ],
+   "exptbl": [
+    "00",
+    "00",
+    "00",
+    "80"
+   ],
+   "slttbl": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "registers": {
+    "3": "80"
+   },
+   "photo": "pages_eux_f0010.png"
+  },
+  "eue": {
+   "layout": {
+    "0": [
+     "C-BIOS Main ROM 0000-7FFF",
+     "C-BIOS Logo ROM 8000-BFFF"
+    ],
+    "1-1": [
+     "socket"
+    ],
+    "2": [
+     "socket"
+    ],
+    "3": [
+     "Main RAM C000-FFFF"
+    ]
+   },
+   "a8": "C4",
+   "pages": [
+    "0",
+    "1-1",
+    "0",
+    "3"
+   ],
+   "ids": [
+    "00",
+    "85",
+    "00",
+    "03"
+   ],
+   "shows": [
+    "C-BIOS Main ROM",
+    "cartridge",
+    "C-BIOS Logo ROM",
+    "Main RAM"
+   ],
+   "exptbl": [
+    "00",
+    "80",
+    "00",
+    "00"
+   ],
+   "slttbl": [
+    "00",
+    "04",
+    "00",
+    "00"
+   ],
+   "registers": {
+    "1": "04"
+   },
+   "photo": "pages_eue_f0010.png"
+  },
+  "eu64": {
+   "layout": {
+    "0": [
+     "C-BIOS Main ROM 0000-7FFF",
+     "C-BIOS Logo ROM 8000-BFFF"
+    ],
+    "1": [
+     "socket"
+    ],
+    "2": [
+     "socket"
+    ],
+    "3": [
+     "Main RAM 0000-FFFF"
+    ]
+   },
+   "a8": "F4",
+   "pages": [
+    "0",
+    "1",
+    "3",
+    "3"
+   ],
+   "ids": [
+    "00",
+    "01",
+    "03",
+    "03"
+   ],
+   "shows": [
+    "C-BIOS Main ROM",
+    "cartridge",
+    "Main RAM",
+    "Main RAM"
+   ],
+   "exptbl": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "slttbl": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "registers": {},
+   "photo": "pages_eu64_f0010.png"
+  },
+  "jp": {
+   "layout": {
+    "0": [
+     "C-BIOS Main ROM JP 0000-7FFF",
+     "C-BIOS Logo ROM 8000-BFFF"
+    ],
+    "1": [
+     "socket"
+    ],
+    "2": [
+     "socket"
+    ],
+    "3": [
+     "Main RAM C000-FFFF"
+    ]
+   },
+   "a8": "C4",
+   "pages": [
+    "0",
+    "1",
+    "0",
+    "3"
+   ],
+   "ids": [
+    "00",
+    "01",
+    "00",
+    "03"
+   ],
+   "shows": [
+    "C-BIOS Main ROM",
+    "cartridge",
+    "C-BIOS Logo ROM",
+    "Main RAM"
+   ],
+   "exptbl": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "slttbl": [
+    "00",
+    "00",
+    "00",
+    "00"
+   ],
+   "registers": {},
+   "photo": "pages_jp_f0010.png"
+  },
+  "slttbl_wrong": [
+   "eux slot 3: SLTTBL 00, register 80"
+  ]
+ },
+ "carts": {
+  "cart32": {
+   "eu": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F83",
+    "ended": true,
+    "pc": "411A",
+    "iff": 0
+   },
+   "eux": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F83",
+    "ended": true,
+    "pc": "411A",
+    "iff": 0
+   },
+   "eue": {
+    "slot": "1-1",
+    "id": "85",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "04",
+     "D0"
+    ],
+    "page2": "1-0",
+    "content": null,
+    "line": false,
+    "sum": null,
+    "ended": false,
+    "pc": "18F2",
+    "iff": 7
+   },
+   "eu64": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "F4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F83",
+    "ended": true,
+    "pc": "411A",
+    "iff": 0
+   },
+   "jp": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F83",
+    "ended": true,
+    "pc": "411A",
+    "iff": 0
+   }
+  },
+  "own32": {
+   "eu": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0FCE",
+    "ended": true,
+    "pc": "4118",
+    "iff": 0
+   },
+   "eux": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0FCE",
+    "ended": true,
+    "pc": "4118",
+    "iff": 0
+   },
+   "eue": {
+    "slot": "1-1",
+    "id": "85",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "04",
+     "14"
+    ],
+    "page2": "1-1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0FCE",
+    "ended": true,
+    "pc": "4118",
+    "iff": 0
+   },
+   "eu64": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "F4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0FCE",
+    "ended": true,
+    "pc": "4118",
+    "iff": 0
+   },
+   "jp": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0FCE",
+    "ended": true,
+    "pc": "4118",
+    "iff": 0
+   }
+  },
+  "quick32": {
+   "eu": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F8D",
+    "ended": true,
+    "pc": "4115",
+    "iff": 0
+   },
+   "eux": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F8D",
+    "ended": true,
+    "pc": "4115",
+    "iff": 0
+   },
+   "eue": {
+    "slot": "1-1",
+    "id": "85",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "04",
+     "04"
+    ],
+    "page2": "1-0",
+    "content": null,
+    "line": false,
+    "sum": null,
+    "ended": false,
+    "pc": "195C",
+    "iff": 7
+   },
+   "eu64": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "F4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F8D",
+    "ended": true,
+    "pc": "4115",
+    "iff": 0
+   },
+   "jp": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "D4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "1",
+    "content": "cartridge",
+    "line": true,
+    "sum": "0F8D",
+    "ended": true,
+    "pc": "4115",
+    "iff": 0
+   }
+  },
+  "stay32": {
+   "eu": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "C4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "0",
+    "content": "C-BIOS Logo ROM",
+    "line": false,
+    "sum": "75F5",
+    "ended": true,
+    "pc": "4112",
+    "iff": 7
+   },
+   "eux": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "C4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "0",
+    "content": "C-BIOS Logo ROM",
+    "line": false,
+    "sum": "75F5",
+    "ended": true,
+    "pc": "4112",
+    "iff": 7
+   },
+   "eue": {
+    "slot": "1-1",
+    "id": "85",
+    "a8": [
+     "C4",
+     "C4"
+    ],
+    "slttbl": [
+     "04",
+     "04"
+    ],
+    "page2": "0",
+    "content": "C-BIOS Logo ROM",
+    "line": false,
+    "sum": "75F5",
+    "ended": true,
+    "pc": "4112",
+    "iff": 7
+   },
+   "eu64": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "F4",
+     "F4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "3",
+    "content": "Main RAM",
+    "line": false,
+    "sum": null,
+    "ended": false,
+    "pc": "18EB",
+    "iff": 7
+   },
+   "jp": {
+    "slot": "1",
+    "id": "01",
+    "a8": [
+     "C4",
+     "C4"
+    ],
+    "slttbl": [
+     "00",
+     "00"
+    ],
+    "page2": "0",
+    "content": "C-BIOS Logo ROM",
+    "line": false,
+    "sum": "75F5",
+    "ended": true,
+    "pc": "4112",
+    "iff": 7
+   }
+  },
+  "photos": {
+   "cart32_eu": {
+    "photo": "cart32_eu_f0030.png",
+    "against_vram": 0,
+    "against_model": 0,
+    "regs": [
+     "00",
+     "C0",
+     "06",
+     "80",
+     "00",
+     "36",
+     "07",
+     "0F"
+    ]
+   },
+   "own32_eue": {
+    "photo": "own32_eue_f0030.png",
+    "against_vram": 0,
+    "against_model": 0,
+    "regs": [
+     "00",
+     "C0",
+     "06",
+     "80",
+     "00",
+     "36",
+     "07",
+     "0F"
+    ]
+   },
+   "cart32_eue": {
+    "photo": "cart32_eue_f0030.png",
+    "against_vram": 0,
+    "against_model": null,
+    "regs": [
+     "00",
+     "C0",
+     "06",
+     "80",
+     "00",
+     "36",
+     "07",
+     "0F"
+    ]
+   },
+   "stay32_eu": {
+    "photo": "stay32_eu_f0030.png",
+    "against_vram": 0,
+    "against_model": null,
+    "regs": [
+     "00",
+     "C0",
+     "06",
+     "80",
+     "00",
+     "36",
+     "07",
+     "0F"
+    ]
+   },
+   "quick32_eue": {
+    "photo": "quick32_eue_f0030.png",
+    "against_vram": 0,
+    "against_model": null,
+    "regs": [
+     "00",
+     "C0",
+     "06",
+     "80",
+     "00",
+     "36",
+     "07",
+     "0F"
+    ]
+   }
+  },
+  "works": {
+   "cart32": [
+    "eu",
+    "eux",
+    "eu64",
+    "jp"
+   ],
+   "own32": [
+    "eu",
+    "eux",
+    "eue",
+    "eu64",
+    "jp"
+   ],
+   "quick32": [
+    "eu",
+    "eux",
+    "eu64",
+    "jp"
+   ],
+   "stay32": []
+  }
+ },
+ "enaslt": {
+  "lines": [
+   "        in a, ($A8)             ; $24B1: DB A8",
+   "        ld l, a                 ; $24B3: 6F",
+   "        and $C0                 ; $24B4: E6 C0",
+   "        or h                    ; $24B6: B4",
+   "        out ($A8), a            ; $24B7: D3 A8"
+  ],
+  "cbios": {
+   "a8_writes": [
+    "C0",
+    "C4",
+    "D4"
+   ],
+   "ffff_write": {
+    "page3_slot": 3,
+    "byte": "D0"
+   },
+   "ram_ffff": [
+    "0F",
+    "D0"
+   ],
+   "register1": [
+    "04",
+    "04"
+   ],
+   "slttbl1": [
+    "04",
+    "D0"
+   ],
+   "T": 676,
+   "dark": [
+    456,
+    521,
+    642
+   ]
+  },
+  "fixed": {
+   "a8_writes": [
+    "44",
+    "C4",
+    "D4"
+   ],
+   "ffff_write": {
+    "page3_slot": 1,
+    "byte": "14"
+   },
+   "ram_ffff": [
+    "0F",
+    "0F"
+   ],
+   "register1": [
+    "04",
+    "14"
+   ],
+   "slttbl1": [
+    "04",
+    "14"
+   ],
+   "T": 676,
+   "dark": [
+    456,
+    521,
+    642
+   ]
+  },
+  "fixed_book": {
+   "eu": true,
+   "eux": true,
+   "eue": true,
+   "eu64": true,
+   "jp": true
+  },
+  "grid": {
+   "ram 0, expander 1": {
+    "cbios": true,
+    "fixed": true
+   },
+   "ram 1, expander 1": {
+    "cbios": true,
+    "fixed": true
+   },
+   "ram 2, expander 1": {
+    "cbios": false,
+    "fixed": true
+   },
+   "ram 3, expander 1": {
+    "cbios": false,
+    "fixed": true
+   },
+   "ram 0, expander 2": {
+    "cbios": true,
+    "fixed": true
+   },
+   "ram 1, expander 2": {
+    "cbios": false,
+    "fixed": true
+   },
+   "ram 2, expander 2": {
+    "cbios": true,
+    "fixed": true
+   },
+   "ram 3, expander 2": {
+    "cbios": false,
+    "fixed": true
+   },
+   "ram 0, expander 3": {
+    "cbios": true,
+    "fixed": true
+   },
+   "ram 1, expander 3": {
+    "cbios": true,
+    "fixed": true
+   },
+   "ram 2, expander 3": {
+    "cbios": true,
+    "fixed": true
+   },
+   "ram 3, expander 3": {
+    "cbios": true,
+    "fixed": true
+   }
+  },
+  "fails": [
+   "ram 1, expander 2",
+   "ram 2, expander 1",
+   "ram 3, expander 1",
+   "ram 3, expander 2"
+  ]
+ },
+ "prices": {
+  "walk_vs_debugger": {
+   "here own32 eu": {
+    "T": 104,
+    "a8_writes": []
+   },
+   "here own32 eue": {
+    "T": 267,
+    "a8_writes": [
+     [
+      174,
+      "44"
+     ],
+     [
+      215,
+      "C4"
+     ]
+    ]
+   },
+   "setpage2 own32 eu": {
+    "T": 142,
+    "a8_writes": [
+     [
+      119,
+      "D4"
+     ]
+    ]
+   },
+   "setpage2 own32 eue": {
+    "T": 300,
+    "a8_writes": [
+     [
+      109,
+      "44"
+     ],
+     [
+      205,
+      "C4"
+     ],
+     [
+      277,
+      "D4"
+     ]
+    ]
+   },
+   "quick quick32 eu": {
+    "T": 99,
+    "a8_writes": [
+     [
+      76,
+      "D4"
+     ]
+    ]
+   }
+  },
+  "debugger": {
+   "here cart32 eu": {
+    "T": 144,
+    "a8_writes": []
+   },
+   "here cart32 eue": {
+    "T": 203,
+    "a8_writes": []
+   },
+   "RSLREG cart32 eu": {
+    "T": 52,
+    "a8_writes": []
+   },
+   "ENASLT cart32 eu": {
+    "T": 351,
+    "a8_writes": [
+     [
+      317,
+      "D4"
+     ]
+    ]
+   },
+   "ENASLT cart32 eue": {
+    "T": 676,
+    "a8_writes": [
+     [
+      456,
+      "C0"
+     ],
+     [
+      521,
+      "C4"
+     ],
+     [
+      642,
+      "D4"
+     ]
+    ]
+   }
+  },
+  "subreg": {
+   "T": 132,
+   "dark": 41
+  },
+  "setpage2_dark": 96,
+  "enaslt_fixed": {
+   "T": 676,
+   "dark": 65
+  }
+ },
+ "breaks": {
+  "stay32 eu": {
+   "bytes": "432D42494F53204C6F676F20524F4DFF",
+   "frame": 1,
+   "path": [
+    [
+     "8000",
+     0
+    ],
+    [
+     "8001",
+     0
+    ],
+    [
+     "8002",
+     0
+    ],
+    [
+     "8003",
+     0
+    ],
+    [
+     "8004",
+     0
+    ],
+    [
+     "8005",
+     0
+    ],
+    [
+     "8006",
+     0
+    ],
+    [
+     "8054",
+     0
+    ],
+    [
+     "8057",
+     0
+    ],
+    [
+     "805A",
+     0
+    ],
+    [
+     "805B",
+     0
+    ],
+    [
+     "805C",
+     0
+    ],
+    [
+     "805F",
+     0
+    ],
+    [
+     "8062",
+     0
+    ],
+    [
+     "8065",
+     0
+    ],
+    [
+     "8068",
+     0
+    ],
+    [
+     "806B",
+     0
+    ],
+    [
+     "806C",
+     0
+    ],
+    [
+     "806D",
+     0
+    ],
+    [
+     "8070",
+     0
+    ],
+    [
+     "8071",
+     0
+    ],
+    [
+     "8074",
+     0
+    ],
+    [
+     "8077",
+     0
+    ],
+    [
+     "807A",
+     0
+    ],
+    [
+     "807D",
+     0
+    ],
+    [
+     "807E",
+     0
+    ],
+    [
+     "807F",
+     0
+    ]
+   ],
+   "rst_total": 0,
+   "back": {
+    "frame": 2,
+    "T": 104299,
+    "rst": 0,
+    "vram_writes": 3408
+   },
+   "ended": 18,
+   "pc": "4112"
+  },
+  "stay32 jp": {
+   "bytes": "432D42494F53204C6F676F20524F4DFF",
+   "frame": 1,
+   "path": [
+    [
+     "8000",
+     0
+    ],
+    [
+     "8001",
+     0
+    ],
+    [
+     "8002",
+     0
+    ],
+    [
+     "8003",
+     0
+    ],
+    [
+     "8004",
+     0
+    ],
+    [
+     "8005",
+     0
+    ],
+    [
+     "8006",
+     0
+    ],
+    [
+     "8054",
+     0
+    ],
+    [
+     "8057",
+     0
+    ],
+    [
+     "805A",
+     0
+    ],
+    [
+     "805B",
+     0
+    ],
+    [
+     "805C",
+     0
+    ],
+    [
+     "805F",
+     0
+    ],
+    [
+     "8062",
+     0
+    ],
+    [
+     "8065",
+     0
+    ],
+    [
+     "8068",
+     0
+    ],
+    [
+     "806B",
+     0
+    ],
+    [
+     "806C",
+     0
+    ],
+    [
+     "806D",
+     0
+    ],
+    [
+     "8070",
+     0
+    ],
+    [
+     "8071",
+     0
+    ],
+    [
+     "8074",
+     0
+    ],
+    [
+     "8077",
+     0
+    ],
+    [
+     "807A",
+     0
+    ],
+    [
+     "807D",
+     0
+    ],
+    [
+     "807E",
+     0
+    ],
+    [
+     "807F",
+     0
+    ]
+   ],
+   "rst_total": 0,
+   "back": {
+    "frame": 2,
+    "T": 104299,
+    "rst": 0,
+    "vram_writes": 3408
+   },
+   "ended": 21,
+   "pc": "4112"
+  },
+  "stay32 eu64": {
+   "bytes": "F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+   "frame": 1,
+   "path": [
+    [
+     "8000",
+     0
+    ],
+    [
+     "8001",
+     0
+    ],
+    [
+     "8002",
+     1
+    ],
+    [
+     "8003",
+     2
+    ],
+    [
+     "8004",
+     3
+    ],
+    [
+     "8005",
+     4
+    ],
+    [
+     "8006",
+     5
+    ],
+    [
+     "8007",
+     6
+    ],
+    [
+     "8008",
+     7
+    ],
+    [
+     "8009",
+     8
+    ],
+    [
+     "800A",
+     9
+    ],
+    [
+     "800B",
+     10
+    ],
+    [
+     "800C",
+     11
+    ],
+    [
+     "800D",
+     12
+    ],
+    [
+     "800E",
+     13
+    ],
+    [
+     "800F",
+     14
+    ],
+    [
+     "8010",
+     15
+    ],
+    [
+     "8011",
+     16
+    ],
+    [
+     "8012",
+     17
+    ],
+    [
+     "8013",
+     18
+    ],
+    [
+     "8014",
+     19
+    ],
+    [
+     "8015",
+     20
+    ],
+    [
+     "8016",
+     21
+    ],
+    [
+     "8017",
+     22
+    ],
+    [
+     "8018",
+     23
+    ],
+    [
+     "8019",
+     24
+    ],
+    [
+     "801A",
+     25
+    ],
+    [
+     "801B",
+     26
+    ],
+    [
+     "801C",
+     27
+    ],
+    [
+     "801D",
+     28
+    ],
+    [
+     "801E",
+     29
+    ],
+    [
+     "801F",
+     30
+    ],
+    [
+     "8020",
+     31
+    ],
+    [
+     "8021",
+     32
+    ],
+    [
+     "8022",
+     33
+    ],
+    [
+     "8023",
+     34
+    ],
+    [
+     "8024",
+     35
+    ],
+    [
+     "8025",
+     36
+    ],
+    [
+     "8026",
+     37
+    ],
+    [
+     "8027",
+     38
+    ]
+   ],
+   "rst_total": 54898,
+   "c000": {
+    "frame": 88,
+    "T": 6213864,
+    "rst": 16320,
+    "times": 1
+   },
+   "ended": null,
+   "pc": "1959"
+  },
+  "quick32 eue": {
+   "bytes": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+   "frame": 1,
+   "path": [
+    [
+     "8000",
+     0
+    ],
+    [
+     "8001",
+     1
+    ],
+    [
+     "8002",
+     2
+    ],
+    [
+     "8003",
+     3
+    ],
+    [
+     "8004",
+     4
+    ],
+    [
+     "8005",
+     5
+    ],
+    [
+     "8006",
+     6
+    ],
+    [
+     "8007",
+     7
+    ],
+    [
+     "8008",
+     8
+    ],
+    [
+     "8009",
+     9
+    ],
+    [
+     "800A",
+     10
+    ],
+    [
+     "800B",
+     11
+    ],
+    [
+     "800C",
+     12
+    ],
+    [
+     "800D",
+     13
+    ],
+    [
+     "800E",
+     14
+    ],
+    [
+     "800F",
+     15
+    ],
+    [
+     "8010",
+     16
+    ],
+    [
+     "8011",
+     17
+    ],
+    [
+     "8012",
+     18
+    ],
+    [
+     "8013",
+     19
+    ],
+    [
+     "8014",
+     20
+    ],
+    [
+     "8015",
+     21
+    ],
+    [
+     "8016",
+     22
+    ],
+    [
+     "8017",
+     23
+    ],
+    [
+     "8018",
+     24
+    ],
+    [
+     "8019",
+     25
+    ],
+    [
+     "801A",
+     26
+    ],
+    [
+     "801B",
+     27
+    ],
+    [
+     "801C",
+     28
+    ],
+    [
+     "801D",
+     29
+    ],
+    [
+     "801E",
+     30
+    ],
+    [
+     "801F",
+     31
+    ],
+    [
+     "8020",
+     32
+    ],
+    [
+     "8021",
+     33
+    ],
+    [
+     "8022",
+     34
+    ],
+    [
+     "8023",
+     35
+    ],
+    [
+     "8024",
+     36
+    ],
+    [
+     "8025",
+     37
+    ],
+    [
+     "8026",
+     38
+    ],
+    [
+     "8027",
+     39
+    ]
+   ],
+   "rst_total": 54884,
+   "c000": {
+    "frame": 88,
+    "T": 6237800,
+    "rst": 16384,
+    "times": 3
+   },
+   "ended": null,
+   "pc": "18FD",
+   "T_per_byte": 380.7
+  },
+  "cart32 eue": {
+   "bytes": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+   "frame": 1,
+   "path": [
+    [
+     "8000",
+     0
+    ],
+    [
+     "8001",
+     1
+    ],
+    [
+     "8002",
+     2
+    ],
+    [
+     "8003",
+     3
+    ],
+    [
+     "8004",
+     4
+    ],
+    [
+     "8005",
+     5
+    ],
+    [
+     "8006",
+     6
+    ],
+    [
+     "8007",
+     7
+    ],
+    [
+     "8008",
+     8
+    ],
+    [
+     "8009",
+     9
+    ],
+    [
+     "800A",
+     10
+    ],
+    [
+     "800B",
+     11
+    ],
+    [
+     "800C",
+     12
+    ],
+    [
+     "800D",
+     13
+    ],
+    [
+     "800E",
+     14
+    ],
+    [
+     "800F",
+     15
+    ],
+    [
+     "8010",
+     16
+    ],
+    [
+     "8011",
+     17
+    ],
+    [
+     "8012",
+     18
+    ],
+    [
+     "8013",
+     19
+    ],
+    [
+     "8014",
+     20
+    ],
+    [
+     "8015",
+     21
+    ],
+    [
+     "8016",
+     22
+    ],
+    [
+     "8017",
+     23
+    ],
+    [
+     "8018",
+     24
+    ],
+    [
+     "8019",
+     25
+    ],
+    [
+     "801A",
+     26
+    ],
+    [
+     "801B",
+     27
+    ],
+    [
+     "801C",
+     28
+    ],
+    [
+     "801D",
+     29
+    ],
+    [
+     "801E",
+     30
+    ],
+    [
+     "801F",
+     31
+    ],
+    [
+     "8020",
+     32
+    ],
+    [
+     "8021",
+     33
+    ],
+    [
+     "8022",
+     34
+    ],
+    [
+     "8023",
+     35
+    ],
+    [
+     "8024",
+     36
+    ],
+    [
+     "8025",
+     37
+    ],
+    [
+     "8026",
+     38
+    ],
+    [
+     "8027",
+     39
+    ]
+   ],
+   "rst_total": 54882,
+   "c000": {
+    "frame": 88,
+    "T": 6237800,
+    "rst": 16384,
+    "times": 3
+   },
+   "ended": null,
+   "pc": "A4E1",
+   "T_per_byte": 380.7
+  },
+  "logo_text": "C-BIOS Logo ROM"
+ },
+ "same": {
+  "writes": 6600,
+  "interrupts": 300,
+  "init_cycle": {
+   "eu": 221562,
+   "eux": 221544,
+   "eue": 283098
+  },
+  "same": {
+   "eu": true,
+   "eux": true,
+   "eue": true
+  }
+ },
+ "memory": {
+  "programs": 300,
+  "all_programs": 318,
+  "named": {
+   "IM2_TABLE": {
+    "C100": 6,
+    "C200": 74
+   },
+   "IM2_JUMP": {
+    "C2C2": 6,
+    "C3C3": 74
+   },
+   "VARS": {
+    "C100": 297
+   },
+   "RESULTS": {
+    "C000": 30
+   }
+  },
+  "blocks": {
+   "C000": 48,
+   "C100": 300,
+   "C200": 84,
+   "C300": 75,
+   "C400": 35,
+   "C600": 4,
+   "C700": 7,
+   "C800": 18,
+   "CB00": 1,
+   "CC00": 9,
+   "CE00": 1,
+   "D000": 16,
+   "D100": 1,
+   "D400": 9,
+   "E000": 1,
+   "F300": 1
+  },
+  "highest": "F37E",
+  "highest_by": [
+   "ch14/all"
+  ],
+  "tune": {
+   "bytes": 381,
+   "runs": [
+    [
+     "C100",
+     "C10B",
+     12
+    ],
+    [
+     "C120",
+     "C17A",
+     91
+    ],
+    [
+     "C200",
+     "C300",
+     257
+    ],
+    [
+     "C3C3",
+     "C3C5",
+     3
+    ],
+    [
+     "F36E",
+     "F37F",
+     18
+    ]
+   ],
+   "stack_lowest": "F36E",
+   "bios_area": 0
+  }
+ },
+ "standard": {
+  "msx1": 119,
+  "ram": {
+   "0": 36,
+   "3": 25,
+   "2": 17,
+   "1": 15,
+   "3-2": 11,
+   "3-0": 9,
+   "0-2": 2,
+   "2-0": 2,
+   "0-0": 2
+  },
+  "cartridge_slots": {
+   "1 2": 64,
+   "1 3": 23,
+   "2 3": 12,
+   "1": 10,
+   "2": 4,
+   "1 2 3": 3,
+   "": 2,
+   "2 3-3": 1
+  },
+  "with_expanded_slot": 31,
+  "no_single_ram": [],
+  "cartridge_in_expanded": [
+   {
+    "machine": "Al_Alamiah_AX170",
+    "cartridge": "3-3",
+    "ram": "3-0",
+    "cbios_enaslt_fails": false
+   }
+  ]
+ },
+ "answers": {
+  "q1": {
+   "D4": [
+    0,
+    1,
+    1,
+    3
+   ],
+   "F4": [
+    0,
+    1,
+    3,
+    3
+   ]
+  },
+  "q2": {
+   "id": "8B",
+   "h": "40-7F"
+  },
+  "q3": {
+   "register": "E4",
+   "pages": [
+    "3-0",
+    "3-1",
+    "3-2",
+    "3-3"
+   ]
+  },
+  "q4": {
+   "register": "04",
+   "pages": [
+    "1-0",
+    "1-1",
+    "1-0",
+    "1-0"
+   ]
+  },
+  "q5": {
+   "subreg": 41,
+   "setpage2": 96
+  },
+  "q6": {
+   "read_own_register": [
+    "ram 0, expander 1",
+    "ram 1, expander 1",
+    "ram 0, expander 2",
+    "ram 2, expander 2",
+    "ram 0, expander 3",
+    "ram 1, expander 3",
+    "ram 2, expander 3",
+    "ram 3, expander 3"
+   ],
+   "count": 8,
+   "rule": "(RAM's slot OR expander's) == expander's"
+  },
+  "q7": {
+   "setpage2": 237,
+   "enaslt": 105,
+   "T": [
+    300,
+    676
+   ]
+  },
+  "q8": {
+   "T": 6237389,
+   "frames_50": 87.4,
+   "frames_60": 104.4
+  },
+  "q9": {
+   "slttbl_3": "00",
+   "register_3": "80",
+   "cart32_slot_on_eux": "1",
+   "exptbl_1_on_eux": "00",
+   "readers": [
+    "here in cart32, quick32 and stay32: SLTTBL only for an expanded slot 1",
+    "slt in all four: SLTTBL[1], printed",
+    "pages.asm: all four, printed"
+   ]
+  },
+  "q10": {
+   "names": [
+    "C400",
+    "C6FF"
+   ],
+   "marks": [
+    "C700",
+    "C717"
+   ],
+   "sprites": [
+    "C800",
+    "C87F"
+   ],
+   "stack": [
+    "F340",
+    "F37F"
+   ]
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 1019,
+   "same_values": 1019,
+   "captures": 10,
+   "same_captures": 10,
+   "same_in_drawn": 10,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 1019,
+   "same_values": 1019,
+   "captures": 10,
+   "same_captures": 10,
+   "same_in_drawn": 10,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 1019,
+   "same_values": 1019,
+   "captures": 10,
+   "same_captures": 10,
+   "same_in_drawn": 10,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 1019,
+   "same_values": 1019,
+   "captures": 10,
+   "same_captures": 10,
+   "same_in_drawn": 10,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 1019,
+   "same_values": 1019,
+   "captures": 10,
+   "same_captures": 10,
+   "same_in_drawn": 10,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

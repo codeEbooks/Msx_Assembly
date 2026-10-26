@@ -1,0 +1,1333 @@
+{
+ "stats": {
+  "programs": 52,
+  "instructions": 6598,
+  "ld": 2873,
+  "repeats": 7596,
+  "ld_share": 0.435,
+  "top": [
+   [
+    "ld",
+    2873
+   ],
+   [
+    "out",
+    1257
+   ],
+   [
+    "call",
+    441
+   ],
+   [
+    "jr",
+    318
+   ],
+   [
+    "inc",
+    274
+   ],
+   [
+    "push",
+    233
+   ]
+  ],
+  "chapters": {
+   "ch01": 13,
+   "ch02": 8,
+   "ch03": 10,
+   "ch04": 2,
+   "ch05": 6,
+   "ch06": 2,
+   "ch07": 11
+  }
+ },
+ "matrix": {
+  "eight": {
+   "a,a": [
+    127
+   ],
+   "a,b": [
+    120
+   ],
+   "a,c": [
+    121
+   ],
+   "a,d": [
+    122
+   ],
+   "a,e": [
+    123
+   ],
+   "a,h": [
+    124
+   ],
+   "a,l": [
+    125
+   ],
+   "a,(hl)": [
+    126
+   ],
+   "a,(bc)": [
+    10
+   ],
+   "a,(de)": [
+    26
+   ],
+   "a,($C000)": [
+    58,
+    0,
+    192
+   ],
+   "a,(ix+5)": [
+    221,
+    126,
+    5
+   ],
+   "a,(iy+5)": [
+    253,
+    126,
+    5
+   ],
+   "a,$12": [
+    62,
+    18
+   ],
+   "a,i": [
+    237,
+    87
+   ],
+   "a,r": [
+    237,
+    95
+   ],
+   "b,a": [
+    71
+   ],
+   "b,b": [
+    64
+   ],
+   "b,c": [
+    65
+   ],
+   "b,d": [
+    66
+   ],
+   "b,e": [
+    67
+   ],
+   "b,h": [
+    68
+   ],
+   "b,l": [
+    69
+   ],
+   "b,(hl)": [
+    70
+   ],
+   "b,(ix+5)": [
+    221,
+    70,
+    5
+   ],
+   "b,(iy+5)": [
+    253,
+    70,
+    5
+   ],
+   "b,$12": [
+    6,
+    18
+   ],
+   "c,a": [
+    79
+   ],
+   "c,b": [
+    72
+   ],
+   "c,c": [
+    73
+   ],
+   "c,d": [
+    74
+   ],
+   "c,e": [
+    75
+   ],
+   "c,h": [
+    76
+   ],
+   "c,l": [
+    77
+   ],
+   "c,(hl)": [
+    78
+   ],
+   "c,(ix+5)": [
+    221,
+    78,
+    5
+   ],
+   "c,(iy+5)": [
+    253,
+    78,
+    5
+   ],
+   "c,$12": [
+    14,
+    18
+   ],
+   "d,a": [
+    87
+   ],
+   "d,b": [
+    80
+   ],
+   "d,c": [
+    81
+   ],
+   "d,d": [
+    82
+   ],
+   "d,e": [
+    83
+   ],
+   "d,h": [
+    84
+   ],
+   "d,l": [
+    85
+   ],
+   "d,(hl)": [
+    86
+   ],
+   "d,(ix+5)": [
+    221,
+    86,
+    5
+   ],
+   "d,(iy+5)": [
+    253,
+    86,
+    5
+   ],
+   "d,$12": [
+    22,
+    18
+   ],
+   "e,a": [
+    95
+   ],
+   "e,b": [
+    88
+   ],
+   "e,c": [
+    89
+   ],
+   "e,d": [
+    90
+   ],
+   "e,e": [
+    91
+   ],
+   "e,h": [
+    92
+   ],
+   "e,l": [
+    93
+   ],
+   "e,(hl)": [
+    94
+   ],
+   "e,(ix+5)": [
+    221,
+    94,
+    5
+   ],
+   "e,(iy+5)": [
+    253,
+    94,
+    5
+   ],
+   "e,$12": [
+    30,
+    18
+   ],
+   "h,a": [
+    103
+   ],
+   "h,b": [
+    96
+   ],
+   "h,c": [
+    97
+   ],
+   "h,d": [
+    98
+   ],
+   "h,e": [
+    99
+   ],
+   "h,h": [
+    100
+   ],
+   "h,l": [
+    101
+   ],
+   "h,(hl)": [
+    102
+   ],
+   "h,(ix+5)": [
+    221,
+    102,
+    5
+   ],
+   "h,(iy+5)": [
+    253,
+    102,
+    5
+   ],
+   "h,$12": [
+    38,
+    18
+   ],
+   "l,a": [
+    111
+   ],
+   "l,b": [
+    104
+   ],
+   "l,c": [
+    105
+   ],
+   "l,d": [
+    106
+   ],
+   "l,e": [
+    107
+   ],
+   "l,h": [
+    108
+   ],
+   "l,l": [
+    109
+   ],
+   "l,(hl)": [
+    110
+   ],
+   "l,(ix+5)": [
+    221,
+    110,
+    5
+   ],
+   "l,(iy+5)": [
+    253,
+    110,
+    5
+   ],
+   "l,$12": [
+    46,
+    18
+   ],
+   "(hl),a": [
+    119
+   ],
+   "(hl),b": [
+    112
+   ],
+   "(hl),c": [
+    113
+   ],
+   "(hl),d": [
+    114
+   ],
+   "(hl),e": [
+    115
+   ],
+   "(hl),h": [
+    116
+   ],
+   "(hl),l": [
+    117
+   ],
+   "(hl),$12": [
+    54,
+    18
+   ],
+   "(bc),a": [
+    2
+   ],
+   "(de),a": [
+    18
+   ],
+   "($C000),a": [
+    50,
+    0,
+    192
+   ],
+   "(ix+5),a": [
+    221,
+    119,
+    5
+   ],
+   "(ix+5),b": [
+    221,
+    112,
+    5
+   ],
+   "(ix+5),c": [
+    221,
+    113,
+    5
+   ],
+   "(ix+5),d": [
+    221,
+    114,
+    5
+   ],
+   "(ix+5),e": [
+    221,
+    115,
+    5
+   ],
+   "(ix+5),h": [
+    221,
+    116,
+    5
+   ],
+   "(ix+5),l": [
+    221,
+    117,
+    5
+   ],
+   "(ix+5),$12": [
+    221,
+    54,
+    5,
+    18
+   ],
+   "(iy+5),a": [
+    253,
+    119,
+    5
+   ],
+   "(iy+5),b": [
+    253,
+    112,
+    5
+   ],
+   "(iy+5),c": [
+    253,
+    113,
+    5
+   ],
+   "(iy+5),d": [
+    253,
+    114,
+    5
+   ],
+   "(iy+5),e": [
+    253,
+    115,
+    5
+   ],
+   "(iy+5),h": [
+    253,
+    116,
+    5
+   ],
+   "(iy+5),l": [
+    253,
+    117,
+    5
+   ],
+   "(iy+5),$12": [
+    253,
+    54,
+    5,
+    18
+   ],
+   "i,a": [
+    237,
+    71
+   ],
+   "r,a": [
+    237,
+    79
+   ]
+  },
+  "sixteen": {
+   "bc,($C000)": [
+    237,
+    75,
+    0,
+    192
+   ],
+   "bc,$1234": [
+    1,
+    52,
+    18
+   ],
+   "de,($C000)": [
+    237,
+    91,
+    0,
+    192
+   ],
+   "de,$1234": [
+    17,
+    52,
+    18
+   ],
+   "hl,($C000)": [
+    42,
+    0,
+    192
+   ],
+   "hl,$1234": [
+    33,
+    52,
+    18
+   ],
+   "sp,hl": [
+    249
+   ],
+   "sp,ix": [
+    221,
+    249
+   ],
+   "sp,iy": [
+    253,
+    249
+   ],
+   "sp,($C000)": [
+    237,
+    123,
+    0,
+    192
+   ],
+   "sp,$1234": [
+    49,
+    52,
+    18
+   ],
+   "ix,($C000)": [
+    221,
+    42,
+    0,
+    192
+   ],
+   "ix,$1234": [
+    221,
+    33,
+    52,
+    18
+   ],
+   "iy,($C000)": [
+    253,
+    42,
+    0,
+    192
+   ],
+   "iy,$1234": [
+    253,
+    33,
+    52,
+    18
+   ],
+   "($C000),bc": [
+    237,
+    67,
+    0,
+    192
+   ],
+   "($C000),de": [
+    237,
+    83,
+    0,
+    192
+   ],
+   "($C000),hl": [
+    34,
+    0,
+    192
+   ],
+   "($C000),sp": [
+    237,
+    115,
+    0,
+    192
+   ],
+   "($C000),ix": [
+    221,
+    34,
+    0,
+    192
+   ],
+   "($C000),iy": [
+    253,
+    34,
+    0,
+    192
+   ]
+  },
+  "n8": 111,
+  "n16": 21,
+  "tried8": 240,
+  "tried16": 56
+ },
+ "modes": {
+  "rows": [
+   {
+    "instr": "ld a,b",
+    "mode": "register",
+    "bytes": [
+     120
+    ],
+    "t": 5,
+    "zilog": 4,
+    "m1": 1
+   },
+   {
+    "instr": "ld a,$12",
+    "mode": "immediate",
+    "bytes": [
+     62,
+     18
+    ],
+    "t": 8,
+    "zilog": 7,
+    "m1": 1
+   },
+   {
+    "instr": "ld a,(hl)",
+    "mode": "register indirect",
+    "bytes": [
+     126
+    ],
+    "t": 8,
+    "zilog": 7,
+    "m1": 1
+   },
+   {
+    "instr": "ld a,(bc)",
+    "mode": "register indirect",
+    "bytes": [
+     10
+    ],
+    "t": 8,
+    "zilog": 7,
+    "m1": 1
+   },
+   {
+    "instr": "ld a,(var)",
+    "mode": "direct",
+    "bytes": [
+     58,
+     64,
+     192
+    ],
+    "t": 14,
+    "zilog": 13,
+    "m1": 1
+   },
+   {
+    "instr": "ld a,(ix+2)",
+    "mode": "indexed",
+    "bytes": [
+     221,
+     126,
+     2
+    ],
+    "t": 21,
+    "zilog": 19,
+    "m1": 2
+   },
+   {
+    "instr": "ld (hl),$12",
+    "mode": "immediate to register indirect",
+    "bytes": [
+     54,
+     18
+    ],
+    "t": 11,
+    "zilog": 10,
+    "m1": 1
+   },
+   {
+    "instr": "ld (ix+2),$12",
+    "mode": "immediate to indexed",
+    "bytes": [
+     221,
+     54,
+     2,
+     18
+    ],
+    "t": 21,
+    "zilog": 19,
+    "m1": 2
+   },
+   {
+    "instr": "ld hl,$1234",
+    "mode": "immediate, 16 bits",
+    "bytes": [
+     33,
+     52,
+     18
+    ],
+    "t": 11,
+    "zilog": 10,
+    "m1": 1
+   },
+   {
+    "instr": "ld hl,(var)",
+    "mode": "direct, 16 bits",
+    "bytes": [
+     42,
+     64,
+     192
+    ],
+    "t": 17,
+    "zilog": 16,
+    "m1": 1
+   },
+   {
+    "instr": "ld bc,(var)",
+    "mode": "direct, 16 bits",
+    "bytes": [
+     237,
+     75,
+     64,
+     192
+    ],
+    "t": 22,
+    "zilog": 20,
+    "m1": 2
+   },
+   {
+    "instr": "ld ix,(var)",
+    "mode": "direct, 16 bits",
+    "bytes": [
+     221,
+     42,
+     64,
+     192
+    ],
+    "t": 22,
+    "zilog": 20,
+    "m1": 2
+   },
+   {
+    "instr": "ld (var),hl",
+    "mode": "direct, 16 bits",
+    "bytes": [
+     34,
+     64,
+     192
+    ],
+    "t": 17,
+    "zilog": 16,
+    "m1": 1
+   },
+   {
+    "instr": "ld sp,hl",
+    "mode": "register, 16 bits",
+    "bytes": [
+     249
+    ],
+    "t": 7,
+    "zilog": 6,
+    "m1": 1
+   },
+   {
+    "instr": "ex de,hl",
+    "mode": "exchange",
+    "bytes": [
+     235
+    ],
+    "t": 5,
+    "zilog": 4,
+    "m1": 1
+   },
+   {
+    "instr": "ld a,i",
+    "mode": "register",
+    "bytes": [
+     237,
+     87
+    ],
+    "t": 11,
+    "zilog": 9,
+    "m1": 2
+   }
+  ],
+  "session": [
+   [
+    "disasm [reg pc] 5",
+    "4050  jr     #4050        18 FE\n4052  inc    (hl)         34\n4053  ld     (de),a       12\n4054  ld     a,b          78\n4055  ld     d,(hl)       56\n",
+    false
+   ]
+  ],
+  "disasm": [
+   "4050  jr     #4050        18 FE",
+   "4052  inc    (hl)         34",
+   "4053  ld     (de),a       12",
+   "4054  ld     a,b          78",
+   "4055  ld     d,(hl)       56"
+  ],
+  "value": 16466,
+  "var": 49216
+ },
+ "sixteen": {
+  "after_ex": [
+   22136,
+   4660
+  ],
+  "after_copy": [
+   4660,
+   4660
+  ],
+  "stored": [
+   52,
+   18
+  ],
+  "copy_t": 10
+ },
+ "records": {
+  "bars": [
+   {
+    "col": 3,
+    "row": 3,
+    "char": "1"
+   },
+   {
+    "col": 20,
+    "row": 5,
+    "char": "#"
+   },
+   {
+    "col": 9,
+    "row": 9,
+    "char": "X"
+   },
+   {
+    "col": 25,
+    "row": 13,
+    "char": "="
+   },
+   {
+    "col": 5,
+    "row": 17,
+    "char": "O"
+   }
+  ],
+  "checked_cells": 15,
+  "stored": [
+   [
+    99,
+    24,
+    2
+   ],
+   [
+    180,
+    24,
+    35
+   ],
+   [
+    41,
+    25,
+    88
+   ],
+   [
+    185,
+    25,
+    61
+   ],
+   [
+    37,
+    26,
+    79
+   ]
+  ],
+  "turn": 181,
+  "turns": [
+   181,
+   181,
+   181,
+   181
+  ],
+  "indexed_t": 63,
+  "outs_t": 60,
+  "frame": 10
+ },
+ "selfmod": {
+  "results": [
+   0,
+   71
+  ],
+  "rom_byte": 0,
+  "ram_byte": 71,
+  "rpatch": 16434,
+  "mpatch": 49173,
+  "inram": 49168,
+  "copy_bytes": 8,
+  "session": [
+   [
+    "disasm [reg pc] 1",
+    "4032  ld     a,#00        3E 00\n",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "reg a",
+    "0",
+    false
+   ],
+   [
+    "debug set_bp 0xC015",
+    "bp#2",
+    false
+   ],
+   [
+    "debug cont",
+    "",
+    false
+   ],
+   [
+    "disasm [reg pc] 1",
+    "C015  ld     a,#47        3E 47\n",
+    false
+   ],
+   [
+    "step_in",
+    "",
+    false
+   ],
+   [
+    "reg a",
+    "71",
+    false
+   ]
+  ],
+  "disasm": [
+   "4032  ld     a,#00        3E 00\n",
+   "C015  ld     a,#47        3E 47\n"
+  ]
+ },
+ "copy4": {
+  "one_pass": [
+   224,
+   262,
+   315,
+   155
+  ],
+  "bands": [
+   995,
+   1147,
+   1359,
+   719
+  ],
+  "bands_debugger": [
+   995,
+   1147,
+   1359,
+   719
+  ],
+  "model": [
+   995,
+   1147,
+   1359,
+   719
+  ],
+  "overhead": 99,
+  "repeat": 4,
+  "bytes": [
+   48,
+   38,
+   47,
+   27
+  ],
+  "changes": [
+   [
+    217,
+    97,
+    [
+     0,
+     5,
+     0
+    ]
+   ],
+   [
+    221,
+    221,
+    [
+     91,
+     96,
+     223
+    ]
+   ],
+   [
+    226,
+    232,
+    [
+     115,
+     217,
+     124
+    ]
+   ],
+   [
+    232,
+    218,
+    [
+     0,
+     5,
+     0
+    ]
+   ],
+   [
+    235,
+    271,
+    [
+     249,
+     255,
+     248
+    ]
+   ]
+  ],
+  "frame": 12,
+  "copies_checked": 4,
+  "pause_t": 185,
+  "writes": [
+   {
+    "line": 262,
+    "t": 85.0,
+    "row": 217,
+    "x": 97
+   },
+   {
+    "line": 266,
+    "t": 168.0,
+    "row": 221,
+    "x": 221
+   },
+   {
+    "line": 271,
+    "t": 175.0,
+    "row": 226,
+    "x": 232
+   },
+   {
+    "line": 277,
+    "t": 166.0,
+    "row": 232,
+    "x": 218
+   },
+   {
+    "line": 280,
+    "t": 201.0,
+    "row": 235,
+    "x": 271
+   }
+  ]
+ },
+ "ldai": {
+  "rows": [
+   {
+    "reg": "i",
+    "value": 128,
+    "ei": 0,
+    "f_before": 0,
+    "a_after": 128,
+    "f_after": 128
+   },
+   {
+    "reg": "i",
+    "value": 128,
+    "ei": 0,
+    "f_before": 255,
+    "a_after": 128,
+    "f_after": 129
+   },
+   {
+    "reg": "i",
+    "value": 128,
+    "ei": 1,
+    "f_before": 0,
+    "a_after": 128,
+    "f_after": 132
+   },
+   {
+    "reg": "i",
+    "value": 128,
+    "ei": 1,
+    "f_before": 255,
+    "a_after": 128,
+    "f_after": 133
+   },
+   {
+    "reg": "i",
+    "value": 0,
+    "ei": 0,
+    "f_before": 0,
+    "a_after": 0,
+    "f_after": 64
+   },
+   {
+    "reg": "i",
+    "value": 0,
+    "ei": 0,
+    "f_before": 255,
+    "a_after": 0,
+    "f_after": 65
+   },
+   {
+    "reg": "i",
+    "value": 0,
+    "ei": 1,
+    "f_before": 0,
+    "a_after": 0,
+    "f_after": 68
+   },
+   {
+    "reg": "i",
+    "value": 0,
+    "ei": 1,
+    "f_before": 255,
+    "a_after": 0,
+    "f_after": 69
+   },
+   {
+    "reg": "r",
+    "value": 128,
+    "ei": 0,
+    "f_before": 0,
+    "a_after": 134,
+    "f_after": 128
+   },
+   {
+    "reg": "r",
+    "value": 128,
+    "ei": 0,
+    "f_before": 255,
+    "a_after": 134,
+    "f_after": 129
+   },
+   {
+    "reg": "r",
+    "value": 128,
+    "ei": 1,
+    "f_before": 0,
+    "a_after": 134,
+    "f_after": 132
+   },
+   {
+    "reg": "r",
+    "value": 128,
+    "ei": 1,
+    "f_before": 255,
+    "a_after": 134,
+    "f_after": 133
+   },
+   {
+    "reg": "r",
+    "value": 0,
+    "ei": 0,
+    "f_before": 0,
+    "a_after": 6,
+    "f_after": 0
+   },
+   {
+    "reg": "r",
+    "value": 0,
+    "ei": 0,
+    "f_before": 255,
+    "a_after": 6,
+    "f_after": 1
+   },
+   {
+    "reg": "r",
+    "value": 0,
+    "ei": 1,
+    "f_before": 0,
+    "a_after": 6,
+    "f_after": 4
+   },
+   {
+    "reg": "r",
+    "value": 0,
+    "ei": 1,
+    "f_before": 255,
+    "a_after": 6,
+    "f_after": 5
+   }
+  ]
+ },
+ "paren": {
+  "listing": [
+   {
+    "src": "ld a,($C000)",
+    "bytes": [
+     58,
+     0,
+     192
+    ]
+   },
+   {
+    "src": "ld b,($C000)",
+    "bytes": [
+     6,
+     0
+    ]
+   },
+   {
+    "src": "ld b,($C0)",
+    "bytes": [
+     6,
+     192
+    ]
+   }
+  ],
+  "settings": {
+   "err": {
+    "exit": 0,
+    "messages": []
+   },
+   "war": {
+    "exit": 0,
+    "messages": [
+     "paren.asm(7): warning: value 0xC000 is truncated to 8bit value: 0x00"
+    ]
+   },
+   "b": {
+    "exit": 1,
+    "messages": [
+     "paren.asm(7): error: Illegal instruction (can't access memory): ($C000)",
+     "paren.asm(8): error: Illegal instruction (can't access memory): ($C0)"
+    ]
+   }
+  },
+  "offset": {
+   "bytes": [
+    [
+     221,
+     126,
+     255
+    ],
+    [
+     221,
+     126,
+     127
+    ]
+   ],
+   "messages": [
+    "o.asm(2): error: Offset out of range (+130)"
+   ],
+   "exit": 1
+  },
+  "book_programs": 62
+ },
+ "answers": {
+  "q2": [
+   [
+    58,
+    0,
+    193
+   ],
+   [
+    79
+   ],
+   [
+    33,
+    0,
+    193
+   ],
+   [
+    78
+   ]
+  ],
+  "q2_t": [
+   14,
+   5,
+   11,
+   8
+  ],
+  "q3_turn": 193,
+  "q5": [
+   [
+    237,
+    91,
+    64,
+    192
+   ],
+   [
+    42,
+    64,
+    192
+   ]
+  ],
+  "q6": [
+   14,
+   14
+  ]
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 396,
+   "same_values": 396,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 396,
+   "same_values": 396,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 396,
+   "same_values": 396,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 396,
+   "same_values": 396,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 396,
+   "same_values": 396,
+   "captures": 2,
+   "same_captures": 2,
+   "same_in_drawn": 2,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "fill_order": {
+  "frames_for_groups": {
+   "8": 23,
+   "64": 79,
+   "72": 87
+  },
+  "first_lit_frame": 16,
+  "frames_checked": 259,
+  "frames_agreeing_with_cell_order": 259,
+  "cells_per_frame": [
+   4
+  ],
+  "full_frame": 207
+ },
+ "clash": {
+  "ball_pixels": 180,
+  "clash_none": {
+   "white": 0,
+   "white_grass": 0
+  },
+  "clash_ball": {
+   "white": 230,
+   "white_grass": 50,
+   "grass_box": [
+    120,
+    92,
+    143,
+    107
+   ]
+  },
+  "strips_made_white": 48,
+  "ball_xy": [
+   124,
+   92
+  ]
+ },
+ "sprites": {
+  "sprites5": {
+   "visible": [
+    true,
+    true,
+    true,
+    true,
+    false
+   ],
+   "status": {
+    "byte": 68,
+    "5S": 1,
+    "number": 4
+   }
+  },
+  "sprites5_down": {
+   "visible": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "status": {
+    "byte": 0,
+    "5S": 0,
+    "number": 0
+   }
+  },
+  "y208": {
+   "visible_of_on_screen": [
+    true,
+    true,
+    false,
+    false
+   ],
+   "planes_on_screen": [
+    0,
+    1,
+    3,
+    4
+   ]
+  },
+  "y209": {
+   "visible_of_on_screen": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "planes_on_screen": [
+    0,
+    1,
+    3,
+    4
+   ]
+  }
+ },
+ "bios_fill": {
+  "wrtvrm": {
+   "T": 160529,
+   "T_per_byte": 209.0,
+   "bytes_right": 768
+  },
+  "ldirvm": {
+   "T": 22533,
+   "T_per_byte": 29.3,
+   "bytes_right": 768
+  },
+  "outi": {
+   "T": 22417,
+   "T_per_byte": 29.2,
+   "bytes_right": 768
+  }
+ },
+ "beam": {
+  "0": {
+   "rows": [
+    218
+   ],
+   "x_first": 194,
+   "x_last": 265,
+   "pixels": 72,
+   "same_in_frames": [
+    30,
+    34
+   ]
+  },
+  "16": {
+   "rows": [
+    218
+   ],
+   "x_first": 218,
+   "x_last": 289,
+   "pixels": 72,
+   "same_in_frames": [
+    30,
+    34
+   ]
+  },
+  "228": {
+   "rows": [
+    219
+   ],
+   "x_first": 194,
+   "x_last": 265,
+   "pixels": 72,
+   "same_in_frames": [
+    30,
+    34
+   ]
+  },
+  "px_per_t": 1.5,
+  "write_gap_t": 48
+ },
+ "tick": {
+  "EU": {
+   "frame": 200,
+   "ball_left_x": 185,
+   "T_per_frame": 71364.05,
+   "seconds": 3.987
+  },
+  "JP": {
+   "frame": 240,
+   "ball_left_x": 223,
+   "T_per_frame": 59736.07,
+   "seconds": 4.005
+  }
+ },
+ "palette": {
+  "rgb": [
+   [
+    0,
+    5,
+    0
+   ],
+   [
+    0,
+    5,
+    0
+   ],
+   [
+    60,
+    197,
+    72
+   ],
+   [
+    115,
+    217,
+    124
+   ],
+   [
+    91,
+    96,
+    223
+   ],
+   [
+    130,
+    130,
+    238
+   ],
+   [
+    189,
+    105,
+    80
+   ],
+   [
+    98,
+    228,
+    235
+   ],
+   [
+    221,
+    112,
+    89
+   ],
+   [
+    254,
+    146,
+    124
+   ],
+   [
+    204,
+    204,
+    92
+   ],
+   [
+    221,
+    216,
+    134
+   ],
+   [
+    55,
+    175,
+    64
+   ],
+   [
+    185,
+    112,
+    181
+   ],
+   [
+    202,
+    211,
+    201
+   ],
+   [
+    249,
+    255,
+    248
+   ]
+  ],
+  "grey": [
+   3,
+   3,
+   142,
+   176,
+   109,
+   142,
+   127,
+   190,
+   142,
+   176,
+   191,
+   208,
+   126,
+   142,
+   207,
+   252
+  ],
+  "greys_distinct": 11,
+  "largest_group": [
+   2,
+   5,
+   8,
+   13
+  ]
+ }
+}

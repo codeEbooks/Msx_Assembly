@@ -1,0 +1,5 @@
+$ sjasmplus --nologo --msg=err --syntax=bFw rows.asm
+> lines 0x4100, high bytes 0x4200, end 0x42C0
+$ sjasmplus --nologo --msg=err --syntax=bFw -DUNALIGNED rows.asm
+rows.asm(39): error: [ASSERT] Assertion failed:  low lines == 0, not on a page
+> lines 0x4023, high bytes 0x4100, end 0x41C0

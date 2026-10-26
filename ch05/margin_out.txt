@@ -1,0 +1,2 @@
+margin.asm(8): error: Unrecognized instruction: (VDP_CTRL), a
+Errors: 1, warnings: 0, compiled: 77 lines

@@ -1,0 +1,1024 @@
+{
+ "walls": {
+  "walls": {
+   "walk_checked": 198,
+   "eu": {
+    "calls": 198
+   },
+   "jp": {
+    "calls": 198
+   },
+   "stops": [
+    {
+     "place": [
+      176,
+      43
+     ],
+     "frame": 27
+    },
+    {
+     "place": [
+      16,
+      122
+     ],
+     "frame": 53
+    },
+    {
+     "place": [
+      150,
+      159
+     ],
+     "frame": 59
+    },
+    {
+     "place": [
+      40,
+      15
+     ],
+     "frame": 59
+    }
+   ],
+   "frames_on_wall": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "most_on_wall": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "box_gap": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "corners": {
+   "walk_checked": 246,
+   "eu": {
+    "calls": 246
+   },
+   "jp": {
+    "calls": 246
+   },
+   "stops": [
+    {
+     "place": [
+      224,
+      43
+     ],
+     "frame": 75
+    },
+    {
+     "place": [
+      16,
+      122
+     ],
+     "frame": 53
+    },
+    {
+     "place": [
+      150,
+      159
+     ],
+     "frame": 59
+    },
+    {
+     "place": [
+      40,
+      15
+     ],
+     "frame": 59
+    }
+   ],
+   "frames_on_wall": [
+    21,
+    0,
+    0,
+    0
+   ],
+   "most_on_wall": [
+    64,
+    0,
+    0,
+    0
+   ],
+   "box_gap": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "ytop": {
+   "walk_checked": 198,
+   "eu": {
+    "calls": 198
+   },
+   "jp": {
+    "calls": 198
+   },
+   "stops": [
+    {
+     "place": [
+      176,
+      43
+     ],
+     "frame": 27
+    },
+    {
+     "place": [
+      16,
+      122
+     ],
+     "frame": 53
+    },
+    {
+     "place": [
+      150,
+      160
+     ],
+     "frame": 60
+    },
+    {
+     "place": [
+      40,
+      16
+     ],
+     "frame": 58
+    }
+   ],
+   "frames_on_wall": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "most_on_wall": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "box_gap": [
+    0,
+    0,
+    -1,
+    1
+   ]
+  },
+  "photos": {
+   "walls": "walls_eu_f0090.png",
+   "corners": "corners_eu_f0050.png"
+  },
+  "corners_shot": {
+   "place": [
+    195,
+    43
+   ],
+   "ticks": 46,
+   "program_frame": 45,
+   "on_post": 30
+  },
+  "walls_px": 6464
+ },
+ "flags": {
+  "scenes": [
+   "apart",
+   "overlap",
+   "one colour 0",
+   "both colour 0",
+   "below the paper",
+   "fifth and sixth",
+   "left of the paper",
+   "right of the paper",
+   "after the end",
+   "the face's two"
+  ],
+  "model_c": [
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "model_line": [
+   null,
+   91,
+   91,
+   91,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "eu": [
+   "82",
+   "A2",
+   "A2",
+   "A2",
+   "82",
+   "C4",
+   "82",
+   "82",
+   "80",
+   "82"
+  ],
+  "jp": [
+   "82",
+   "A2",
+   "A2",
+   "A2",
+   "82",
+   "C4",
+   "82",
+   "82",
+   "80",
+   "82"
+  ]
+ },
+ "shapes": {
+  "places": 1369,
+  "box": 961,
+  "pixels": 585,
+  "box_not_pixels": 376,
+  "eu": {
+   "c": 585,
+   "boxed": 961,
+   "touched": 585
+  },
+  "timed": {
+   "boxed": {
+    "calls": 1369,
+    "hit": [
+     87,
+     87
+    ],
+    "miss": [
+     56,
+     87
+    ]
+   },
+   "touched": {
+    "calls": 961,
+    "hit": [
+     379,
+     905
+    ],
+    "miss": [
+     362,
+     2005
+    ]
+   }
+  },
+  "jp": {
+   "c": 585,
+   "boxed": 961,
+   "touched": 585
+  },
+  "photo": "shapes_eu_f2858.png",
+  "smaller_boxes": {
+   "16": {
+    "says": 961,
+    "false": 376,
+    "missed": 0
+   },
+   "15": {
+    "says": 841,
+    "false": 256,
+    "missed": 0
+   },
+   "14": {
+    "says": 729,
+    "false": 144,
+    "missed": 0
+   },
+   "13": {
+    "says": 625,
+    "false": 84,
+    "missed": 44
+   },
+   "12": {
+    "says": 529,
+    "false": 40,
+    "missed": 96
+   },
+   "11": {
+    "says": 441,
+    "false": 12,
+    "missed": 156
+   },
+   "10": {
+    "says": 361,
+    "false": 0,
+    "missed": 224
+   }
+  }
+ },
+ "pairs": {
+  "meet": {
+   "eu": {
+    "tested_frames": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ],
+    "tests_T": [
+     1768,
+     1009,
+     1221,
+     899,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246
+    ]
+   },
+   "timed": {
+    "boxed": {
+     "calls": 5,
+     "hit": [
+      87,
+      87
+     ],
+     "miss": null
+    },
+    "touched": {
+     "calls": 5,
+     "hit": [
+      415,
+      733
+     ],
+     "miss": [
+      364,
+      788
+     ]
+    }
+   },
+   "jp": {
+    "tested_frames": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ],
+    "tests_T": [
+     1768,
+     1009,
+     1221,
+     899,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246
+    ]
+   },
+   "stopped": [
+    25,
+    22
+   ],
+   "places": [
+    [
+     64,
+     39,
+     73,
+     48
+    ],
+    [
+     61,
+     127,
+     72,
+     127
+    ]
+   ],
+   "photo": "meet_eu_f0045.png",
+   "first_touch": [
+    24,
+    20
+   ],
+   "apart_at_stop": [
+    [
+     9,
+     9
+    ],
+    [
+     11,
+     0
+    ]
+   ]
+  },
+  "blame": {
+   "eu": {
+    "tested_frames": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ],
+    "tests_T": [
+     706,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246
+    ]
+   },
+   "timed": null,
+   "jp": {
+    "tested_frames": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ],
+    "tests_T": [
+     706,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246,
+     246
+    ]
+   },
+   "stopped": [
+    22,
+    22
+   ],
+   "places": [
+    [
+     61,
+     36,
+     76,
+     51
+    ],
+    [
+     61,
+     127,
+     72,
+     127
+    ]
+   ],
+   "photo": "blame_eu_f0045.png",
+   "first_touch": [
+    null,
+    20
+   ],
+   "apart_at_stop": [
+    [
+     15,
+     15
+    ],
+    [
+     11,
+     0
+    ]
+   ]
+  }
+ },
+ "prices": {
+  "walled": {
+   "4 cells": {
+    "T": 533,
+    "wall": false
+   },
+   "6 cells": {
+    "T": 617,
+    "wall": false
+   },
+   "6 cells, rows": {
+    "T": 681,
+    "wall": false
+   },
+   "9 cells": {
+    "T": 807,
+    "wall": false
+   },
+   "wall at the first cell": {
+    "T": 296,
+    "wall": true
+   }
+  },
+  "corners": {
+   "no wall": {
+    "T": 805,
+    "wall": false
+   },
+   "wall at the first corner": {
+    "T": 217,
+    "wall": true
+   }
+  },
+  "boxed": {
+   "calls": 1369,
+   "hit": [
+    87,
+    87
+   ],
+   "miss": [
+    56,
+    87
+   ]
+  },
+  "touched": {
+   "calls": 961,
+   "hit": [
+    379,
+    905
+   ],
+   "miss": [
+    362,
+    2005
+   ]
+  },
+  "c_test": 33,
+  "touched_cases": {
+   "same place": {
+    "T": 379,
+    "touch": true
+   },
+   "level, 13 apart": {
+    "T": 839,
+    "touch": true
+   },
+   "level, 14 apart": {
+    "T": 1954,
+    "touch": false
+   },
+   "diagonal, 9": {
+    "T": 415,
+    "touch": true
+   },
+   "diagonal, 10": {
+    "T": 894,
+    "touch": false
+   },
+   "15 and 15": {
+    "T": 364,
+    "touch": false
+   }
+  }
+ },
+ "answers": {
+  "q1": {
+   "cells": 9,
+   "columns": [
+    12,
+    13,
+    14
+   ],
+   "rows": [
+    10,
+    11,
+    12
+   ],
+   "T": 807
+  },
+  "q2": {
+   "frames_on_post": 21,
+   "corner_rows": [
+    5,
+    7
+   ],
+   "post_row": 6,
+   "walls_find_post_at_y": [
+    [
+     32,
+     54
+    ]
+   ],
+   "corners_find_post_at_y": [
+    [
+     32,
+     39
+    ],
+    [
+     47,
+     54
+    ]
+   ]
+  },
+  "q3": {
+   "stop": {
+    "place": [
+     150,
+     160
+    ],
+    "frame": 60
+   },
+   "box_gap": -1,
+   "pixels_on_wall": 0,
+   "box_last_line": 176,
+   "wall_first_line": 176
+  },
+  "q4": {
+   "carry": true,
+   "T": 87,
+   "difference": 8
+  },
+  "q5": {
+   "with_c": [
+    "overlap",
+    "one colour 0",
+    "both colour 0"
+   ],
+   "without": [
+    "apart",
+    "below the paper",
+    "fifth and sixth",
+    "left of the paper",
+    "right of the paper",
+    "after the end",
+    "the face's two"
+   ],
+   "colour 0": 1,
+   "below": 0,
+   "after the end": 0
+  },
+  "q6": {
+   "eu": 22,
+   "jp": 22,
+   "first_touch": [
+    24,
+    20
+   ],
+   "stopped": [
+    25,
+    22
+   ]
+  },
+  "q7": {
+   "same place": {
+    "T": 379,
+    "touch": true
+   },
+   "level, 13 apart": {
+    "T": 839,
+    "touch": true
+   },
+   "level, 14 apart": {
+    "T": 1954,
+    "touch": false
+   },
+   "diagonal, 9": {
+    "T": 415,
+    "touch": true
+   },
+   "diagonal, 10": {
+    "T": 894,
+    "touch": false
+   },
+   "15 and 15": {
+    "T": 364,
+    "touch": false
+   }
+  },
+  "q8": {
+   "pairs": 28,
+   "least": 1568,
+   "most": 2436
+  },
+  "q9": {
+   "start": 57,
+   "further": [
+    {
+     "extra": 1,
+     "start": 58,
+     "stopped": 23,
+     "apart": [
+      14,
+      14
+     ],
+     "touch": false
+    },
+    {
+     "extra": 2,
+     "start": 59,
+     "stopped": 23,
+     "apart": [
+      15,
+      15
+     ],
+     "touch": false
+    },
+    {
+     "extra": 3,
+     "start": 60,
+     "stopped": 24,
+     "apart": [
+      14,
+      14
+     ],
+     "touch": false
+    }
+   ],
+   "nearer": [
+    {
+     "extra": -9,
+     "start": 48,
+     "stopped": 22,
+     "apart": [
+      6,
+      6
+     ],
+     "touch": true
+    },
+    {
+     "extra": -8,
+     "start": 49,
+     "stopped": 22,
+     "apart": [
+      7,
+      7
+     ],
+     "touch": true
+    },
+    {
+     "extra": -7,
+     "start": 50,
+     "stopped": 22,
+     "apart": [
+      8,
+      8
+     ],
+     "touch": true
+    },
+    {
+     "extra": -6,
+     "start": 51,
+     "stopped": 22,
+     "apart": [
+      9,
+      9
+     ],
+     "touch": true
+    },
+    {
+     "extra": -5,
+     "start": 52,
+     "stopped": 22,
+     "apart": [
+      10,
+      10
+     ],
+     "touch": false
+    },
+    {
+     "extra": -4,
+     "start": 53,
+     "stopped": 22,
+     "apart": [
+      11,
+      11
+     ],
+     "touch": false
+    },
+    {
+     "extra": -3,
+     "start": 54,
+     "stopped": 22,
+     "apart": [
+      12,
+      12
+     ],
+     "touch": false
+    },
+    {
+     "extra": -2,
+     "start": 55,
+     "stopped": 22,
+     "apart": [
+      13,
+      13
+     ],
+     "touch": false
+    },
+    {
+     "extra": -1,
+     "start": 56,
+     "stopped": 22,
+     "apart": [
+      14,
+      14
+     ],
+     "touch": false
+    }
+   ],
+   "touching_starts": [
+    12,
+    51
+   ]
+  },
+  "q10": {
+   "size": 14,
+   "false": 144,
+   "says": 729,
+   "on_the_axes": 0,
+   "least_off_axis": 6,
+   "largest_without_false": 10,
+   "missed": 224,
+   "pixels": 585
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 401,
+   "same_values": 401,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 401,
+   "same_values": 401,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 401,
+   "same_values": 401,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 401,
+   "same_values": 401,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 401,
+   "same_values": 401,
+   "captures": 5,
+   "same_captures": 5,
+   "same_in_drawn": 5,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

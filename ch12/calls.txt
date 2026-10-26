@@ -1,0 +1,10 @@
+> format %04X [reg sp]
+F378
+> format %04X [peek16 0xF378]
+402A
+> format %04X [peek16 0xF37A]
+4025
+> format %04X [peek16 0xF37C]
+1111
+> format %04X [peek16 0xF37E]
+401A

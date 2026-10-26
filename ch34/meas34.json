@@ -1,0 +1,1083 @@
+{
+ "matrix": {
+  "eu": {
+   "offset": 0,
+   "keys_alone": 88,
+   "frames_read": 312,
+   "rows_11_15": "FF",
+   "portc": "5F",
+   "combos": {
+    "LEFT+UP": [
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "CF",
+     "FF",
+     "FF"
+    ],
+    "SHIFT+A": [
+     "FF",
+     "FF",
+     "BF",
+     "FF",
+     "FF",
+     "FF",
+     "FE",
+     "FF",
+     "FF",
+     "FF",
+     "FF"
+    ],
+    "RIGHT+SPACE+S": [
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FE",
+     "FF",
+     "FF",
+     "7E",
+     "FF",
+     "FF"
+    ]
+   },
+   "photo_lag": -1,
+   "photos": 98
+  },
+  "jp": {
+   "offset": 0,
+   "keys_alone": 88,
+   "frames_read": 312,
+   "rows_11_15": "FF",
+   "portc": "5F",
+   "combos": {
+    "LEFT+UP": [
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "CF",
+     "FF",
+     "FF"
+    ],
+    "SHIFT+A": [
+     "FF",
+     "FF",
+     "BF",
+     "FF",
+     "FF",
+     "FF",
+     "FE",
+     "FF",
+     "FF",
+     "FF",
+     "FF"
+    ],
+    "RIGHT+SPACE+S": [
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FE",
+     "FF",
+     "FF",
+     "7E",
+     "FF",
+     "FF"
+    ]
+   },
+   "photo_lag": -1,
+   "photos": 21
+  },
+  "eug": {
+   "offset": 0,
+   "keys_alone": 88,
+   "frames_read": 312,
+   "rows_11_15": "FF",
+   "portc": "5F",
+   "combos": {
+    "LEFT+UP": [
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "CF",
+     "FF",
+     "FF"
+    ],
+    "SHIFT+A": [
+     "FF",
+     "FF",
+     "BF",
+     "FF",
+     "FF",
+     "FF",
+     "FE",
+     "FF",
+     "FF",
+     "FF",
+     "FF"
+    ],
+    "RIGHT+SPACE+S": [
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "FF",
+     "7E",
+     "FF",
+     "FF",
+     "7E",
+     "FF",
+     "FF"
+    ]
+   },
+   "photo_lag": -1,
+   "photos": 10
+  },
+  "ghost": {
+   "held": [
+    "RIGHT",
+    "SPACE",
+    "S"
+   ],
+   "extra": [
+    "Z"
+   ],
+   "extra_at": [
+    [
+     5,
+     7
+    ]
+   ]
+  }
+ },
+ "legend": {
+  "eu": {
+   "typed": 47,
+   "dead": 1,
+   "late": [
+    0,
+    1,
+    2
+   ],
+   "table_in_rom": "0x26be",
+   "id_2b": 161,
+   "id_2c": 2,
+   "shot": 540
+  },
+  "jp": {
+   "typed": 48,
+   "dead": 0,
+   "late": [
+    0,
+    1,
+    2
+   ],
+   "table_in_rom": "0x26be",
+   "id_2b": 0,
+   "id_2c": 0,
+   "shot": 540
+  },
+  "differ": [
+   [
+    1,
+    3,
+    "=",
+    "^"
+   ],
+   [
+    1,
+    5,
+    "[",
+    "@"
+   ],
+   [
+    1,
+    6,
+    "]",
+    "["
+   ],
+   [
+    2,
+    0,
+    "'",
+    ":"
+   ],
+   [
+    2,
+    1,
+    "`",
+    "]"
+   ],
+   [
+    2,
+    5,
+    "",
+    "_"
+   ]
+  ],
+  "differ_count": 6
+ },
+ "snsmat": {
+  "eu": {
+   "offset": 0,
+   "ports_t": 66,
+   "snsmat_t": 135,
+   "jp_0141": [
+    195,
+    115,
+    23
+   ],
+   "photo_lag": 1,
+   "photos": 5,
+   "first_scan": 126,
+   "scan_every": 3,
+   "readings": 270,
+   "scans": 49,
+   "after_next_frame": 0,
+   "irq_t": {
+    "keyboard": [
+     6500,
+     6913
+    ],
+    "other": [
+     521,
+     525
+    ]
+   },
+   "taps": [
+    {
+     "start": 150,
+     "held": 1,
+     "ports": [
+      150
+     ],
+     "newkey": [
+      150,
+      151,
+      152
+     ],
+     "late": 0
+    },
+    {
+     "start": 160,
+     "held": 1,
+     "ports": [
+      160
+     ],
+     "newkey": [],
+     "late": null
+    },
+    {
+     "start": 170,
+     "held": 1,
+     "ports": [
+      170
+     ],
+     "newkey": [],
+     "late": null
+    },
+    {
+     "start": 180,
+     "held": 2,
+     "ports": [
+      180,
+      181
+     ],
+     "newkey": [
+      180,
+      181,
+      182
+     ],
+     "late": 0
+    },
+    {
+     "start": 190,
+     "held": 2,
+     "ports": [
+      190,
+      191
+     ],
+     "newkey": [],
+     "late": null
+    },
+    {
+     "start": 200,
+     "held": 2,
+     "ports": [
+      200,
+      201
+     ],
+     "newkey": [
+      201,
+      202,
+      203
+     ],
+     "late": 1
+    },
+    {
+     "start": 210,
+     "held": 3,
+     "ports": [
+      210,
+      211,
+      212
+     ],
+     "newkey": [
+      210,
+      211,
+      212
+     ],
+     "late": 0
+    },
+    {
+     "start": 220,
+     "held": 3,
+     "ports": [
+      220,
+      221,
+      222
+     ],
+     "newkey": [
+      222,
+      223,
+      224
+     ],
+     "late": 2
+    },
+    {
+     "start": 230,
+     "held": 3,
+     "ports": [
+      230,
+      231,
+      232
+     ],
+     "newkey": [
+      231,
+      232,
+      233
+     ],
+     "late": 1
+    },
+    {
+     "start": 240,
+     "held": 20,
+     "ports": [
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259
+     ],
+     "newkey": [
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260
+     ],
+     "late": 0
+    }
+   ]
+  },
+  "jp": {
+   "offset": 0,
+   "ports_t": 66,
+   "snsmat_t": 135,
+   "jp_0141": [
+    195,
+    115,
+    23
+   ],
+   "photo_lag": 1,
+   "photos": 5,
+   "first_scan": 123,
+   "scan_every": 3,
+   "readings": 269,
+   "scans": 49,
+   "after_next_frame": 49,
+   "irq_t": {
+    "keyboard": [
+     6500,
+     6913
+    ],
+    "other": [
+     521,
+     525
+    ]
+   },
+   "taps": [
+    {
+     "start": 150,
+     "held": 1,
+     "ports": [],
+     "newkey": [
+      150,
+      151,
+      152
+     ],
+     "late": 0
+    },
+    {
+     "start": 160,
+     "held": 1,
+     "ports": [
+      160
+     ],
+     "newkey": [],
+     "late": null
+    },
+    {
+     "start": 170,
+     "held": 1,
+     "ports": [
+      170
+     ],
+     "newkey": [],
+     "late": null
+    },
+    {
+     "start": 180,
+     "held": 2,
+     "ports": [
+      180,
+      181
+     ],
+     "newkey": [
+      180,
+      181,
+      182
+     ],
+     "late": 0
+    },
+    {
+     "start": 190,
+     "held": 2,
+     "ports": [
+      190,
+      191
+     ],
+     "newkey": [],
+     "late": null
+    },
+    {
+     "start": 200,
+     "held": 2,
+     "ports": [
+      200
+     ],
+     "newkey": [
+      201,
+      202,
+      203
+     ],
+     "late": 1
+    },
+    {
+     "start": 210,
+     "held": 3,
+     "ports": [
+      210,
+      211,
+      212
+     ],
+     "newkey": [
+      210,
+      211,
+      212
+     ],
+     "late": 0
+    },
+    {
+     "start": 220,
+     "held": 3,
+     "ports": [
+      220,
+      221
+     ],
+     "newkey": [
+      222,
+      223,
+      224
+     ],
+     "late": 2
+    },
+    {
+     "start": 230,
+     "held": 3,
+     "ports": [
+      230,
+      231,
+      232
+     ],
+     "newkey": [
+      231,
+      232,
+      233
+     ],
+     "late": 1
+    },
+    {
+     "start": 240,
+     "held": 20,
+     "ports": [
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259
+     ],
+     "newkey": [
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260
+     ],
+     "late": 0
+    }
+   ]
+  },
+  "cbios_price": [
+   [
+    "CALL SNSMAT",
+    18
+   ],
+   [
+    "JP snsmat, at $0141",
+    11
+   ],
+   [
+    "DI",
+    5
+   ],
+   [
+    "PUSH BC",
+    12
+   ],
+   [
+    "LD C,A",
+    5
+   ],
+   [
+    "IN A,($AA)",
+    12
+   ],
+   [
+    "AND $F0",
+    8
+   ],
+   [
+    "OR C",
+    5
+   ],
+   [
+    "OUT ($AA),A",
+    12
+   ],
+   [
+    "IN A,($A9)",
+    12
+   ],
+   [
+    "POP BC",
+    11
+   ],
+   [
+    "EI",
+    5
+   ],
+   [
+    "RET",
+    11
+   ]
+  ]
+ },
+ "define": {
+  "eu": {
+   "first": 1,
+   "names": [
+    "Q",
+    "A",
+    "O",
+    "P",
+    "SPACE"
+   ],
+   "taken": [
+    30,
+    50,
+    60,
+    70,
+    80
+   ],
+   "refused": [
+    [
+     40,
+     "Q"
+    ]
+   ],
+   "frames_played": 140,
+   "end": [
+    92,
+    160,
+    1
+   ],
+   "photos": 12,
+   "lag": 1
+  },
+  "jp": {
+   "first": 1,
+   "names": [
+    "Q",
+    "A",
+    "O",
+    "P",
+    "SPACE"
+   ],
+   "taken": [
+    30,
+    50,
+    60,
+    70,
+    80
+   ],
+   "refused": [
+    [
+     40,
+     "Q"
+    ]
+   ],
+   "frames_played": 140,
+   "end": [
+    92,
+    160,
+    1
+   ],
+   "photos": 12,
+   "lag": 1
+  }
+ },
+ "rowonly": {
+  "matrix": {
+   "offset": 0,
+   "outs": [
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ],
+   "caps": [],
+   "tape_end": 0.0,
+   "tape_from": null,
+   "portc": "5F"
+  },
+  "rowonly": {
+   "offset": 0,
+   "outs": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "0A",
+    "0B",
+    "0C",
+    "0D",
+    "0E",
+    "0F"
+   ],
+   "caps": [
+    [
+     "on",
+     1
+    ]
+   ],
+   "tape_end": 0.7808,
+   "tape_from": 2,
+   "portc": "0F",
+   "tape_per_frame": [
+    0.01994,
+    0.01994
+   ],
+   "photo_lag": -1
+  }
+ },
+ "layouts": {
+  "maps": 20,
+  "moved": {
+   "ar": "a",
+   "ar_eu": "a",
+   "ar_fr": "amqwz",
+   "de": "yz",
+   "fr": "amqwz",
+   "proto_fr": "abcdefghjklmnoqrstuvwxyz",
+   "proto_int": "abcdefghjklmnoqrstuvwxyz",
+   "ru": "abcdefghijklmnopqrstuvwxyz"
+  },
+  "arrows_space_fixed": 20,
+  "named_fixed": 20,
+  "groups": {
+   "a": [
+    "ar",
+    "ar_eu"
+   ],
+   "amqwz": [
+    "ar_fr",
+    "fr"
+   ],
+   "": [
+    "br_gradiente_1_0",
+    "br_gradiente_1_1",
+    "br_hotbit_1_1",
+    "br_hotbit_1_2",
+    "es",
+    "gb",
+    "int",
+    "jp_ansi",
+    "jp_jis",
+    "kr",
+    "pl",
+    "se"
+   ],
+   "yz": [
+    "de"
+   ],
+   "abcdefghjklmnoqrstuvwxyz": [
+    "proto_fr",
+    "proto_int"
+   ],
+   "abcdefghijklmnopqrstuvwxyz": [
+    "ru"
+   ]
+  },
+  "named_checked": 13,
+  "machines": {
+   "files": 235,
+   "with_ppi": 229,
+   "ghosting_off": [
+    "Boosted_MSX2+_JP",
+    "Boosted_MSX2_EN",
+    "Boosted_MSXturboR_with_IDE",
+    "C-BIOS_MSX1",
+    "C-BIOS_MSX1_BR",
+    "C-BIOS_MSX1_EU",
+    "C-BIOS_MSX1_JP",
+    "C-BIOS_MSX2+",
+    "C-BIOS_MSX2+_BR",
+    "C-BIOS_MSX2+_EU",
+    "C-BIOS_MSX2+_JP",
+    "C-BIOS_MSX2",
+    "C-BIOS_MSX2_BR",
+    "C-BIOS_MSX2_EU",
+    "C-BIOS_MSX2_JP"
+   ],
+   "ghosting_on": 214,
+   "sgc": {
+    "true": 104,
+    "false": 107,
+    "unsaid": 3
+   }
+  },
+  "defaults": {
+   "ghosting_unsaid": "on",
+   "sgc_unsaid": "protected",
+   "row3_with_ctrl_d_shift": "FD"
+  }
+ },
+ "prices": {
+  "scan_11": 724,
+  "scan_16": 1039,
+  "scan_row": 63,
+  "row8_ports": 66,
+  "held": 68,
+  "anykey": 1121,
+  "anykey_scan": 379,
+  "draw": 17413,
+  "draw_gap": 57
+ },
+ "replay": {
+  "define": {
+   "lines": 145,
+   "same": true,
+   "file": "define.omr"
+  }
+ },
+ "answers": {
+  "q1": {
+   "scan_11": 724,
+   "eu": 1.01,
+   "jp": 1.21
+  },
+  "q2": {
+   "ports": 52,
+   "snsmat": 127
+  },
+  "q3": {
+   "Q": "a",
+   "A": "q",
+   "O": "o",
+   "P": "p"
+  },
+  "q4": {
+   "0": [
+    "7"
+   ],
+   "7": [
+    "0"
+   ],
+   "8": [
+    ";"
+   ],
+   ";": [
+    "8"
+   ],
+   "(2,0)": [
+    "B"
+   ],
+   "B": [
+    "(2,0)"
+   ],
+   "C": [
+    "J"
+   ],
+   "J": [
+    "C"
+   ],
+   "K": [
+    "R"
+   ],
+   "R": [
+    "K"
+   ],
+   "S": [
+    "Z"
+   ],
+   "Z": [
+    "S"
+   ],
+   "SHIFT": [
+    "F3"
+   ],
+   "F3": [
+    "SHIFT"
+   ],
+   "F4": [
+    "RETURN"
+   ],
+   "RETURN": [
+    "F4"
+   ],
+   "PAD *": [
+    "PAD 4"
+   ],
+   "PAD 4": [
+    "PAD *"
+   ],
+   "PAD 5": [
+    "PAD ."
+   ],
+   "PAD .": [
+    "PAD 5"
+   ]
+  },
+  "q5": {
+   "1": 2,
+   "2": 1,
+   "3": 0
+  },
+  "q6": {
+   "left_jp": 6350,
+   "left_eu": 11822,
+   "keyboard": [
+    6500,
+    6913
+   ],
+   "late_readings": 49
+  },
+  "q7": "A",
+  "q8": [
+   {
+    "held": [
+     "Q",
+     "A",
+     "O"
+    ],
+    "extra": [
+     "/"
+    ]
+   },
+   {
+    "held": [
+     "Q",
+     "A",
+     "P"
+    ],
+    "extra": [
+     "(2,5)"
+    ]
+   }
+  ],
+  "q9": "0F",
+  "q10": {
+   "eu": 2,
+   "should": 17
+  },
+  "q11": {
+   "refused_at": 40,
+   "taken": 50
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 523,
+   "same_values": 523,
+   "captures": 168,
+   "same_captures": 168,
+   "same_in_drawn": 168,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 523,
+   "same_values": 523,
+   "captures": 168,
+   "same_captures": 168,
+   "same_in_drawn": 168,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 523,
+   "same_values": 523,
+   "captures": 168,
+   "same_captures": 168,
+   "same_in_drawn": 168,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 523,
+   "same_values": 523,
+   "captures": 168,
+   "same_captures": 168,
+   "same_in_drawn": 168,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 523,
+   "same_values": 523,
+   "captures": 168,
+   "same_captures": 168,
+   "same_in_drawn": 168,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

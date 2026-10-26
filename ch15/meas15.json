@@ -1,0 +1,651 @@
+{
+ "names": {
+  "symbols": 51,
+  "own": {
+   "NAMES": 6144,
+   "OBJECTS": 5,
+   "obj": 3,
+   "obj.cell": 0,
+   "obj.char": 2,
+   "start": 16558,
+   "start.next": 16564,
+   "paint": 16584,
+   "paint.next": 16601,
+   "objects": 16607
+  },
+  "inc": 28,
+  "page": 13,
+  "cells": 15,
+  "record_bytes": "631802b41823291958b9193d251a4f",
+  "stop": 16582
+ },
+ "symbols": {
+  "session": [
+   [
+    "debug symbols load names.sym",
+    "",
+    false
+   ],
+   [
+    "debug set_bp $sym(paint)",
+    "bp#1",
+    false
+   ],
+   [
+    "reset",
+    "",
+    false
+   ],
+   [
+    "format %04X [reg ix]",
+    "40DF",
+    false
+   ],
+   [
+    "debug symbols lookup -value [reg ix]",
+    "{filename names.sym name objects}",
+    false
+   ]
+  ],
+  "old": [
+   "debug symbols load names.sym",
+   "Unknown subcommand 'symbols'. Must be one of 'read', 'read_block', 'write', 'write_block', 'size', 'desc', 'list', 'step', 'cont', 'disasm', 'break', 'breaked', 'set_bp', 'remove_bp', 'list_bp', 'set_watchpoint', 'remove_watchpoint', 'list_watchpoints', 'set_condition', 'remove_condition', 'list_conditions' or 'probe'.",
+   true
+  ],
+  "ix": 16607
+ },
+ "exprs": {
+  "rows": [
+   {
+    "expr": "2+3*4",
+    "bytes": [
+     14,
+     0
+    ],
+    "values": [
+     14
+    ],
+    "other": [
+     20
+    ],
+    "note": "* before +"
+   },
+   {
+    "expr": "1<<4+1",
+    "bytes": [
+     32,
+     0
+    ],
+    "values": [
+     32
+    ],
+    "other": [
+     17
+    ],
+    "note": "+ before <<"
+   },
+   {
+    "expr": "100/7*7",
+    "bytes": [
+     98,
+     0
+    ],
+    "values": [
+     98
+    ],
+    "other": [
+     100
+    ],
+    "note": "/ keeps no fraction"
+   },
+   {
+    "expr": "-7/2",
+    "bytes": [
+     253,
+     255
+    ],
+    "values": [
+     -3
+    ],
+    "other": [
+     -4
+    ],
+    "note": "and rounds towards 0"
+   },
+   {
+    "expr": "-7%2",
+    "bytes": [
+     255,
+     255
+    ],
+    "values": [
+     -1
+    ],
+    "other": [
+     1
+    ],
+    "note": "the remainder has the sign of -7"
+   },
+   {
+    "expr": "-16>>2",
+    "bytes": [
+     252,
+     255
+    ],
+    "values": [
+     -4
+    ],
+    "other": [
+     16380
+    ],
+    "note": ">> keeps the sign"
+   },
+   {
+    "expr": "-16>>>28",
+    "bytes": [
+     15,
+     0
+    ],
+    "values": [
+     15
+    ],
+    "other": [
+     0
+    ],
+    "note": ">>> brings in zeros, over 32 bits"
+   },
+   {
+    "expr": "3>2, 2>3",
+    "bytes": [
+     255,
+     0
+    ],
+    "values": [
+     -1,
+     0
+    ],
+    "other": [
+     1,
+     0
+    ],
+    "note": "true is -1, false is 0"
+   },
+   {
+    "expr": "high $1234+1",
+    "bytes": [
+     19,
+     0
+    ],
+    "values": [
+     19
+    ],
+    "other": [
+     18
+    ],
+    "note": "high before +"
+   },
+   {
+    "expr": "high ($1234+1)",
+    "bytes": [
+     18,
+     0
+    ],
+    "values": [
+     18
+    ],
+    "other": [
+     18
+    ],
+    "note": "unless in parentheses"
+   },
+   {
+    "expr": "$F0 & $3C | 3",
+    "bytes": [
+     51,
+     0
+    ],
+    "values": [
+     51
+    ],
+    "other": [
+     48
+    ],
+    "note": "& before |"
+   },
+   {
+    "expr": "7 <? 3, 7 >? 3",
+    "bytes": [
+     3,
+     0,
+     7,
+     0
+    ],
+    "values": [
+     3,
+     7
+    ],
+    "other": [
+     3,
+     7
+    ],
+    "note": "the smaller, the larger"
+   }
+  ],
+  "high_label": [
+   "line 2: error: Operand expected",
+   "line 4: warning[opkeyword]: Label collides with one of the operator keywords, try capitalizing it or other name: high"
+  ]
+ },
+ "fits": {
+  "rows": [
+   {
+    "src": "ld a,256",
+    "bytes": [
+     "3E",
+     "00"
+    ],
+    "warning": "value 0x100 is truncated to 8bit value: 0x00"
+   },
+   {
+    "src": "ld a,-200",
+    "bytes": [
+     "3E",
+     "38"
+    ],
+    "warning": null
+   },
+   {
+    "src": "db 300",
+    "bytes": [
+     "2C"
+    ],
+    "warning": "value 0x12C is truncated to 8bit value: 0x2C"
+   },
+   {
+    "src": "dw 70000",
+    "bytes": [
+     "70",
+     "11"
+    ],
+    "warning": "value 0x11170 is truncated to 16bit value: 0x1170"
+   },
+   {
+    "src": "nop",
+    "bytes": [
+     "00"
+    ],
+    "warning": null
+   },
+   {
+    "src": "ld hl,1_B",
+    "bytes": [
+     "21",
+     "07",
+     "40"
+    ],
+    "warning": null
+   },
+   {
+    "src": "ld hl,1B",
+    "bytes": [
+     "21",
+     "01",
+     "00"
+    ],
+    "warning": null
+   },
+   {
+    "src": "jr 1B",
+    "bytes": [
+     "18",
+     "F7"
+    ],
+    "warning": null
+   }
+  ],
+  "warnings": 3,
+  "exit": 0,
+  "exit_w": 1,
+  "errors_w": 3,
+  "one": 16391,
+  "edges": {
+   "-257": [
+    "FF",
+    true
+   ],
+   "-256": [
+    "00",
+    false
+   ],
+   "-129": [
+    "7F",
+    false
+   ],
+   "-1": [
+    "FF",
+    false
+   ],
+   "255": [
+    "FF",
+    false
+   ],
+   "256": [
+    "00",
+    true
+   ]
+  }
+ },
+ "macro": {
+  "t_macro": 264,
+  "t_call": 496,
+  "bytes_macro": 56,
+  "bytes_call": 40,
+  "bytes_sub": 6,
+  "sum": 320,
+  "per_use_bytes": [
+   7,
+   5
+  ],
+  "per_use_t": [
+   33,
+   62
+  ],
+  "t_body": 25,
+  "zilog_body": 20,
+  "call": 18,
+  "ret": 11,
+  "waits": {
+   "again": [
+    1,
+    [
+     "error: Duplicate label: again",
+     "error: Label has different value in pass 3: previous value 16386 not equal 16390",
+     "error: Label has different value in pass 3: previous value 16390 not equal 16386"
+    ]
+   ],
+   ".again": [
+    0,
+    []
+   ]
+  }
+ },
+ "rows": {
+  "lines": 16640,
+  "highs": 16896,
+  "end": 17088,
+  "bytes": 384,
+  "ch13_make": 29792,
+  "hl100": 3076,
+  "display": [
+   "> lines 0x4100, high bytes 0x4200, end 0x42C0"
+  ],
+  "unaligned_exit": 1,
+  "unaligned_errors": 1,
+  "unaligned_written": 16384
+ },
+ "picture": {
+  "pixels": {
+   "picture": 49152,
+   "rowwise": 49152
+  },
+  "bin_bytes": 6144,
+  "frame": 20,
+  "rowwise_first_lines": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    7
+   ]
+  ]
+ },
+ "cart": {
+  "cart8": {
+   "bytes": 8192,
+   "type": "Mirrored",
+   "pages": [
+    "0 0",
+    "0 0",
+    "0 0",
+    "0 0"
+   ],
+   "a8": 196
+  },
+  "names": {
+   "bytes": 16384,
+   "type": "Mirrored",
+   "pages": [
+    "0 1",
+    "0 1",
+    "0 1",
+    "0 1"
+   ],
+   "a8": 196
+  },
+  "big": {
+   "bytes": 16385,
+   "type": "Mirrored",
+   "pages": [
+    "2 2",
+    "0 1",
+    "2 2",
+    "0 0"
+   ],
+   "a8": 196
+  },
+  "cart32": {
+   "bytes": 32768,
+   "type": "Mirrored",
+   "pages": [
+    "2 3",
+    "0 1",
+    "2 3",
+    "0 1"
+   ],
+   "a8": 196
+  },
+  "cart32_found": 67,
+  "cart32_own": 84
+ },
+ "big": {
+  "bytes": 16385,
+  "last": 32767,
+  "cartridges": 119,
+  "with_tail": 109,
+  "without_in": [
+   "ch05",
+   "ch06"
+  ],
+  "bF": {
+   "exit": 0,
+   "said": [],
+   "bytes": 16385
+  },
+  "warnings": {
+   "exit": 0,
+   "said": [
+    "big.asm(19): warning: Negative BLOCK moves PC backwards",
+    "big.asm(19): warning[shortblock]: init data for block truncated to length: -1"
+   ],
+   "bytes": 16385
+  },
+  "bFw": {
+   "exit": 1,
+   "said": [
+    "big.asm(19): error: Negative BLOCK moves PC backwards",
+    "big.asm(19): error: init data for block truncated to length: -1"
+   ],
+   "bytes": 16385
+  },
+  "checked": {
+   "exit": 1,
+   "said": [
+    "checked.asm(19): error: [ASSERT] Assertion failed:  $ <= $8000, the program is longer than the cartridge"
+   ],
+   "bytes": 16385
+  },
+  "seen": 67,
+  "own": 201,
+  "a8": 196,
+  "away": 105371,
+  "changed": 961,
+  "patterns": 721,
+  "names": 240,
+  "chars": [
+   128,
+   229
+  ],
+  "names_at": 6144,
+  "patterns_at": 0,
+  "frame": 5,
+  "border": [
+   115,
+   217,
+   124
+  ]
+ },
+ "wall": {
+  "sources": 137,
+  "failed": {
+   "ch04/case.asm": "error: opening file: MSX.INC",
+   "ch05/margin.asm": "error: Unrecognized instruction: (VDP_CTRL), a",
+   "ch05/typo.asm": "error: Label not found: LIGHT_GREN",
+   "ch07/fake.asm": "error: Fake instructions are not enabled: ld bc,de",
+   "ch08/paren.asm": "error: Illegal instruction (can't access memory): ($C000)",
+   "ch15/big.asm": "error: Negative BLOCK moves PC backwards",
+   "ch15/fits.asm": "error: value 0x100 is truncated to 8bit value: 0x00"
+  }
+ },
+ "answers": {
+  "q1": {
+   "bytes": [
+    [
+     62,
+     255
+    ],
+    [
+     62,
+     255
+    ],
+    [
+     62,
+     0
+    ],
+    [
+     255
+    ]
+   ],
+   "warnings": 0
+  },
+  "q3": {
+   "macro": [
+    84,
+    396
+   ],
+   "subroutine": [
+    66,
+    744
+   ]
+  },
+  "q4": [
+   "> lines 0x4200, high bytes 0x4300, end 0x43C0"
+  ],
+  "q5": {
+   "bytes": 8,
+   "t": 40
+  },
+  "q6": {
+   "inked": {
+    "0": 6226,
+    "1": 16384,
+    "2": 16384
+   },
+   "first_third": 6226,
+   "after_ff": 4096,
+   "after": 4096
+  }
+ },
+ "openmsx": {
+  "17.0 Ubuntu 22.04 package": {
+   "values": 306,
+   "same_values": 306,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 17.0",
+   "sha256": "8a56653a30a41e7c2457027db664a251512acd18d63eb9b1444414a7d6ad3b76"
+  },
+  "18.0 Debian package": {
+   "values": 306,
+   "same_values": 306,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 18.0",
+   "sha256": "47a915feaf35ee1a60ffc3a554736c4833c9ce2f4c5c5ac7d525adff68275aa3"
+  },
+  "19.1 openMSX Linux build": {
+   "values": 306,
+   "same_values": 306,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 19.1",
+   "sha256": "bb6854d9a7f51c6d0766644537ecaf39faf97de683c5d53a132215a6b0c552de"
+  },
+  "20.0 openMSX Linux build": {
+   "values": 306,
+   "same_values": 306,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 20.0",
+   "sha256": "090bb653e5276c57fb0655f18c0b59581d7d2d07ab052a6b96abdf7f6a9d3898"
+  },
+  "21.0 openMSX Linux build": {
+   "values": 306,
+   "same_values": 306,
+   "captures": 3,
+   "same_captures": 3,
+   "same_in_drawn": 3,
+   "failed": [],
+   "different": [],
+   "version": "openMSX 21.0",
+   "sha256": "659638410067a751d4f9f35de95ab5f1fa4cb45ce2bb59be1d3c2d0c20aedb2a"
+  }
+ }
+}

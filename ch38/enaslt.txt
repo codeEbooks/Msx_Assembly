@@ -1,0 +1,8 @@
+; enaslt.txt -- C-BIOS 0.29a's ENASLT puts the slot in page 3; written by
+; meas38.py from cbios_main_msx1_eu.rom and cbios_main_msx1_jp.rom, the same
+; bytes in both
+        in a, ($A8)             ; $24B1: DB A8
+        ld l, a                 ; $24B3: 6F
+        and $C0                 ; $24B4: E6 C0
+        or h                    ; $24B6: B4
+        out ($A8), a            ; $24B7: D3 A8
